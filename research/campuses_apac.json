@@ -1,0 +1,4241 @@
+{
+ "generated": "2026-11-20",
+ "notes": "Asia-Pacific campuses and clusters (India, China, Japan, South Korea, Southeast Asia, Taiwan, Hong Kong, Australia, New Zealand). Money in USD converted at approx. rate on announcement date; original currency kept in notes. City/region-level coordinates are flagged via coordPrecision. India records (16) were researched via live web search on 2026-11-20. All other records (China, Japan, Korea, Taiwan, Hong Kong, SE Asia, Australia/NZ) were compiled from reporting up to mid-2026 WITHOUT a live re-check because the session web-search budget ran out and page fetching was blocked: their powerNote starts with UNVERIFIED-2026, figures are limited to widely reported headline numbers, 2026 status may be stale, and source URLs marked [deep link not verified in this pass] point to the publisher root rather than the specific article. Re-verify before publishing.",
+ "campuses": [
+  {
+   "id": "google-vizag-ai-hub",
+   "name": "Google India AI Hub, Visakhapatnam",
+   "aka": [
+    "Google Vizag AI Hub",
+    "AI-Patnam"
+   ],
+   "lat": 17.6868,
+   "lng": 83.2185,
+   "coordPrecision": "city",
+   "city": "Visakhapatnam",
+   "region": "Andhra Pradesh",
+   "country": "India",
+   "countryCode": "IN",
+   "status": "under construction",
+   "type": "ai-training",
+   "powerMW": 1000,
+   "powerMWNow": 0,
+   "powerNote": "Billed as India's first gigawatt-scale AI hub across three campuses (primary site Tarluvada, plus Rambilli and Adavivaram/Mudasarlova); ground broken 2026-04-28. Pin is Visakhapatnam city centre; Tarluvada is ~25 km NW.",
+   "acres": 600,
+   "sizeSqft": null,
+   "compute": "Google TPUs/AI and cloud infrastructure (Google has not disclosed chip counts)",
+   "investmentUSD": 15000000000,
+   "investmentNote": "Google's stated ~US$15B over five years (2026-2030), covering data centres, subsea cable landing, fibre and clean energy; Outlook Business earlier reported ~$10B for the 1 GW DC cluster alone. Acreage ~600 per Hans India; other reports give 480-590 acres.",
+   "owners": [
+    {
+     "name": "Google",
+     "entityId": "google",
+     "stakePct": null
+    }
+   ],
+   "developer": "AdaniConneX (Adani Enterprises/EdgeConneX 50:50 JV) and Nxtra by Airtel build the data-centre shells and connecting infrastructure",
+   "operator": "Google",
+   "tenants": [
+    {
+     "name": "Google Cloud",
+     "entityId": "google",
+     "role": "end user"
+    }
+   ],
+   "capitalStack": [
+    {
+     "from": "Google",
+     "entityId": "google",
+     "kind": "capex",
+     "amountUSD": 15000000000,
+     "date": "2025-10",
+     "note": "Five-year commitment announced 2025-10-14 in Delhi with Adani and Airtel",
+     "url": "https://www.businesstoday.in/amp/technology/story/monumental-day-adani-google-join-hands-to-build-indias-largest-ai-data-centre-in-visakhapatnam-498098-2025-10-14"
+    },
+    {
+     "from": "Government of Andhra Pradesh",
+     "entityId": "andhra-pradesh-govt",
+     "kind": "public-incentive",
+     "amountUSD": null,
+     "date": "2026",
+     "note": "Land allotted; Tarluvada reportedly allotted at Re 1/acre",
+     "url": "https://www.thehansindia.com/andhra-pradesh/tarluvada-village-in-limelight-as-stage-set-for-google-data-centre-1069855"
+    }
+   ],
+   "energy": "Clean energy supply to be built with Adani (renewables + transmission); not fully disclosed",
+   "water": null,
+   "announced": "2025-10-14",
+   "expectedOnline": "2028",
+   "highlights": [
+    "Google's largest investment in India and its biggest AI hub outside the US",
+    "Includes a new international subsea cable landing in Vizag and Airtel intra/inter-city fibre",
+    "Rival conglomerates Adani and Airtel both build for Google on the same project"
+   ],
+   "controversy": "Land allotment at a token Re 1/acre; part of the Mudasarlova parcel belongs to the Simhachalam temple trust and Rambilli sits near a naval base needing MoD clearance; reports flag ~200 acres linked to Dalit families and scrutiny of water and jobs claims.",
+   "sources": [
+    {
+     "title": "Google breaks ground on AI Hub in Visakhapatnam",
+     "publisher": "YourStory",
+     "url": "https://yourstory.com/2026/04/google-breaks-ground-on-ai-hub-in-visakhapatnam",
+     "date": "2026-04-28"
+    },
+    {
+     "title": "Google breaks ground on India AI hub",
+     "publisher": "Adani Group",
+     "url": "https://www.adani.com/newsroom/media-releases/google-breaks-ground-on-india-ai-hub-launching-a-national-industrial-ecosystem",
+     "date": "2026-04-28"
+    },
+    {
+     "title": "Tarluvada village in limelight as stage set for Google data centre",
+     "publisher": "The Hans India",
+     "url": "https://www.thehansindia.com/andhra-pradesh/tarluvada-village-in-limelight-as-stage-set-for-google-data-centre-1069855",
+     "date": "2026-04"
+    },
+    {
+     "title": "Google picks Turlawada in Vizag for 308.65-acre data centre",
+     "publisher": "Deccan Chronicle",
+     "url": "https://www.deccanchronicle.com/southern-states/andhra-pradesh/google-picks-turlawada-in-vizag-for-30865-acre-data-centre-1915486",
+     "date": "2025"
+    }
+   ]
+  },
+  {
+   "id": "reliance-jamnagar-ai",
+   "name": "Reliance Jamnagar AI Data Centre Campus",
+   "aka": [
+    "Reliance Intelligence Jamnagar",
+    "Jio AI campus"
+   ],
+   "lat": 22.4707,
+   "lng": 70.0577,
+   "coordPrecision": "city",
+   "city": "Jamnagar",
+   "region": "Gujarat",
+   "country": "India",
+   "countryCode": "IN",
+   "status": "under construction",
+   "type": "ai-training",
+   "powerMW": null,
+   "powerMWNow": null,
+   "powerNote": "Reliance describes 'multi-gigawatt' Jamnagar data centres; first 120+ MW (NVIDIA GB300) targeted for H2 2026; Meta has leased a separate 168 MW build due within two years. Bloomberg-cited estimates of ~3 GW full build are unconfirmed.",
+   "acres": null,
+   "sizeSqft": null,
+   "compute": "Initial deployment reported as NVIDIA GB300 (Blackwell Ultra); Google Cloud AI region and Meta leased capacity planned",
+   "investmentUSD": null,
+   "investmentNote": "Part of Reliance's ~Rs 10 trillion (~US$110B) seven-year AI infrastructure plan announced 2026-02-19; no campus-specific figure disclosed.",
+   "owners": [
+    {
+     "name": "Reliance Industries (Reliance Intelligence / Jio)",
+     "entityId": "reliance",
+     "stakePct": 100
+    }
+   ],
+   "developer": "Reliance Industries",
+   "operator": "Reliance Industries",
+   "tenants": [
+    {
+     "name": "Meta",
+     "entityId": "meta",
+     "role": "lessee of 168 MW AI data centre (announced 2026-06)"
+    },
+    {
+     "name": "Google Cloud",
+     "entityId": "google",
+     "role": "dedicated AI cloud region built and powered by Reliance (announced 2025-08)"
+    }
+   ],
+   "capitalStack": [
+    {
+     "from": "Reliance Industries",
+     "entityId": "reliance",
+     "kind": "capex",
+     "amountUSD": 110000000000,
+     "date": "2026-02-19",
+     "note": "Group-wide Rs 10 trillion AI plan over seven years (data centres, edge network, AI services) - not Jamnagar alone",
+     "url": "https://techcrunch.com/2026/02/19/reliance-unveils-110b-ai-investment-plan-as-india-ramps-up-tech-ambitions/"
+    },
+    {
+     "from": "Meta",
+     "entityId": "meta",
+     "kind": "lease",
+     "amountUSD": null,
+     "date": "2026-06",
+     "note": "168 MW lease, value undisclosed; Meta pays energy and water costs",
+     "url": "https://techcrunch.com/2026/06/10/meta-signs-first-ai-data-center-deal-in-india-with-reliance/"
+    }
+   ],
+   "energy": "Captive Reliance renewables (Kutch solar) per Reliance; Meta separately contracted ~1 GW of Indian renewables (CleanMax, Fourth Partner)",
+   "water": "Meta covers water costs for its leased hall",
+   "announced": "2024-08",
+   "expectedOnline": "2026",
+   "highlights": [
+    "Built beside the world's largest oil refinery complex",
+    "Meta's first AI data centre deal in India",
+    "Reliance claims it is building 'multi-gigawatt' AI capacity as part of a $110B plan"
+   ],
+   "controversy": null,
+   "sources": [
+    {
+     "title": "Reliance unveils $110B AI investment plan",
+     "publisher": "TechCrunch",
+     "url": "https://techcrunch.com/2026/02/19/reliance-unveils-110b-ai-investment-plan-as-india-ramps-up-tech-ambitions/",
+     "date": "2026-02-19"
+    },
+    {
+     "title": "Meta Partners With Reliance on AI-Enabled Data Center in India",
+     "publisher": "Meta",
+     "url": "https://about.fb.com/news/2026/06/meta-partners-with-reliance-on-ai-enabled-data-center-in-india/",
+     "date": "2026-06"
+    },
+    {
+     "title": "Reliance and Google Cloud Expand Partnership",
+     "publisher": "Reliance Industries",
+     "url": "https://www.ril.com/sites/default/files/2025-08/Reliance_and_Google_Cloud_Expand_Partnership_to_Accelerate_India%E2%80%99s_Growth_with_AI.pdf",
+     "date": "2025-08-29"
+    },
+    {
+     "title": "Ambani's Reliance will invest $110 billion in AI (Reuters)",
+     "publisher": "KFGO/Reuters",
+     "url": "https://kfgo.com/2026/02/19/ambanis-reliance-will-invest-110-billion-in-ai/",
+     "date": "2026-02-19"
+    }
+   ]
+  },
+  {
+   "id": "microsoft-india-south-central-hyderabad",
+   "name": "Microsoft India South Central Region (Hyderabad)",
+   "aka": [
+    "Azure India South Central"
+   ],
+   "lat": 17.385,
+   "lng": 78.4867,
+   "coordPrecision": "city",
+   "city": "Hyderabad",
+   "region": "Telangana",
+   "country": "India",
+   "countryCode": "IN",
+   "status": "operational",
+   "type": "hyperscale-cloud",
+   "powerMW": null,
+   "powerMWNow": null,
+   "powerNote": "Three availability zones; Microsoft calls it its largest hyperscale region in India. MW not disclosed.",
+   "acres": null,
+   "sizeSqft": null,
+   "compute": "Azure AI/GPU infrastructure (not itemised)",
+   "investmentUSD": 17500000000,
+   "investmentNote": "US$17.5B is Microsoft's India-wide commitment for CY2026-2029 (cloud/AI infrastructure, skilling, operations), on top of a US$3B pledge in Jan 2025; Hyderabad region is the centrepiece but no site-level figure.",
+   "owners": [
+    {
+     "name": "Microsoft",
+     "entityId": "microsoft",
+     "stakePct": 100
+    }
+   ],
+   "developer": "Microsoft",
+   "operator": "Microsoft",
+   "tenants": [
+    {
+     "name": "HDFC Bank",
+     "entityId": "hdfc-bank",
+     "role": "early customer (DR region)"
+    },
+    {
+     "name": "Adani Group",
+     "entityId": "adani",
+     "role": "early customer"
+    }
+   ],
+   "capitalStack": [
+    {
+     "from": "Microsoft",
+     "entityId": "microsoft",
+     "kind": "capex",
+     "amountUSD": 17500000000,
+     "date": "2025-12-09",
+     "note": "India-wide 2026-2029; Microsoft's largest Asia investment",
+     "url": "https://news.microsoft.com/source/asia/2025/12/09/microsoft-invests-us17-5-billion-in-india-to-drive-ai-diffusion-at-population-scale/"
+    }
+   ],
+   "energy": null,
+   "water": null,
+   "announced": "2025-12-09",
+   "expectedOnline": "2026-08",
+   "highlights": [
+    "Generally available 2026-08-06 - Microsoft's fourth Indian region after Pune, Chennai and Mumbai",
+    "Microsoft's single largest investment commitment in Asia"
+   ],
+   "controversy": null,
+   "sources": [
+    {
+     "title": "Microsoft invests US$17.5 billion in India",
+     "publisher": "Microsoft",
+     "url": "https://news.microsoft.com/source/asia/2025/12/09/microsoft-invests-us17-5-billion-in-india-to-drive-ai-diffusion-at-population-scale/",
+     "date": "2025-12-09"
+    },
+    {
+     "title": "Microsoft's newest India datacenter region goes live",
+     "publisher": "Microsoft",
+     "url": "https://news.microsoft.com/source/asia/features/microsofts-newest-india-datacenter-region-goes-live-to-power-the-countrys-ai-economy-and-enable-frontier-firms/",
+     "date": "2026-08-06"
+    },
+    {
+     "title": "Microsoft to invest $17.5B in India by 2029",
+     "publisher": "TechCrunch",
+     "url": "https://techcrunch.com/2025/12/09/microsoft-to-invest-17-5b-in-india-by-2029-as-ai-race-accelerates",
+     "date": "2025-12-09"
+    }
+   ]
+  },
+  {
+   "id": "aws-hyderabad",
+   "name": "AWS Asia Pacific (Hyderabad) Region & Bharat Future City campus",
+   "aka": [
+    "ap-south-2"
+   ],
+   "lat": 17.385,
+   "lng": 78.4867,
+   "coordPrecision": "city",
+   "city": "Hyderabad",
+   "region": "Telangana",
+   "country": "India",
+   "countryCode": "IN",
+   "status": "partially operational",
+   "type": "hyperscale-cloud",
+   "powerMW": null,
+   "powerMWNow": null,
+   "powerNote": "Region live since 2022-11; new campus on 202 acres in Bharat Future City plus 98 acres at Chandanvelly broke ground 2026; MW not disclosed.",
+   "acres": 300,
+   "sizeSqft": null,
+   "compute": null,
+   "investmentUSD": 7000000000,
+   "investmentNote": "US$7B over 14 years per framework agreement with Telangana (Dec 2025), building on US$2.7B pledged in 2020 (~US$1.3B spent by end-2025). Amazon's India total was raised to US$48B for 2026-2030 in June 2026 (Mumbai + Hyderabad AWS expansion, split undisclosed).",
+   "owners": [
+    {
+     "name": "Amazon Web Services",
+     "entityId": "amazon",
+     "stakePct": 100
+    }
+   ],
+   "developer": "AWS",
+   "operator": "AWS",
+   "tenants": [],
+   "capitalStack": [
+    {
+     "from": "Amazon Web Services",
+     "entityId": "amazon",
+     "kind": "capex",
+     "amountUSD": 7000000000,
+     "date": "2025-12-09",
+     "note": "Telangana Rising Global Summit MoU, 14-year horizon",
+     "url": "https://baxtel.com/news/aws-to-invest-7bn-in-data-centers-in-hyderabad-india"
+    },
+    {
+     "from": "Government of Telangana",
+     "entityId": "telangana-govt",
+     "kind": "public-incentive",
+     "amountUSD": null,
+     "date": "2025-12",
+     "note": "Facilitation and infrastructure support package (value undisclosed)",
+     "url": "https://www.freepressjournal.in/business/telangana-government-amazon-web-services-sign-agreement-under-which-latter-will-invest-7-billion-for-expanding-cloud-data-center-infrastructure"
+    }
+   ],
+   "energy": null,
+   "water": null,
+   "announced": "2020-11",
+   "expectedOnline": null,
+   "highlights": [
+    "Amazon's India pledge for 2026-2030 now totals ~US$48B after a June 2026 top-up of ~US$13B"
+   ],
+   "controversy": null,
+   "sources": [
+    {
+     "title": "AWS to invest $7bn in data centers in Hyderabad",
+     "publisher": "Baxtel",
+     "url": "https://baxtel.com/news/aws-to-invest-7bn-in-data-centers-in-hyderabad-india",
+     "date": "2025-12"
+    },
+    {
+     "title": "Foundation stone laid for AWS data center development in Telangana",
+     "publisher": "DatacenterDynamics",
+     "url": "https://www.datacenterdynamics.com/en/news/foundation-stone-laid-for-aws-data-center-development-in-telangana-india/",
+     "date": "2026"
+    },
+    {
+     "title": "AWS pledges further $13bn investment in AI and cloud infrastructure in India",
+     "publisher": "DatacenterDynamics",
+     "url": "https://www.datacenterdynamics.com/en/news/aws-pledges-further-13bn-investment-in-ai-and-cloud-infrastructure-in-india/",
+     "date": "2026-06"
+    }
+   ]
+  },
+  {
+   "id": "aws-mumbai",
+   "name": "AWS Asia Pacific (Mumbai) Region",
+   "aka": [
+    "ap-south-1"
+   ],
+   "lat": 19.076,
+   "lng": 72.8777,
+   "coordPrecision": "city",
+   "city": "Mumbai",
+   "region": "Maharashtra",
+   "country": "India",
+   "countryCode": "IN",
+   "status": "operational",
+   "type": "hyperscale-cloud",
+   "powerMW": null,
+   "powerMWNow": null,
+   "powerNote": "AWS does not disclose MW; region live since 2016 with multiple AZs across the Mumbai metro.",
+   "acres": null,
+   "sizeSqft": null,
+   "compute": null,
+   "investmentUSD": 8300000000,
+   "investmentNote": "US$8.3B pledged for Maharashtra cloud infrastructure by 2030 (part of the earlier US$12.7B India-by-2030 plan); the June 2026 ~US$13B top-up also targets Mumbai and Hyderabad.",
+   "owners": [
+    {
+     "name": "Amazon Web Services",
+     "entityId": "amazon",
+     "stakePct": 100
+    }
+   ],
+   "developer": "AWS",
+   "operator": "AWS",
+   "tenants": [],
+   "capitalStack": [
+    {
+     "from": "Amazon Web Services",
+     "entityId": "amazon",
+     "kind": "capex",
+     "amountUSD": 8300000000,
+     "date": "2024",
+     "note": "Maharashtra-specific pledge to 2030",
+     "url": "https://www.aboutamazon.in/md/news/aws/aws-invests-8-billion-in-maharashtra"
+    },
+    {
+     "from": "Amazon",
+     "entityId": "amazon",
+     "kind": "capex",
+     "amountUSD": 13000000000,
+     "date": "2026-06",
+     "note": "Extra ~US$13B for AWS India (Mumbai + Hyderabad), lifting Amazon's 2026-2030 India total to ~US$48B",
+     "url": "https://thenextweb.com/news/amazon-to-invest-an-extra-13bn-in-indian-cloud-and-ai-by-2030"
+    }
+   ],
+   "energy": null,
+   "water": null,
+   "announced": "2016-06",
+   "expectedOnline": "2016-06",
+   "highlights": [
+    "AWS's first Indian region"
+   ],
+   "controversy": null,
+   "sources": [
+    {
+     "title": "AWS invests $8 billion in Maharashtra",
+     "publisher": "Amazon",
+     "url": "https://www.aboutamazon.in/md/news/aws/aws-invests-8-billion-in-maharashtra",
+     "date": "2024"
+    },
+    {
+     "title": "Amazon to invest an extra $13bn in Indian cloud and AI by 2030",
+     "publisher": "The Next Web",
+     "url": "https://thenextweb.com/news/amazon-to-invest-an-extra-13bn-in-indian-cloud-and-ai-by-2030",
+     "date": "2026-06-25"
+    }
+   ]
+  },
+  {
+   "id": "tcs-hypervault-hyderabad",
+   "name": "TCS HyperVault 1 GW AI Campus (Hyderabad) - OpenAI 'Stargate India' first customer",
+   "aka": [
+    "HyperVault",
+    "OpenAI for India",
+    "Stargate India"
+   ],
+   "lat": 17.385,
+   "lng": 78.4867,
+   "coordPrecision": "city",
+   "city": "Hyderabad",
+   "region": "Telangana",
+   "country": "India",
+   "countryCode": "IN",
+   "status": "planned",
+   "type": "ai-training",
+   "powerMW": 1000,
+   "powerMWNow": 0,
+   "powerNote": "1 GW target on ~264 acres in Hyderabad (Sept 2026 report); OpenAI committed as first customer for 100 MW with potential to scale to 1 GW. Earlier plans also named Navi Mumbai and Chennai.",
+   "acres": 264,
+   "sizeSqft": null,
+   "compute": "HyperVault has said it will deploy AMD GPUs; OpenAI workloads",
+   "investmentUSD": 7410000000,
+   "investmentNote": "Up to INR 700B (~US$7.41B as reported, Sept 2026) for the Telangana campus; TCS earlier guided US$6.5-7B for 1 GW.",
+   "owners": [
+    {
+     "name": "Tata Consultancy Services",
+     "entityId": "tata",
+     "stakePct": 51
+    },
+    {
+     "name": "TPG",
+     "entityId": "tpg",
+     "stakePct": 49
+    }
+   ],
+   "developer": "HyperVault AI Data Center Ltd (TCS)",
+   "operator": "HyperVault",
+   "tenants": [
+    {
+     "name": "OpenAI",
+     "entityId": "openai",
+     "role": "anchor customer, 100 MW initial"
+    }
+   ],
+   "capitalStack": [
+    {
+     "from": "TPG",
+     "entityId": "tpg",
+     "kind": "equity",
+     "amountUSD": 1000000000,
+     "date": "2025-11-20",
+     "note": "Up to Rs 8,820 crore (~US$1B) for 27.5-49% of HyperVault; TCS+TPG equity up to Rs 18,000 crore (~US$2B) plus debt",
+     "url": "https://www.tcs.com/who-we-are/newsroom/press-release/tcs-secures-1bn-investment-from-tpg-accelerate-ai-data-center-business-hypervault"
+    },
+    {
+     "from": "Tata Consultancy Services",
+     "entityId": "tata",
+     "kind": "equity",
+     "amountUSD": 1040000000,
+     "date": "2025-11-20",
+     "note": "Balance of Rs 18,000 crore equity commitment (approx.)",
+     "url": "https://www.businesstoday.in/tech-today/news/story/tcs-tpg-join-hands-to-build-ai-data-center-platform-hypervault-announce-rs-18000-cr-investment-503087-2025-11-20"
+    }
+   ],
+   "energy": null,
+   "water": null,
+   "announced": "2025-10",
+   "expectedOnline": null,
+   "highlights": [
+    "OpenAI chose HyperVault for 'OpenAI for India' (part of Stargate) at the Feb 2026 India AI Impact Summit after talks with Reliance reportedly collapsed",
+    "TPG's ~US$1B is one of the largest PE cheques into Indian AI infrastructure"
+   ],
+   "controversy": null,
+   "sources": [
+    {
+     "title": "TCS secures $1bn investment from TPG",
+     "publisher": "TCS",
+     "url": "https://www.tcs.com/who-we-are/newsroom/press-release/tcs-secures-1bn-investment-from-tpg-accelerate-ai-data-center-business-hypervault",
+     "date": "2025-11-20"
+    },
+    {
+     "title": "Introducing OpenAI for India",
+     "publisher": "OpenAI",
+     "url": "https://openai.com/index/openai-for-india/",
+     "date": "2026-02"
+    },
+    {
+     "title": "OpenAI partners with Tata to deploy data center capacity in India",
+     "publisher": "DatacenterDynamics",
+     "url": "https://www.datacenterdynamics.com/en/news/openai-partners-with-tata-to-deploy-data-center-capacity-in-india/",
+     "date": "2026-02"
+    },
+    {
+     "title": "TCS unit HyperVault to invest up to USD 7.4 bn in AI data centre campus",
+     "publisher": "Entrepreneur India",
+     "url": "https://india.entrepreneur.com/business-news/tcs-unit-hypervault-to-invest-up-to-usd-7-4-bn-in-ai-data-centre-campus",
+     "date": "2026-09"
+    }
+   ]
+  },
+  {
+   "id": "yotta-greater-noida",
+   "name": "Yotta D1/D2 Greater Noida (Blackwell Ultra supercluster)",
+   "aka": [
+    "Yotta Shakti Cloud"
+   ],
+   "lat": 28.4744,
+   "lng": 77.504,
+   "coordPrecision": "city",
+   "city": "Greater Noida",
+   "region": "Uttar Pradesh",
+   "country": "India",
+   "countryCode": "IN",
+   "status": "partially operational",
+   "type": "sovereign-ai",
+   "powerMW": 250,
+   "powerMWNow": 60,
+   "powerNote": "D2 is a 60 MW building scalable to 250 MW on the campus (Yotta, Feb 2026).",
+   "acres": null,
+   "sizeSqft": null,
+   "compute": "20,736 liquid-cooled NVIDIA B300 (Blackwell Ultra) GPUs planned (go-live targeted Aug 2026); >10,000 GPUs committed to IndiaAI Mission; Yotta already runs >10,000 H100/L40S-class GPUs",
+   "investmentUSD": 2000000000,
+   "investmentNote": "'Over US$2B' for the B300 supercluster (Yotta/Business Standard, Feb 2026). Sept 2026 reports say Yotta plans a ~US$12B (Rs 1 lakh crore) order for 90,000 more NVIDIA GPUs - unconfirmed.",
+   "owners": [
+    {
+     "name": "Yotta Data Services (Hiranandani Group)",
+     "entityId": "yotta",
+     "stakePct": 100
+    }
+   ],
+   "developer": "Yotta",
+   "operator": "Yotta",
+   "tenants": [
+    {
+     "name": "NVIDIA DGX Cloud",
+     "entityId": "nvidia",
+     "role": "4-year ~US$1B commercial deal to host DGX Cloud cluster"
+    },
+    {
+     "name": "IndiaAI Mission",
+     "entityId": "indiaai-mission",
+     "role": "subsidised GPU capacity buyer"
+    }
+   ],
+   "capitalStack": [
+    {
+     "from": "NVIDIA",
+     "entityId": "nvidia",
+     "kind": "lease",
+     "amountUSD": 1000000000,
+     "date": "2026-02",
+     "note": "NVIDIA commits ~US$1B over four years to rent DGX Cloud capacity at Yotta",
+     "url": "https://www.crnasia.com/india/news/2026/yotta-to-deploy-20-736-nvidia-blackwell-ultra-gpus-in-over-2-billion-supercluster"
+    }
+   ],
+   "energy": "Uttar Pradesh grid",
+   "water": null,
+   "announced": "2026-02-18",
+   "expectedOnline": "2026-08",
+   "highlights": [
+    "One of Asia's largest Blackwell Ultra clusters; Yotta targets 80,000+ GPUs by FY27"
+   ],
+   "controversy": null,
+   "sources": [
+    {
+     "title": "Yotta to deploy 20,736 Nvidia Blackwell Ultra GPUs in over $2 billion supercluster",
+     "publisher": "CRN Asia",
+     "url": "https://www.crnasia.com/india/news/2026/yotta-to-deploy-20-736-nvidia-blackwell-ultra-gpus-in-over-2-billion-supercluster",
+     "date": "2026-02"
+    },
+    {
+     "title": "Yotta Data Services to build $2 bn AI hub with Nvidia's Blackwell chips",
+     "publisher": "Business Standard",
+     "url": "https://www.business-standard.com/industry/news/yotta-data-services-to-build-2-bn-ai-hub-with-nvidia-s-blackwell-chips-126021800263_1.html",
+     "date": "2026-02-18"
+    }
+   ]
+  },
+  {
+   "id": "yotta-navi-mumbai-panvel",
+   "name": "Yotta NM1 Data Center Park, Panvel (Navi Mumbai)",
+   "aka": [
+    "Yotta NM1"
+   ],
+   "lat": 18.9894,
+   "lng": 73.1175,
+   "coordPrecision": "city",
+   "city": "Panvel",
+   "region": "Maharashtra",
+   "country": "India",
+   "countryCode": "IN",
+   "status": "partially operational",
+   "type": "colocation",
+   "powerMW": 2000,
+   "powerMWNow": null,
+   "powerNote": "Yotta says the Navi Mumbai campus is scalable to 2 GW; NM1 building live since 2020 (~50 MW design).",
+   "acres": null,
+   "sizeSqft": null,
+   "compute": "Hosts part of Yotta Shakti Cloud GPU fleet",
+   "investmentUSD": null,
+   "investmentNote": null,
+   "owners": [
+    {
+     "name": "Yotta Data Services (Hiranandani Group)",
+     "entityId": "yotta",
+     "stakePct": 100
+    }
+   ],
+   "developer": "Yotta",
+   "operator": "Yotta",
+   "tenants": [],
+   "capitalStack": [],
+   "energy": "Maharashtra grid",
+   "water": null,
+   "announced": "2019",
+   "expectedOnline": "2020",
+   "highlights": [
+    "Claimed to be scalable to 2 GW - one of the largest planned campuses in India"
+   ],
+   "controversy": null,
+   "sources": [
+    {
+     "title": "Yotta to deploy 20,736 Nvidia Blackwell Ultra GPUs",
+     "publisher": "CRN Asia",
+     "url": "https://www.crnasia.com/india/news/2026/yotta-to-deploy-20-736-nvidia-blackwell-ultra-gpus-in-over-2-billion-supercluster",
+     "date": "2026-02"
+    }
+   ]
+  },
+  {
+   "id": "adaniconnex-taloja-coreweave",
+   "name": "AdaniConneX Taloja Campus (CoreWeave India)",
+   "aka": [
+    "CoreWeave Navi Mumbai"
+   ],
+   "lat": 19.065,
+   "lng": 73.117,
+   "coordPrecision": "city",
+   "city": "Taloja, Navi Mumbai",
+   "region": "Maharashtra",
+   "country": "India",
+   "countryCode": "IN",
+   "status": "planned",
+   "type": "ai-training",
+   "powerMW": 480,
+   "powerMWNow": 0,
+   "powerNote": "240 MW leased to CoreWeave in three 80 MW buildings, option for another 240 MW (480 MW total); first phase mid-2028.",
+   "acres": null,
+   "sizeSqft": null,
+   "compute": "NVIDIA Vera Rubin infrastructure",
+   "investmentUSD": null,
+   "investmentNote": "Bloomberg reported 'multiple billions of dollars'; no official figure.",
+   "owners": [
+    {
+     "name": "Adani Enterprises",
+     "entityId": "adani",
+     "stakePct": 50
+    },
+    {
+     "name": "EdgeConneX (EQT)",
+     "entityId": "edgeconnex",
+     "stakePct": 50
+    }
+   ],
+   "developer": "AdaniConneX",
+   "operator": "AdaniConneX",
+   "tenants": [
+    {
+     "name": "CoreWeave",
+     "entityId": "coreweave",
+     "role": "sole tenant, 240 MW (+240 MW option)"
+    }
+   ],
+   "capitalStack": [
+    {
+     "from": "CoreWeave",
+     "entityId": "coreweave",
+     "kind": "lease",
+     "amountUSD": null,
+     "date": "2026-10",
+     "note": "CoreWeave's first India deployment",
+     "url": "https://baxtel.com/news/coreweave-enters-india-with-240mw-adaniconnex-lease-in-navi-mumbai"
+    }
+   ],
+   "energy": "Adani Green renewable PPAs expected (AdaniConneX model); not specified",
+   "water": null,
+   "announced": "2026-10",
+   "expectedOnline": "2028-06",
+   "highlights": [
+    "CoreWeave's first India deployment - 240 MW with an option to double to 480 MW",
+    "CoreWeave also plans a local India office and hiring"
+   ],
+   "controversy": null,
+   "sources": [
+    {
+     "title": "CoreWeave teams up with AdaniConneX for AI cloud region in India",
+     "publisher": "DatacenterDynamics",
+     "url": "https://datacenterdynamics.com/en/news/coreweave-teams-up-with-adaniconnex-for-ai-cloud-region-in-india",
+     "date": "2026-10"
+    },
+    {
+     "title": "CoreWeave plans its first India data centres with 240MW from AdaniConneX",
+     "publisher": "The Next Web",
+     "url": "https://thenextweb.com/news/coreweave-india-adaniconnex-240mw-navi-mumbai",
+     "date": "2026-10"
+    }
+   ]
+  },
+  {
+   "id": "mumbai-navi-mumbai-cluster",
+   "name": "Mumbai / Navi Mumbai Data Centre Cluster",
+   "aka": [
+    "MMR data centre corridor",
+    "Thane-Belapur-Mahape-Rabale-Airoli"
+   ],
+   "lat": 19.033,
+   "lng": 73.0297,
+   "coordPrecision": "region",
+   "city": "Navi Mumbai",
+   "region": "Maharashtra",
+   "country": "India",
+   "countryCode": "IN",
+   "status": "operational",
+   "type": "cluster",
+   "powerMW": null,
+   "powerMWNow": 790,
+   "powerNote": "MeitY: Mumbai + Navi Mumbai ~790 MW live (over half of India); Knight Frank 766.6 MW live end-2025; Cushman H1 2026 ~50% of India's 1,789 MW. Pipeline: 337 MW under construction + 852 MW planned (Cushman H1 2025).",
+   "acres": null,
+   "sizeSqft": null,
+   "compute": null,
+   "investmentUSD": null,
+   "investmentNote": null,
+   "owners": [
+    {
+     "name": "NTT Global Data Centers",
+     "entityId": "ntt-data",
+     "stakePct": null
+    },
+    {
+     "name": "STT GDC India",
+     "entityId": "st-telemedia",
+     "stakePct": null
+    },
+    {
+     "name": "Yotta",
+     "entityId": "yotta",
+     "stakePct": null
+    },
+    {
+     "name": "AdaniConneX",
+     "entityId": "adani",
+     "stakePct": null
+    },
+    {
+     "name": "Sify Infinit Spaces",
+     "entityId": "sify",
+     "stakePct": null
+    },
+    {
+     "name": "CtrlS",
+     "entityId": "ctrls",
+     "stakePct": null
+    },
+    {
+     "name": "Colt DCS / RMZ",
+     "entityId": "colt-dcs",
+     "stakePct": null
+    },
+    {
+     "name": "Nxtra by Airtel",
+     "entityId": "airtel",
+     "stakePct": null
+    },
+    {
+     "name": "Princeton Digital Group",
+     "entityId": "princeton-digital",
+     "stakePct": null
+    },
+    {
+     "name": "L&T Vyoma",
+     "entityId": "larsen-toubro",
+     "stakePct": null
+    }
+   ],
+   "developer": null,
+   "operator": null,
+   "tenants": [
+    {
+     "name": "AWS",
+     "entityId": "amazon",
+     "role": "ap-south-1 region"
+    },
+    {
+     "name": "Microsoft",
+     "entityId": "microsoft",
+     "role": "Azure regions"
+    },
+    {
+     "name": "Google",
+     "entityId": "google",
+     "role": "asia-south1 region"
+    }
+   ],
+   "capitalStack": [],
+   "energy": "Maharashtra grid (Tata Power, Adani Electricity, MSEDCL); growing renewable open-access",
+   "water": null,
+   "announced": null,
+   "expectedOnline": null,
+   "highlights": [
+    "Over half of India's live data-centre capacity, anchored by subsea cable landings in Mumbai",
+    "NTT's NAV2 (500 MW) and Yotta Panvel (2 GW potential) are among the largest planned campuses"
+   ],
+   "controversy": "Grid capacity and land in MMR are tightening; operators increasingly move to Panvel/Taloja and beyond.",
+   "sources": [
+    {
+     "title": "India data centre market update 2025",
+     "publisher": "Knight Frank",
+     "url": "https://content.knightfrank.com/research/3109/documents/en/india-data-centre-market-update-2025-12883.pdf",
+     "date": "2025"
+    },
+    {
+     "title": "India's data centre capacity crosses 1.5 GW as metro hubs drive growth",
+     "publisher": "CRN Asia",
+     "url": "https://www.crnasia.com/india/news/2026/india-s-data-centre-capacity-crosses-1-5-gw-as-metro-hubs-drive-growth",
+     "date": "2026"
+    },
+    {
+     "title": "Colt DCS, RMZ start 64MW Mumbai data centre construction",
+     "publisher": "CRN Asia",
+     "url": "https://www.crnasia.com/india/news/2026/colt-dcs-rmz-start-64mw-mumbai-data-centre-construction-after-signing-hyperscale-client",
+     "date": "2026"
+    }
+   ]
+  },
+  {
+   "id": "ntt-nav2-navi-mumbai",
+   "name": "NTT NAV2 Data Center Campus, Navi Mumbai",
+   "aka": [
+    "NAV2"
+   ],
+   "lat": 19.033,
+   "lng": 73.0297,
+   "coordPrecision": "city",
+   "city": "Navi Mumbai",
+   "region": "Maharashtra",
+   "country": "India",
+   "countryCode": "IN",
+   "status": "under construction",
+   "type": "hyperscale-cloud",
+   "powerMW": 500,
+   "powerMWNow": null,
+   "powerNote": "500 MW campus envisioned at up to 13 buildings; first two being built with Tokyo Century. Separate NAV1 (Mahape) campus is 150 MW.",
+   "acres": null,
+   "sizeSqft": null,
+   "compute": null,
+   "investmentUSD": null,
+   "investmentNote": "Part of NTT DATA's multi-billion India commitment (US$2B cited); no NAV2-specific figure.",
+   "owners": [
+    {
+     "name": "NTT Global Data Centers (NTT DATA)",
+     "entityId": "ntt-data",
+     "stakePct": null
+    },
+    {
+     "name": "Tokyo Century",
+     "entityId": "tokyo-century",
+     "stakePct": null
+    }
+   ],
+   "developer": "NTT Global Data Centers",
+   "operator": "NTT Global Data Centers",
+   "tenants": [],
+   "capitalStack": [
+    {
+     "from": "Tokyo Century",
+     "entityId": "tokyo-century",
+     "kind": "jv",
+     "amountUSD": null,
+     "date": "2025-03",
+     "note": "Joint operation of NAV2 and first two buildings",
+     "url": "https://services.global.ntt/en-us/newsroom/ntt-global-data-centers-and-tokyo-century-expand-collaboration"
+    },
+    {
+     "from": "IFC (World Bank Group)",
+     "entityId": "ifc",
+     "kind": "debt",
+     "amountUSD": null,
+     "date": "2026-06",
+     "note": "IFC loan disclosure for NTT India (21 DCs, 237 MW live, 105 MW under construction)",
+     "url": "https://disclosures.ifc.org/project-detail/SII/50807/ntt-india-loan"
+    }
+   ],
+   "energy": null,
+   "water": null,
+   "announced": "2025-03",
+   "expectedOnline": null,
+   "highlights": [
+    "NTT is India's largest foreign data-centre operator (~237 MW live, 21 sites)"
+   ],
+   "controversy": null,
+   "sources": [
+    {
+     "title": "NTT announces 500MW NAV2 data center in Navi Mumbai",
+     "publisher": "DatacenterDynamics",
+     "url": "https://datacenterdynamics.com/en/news/ntt-announces-500mw-nav2-data-center-in-navi-mumbai-india",
+     "date": "2025-03"
+    },
+    {
+     "title": "NTT India loan (project disclosure)",
+     "publisher": "IFC",
+     "url": "https://disclosures.ifc.org/project-detail/SII/50807/ntt-india-loan",
+     "date": "2026-06"
+    }
+   ]
+  },
+  {
+   "id": "chennai-dc-cluster",
+   "name": "Chennai Data Centre Cluster (Ambattur / Siruseri / Sriperumbudur)",
+   "aka": [],
+   "lat": 13.0827,
+   "lng": 80.2707,
+   "coordPrecision": "region",
+   "city": "Chennai",
+   "region": "Tamil Nadu",
+   "country": "India",
+   "countryCode": "IN",
+   "status": "operational",
+   "type": "cluster",
+   "powerMW": null,
+   "powerMWNow": null,
+   "powerNote": "India's #2 market and main east-coast cable landing hub. JLL: ~134 MW added by 2026 and ~130 MW more planned 2027-28. Live total not consistently reported (vendor estimate ~670 MW unverified).",
+   "acres": null,
+   "sizeSqft": null,
+   "compute": null,
+   "investmentUSD": null,
+   "investmentNote": null,
+   "owners": [
+    {
+     "name": "STT GDC India",
+     "entityId": "st-telemedia",
+     "stakePct": null
+    },
+    {
+     "name": "Sify Infinit Spaces",
+     "entityId": "sify",
+     "stakePct": null
+    },
+    {
+     "name": "NTT",
+     "entityId": "ntt-data",
+     "stakePct": null
+    },
+    {
+     "name": "CapitaLand",
+     "entityId": "capitaland",
+     "stakePct": null
+    },
+    {
+     "name": "Lumina CloudInfra (Blackstone)",
+     "entityId": "blackstone",
+     "stakePct": null
+    },
+    {
+     "name": "AdaniConneX",
+     "entityId": "adani",
+     "stakePct": null
+    },
+    {
+     "name": "Princeton Digital Group",
+     "entityId": "princeton-digital",
+     "stakePct": null
+    },
+    {
+     "name": "L&T Vyoma",
+     "entityId": "larsen-toubro",
+     "stakePct": null
+    }
+   ],
+   "developer": null,
+   "operator": null,
+   "tenants": [
+    {
+     "name": "Microsoft",
+     "entityId": "microsoft",
+     "role": "Azure South India region"
+    }
+   ],
+   "capitalStack": [
+    {
+     "from": "Blackstone (Lumina CloudInfra)",
+     "entityId": "blackstone",
+     "kind": "capex",
+     "amountUSD": null,
+     "date": "2025",
+     "note": "16-acre Ambattur campus, 216 MW initial IT load; ~Rs 10,000 crore park reported",
+     "url": "https://india.entrepreneur.com/news-and-trends/blackstone-plans-216-mw-data-centre-hub-in-chennai/502233"
+    }
+   ],
+   "energy": "Tamil Nadu grid with high wind/solar share",
+   "water": "Chennai's chronic water stress is a recurring concern",
+   "announced": null,
+   "expectedOnline": null,
+   "highlights": [
+    "Blackstone, CapitaLand, STT GDC and Sify are all adding 50-200+ MW campuses here"
+   ],
+   "controversy": null,
+   "sources": [
+    {
+     "title": "Chennai's data centre capacity to double by 2026",
+     "publisher": "JLL",
+     "url": "https://www.jll.com/en-in/insights/chennai-s-data-centre-capacity-to-double-by-2026",
+     "date": "2024"
+    },
+    {
+     "title": "Blackstone plans 216 MW data centre hub in Chennai",
+     "publisher": "Entrepreneur India",
+     "url": "https://india.entrepreneur.com/news-and-trends/blackstone-plans-216-mw-data-centre-hub-in-chennai/502233",
+     "date": "2025"
+    }
+   ]
+  },
+  {
+   "id": "stt-gdc-chennai-siruseri",
+   "name": "STT GDC India Chennai Campuses (Siruseri + Ambattur)",
+   "aka": [
+    "STT Chennai 7"
+   ],
+   "lat": 12.8275,
+   "lng": 80.2234,
+   "coordPrecision": "city",
+   "city": "Siruseri, Chennai",
+   "region": "Tamil Nadu",
+   "country": "India",
+   "countryCode": "IN",
+   "status": "partially operational",
+   "type": "colocation",
+   "powerMW": 130,
+   "powerMWNow": 47,
+   "powerNote": "Siruseri: 45 MW AI-ready, first 7.2 MW phase live (Feb 2026). Ambattur: ~40 MW live. Total Chennai development potential ~130 MW.",
+   "acres": null,
+   "sizeSqft": null,
+   "compute": null,
+   "investmentUSD": 465000000,
+   "investmentNote": "Rs 4,200 crore Chennai investment commitment (Feb 2026), ~US$465M at ~Rs 90.3/US$.",
+   "owners": [
+    {
+     "name": "KKR",
+     "entityId": "kkr",
+     "stakePct": 75
+    },
+    {
+     "name": "Singtel",
+     "entityId": "singtel",
+     "stakePct": 25
+    },
+    {
+     "name": "Tata Communications (minority in STT GDC India)",
+     "entityId": "tata",
+     "stakePct": null
+    }
+   ],
+   "developer": "STT GDC India",
+   "operator": "STT GDC India",
+   "tenants": [],
+   "capitalStack": [
+    {
+     "from": "STT GDC India",
+     "entityId": "st-telemedia",
+     "kind": "capex",
+     "amountUSD": 465000000,
+     "date": "2026-02",
+     "note": "Rs 4,200 crore Chennai multi-campus commitment",
+     "url": "https://www.crnasia.com/india/news/2026/stt-gdc-launches-45-mw-ai-ready-chennai-facility-commits-4-200-crore-investment"
+    },
+    {
+     "from": "KKR + Singtel",
+     "entityId": "kkr",
+     "kind": "equity",
+     "amountUSD": 5100000000,
+     "date": "2026-02-04",
+     "note": "Parent-level buyout of remaining 82% of STT GDC for S$6.6B equity (S$13.8B / ~US$10.9B EV); KKR 75%, Singtel 25%",
+     "url": "https://www.thestar.com.my/tech/tech-news/2026/02/04/kkr-singtel-pay-52-billion-for-full-control-of-data-centre-operator-stt-gdc"
+    }
+   ],
+   "energy": null,
+   "water": null,
+   "announced": "2026-02",
+   "expectedOnline": "2026-02",
+   "highlights": [
+    "STT GDC India runs 34 sites / 600+ MW (incl. development) - its parent is now 75% KKR-owned"
+   ],
+   "controversy": null,
+   "sources": [
+    {
+     "title": "STT GDC launches 45 MW AI ready Chennai facility, commits Rs 4,200 crore",
+     "publisher": "CRN Asia",
+     "url": "https://www.crnasia.com/india/news/2026/stt-gdc-launches-45-mw-ai-ready-chennai-facility-commits-4-200-crore-investment",
+     "date": "2026-02"
+    },
+    {
+     "title": "KKR, Singtel pay $5.2 billion for full control of STT GDC",
+     "publisher": "The Star (Reuters)",
+     "url": "https://www.thestar.com.my/tech/tech-news/2026/02/04/kkr-singtel-pay-52-billion-for-full-control-of-data-centre-operator-stt-gdc",
+     "date": "2026-02-04"
+    }
+   ]
+  },
+  {
+   "id": "sify-chennai-siruseri",
+   "name": "Sify Infinit Spaces Chennai 02 Campus (Siruseri)",
+   "aka": [
+    "Sify Chennai02"
+   ],
+   "lat": 12.835,
+   "lng": 80.226,
+   "coordPrecision": "city",
+   "city": "Siruseri, Chennai",
+   "region": "Tamil Nadu",
+   "country": "India",
+   "countryCode": "IN",
+   "status": "partially operational",
+   "type": "colocation",
+   "powerMW": 130,
+   "powerMWNow": null,
+   "powerNote": "Sify lists Chennai 02 as 130+ MW IT capacity at full build. Sify Infinit Spaces company-wide: 188 MW built IT capacity, 113.7 MW operational (DRHP, Jun-2025); 125 MW of greenfield projects planned through 2027 (Chennai, Navi Mumbai).",
+   "acres": null,
+   "sizeSqft": null,
+   "compute": null,
+   "investmentUSD": null,
+   "investmentNote": "IPO of Rs 3,700 crore (~US$420M; Rs 2,500 crore primary) filed Oct 2025 to fund Chennai/Navi Mumbai expansion; valuation sought up to US$4.2B (Mar 2026). Listing status as of late 2026 not confirmed.",
+   "owners": [
+    {
+     "name": "Sify Technologies (Sify Infinit Spaces)",
+     "entityId": "sify",
+     "stakePct": null
+    }
+   ],
+   "developer": "Sify Infinit Spaces",
+   "operator": "Sify Infinit Spaces",
+   "tenants": [],
+   "capitalStack": [
+    {
+     "from": "IPO (public markets)",
+     "entityId": null,
+     "kind": "equity",
+     "amountUSD": 420000000,
+     "date": "2025-10",
+     "note": "Rs 3,700 crore DRHP (Rs 2,500 crore fresh + Rs 1,200 crore OFS); India's first pure-play DC IPO",
+     "url": "https://www.businesstoday.in/markets/ipo-corner/story/data-center-firm-sify-infinit-spaces-files-drhp-with-sebi-for-rs-3700-crore-ipo-498814-2025-10-17"
+    },
+    {
+     "from": "IFC",
+     "entityId": "ifc",
+     "kind": "debt",
+     "amountUSD": null,
+     "date": null,
+     "note": "IFC project disclosure for Sify data centres",
+     "url": "https://disclosures.ifc.org/project-detail/SII/51725/sify-data-center"
+    }
+   ],
+   "energy": null,
+   "water": null,
+   "announced": null,
+   "expectedOnline": null,
+   "highlights": [
+    "Sify Infinit Spaces sought India's first listing of a pure-play data-centre company"
+   ],
+   "controversy": null,
+   "sources": [
+    {
+     "title": "Sify Infinit Spaces files DRHP for Rs 3,700 crore IPO",
+     "publisher": "Business Today",
+     "url": "https://www.businesstoday.in/markets/ipo-corner/story/data-center-firm-sify-infinit-spaces-files-drhp-with-sebi-for-rs-3700-crore-ipo-498814-2025-10-17",
+     "date": "2025-10-17"
+    },
+    {
+     "title": "Chennai02 data center",
+     "publisher": "Sify",
+     "url": "https://www.sifytechnologies.com/us/data-center/chennai02-data-center",
+     "date": null
+    }
+   ]
+  },
+  {
+   "id": "ctrls-hyderabad-chandanvelly",
+   "name": "CtrlS Hyderabad Hyperscale Park (Chandanvelly)",
+   "aka": [],
+   "lat": 17.385,
+   "lng": 78.4867,
+   "coordPrecision": "city",
+   "city": "Hyderabad",
+   "region": "Telangana",
+   "country": "India",
+   "countryCode": "IN",
+   "status": "under construction",
+   "type": "hyperscale-cloud",
+   "powerMW": null,
+   "powerMWNow": null,
+   "powerNote": "Multi-building AI-ready park near Hyderabad; site MW undisclosed. CtrlS company-wide: 234 MW existing + 350 MW planned under US$2B plan; long-term 4.4 GW target by 2030 (AIM).",
+   "acres": null,
+   "sizeSqft": null,
+   "compute": null,
+   "investmentUSD": 2000000000,
+   "investmentNote": "US$2B is CtrlS's six-year company-wide plan (India, SE Asia, Middle East), not site-specific.",
+   "owners": [
+    {
+     "name": "CtrlS Datacenters (Pioneer group)",
+     "entityId": "ctrls",
+     "stakePct": null
+    }
+   ],
+   "developer": "CtrlS",
+   "operator": "CtrlS",
+   "tenants": [],
+   "capitalStack": [
+    {
+     "from": "CPP Investments",
+     "entityId": "cpp-investments",
+     "kind": "equity",
+     "amountUSD": 810000000,
+     "date": "2026-06-17",
+     "note": "Rs 7,000 crore commitment (~US$810M at ~Rs 86.5/US$) to scale CtrlS India platform; structure not fully disclosed",
+     "url": "https://www.aap.com.au/aapreleases/cision20260617ae86002/"
+    },
+    {
+     "from": "CtrlS",
+     "entityId": "ctrls",
+     "kind": "capex",
+     "amountUSD": 2000000000,
+     "date": "2025",
+     "note": "Six-year expansion plan",
+     "url": "https://datacenterdynamics.com/en/news/ctrls-datacenters-to-invest-2bn-over-6-years-expanding-across-asia-and-middle-east"
+    }
+   ],
+   "energy": null,
+   "water": null,
+   "announced": "2025",
+   "expectedOnline": null,
+   "highlights": [
+    "Canada's CPP Investments made its first big Indian data-centre bet with CtrlS"
+   ],
+   "controversy": null,
+   "sources": [
+    {
+     "title": "CtrlS secures Rs 7,000 crore commitment from CPP Investments",
+     "publisher": "AAP / Cision",
+     "url": "https://www.aap.com.au/aapreleases/cision20260617ae86002/",
+     "date": "2026-06-17"
+    },
+    {
+     "title": "CtrlS Datacenters to invest $2bn over 6 years",
+     "publisher": "DatacenterDynamics",
+     "url": "https://datacenterdynamics.com/en/news/ctrls-datacenters-to-invest-2bn-over-6-years-expanding-across-asia-and-middle-east",
+     "date": "2025"
+    },
+    {
+     "title": "Inside CtrlS's 4.4 GW bet on India's data centre boom",
+     "publisher": "Analytics India Magazine",
+     "url": "https://analyticsindiamag.com/ai-features/inside-ctrlss-44-gw-bet-on-indias-data-centre-boom",
+     "date": "2026"
+    }
+   ]
+  },
+  {
+   "id": "indiaai-mission-compute",
+   "name": "IndiaAI Mission Common Compute (distributed)",
+   "aka": [
+    "IndiaAI Compute Portal"
+   ],
+   "lat": 28.6139,
+   "lng": 77.209,
+   "coordPrecision": "region",
+   "city": "New Delhi",
+   "region": "Delhi",
+   "country": "India",
+   "countryCode": "IN",
+   "status": "operational",
+   "type": "sovereign-ai",
+   "powerMW": null,
+   "powerMWNow": null,
+   "powerNote": "Not a single site: GPUs are hosted in empanelled providers' data centres (Yotta, E2E Networks, Tata Communications, CtrlS, NxtGen, Sify, NTT/Netmagic, etc.). Pin is MeitY in New Delhi.",
+   "acres": null,
+   "sizeSqft": null,
+   "compute": "38,000+ GPUs onboarded (Lok Sabha, 2026-03-25); +20,000 announced Feb 2026; portal sheet reportedly ~45,000 by Sept 2026; ~57% allocated",
+   "investmentUSD": 1250000000,
+   "investmentNote": "Rs 10,372 crore total mission outlay (approved Mar 2024; ~US$1.25B at the time), of which compute subsidy is the largest component.",
+   "owners": [
+    {
+     "name": "Government of India (MeitY / IndiaAI)",
+     "entityId": "indiaai-mission",
+     "stakePct": null
+    }
+   ],
+   "developer": null,
+   "operator": "Empanelled private providers",
+   "tenants": [],
+   "capitalStack": [
+    {
+     "from": "Government of India",
+     "entityId": "government-of-india",
+     "kind": "public-incentive",
+     "amountUSD": 1250000000,
+     "date": "2024-03",
+     "note": "Rs 10,372 crore mission; GPU hours subsidised (some under US$1/GPU-hr)",
+     "url": "https://www.devdiscourse.com/article/law-order/3850323-10372-cr-indiaai-mission-onboards-38000-gpus-190-projects-approved"
+    }
+   ],
+   "energy": null,
+   "water": null,
+   "announced": "2024-03",
+   "expectedOnline": "2025",
+   "highlights": [
+    "India rents rather than builds sovereign compute - subsidising private GPU clouds via a voucher model"
+   ],
+   "controversy": "Critics note 40,000 GPUs is still far short of what frontier-model training needs and allocation has lagged.",
+   "sources": [
+    {
+     "title": "India to add 20,000 GPUs beyond existing 38,000",
+     "publisher": "Digital India / MeitY",
+     "url": "https://www.digitalindia.gov.in/press_release/india-to-add-20000-gpus-beyond-existing-38000-to-strengthen-national-ai-infrastructure-announces-meity-minister-shri-ashwini-vaishnaw-at-day-two-of-india-ai-impact-summit-2026/",
+     "date": "2026-02"
+    },
+    {
+     "title": "Rs 10,372 Cr IndiaAI Mission onboards 38,000+ GPUs",
+     "publisher": "Devdiscourse",
+     "url": "https://www.devdiscourse.com/article/law-order/3850323-10372-cr-indiaai-mission-onboards-38000-gpus-190-projects-approved",
+     "date": "2026-03"
+    }
+   ]
+  },
+  {
+   "id": "cn-inner-mongolia-hub-ulanqab",
+   "name": "Inner Mongolia National Computing Hub (Ulanqab & Hohhot-Helinger cluster)",
+   "aka": [
+    "East Data West Computing - Inner Mongolia hub",
+    "Helinger data center cluster"
+   ],
+   "lat": 41.03,
+   "lng": 113.13,
+   "coordPrecision": "region",
+   "city": "Ulanqab",
+   "region": "Inner Mongolia",
+   "country": "China",
+   "countryCode": "CN",
+   "status": "operational",
+   "type": "cluster",
+   "powerMW": null,
+   "powerMWNow": null,
+   "powerNote": "UNVERIFIED-2026: compiled from pre-mid-2026 reporting without a live re-check (search budget exhausted). One of eight national hubs designated under 'East Data, West Computing' (Feb 2022); cool climate and cheap wind/coal power. Aggregate MW not reliably published.",
+   "acres": null,
+   "sizeSqft": null,
+   "compute": "Mix of NVIDIA (pre-export-control) and domestic Huawei Ascend AI clusters; telco 'intelligent computing centres'",
+   "investmentUSD": null,
+   "investmentNote": null,
+   "owners": [
+    {
+     "name": "Alibaba Cloud",
+     "entityId": "alibaba",
+     "stakePct": null
+    },
+    {
+     "name": "Huawei Cloud",
+     "entityId": "huawei",
+     "stakePct": null
+    },
+    {
+     "name": "China Mobile",
+     "entityId": "china-mobile",
+     "stakePct": null
+    },
+    {
+     "name": "China Telecom",
+     "entityId": "china-telecom",
+     "stakePct": null
+    },
+    {
+     "name": "China Unicom",
+     "entityId": "china-unicom",
+     "stakePct": null
+    }
+   ],
+   "developer": null,
+   "operator": null,
+   "tenants": [],
+   "capitalStack": [
+    {
+     "from": "National Development and Reform Commission (state planning)",
+     "entityId": "china-ndrc",
+     "kind": "public-incentive",
+     "amountUSD": null,
+     "date": "2022-02",
+     "note": "Hub designation brings power-price, land and approval preferences",
+     "url": "https://en.ndrc.gov.cn/"
+    }
+   ],
+   "energy": "Inner Mongolia grid: very large wind/solar build-out plus coal",
+   "water": null,
+   "announced": "2022-02",
+   "expectedOnline": null,
+   "highlights": [
+    "Beijing's AI and cloud loads are pushed 300+ km north to the grasslands where power is cheap and the air is cold"
+   ],
+   "controversy": null,
+   "sources": [
+    {
+     "title": "NDRC: 'East Data, West Computing' national hub plan (Feb 2022) [UNVERIFIED: URL is the publisher's homepage, not the article; could not re-check on 2026-11-20 because search/fetch budget was exhausted]",
+     "publisher": "National Development and Reform Commission",
+     "url": "https://en.ndrc.gov.cn/",
+     "date": "2022-02-17"
+    }
+   ]
+  },
+  {
+   "id": "cn-guian-guizhou-hub",
+   "name": "Gui'an (Guizhou) National Computing Hub",
+   "aka": [
+    "Gui'an New Area data center cluster",
+    "China's 'cloud valley'"
+   ],
+   "lat": 26.45,
+   "lng": 106.45,
+   "coordPrecision": "region",
+   "city": "Gui'an New Area",
+   "region": "Guizhou",
+   "country": "China",
+   "countryCode": "CN",
+   "status": "operational",
+   "type": "cluster",
+   "powerMW": null,
+   "powerMWNow": null,
+   "powerNote": "UNVERIFIED-2026: compiled from pre-mid-2026 reporting without a live re-check. Guizhou hub, Gui'an cluster under 'East Data, West Computing'. Aggregate MW not reliably published.",
+   "acres": null,
+   "sizeSqft": null,
+   "compute": null,
+   "investmentUSD": null,
+   "investmentNote": "Apple announced US$1B for its Guizhou iCloud data centre in 2017 (operated by state-owned Guizhou-Cloud Big Data).",
+   "owners": [
+    {
+     "name": "Tencent (Qixing cave data centre)",
+     "entityId": "tencent",
+     "stakePct": null
+    },
+    {
+     "name": "Huawei Cloud",
+     "entityId": "huawei",
+     "stakePct": null
+    },
+    {
+     "name": "Guizhou-Cloud Big Data (state-owned; Apple iCloud China)",
+     "entityId": "gcbd",
+     "stakePct": null
+    },
+    {
+     "name": "China Mobile / China Telecom / China Unicom",
+     "entityId": "china-mobile",
+     "stakePct": null
+    }
+   ],
+   "developer": null,
+   "operator": null,
+   "tenants": [
+    {
+     "name": "Apple",
+     "entityId": "apple",
+     "role": "iCloud China data hosted by GCBD"
+    }
+   ],
+   "capitalStack": [
+    {
+     "from": "Apple",
+     "entityId": "apple",
+     "kind": "capex",
+     "amountUSD": 1000000000,
+     "date": "2017-07",
+     "note": "Apple's first China data centre, with GCBD",
+     "url": "https://www.apple.com/newsroom/"
+    }
+   ],
+   "energy": "Guizhou hydro + coal; karst caves used for cooling (Tencent)",
+   "water": null,
+   "announced": "2013",
+   "expectedOnline": null,
+   "highlights": [
+    "Tencent built a data centre inside a mountain cave; Apple's China iCloud lives here under a state-owned operator"
+   ],
+   "controversy": "Apple's move of Chinese users' iCloud keys/data to a state-owned Guizhou operator (2018) drew privacy criticism.",
+   "sources": [
+    {
+     "title": "Apple newsroom (Guizhou data center announcement, 2017) [UNVERIFIED: URL is the publisher's homepage, not the article; could not re-check on 2026-11-20 because search/fetch budget was exhausted]",
+     "publisher": "Apple",
+     "url": "https://www.apple.com/newsroom/",
+     "date": "2017-07-12"
+    }
+   ]
+  },
+  {
+   "id": "cn-zhangbei-zhangjiakou-alibaba",
+   "name": "Zhangjiakou Cluster - Alibaba Cloud Zhangbei & Chindata Huailai",
+   "aka": [
+    "Beijing-Tianjin-Hebei hub",
+    "Zhangbei Cloud Computing Base"
+   ],
+   "lat": 41.16,
+   "lng": 114.72,
+   "coordPrecision": "region",
+   "city": "Zhangbei / Huailai (Zhangjiakou)",
+   "region": "Hebei",
+   "country": "China",
+   "countryCode": "CN",
+   "status": "operational",
+   "type": "cluster",
+   "powerMW": null,
+   "powerMWNow": null,
+   "powerNote": "Cluster-wide MW not disclosed. Epoch AI's satellite-based estimate for Alibaba's Zhangbei AI campus alone is ~169 MW IT power (six buildings re-fitted with new chillers 2024-early 2026; up from ~85 MW in Sep 2025), ~32k H100-equivalents (likely NVIDIA H20), est. capital cost $6.4B (Epoch directory updated 2026-07-14). Chindata's Huailai (Guanting Lake) campuses serve ByteDance; their MW is not confirmed here.",
+   "acres": null,
+   "sizeSqft": null,
+   "compute": null,
+   "investmentUSD": 53000000000,
+   "investmentNote": "Alibaba's 'at least RMB 380B (~US$53B)' three-year AI & cloud infrastructure plan (announced 2025-02-24, filed with the SEC as a 6-K exhibit) is group-wide, not Zhangbei-specific; at Apsara 2025 Alibaba said it would increase investment beyond the RMB 380B. Epoch AI separately estimates the Zhangbei AI campus alone at ~$6.4B.",
+   "owners": [
+    {
+     "name": "Alibaba Cloud",
+     "entityId": "alibaba",
+     "stakePct": null
+    },
+    {
+     "name": "Chindata Group",
+     "entityId": "chindata",
+     "stakePct": null
+    },
+    {
+     "name": "GDS",
+     "entityId": "gds",
+     "stakePct": null
+    }
+   ],
+   "developer": null,
+   "operator": null,
+   "tenants": [
+    {
+     "name": "ByteDance",
+     "entityId": "bytedance",
+     "role": "anchor customer of Chindata Huailai"
+    }
+   ],
+   "capitalStack": [
+    {
+     "from": "Alibaba Group",
+     "entityId": "alibaba",
+     "kind": "capex",
+     "amountUSD": 53000000000,
+     "date": "2025-02-24",
+     "note": "RMB 380B over three years, group-wide",
+     "url": "https://www.alibabagroup.com/en-US/document-1830678592242057216"
+    }
+   ],
+   "energy": "Zhangjiakou renewable demonstration zone (wind/solar) on the Beijing grid edge",
+   "water": null,
+   "announced": "2016",
+   "expectedOnline": null,
+   "highlights": [
+    "Alibaba's RMB 380B plan was more than it spent on cloud/AI infrastructure in the prior decade, per the company"
+   ],
+   "controversy": null,
+   "sources": [
+    {
+     "title": "Alibaba to Invest RMB380 billion in AI and Cloud Infrastructure Over the Next Three Years",
+     "publisher": "Alibaba Group",
+     "url": "https://www.alibabagroup.com/en-US/document-1830678592242057216",
+     "date": "2025-02-24"
+    },
+    {
+     "title": "Alibaba Group 6-K exhibit 99.1 (RMB380 billion investment plan)",
+     "publisher": "SEC EDGAR",
+     "url": "https://www.sec.gov/Archives/edgar/data/1577552/000110465925016348/tm257405d1_ex99-1.htm",
+     "date": "2025-02-24"
+    },
+    {
+     "title": "Alibaba Zhangbei - AI data centers directory",
+     "publisher": "Epoch AI",
+     "url": "https://epoch.ai/data/ai-data-centers/directory/alibaba-zhangbei",
+     "date": "2026-07-14"
+    },
+    {
+     "title": "Alibaba Cloud's Apsara Conference 2025: Full Stack AI + Cloud",
+     "publisher": "Alibaba Group",
+     "url": "https://www.alibabagroup.com/en-US/document-1911884625546838016",
+     "date": "2025-09"
+    }
+   ]
+  },
+  {
+   "id": "cn-qingyang-gansu-hub",
+   "name": "Qingyang Data Center Cluster (Gansu hub)",
+   "aka": [
+    "East Data West Computing - Gansu hub"
+   ],
+   "lat": 35.71,
+   "lng": 107.64,
+   "coordPrecision": "region",
+   "city": "Qingyang",
+   "region": "Gansu",
+   "country": "China",
+   "countryCode": "CN",
+   "status": "partially operational",
+   "type": "cluster",
+   "powerMW": null,
+   "powerMWNow": null,
+   "powerNote": "UNVERIFIED-2026: compiled from pre-mid-2026 reporting without a live re-check. Greenfield national cluster designated Feb 2022 to serve the Chengdu-Chongqing and eastern markets; telcos and state firms are main builders. MW not confirmed.",
+   "acres": null,
+   "sizeSqft": null,
+   "compute": "Telco and state 'intelligent computing centres' (largely domestic accelerators)",
+   "investmentUSD": null,
+   "investmentNote": null,
+   "owners": [
+    {
+     "name": "China Telecom",
+     "entityId": "china-telecom",
+     "stakePct": null
+    },
+    {
+     "name": "China Mobile",
+     "entityId": "china-mobile",
+     "stakePct": null
+    },
+    {
+     "name": "China Unicom",
+     "entityId": "china-unicom",
+     "stakePct": null
+    }
+   ],
+   "developer": null,
+   "operator": null,
+   "tenants": [],
+   "capitalStack": [
+    {
+     "from": "National Development and Reform Commission (state planning)",
+     "entityId": "china-ndrc",
+     "kind": "public-incentive",
+     "amountUSD": null,
+     "date": "2022-02",
+     "note": "National cluster designation",
+     "url": "https://en.ndrc.gov.cn/"
+    }
+   ],
+   "energy": "Gansu wind/solar + coal",
+   "water": "Arid Loess Plateau region",
+   "announced": "2022-02",
+   "expectedOnline": null,
+   "highlights": [
+    "A former oil-and-farming prefecture rebuilt as a state-planned 'computing city'"
+   ],
+   "controversy": "2025 reporting described low utilisation at some western hub data centres built ahead of demand (not re-verified for Qingyang specifically).",
+   "sources": [
+    {
+     "title": "NDRC: 'East Data, West Computing' national hub plan [UNVERIFIED: URL is the publisher's homepage, not the article; could not re-check on 2026-11-20 because search/fetch budget was exhausted]",
+     "publisher": "National Development and Reform Commission",
+     "url": "https://en.ndrc.gov.cn/",
+     "date": "2022-02-17"
+    }
+   ]
+  },
+  {
+   "id": "cn-zhongwei-ningxia-hub",
+   "name": "Zhongwei Data Center Cluster (Ningxia hub) - incl. AWS China (Ningxia) Region",
+   "aka": [
+    "AWS cn-northwest-1",
+    "NWCD Zhongwei"
+   ],
+   "lat": 37.5,
+   "lng": 105.19,
+   "coordPrecision": "region",
+   "city": "Zhongwei",
+   "region": "Ningxia",
+   "country": "China",
+   "countryCode": "CN",
+   "status": "operational",
+   "type": "cluster",
+   "powerMW": null,
+   "powerMWNow": null,
+   "powerNote": "UNVERIFIED-2026: compiled from pre-mid-2026 reporting without a live re-check. Ningxia hub cluster; AWS China (Ningxia) region launched Dec 2017, operated locally by NWCD. MW not confirmed.",
+   "acres": null,
+   "sizeSqft": null,
+   "compute": null,
+   "investmentUSD": null,
+   "investmentNote": null,
+   "owners": [
+    {
+     "name": "Ningxia Western Cloud Data (NWCD) - AWS China operator",
+     "entityId": "nwcd",
+     "stakePct": null
+    },
+    {
+     "name": "China Mobile",
+     "entityId": "china-mobile",
+     "stakePct": null
+    },
+    {
+     "name": "China Telecom",
+     "entityId": "china-telecom",
+     "stakePct": null
+    },
+    {
+     "name": "China Unicom",
+     "entityId": "china-unicom",
+     "stakePct": null
+    }
+   ],
+   "developer": null,
+   "operator": null,
+   "tenants": [
+    {
+     "name": "Amazon Web Services",
+     "entityId": "amazon",
+     "role": "technology provider to NWCD-operated region"
+    }
+   ],
+   "capitalStack": [],
+   "energy": "Ningxia desert solar/wind + coal",
+   "water": "Desert region; air-cooling favoured",
+   "announced": "2016",
+   "expectedOnline": "2017-12",
+   "highlights": [
+    "Amazon's China cloud region sits on the edge of the Tengger Desert"
+   ],
+   "controversy": null,
+   "sources": [
+    {
+     "title": "AWS China (Ningxia) Region [UNVERIFIED: URL is the publisher's homepage, not the article; could not re-check on 2026-11-20 because search/fetch budget was exhausted]",
+     "publisher": "Amazon Web Services",
+     "url": "https://www.amazonaws.cn/en/",
+     "date": "2017-12"
+    }
+   ]
+  },
+  {
+   "id": "cn-wuhu-yangtze-delta-cluster",
+   "name": "Wuhu Data Center Cluster (Yangtze River Delta hub)",
+   "aka": [],
+   "lat": 31.33,
+   "lng": 118.43,
+   "coordPrecision": "region",
+   "city": "Wuhu",
+   "region": "Anhui",
+   "country": "China",
+   "countryCode": "CN",
+   "status": "partially operational",
+   "type": "cluster",
+   "powerMW": null,
+   "powerMWNow": null,
+   "powerNote": "UNVERIFIED-2026: compiled from pre-mid-2026 reporting without a live re-check. One of two Yangtze River Delta hub clusters (with the Eco-Green Integration Demonstration Zone); serves Shanghai/Hangzhou/Nanjing demand. MW not confirmed.",
+   "acres": null,
+   "sizeSqft": null,
+   "compute": null,
+   "investmentUSD": null,
+   "investmentNote": null,
+   "owners": [
+    {
+     "name": "China Telecom",
+     "entityId": "china-telecom",
+     "stakePct": null
+    },
+    {
+     "name": "China Mobile",
+     "entityId": "china-mobile",
+     "stakePct": null
+    },
+    {
+     "name": "China Unicom",
+     "entityId": "china-unicom",
+     "stakePct": null
+    },
+    {
+     "name": "Huawei Cloud (East China)",
+     "entityId": "huawei",
+     "stakePct": null
+    }
+   ],
+   "developer": null,
+   "operator": null,
+   "tenants": [],
+   "capitalStack": [
+    {
+     "from": "National Development and Reform Commission (state planning)",
+     "entityId": "china-ndrc",
+     "kind": "public-incentive",
+     "amountUSD": null,
+     "date": "2022-02",
+     "note": "National cluster designation",
+     "url": "https://en.ndrc.gov.cn/"
+    }
+   ],
+   "energy": "East China grid",
+   "water": null,
+   "announced": "2022-02",
+   "expectedOnline": null,
+   "highlights": [
+    "The eastern 'demand side' cluster for latency-sensitive AI inference near Shanghai"
+   ],
+   "controversy": null,
+   "sources": [
+    {
+     "title": "NDRC: 'East Data, West Computing' national hub plan [UNVERIFIED: URL is the publisher's homepage, not the article; could not re-check on 2026-11-20 because search/fetch budget was exhausted]",
+     "publisher": "National Development and Reform Commission",
+     "url": "https://en.ndrc.gov.cn/",
+     "date": "2022-02-17"
+    }
+   ]
+  },
+  {
+   "id": "cn-baidu-yangquan",
+   "name": "Baidu Cloud Computing Center, Yangquan",
+   "aka": [
+    "Baidu Yangquan data center"
+   ],
+   "lat": 37.86,
+   "lng": 113.58,
+   "coordPrecision": "city",
+   "city": "Yangquan",
+   "region": "Shanxi",
+   "country": "China",
+   "countryCode": "CN",
+   "status": "operational",
+   "type": "hyperscale-cloud",
+   "powerMW": null,
+   "powerMWNow": null,
+   "powerNote": "UNVERIFIED-2026: compiled from pre-mid-2026 reporting without a live re-check. Baidu's flagship self-built campus; MW not disclosed.",
+   "acres": null,
+   "sizeSqft": null,
+   "compute": "Baidu AI Cloud incl. in-house Kunlun accelerators (exact cluster locations not confirmed)",
+   "investmentUSD": null,
+   "investmentNote": null,
+   "owners": [
+    {
+     "name": "Baidu",
+     "entityId": "baidu",
+     "stakePct": 100
+    }
+   ],
+   "developer": "Baidu",
+   "operator": "Baidu",
+   "tenants": [],
+   "capitalStack": [],
+   "energy": "Shanxi grid (coal-heavy)",
+   "water": null,
+   "announced": null,
+   "expectedOnline": null,
+   "highlights": [
+    "Baidu's largest owned data centre, in China's coal heartland"
+   ],
+   "controversy": null,
+   "sources": [
+    {
+     "title": "Baidu AI Cloud infrastructure [UNVERIFIED: URL is the publisher's homepage, not the article; could not re-check on 2026-11-20 because search/fetch budget was exhausted]",
+     "publisher": "Baidu",
+     "url": "https://intl.cloud.baidu.com/",
+     "date": null
+    }
+   ]
+  },
+  {
+   "id": "softbank-sakai-ai-dc",
+   "name": "SoftBank Sakai AI Data Center (ex-Sharp LCD plant)",
+   "aka": [
+    "SB OpenAI Japan 'Crystal' compute site"
+   ],
+   "lat": 34.573,
+   "lng": 135.483,
+   "coordPrecision": "city",
+   "city": "Sakai",
+   "region": "Osaka",
+   "country": "Japan",
+   "countryCode": "JP",
+   "status": "under construction",
+   "type": "ai-training",
+   "powerMW": 150,
+   "powerMWNow": null,
+   "powerNote": "UNVERIFIED-2026: compiled from pre-mid-2026 reporting without a live re-check (search budget exhausted). SoftBank agreed in March 2025 to buy part of Sharp's Sakai LCD plant to convert to an AI data centre starting ~150 MW and expanding beyond 250 MW; operations targeted for 2026.",
+   "acres": null,
+   "sizeSqft": null,
+   "compute": "Planned to run 'Cristal intelligence' agents for SB OpenAI Japan (SoftBank/OpenAI 50:50 JV)",
+   "investmentUSD": null,
+   "investmentNote": "Purchase price reported in Japanese media ~JPY 100B; not confirmed in this pass.",
+   "owners": [
+    {
+     "name": "SoftBank Corp.",
+     "entityId": "softbank",
+     "stakePct": 100
+    }
+   ],
+   "developer": "SoftBank Corp.",
+   "operator": "SoftBank Corp.",
+   "tenants": [
+    {
+     "name": "SB OpenAI Japan",
+     "entityId": "openai",
+     "role": "planned end user (Cristal intelligence)"
+    }
+   ],
+   "capitalStack": [
+    {
+     "from": "SoftBank Group",
+     "entityId": "softbank",
+     "kind": "capex",
+     "amountUSD": 3000000000,
+     "date": "2025-02-03",
+     "note": "SoftBank Group pledged US$3B/yr to deploy OpenAI solutions across its companies (the demand this site serves), not site capex",
+     "url": "https://group.softbank/en/news/press"
+    }
+   ],
+   "energy": "Kansai Electric grid",
+   "water": null,
+   "announced": "2025-03",
+   "expectedOnline": "2026",
+   "highlights": [
+    "A shuttered flat-panel TV factory becomes an AI factory",
+    "KDDI is converting another part of the same Sharp complex"
+   ],
+   "controversy": null,
+   "sources": [
+    {
+     "title": "SoftBank Group / OpenAI 'Cristal intelligence' & SB OpenAI Japan (2025-02-03) [UNVERIFIED: URL is the publisher's homepage, not the article; could not re-check on 2026-11-20 because search/fetch budget was exhausted]",
+     "publisher": "SoftBank Group",
+     "url": "https://group.softbank/en/news/press",
+     "date": "2025-02-03"
+    }
+   ]
+  },
+  {
+   "id": "kddi-osaka-sakai-dc",
+   "name": "KDDI Osaka Sakai AI Data Center (ex-Sharp plant)",
+   "aka": [],
+   "lat": 34.57,
+   "lng": 135.46,
+   "coordPrecision": "city",
+   "city": "Sakai",
+   "region": "Osaka",
+   "country": "Japan",
+   "countryCode": "JP",
+   "status": "under construction",
+   "type": "ai-training",
+   "powerMW": null,
+   "powerMWNow": null,
+   "powerNote": "UNVERIFIED-2026: compiled from pre-mid-2026 reporting without a live re-check. KDDI agreed (Dec 2024) to use part of Sharp's Sakai plant for an AI data centre with NVIDIA GB200 NVL72 racks, targeting operation by end-FY2025 (Mar 2026); may now be operational. MW not confirmed.",
+   "acres": null,
+   "sizeSqft": null,
+   "compute": "NVIDIA GB200 NVL72 (planned)",
+   "investmentUSD": null,
+   "investmentNote": null,
+   "owners": [
+    {
+     "name": "KDDI",
+     "entityId": "kddi",
+     "stakePct": null
+    }
+   ],
+   "developer": "KDDI",
+   "operator": "KDDI",
+   "tenants": [],
+   "capitalStack": [],
+   "energy": "Kansai Electric grid",
+   "water": null,
+   "announced": "2024-12",
+   "expectedOnline": "2026",
+   "highlights": [
+    "Two of Japan's three big telcos are building AI data centres inside the same former Sharp factory complex"
+   ],
+   "controversy": null,
+   "sources": [
+    {
+     "title": "KDDI news releases (Sakai AI data center) [UNVERIFIED: URL is the publisher's homepage, not the article; could not re-check on 2026-11-20 because search/fetch budget was exhausted]",
+     "publisher": "KDDI",
+     "url": "https://news.kddi.com/",
+     "date": "2024-12"
+    }
+   ]
+  },
+  {
+   "id": "softbank-tomakomai-hokkaido",
+   "name": "SoftBank Tomakomai AI Data Center (Hokkaido)",
+   "aka": [
+    "Hokkaido 'brain' data center"
+   ],
+   "lat": 42.634,
+   "lng": 141.605,
+   "coordPrecision": "city",
+   "city": "Tomakomai",
+   "region": "Hokkaido",
+   "country": "Japan",
+   "countryCode": "JP",
+   "status": "under construction",
+   "type": "ai-training",
+   "powerMW": 300,
+   "powerMWNow": null,
+   "powerNote": "UNVERIFIED-2026: compiled from pre-mid-2026 reporting without a live re-check. Planned at 300 MW initially with ambition to exceed 1 GW; targeted to start operating in FY2026.",
+   "acres": null,
+   "sizeSqft": null,
+   "compute": null,
+   "investmentUSD": null,
+   "investmentNote": "METI subsidy reported at up to JPY 30B; total cost not confirmed.",
+   "owners": [
+    {
+     "name": "SoftBank Corp.",
+     "entityId": "softbank",
+     "stakePct": 100
+    }
+   ],
+   "developer": "SoftBank Corp.",
+   "operator": "SoftBank Corp.",
+   "tenants": [],
+   "capitalStack": [
+    {
+     "from": "Ministry of Economy, Trade and Industry (Japan)",
+     "entityId": "japan-meti",
+     "kind": "public-incentive",
+     "amountUSD": null,
+     "date": "2024",
+     "note": "Subsidy reported up to JPY 30B (not re-verified)",
+     "url": "https://www.softbank.jp/en/corp/news/press/"
+    }
+   ],
+   "energy": "Hokkaido renewables (wind/solar) intended to be 100% renewable",
+   "water": null,
+   "announced": "2024",
+   "expectedOnline": "2026",
+   "highlights": [
+    "Japan's push to move AI compute to cold, renewable-rich Hokkaido and away from Tokyo's tight grid"
+   ],
+   "controversy": null,
+   "sources": [
+    {
+     "title": "SoftBank Corp. press releases (Tomakomai data center) [UNVERIFIED: URL is the publisher's homepage, not the article; could not re-check on 2026-11-20 because search/fetch budget was exhausted]",
+     "publisher": "SoftBank Corp.",
+     "url": "https://www.softbank.jp/en/corp/news/press/",
+     "date": "2024"
+    }
+   ]
+  },
+  {
+   "id": "sakura-internet-ishikari",
+   "name": "Sakura Internet Ishikari Data Center (GPU cloud)",
+   "aka": [
+    "Koukaryoku GPU cloud"
+   ],
+   "lat": 43.171,
+   "lng": 141.316,
+   "coordPrecision": "city",
+   "city": "Ishikari",
+   "region": "Hokkaido",
+   "country": "Japan",
+   "countryCode": "JP",
+   "status": "operational",
+   "type": "sovereign-ai",
+   "powerMW": null,
+   "powerMWNow": null,
+   "powerNote": "UNVERIFIED-2026: compiled from pre-mid-2026 reporting without a live re-check. Campus opened 2011, being expanded for government-subsidised GPU cloud. MW not confirmed.",
+   "acres": null,
+   "sizeSqft": null,
+   "compute": "NVIDIA H100/H200 and later Blackwell GPUs for Japan's government-designated 'cloud program'",
+   "investmentUSD": null,
+   "investmentNote": "Sakura announced ~JPY 100B GPU investment over five years (2023-2027) with METI support of up to ~JPY 50B under the Economic Security Promotion Act; figures not re-verified.",
+   "owners": [
+    {
+     "name": "Sakura Internet",
+     "entityId": "sakura-internet",
+     "stakePct": 100
+    }
+   ],
+   "developer": "Sakura Internet",
+   "operator": "Sakura Internet",
+   "tenants": [],
+   "capitalStack": [
+    {
+     "from": "Ministry of Economy, Trade and Industry (Japan)",
+     "entityId": "japan-meti",
+     "kind": "public-incentive",
+     "amountUSD": null,
+     "date": "2024",
+     "note": "Economic-security cloud subsidy (reported up to ~JPY 50B; not re-verified)",
+     "url": "https://www.sakura.ad.jp/corporate/en/"
+    }
+   ],
+   "energy": "Hokkaido grid; outside-air cooling",
+   "water": null,
+   "announced": "2011",
+   "expectedOnline": "2011-11",
+   "highlights": [
+    "Japan's de facto sovereign GPU cloud, built on a snowy bay north of Sapporo"
+   ],
+   "controversy": null,
+   "sources": [
+    {
+     "title": "Sakura Internet corporate site [UNVERIFIED: URL is the publisher's homepage, not the article; could not re-check on 2026-11-20 because search/fetch budget was exhausted]",
+     "publisher": "Sakura Internet",
+     "url": "https://www.sakura.ad.jp/corporate/en/",
+     "date": null
+    }
+   ]
+  },
+  {
+   "id": "tokyo-inzai-cluster",
+   "name": "Tokyo / Inzai Data Center Cluster",
+   "aka": [
+    "Inzai-Shiroi hyperscale corridor (Chiba)"
+   ],
+   "lat": 35.83,
+   "lng": 140.15,
+   "coordPrecision": "region",
+   "city": "Inzai",
+   "region": "Chiba / Tokyo",
+   "country": "Japan",
+   "countryCode": "JP",
+   "status": "operational",
+   "type": "cluster",
+   "powerMW": null,
+   "powerMWNow": null,
+   "powerNote": "UNVERIFIED-2026: compiled from pre-mid-2026 reporting without a live re-check. Japan's largest market; Inzai (Chiba) hosts multiple hyperscale campuses on stable ground ~40 km east of Tokyo. Aggregate MW not confirmed.",
+   "acres": null,
+   "sizeSqft": null,
+   "compute": null,
+   "investmentUSD": null,
+   "investmentNote": "Hyperscaler Japan pledges include AWS JPY 2.26T (~US$15.24B, 2023-2027), Microsoft US$2.9B (2024-2026), Oracle US$8B+ (10 yrs) - see separate records.",
+   "owners": [
+    {
+     "name": "Google (Inzai data center)",
+     "entityId": "google",
+     "stakePct": null
+    },
+    {
+     "name": "Amazon Web Services",
+     "entityId": "amazon",
+     "stakePct": null
+    },
+    {
+     "name": "Microsoft",
+     "entityId": "microsoft",
+     "stakePct": null
+    },
+    {
+     "name": "AirTrunk (TOK1)",
+     "entityId": "airtrunk",
+     "stakePct": null
+    },
+    {
+     "name": "NTT DATA",
+     "entityId": "ntt-data",
+     "stakePct": null
+    },
+    {
+     "name": "Equinix",
+     "entityId": "equinix",
+     "stakePct": null
+    },
+    {
+     "name": "MC Digital Realty",
+     "entityId": "digital-realty",
+     "stakePct": null
+    },
+    {
+     "name": "Colt DCS",
+     "entityId": "colt-dcs",
+     "stakePct": null
+    },
+    {
+     "name": "Princeton Digital Group",
+     "entityId": "princeton-digital",
+     "stakePct": null
+    }
+   ],
+   "developer": null,
+   "operator": null,
+   "tenants": [],
+   "capitalStack": [],
+   "energy": "TEPCO grid; grid-connection queues are a constraint",
+   "water": null,
+   "announced": null,
+   "expectedOnline": null,
+   "highlights": [
+    "Google opened its first Japanese data centre in Inzai in 2023"
+   ],
+   "controversy": "Grid-connection waits in greater Tokyo are pushing new AI builds to Hokkaido and Kyushu.",
+   "sources": [
+    {
+     "title": "Google data centers - Inzai, Japan [UNVERIFIED: URL is the publisher's homepage, not the article; could not re-check on 2026-11-20 because search/fetch budget was exhausted]",
+     "publisher": "Google",
+     "url": "https://datacenters.google/",
+     "date": null
+    }
+   ]
+  },
+  {
+   "id": "osaka-kansai-cluster",
+   "name": "Osaka / Kansai Data Center Cluster",
+   "aka": [
+    "Keihanna",
+    "Osaka secondary market"
+   ],
+   "lat": 34.69,
+   "lng": 135.5,
+   "coordPrecision": "region",
+   "city": "Osaka",
+   "region": "Osaka / Kyoto",
+   "country": "Japan",
+   "countryCode": "JP",
+   "status": "operational",
+   "type": "cluster",
+   "powerMW": null,
+   "powerMWNow": null,
+   "powerNote": "UNVERIFIED-2026: compiled from pre-mid-2026 reporting without a live re-check. Japan's #2 market and disaster-recovery pair for Tokyo; new AI sites at Sakai (SoftBank, KDDI). Aggregate MW not confirmed.",
+   "acres": null,
+   "sizeSqft": null,
+   "compute": null,
+   "investmentUSD": null,
+   "investmentNote": null,
+   "owners": [
+    {
+     "name": "MC Digital Realty",
+     "entityId": "digital-realty",
+     "stakePct": null
+    },
+    {
+     "name": "NTT DATA",
+     "entityId": "ntt-data",
+     "stakePct": null
+    },
+    {
+     "name": "Equinix",
+     "entityId": "equinix",
+     "stakePct": null
+    },
+    {
+     "name": "SoftBank",
+     "entityId": "softbank",
+     "stakePct": null
+    },
+    {
+     "name": "KDDI",
+     "entityId": "kddi",
+     "stakePct": null
+    }
+   ],
+   "developer": null,
+   "operator": null,
+   "tenants": [
+    {
+     "name": "AWS",
+     "entityId": "amazon",
+     "role": "Osaka region"
+    },
+    {
+     "name": "Microsoft",
+     "entityId": "microsoft",
+     "role": "Japan West region"
+    },
+    {
+     "name": "Oracle",
+     "entityId": "oracle",
+     "role": "Osaka region"
+    },
+    {
+     "name": "Google",
+     "entityId": "google",
+     "role": "Osaka region"
+    }
+   ],
+   "capitalStack": [],
+   "energy": "Kansai Electric grid (nuclear-heavy)",
+   "water": null,
+   "announced": null,
+   "expectedOnline": null,
+   "highlights": [
+    "Kansai's nuclear-backed grid is a draw for power-hungry AI builds"
+   ],
+   "controversy": null,
+   "sources": [
+    {
+     "title": "MC Digital Realty Osaka campuses [UNVERIFIED: URL is the publisher's homepage, not the article; could not re-check on 2026-11-20 because search/fetch budget was exhausted]",
+     "publisher": "MC Digital Realty",
+     "url": "https://www.mcdigitalrealty.com/en/",
+     "date": null
+    }
+   ]
+  },
+  {
+   "id": "aws-japan-tokyo-osaka",
+   "name": "AWS Japan (Tokyo & Osaka Regions)",
+   "aka": [
+    "ap-northeast-1",
+    "ap-northeast-3"
+   ],
+   "lat": 35.68,
+   "lng": 139.69,
+   "coordPrecision": "city",
+   "city": "Tokyo",
+   "region": "Tokyo",
+   "country": "Japan",
+   "countryCode": "JP",
+   "status": "operational",
+   "type": "hyperscale-cloud",
+   "powerMW": null,
+   "powerMWNow": null,
+   "powerNote": "MW not disclosed by AWS.",
+   "acres": null,
+   "sizeSqft": null,
+   "compute": null,
+   "investmentUSD": 15240000000,
+   "investmentNote": "JPY 2.26 trillion (AWS's figure at announcement: ~US$15.24B) to expand existing Tokyo and Osaka cloud infrastructure 2024-2027, announced 2024-01-19; on top of JPY 1.51T invested 2011-2022 (cumulative JPY 3.77T by 2027). AWS's 2026 releases restate it as US$14.96B.",
+   "owners": [
+    {
+     "name": "Amazon Web Services",
+     "entityId": "amazon",
+     "stakePct": 100
+    }
+   ],
+   "developer": "AWS",
+   "operator": "AWS",
+   "tenants": [],
+   "capitalStack": [
+    {
+     "from": "Amazon Web Services",
+     "entityId": "amazon",
+     "kind": "capex",
+     "amountUSD": 15240000000,
+     "date": "2024-01-19",
+     "note": "JPY 2.26T, 2024-2027",
+     "url": "https://press.aboutamazon.com/aws/2024/1/aws-plans-to-invest-2-26-trillion-yen-into-its-japanese-cloud-infrastructure-by-2027"
+    }
+   ],
+   "energy": null,
+   "water": null,
+   "announced": "2024-01-19",
+   "expectedOnline": "2011-03",
+   "highlights": [
+    "AWS's Japan pledge is the largest single-country hyperscaler commitment in Japan"
+   ],
+   "controversy": null,
+   "sources": [
+    {
+     "title": "AWS plans to invest 2.26 trillion yen into its Japanese cloud infrastructure by 2027",
+     "publisher": "Amazon Web Services",
+     "url": "https://press.aboutamazon.com/aws/2024/1/aws-plans-to-invest-2-26-trillion-yen-into-its-japanese-cloud-infrastructure-by-2027",
+     "date": "2024-01-19"
+    },
+    {
+     "title": "Amazon's AWS to invest $15 bln to expand cloud computing in Japan",
+     "publisher": "Reuters",
+     "url": "https://www.reuters.com/technology/amazons-aws-invest-15-bln-expand-cloud-computing-japan-2024-01-19/",
+     "date": "2024-01-19"
+    }
+   ]
+  },
+  {
+   "id": "microsoft-japan-east-west",
+   "name": "Microsoft Japan East / Japan West Regions",
+   "aka": [],
+   "lat": 35.86,
+   "lng": 139.65,
+   "coordPrecision": "region",
+   "city": "Tokyo / Saitama",
+   "region": "Kanto",
+   "country": "Japan",
+   "countryCode": "JP",
+   "status": "operational",
+   "type": "hyperscale-cloud",
+   "powerMW": null,
+   "powerMWNow": null,
+   "powerNote": "MW not disclosed. Japan East (Tokyo/Saitama) and Japan West (Osaka) Azure regions.",
+   "acres": null,
+   "sizeSqft": null,
+   "compute": "Azure AI GPU capacity (not itemised)",
+   "investmentUSD": 10000000000,
+   "investmentNote": "Latest: US$10B (~¥1.6T) in Japan 2026-2029, announced by Brad Smith on 2026-04-03 - Microsoft's largest-ever Japan investment - covering in-country infrastructure, partner GPU capacity with Sakura Internet and SoftBank, cybersecurity and training 1M+ workers by 2030. Builds on US$2.9B over two years (2024-2026) announced 2024-04-09. Japan-wide, not region-specific.",
+   "owners": [
+    {
+     "name": "Microsoft",
+     "entityId": "microsoft",
+     "stakePct": 100
+    }
+   ],
+   "developer": "Microsoft",
+   "operator": "Microsoft",
+   "tenants": [],
+   "capitalStack": [
+    {
+     "from": "Microsoft",
+     "entityId": "microsoft",
+     "kind": "capex",
+     "amountUSD": 2900000000,
+     "date": "2024-04-09",
+     "note": "Japan-wide, two years (incl. skilling)",
+     "url": "https://news.microsoft.com/source/asia/2024/04/09/microsoft-to-invest-us2-9-billion-in-ai-and-cloud-infrastructure-in-japan-while-boosting-the-nations-skills-research-and-cybersecurity/"
+    },
+    {
+     "from": "Microsoft",
+     "entityId": "microsoft",
+     "kind": "capex",
+     "amountUSD": 10000000000,
+     "date": "2026-04-03",
+     "note": "Japan-wide, 2026-2029 (incl. partner GPU infra, cyber, skilling)",
+     "url": "https://news.microsoft.com/source/asia/2026/04/03/microsoft-deepens-its-commitment-to-japan-with-10-billion-investment-in-ai-infrastructure-cybersecurity-workforce/"
+    }
+   ],
+   "energy": null,
+   "water": null,
+   "announced": "2024-04-09",
+   "expectedOnline": null,
+   "highlights": [
+    "Japan PM Sanae Takaichi welcomed the ¥1.6T (US$10B) 2026 plan, Microsoft's largest-ever in Japan, highlighting GPU capacity from Sakura Internet and SoftBank."
+   ],
+   "controversy": null,
+   "sources": [
+    {
+     "title": "Microsoft to invest US$2.9 billion in AI and cloud infrastructure in Japan",
+     "publisher": "Microsoft Source Asia",
+     "url": "https://news.microsoft.com/source/asia/2024/04/09/microsoft-to-invest-us2-9-billion-in-ai-and-cloud-infrastructure-in-japan-while-boosting-the-nations-skills-research-and-cybersecurity/",
+     "date": "2024-04-09"
+    },
+    {
+     "title": "Microsoft deepens its commitment to Japan with $10 billion investment in AI infrastructure, cybersecurity, and workforce",
+     "publisher": "Microsoft Source Asia",
+     "url": "https://news.microsoft.com/source/asia/2026/04/03/microsoft-deepens-its-commitment-to-japan-with-10-billion-investment-in-ai-infrastructure-cybersecurity-workforce/",
+     "date": "2026-04-03"
+    },
+    {
+     "title": "Microsoft to invest $2.9 bln to expand AI, cloud infra in Japan",
+     "publisher": "Reuters",
+     "url": "https://www.reuters.com/technology/microsoft-invest-29-bln-boost-ai-business-japan-nikkei-2024-04-09/",
+     "date": "2024-04-09"
+    }
+   ]
+  },
+  {
+   "id": "oracle-japan-tokyo-osaka",
+   "name": "Oracle Cloud Japan (Tokyo & Osaka Regions)",
+   "aka": [],
+   "lat": 35.68,
+   "lng": 139.76,
+   "coordPrecision": "city",
+   "city": "Tokyo",
+   "region": "Tokyo",
+   "country": "Japan",
+   "countryCode": "JP",
+   "status": "operational",
+   "type": "hyperscale-cloud",
+   "powerMW": null,
+   "powerMWNow": null,
+   "powerNote": "MW not disclosed by Oracle.",
+   "acres": null,
+   "sizeSqft": null,
+   "compute": null,
+   "investmentUSD": 8000000000,
+   "investmentNote": "More than US$8B over the next 10 years for cloud computing and AI infrastructure in Japan (expanding the Tokyo and Osaka regions), incl. sovereign-cloud operations run by Japan-based staff; announced by Oracle Corporation Japan on 2024-04-18.",
+   "owners": [
+    {
+     "name": "Oracle",
+     "entityId": "oracle",
+     "stakePct": 100
+    }
+   ],
+   "developer": "Oracle",
+   "operator": "Oracle",
+   "tenants": [],
+   "capitalStack": [
+    {
+     "from": "Oracle",
+     "entityId": "oracle",
+     "kind": "capex",
+     "amountUSD": 8000000000,
+     "date": "2024-04-18",
+     "note": "10-year Japan plan",
+     "url": "https://www.prnewswire.com/apac/news-releases/oracle-to-invest-more-than-8-billion-in-cloud-computing-and-ai-in-japan-302119854.html"
+    }
+   ],
+   "energy": null,
+   "water": null,
+   "announced": "2024-04-18",
+   "expectedOnline": null,
+   "highlights": [
+    "Pitched as sovereign cloud with operations run by Japan-based staff"
+   ],
+   "controversy": null,
+   "sources": [
+    {
+     "title": "Oracle to Invest More Than $8 Billion in Cloud Computing and AI in Japan",
+     "publisher": "Oracle (PR Newswire)",
+     "url": "https://www.prnewswire.com/apac/news-releases/oracle-to-invest-more-than-8-billion-in-cloud-computing-and-ai-in-japan-302119854.html",
+     "date": "2024-04-18"
+    },
+    {
+     "title": "Oracle to invest over $8 billion in Japan in cloud computing, AI",
+     "publisher": "Reuters",
+     "url": "https://www.reuters.com/technology/oracle-invest-over-8-bln-japan-cloud-computing-ai-2024-04-18/",
+     "date": "2024-04-18"
+    }
+   ]
+  },
+  {
+   "id": "stargate-korea-skt-jeonnam",
+   "name": "Stargate Korea - OpenAI x SK Telecom AI Data Center (southwest Korea)",
+   "aka": [
+    "Stargate Korea"
+   ],
+   "lat": 34.82,
+   "lng": 126.46,
+   "coordPrecision": "region",
+   "city": null,
+   "region": "South Jeolla (Jeonnam)",
+   "country": "South Korea",
+   "countryCode": "KR",
+   "status": "announced",
+   "type": "ai-training",
+   "powerMW": null,
+   "powerMWNow": null,
+   "powerNote": "UNVERIFIED-2026: compiled from pre-mid-2026 reporting without a live re-check. Oct 2025 LOIs: SK Telecom to explore an OpenAI AI data centre in Korea's southwest; Samsung (C&T, Heavy Industries, SDS) to explore data centres incl. floating ones. Exact site/MW not confirmed; pin is regional.",
+   "acres": null,
+   "sizeSqft": null,
+   "compute": null,
+   "investmentUSD": null,
+   "investmentNote": null,
+   "owners": [
+    {
+     "name": "SK Telecom",
+     "entityId": "sk-group",
+     "stakePct": null
+    },
+    {
+     "name": "Samsung",
+     "entityId": "samsung",
+     "stakePct": null
+    }
+   ],
+   "developer": null,
+   "operator": null,
+   "tenants": [
+    {
+     "name": "OpenAI",
+     "entityId": "openai",
+     "role": "planned end user"
+    }
+   ],
+   "capitalStack": [],
+   "energy": "Jeonnam has Korea's largest solar/offshore-wind resource",
+   "water": null,
+   "announced": "2025-10-01",
+   "expectedOnline": null,
+   "highlights": [
+    "Samsung and SK also signed LOIs to supply up to 900,000 DRAM wafers a month to Stargate - press reports put that near 40% of global DRAM output"
+   ],
+   "controversy": null,
+   "sources": [
+    {
+     "title": "Samsung and SK join OpenAI's Stargate initiative [UNVERIFIED: link from memory, not re-fetched on 2026-11-20 because search/fetch budget was exhausted]",
+     "publisher": "OpenAI",
+     "url": "https://openai.com/index/samsung-and-sk-join-stargate/",
+     "date": "2025-10-01"
+    }
+   ]
+  },
+  {
+   "id": "sk-aws-ulsan-ai-dc",
+   "name": "SK-AWS Ulsan AI Data Center",
+   "aka": [
+    "Ulsan AI Data Center",
+    "Mipo AI DC"
+   ],
+   "lat": 35.54,
+   "lng": 129.31,
+   "coordPrecision": "city",
+   "city": "Ulsan",
+   "region": "Ulsan",
+   "country": "South Korea",
+   "countryCode": "KR",
+   "status": "under construction",
+   "type": "ai-training",
+   "powerMW": 100,
+   "powerMWNow": 0,
+   "powerNote": "Launched (Jun 2025) as a ~100 MW AI data centre in Ulsan for an AWS 'AI Zone'; operations to begin in H2 2027 (Korea Times). SK Telecom said in Jul 2026 it would expand the Ulsan site to 1 GW, and SK chairman Chey Tae-won said on 2026-09-12 the planned expansion was 'nearing 900 MW'. Under construction (Chey inspected the site Sep 2026).",
+   "acres": null,
+   "sizeSqft": null,
+   "compute": "~60,000 GPUs at 100 MW (reported)",
+   "investmentUSD": 5100000000,
+   "investmentNote": "~KRW 7 trillion (~US$5.1-5.2B) per SK for the Ulsan project; split between SK and AWS not disclosed. In Aug 2026 SKT agreed to move SK Broadband's data-centre business (incl. Ulsan) into a new company, SK Horizon, with KKR and an IMM Investment-Stonebridge consortium investing a combined KRW 3.08T for 29% and 20% stakes (SKT keeps 51%).",
+   "owners": [
+    {
+     "name": "SK Horizon (SK Telecom 51%, KKR 29%, IMM Investment-Stonebridge consortium 20% on completion)",
+     "entityId": "sk-group",
+     "stakePct": null
+    },
+    {
+     "name": "Amazon Web Services (partner / anchor tenant)",
+     "entityId": "amazon",
+     "stakePct": null
+    }
+   ],
+   "developer": "SK Group",
+   "operator": "SK Horizon (SK Telecom group) with AWS",
+   "tenants": [
+    {
+     "name": "AWS",
+     "entityId": "amazon",
+     "role": "anchor cloud tenant / co-investor"
+    }
+   ],
+   "capitalStack": [
+    {
+     "from": "SK Group + AWS",
+     "entityId": "sk-group",
+     "kind": "jv",
+     "amountUSD": 5100000000,
+     "date": "2025-06",
+     "note": "KRW ~7T reported total programme",
+     "url": "https://news.sktelecom.com/en/1960"
+    },
+    {
+     "from": "KKR and IMM Investment-Stonebridge consortium",
+     "entityId": "kkr",
+     "kind": "equity",
+     "amountUSD": null,
+     "date": "2026-08-27",
+     "note": "KRW 3.08T combined equity into SK Horizon (all SK Broadband data centres incl. Ulsan), for 29% / 20% stakes",
+     "url": "https://news.sktelecom.com/en/3290"
+    }
+   ],
+   "energy": "LNG power from SK Gas's Ulsan terminal plus grid",
+   "water": null,
+   "announced": "2025-06",
+   "expectedOnline": "2027 (H2)",
+   "highlights": [
+    "Korea's first hyperscale AI data centre on the scale of 100 MW+"
+   ],
+   "controversy": null,
+   "sources": [
+    {
+     "title": "SK Group and AWS Team Up to Build Cloud Computing Infrastructure to Support AI Innovation",
+     "publisher": "SK Group",
+     "url": "https://eng.sk.com/news/sk-group-and-aws-team-up-to-build-cloud-computing-infrastructure-to-support-ai-innovation",
+     "date": "2025-06-21"
+    },
+    {
+     "title": "SK-AWS Ulsan AI Data Center to be Key Hub of AI Superhighway",
+     "publisher": "SK Telecom",
+     "url": "https://news.sktelecom.com/en/1960",
+     "date": "2025-07-04"
+    },
+    {
+     "title": "SK Telecom Launches AI Data Center Infrastructure Company 'SK Horizon' and Secures Investments from KKR and IMM",
+     "publisher": "SK Telecom",
+     "url": "https://news.sktelecom.com/en/3290",
+     "date": "2026-08-27"
+    },
+    {
+     "title": "SK chairman says Ulsan AI data center expansion nearing 900 megawatts",
+     "publisher": "Korea Times",
+     "url": "https://www.koreatimes.co.kr/business/tech-science/20260913/sk-chairman-says-ulsan-ai-data-center-expansion-nearing-900-megawatts",
+     "date": "2026-09-13"
+    },
+    {
+     "title": "SK Telecom Pursues 15GW AI Data Center Buildout",
+     "publisher": "SK Telecom",
+     "url": "https://news.sktelecom.com/en/3155",
+     "date": "2026-07-05"
+    }
+   ]
+  },
+  {
+   "id": "jeonnam-3gw-ai-dc-stock-farm-road",
+   "name": "Jeonnam 3 GW AI Data Center (Stock Farm Road MoU)",
+   "aka": [
+    "South Jeolla AI data center"
+   ],
+   "lat": 34.82,
+   "lng": 126.46,
+   "coordPrecision": "region",
+   "city": null,
+   "region": "South Jeolla (Jeonnam)",
+   "country": "South Korea",
+   "countryCode": "KR",
+   "status": "announced",
+   "type": "ai-training",
+   "powerMW": 3000,
+   "powerMWNow": 0,
+   "powerNote": "Up to 3 GW per the Feb 2025 MoU between Fir Hills Inc. (part of US investment firm Stock Farm Road, co-founded by Brian Koo and Amin Badr-El-Din) and Jeollanam-do Governor Kim Young-rok. Hankyung reported the site as the Yeongam area of South Jeolla; DCD said no exact site was shared. Developer targeted construction start winter 2025 and completion 2028. No confirmed construction progress found as of Nov 2026 (Korean press questioned the developer's capacity; one project tracker lists it as paused).",
+   "acres": null,
+   "sizeSqft": null,
+   "compute": null,
+   "investmentUSD": 35000000000,
+   "investmentNote": "Developer estimate: at least US$10B, possibly rising to US$35B (headline figure); an MoU, not a financed project. Funding to come from 'a group of international investors' per the developer.",
+   "owners": [
+    {
+     "name": "Stock Farm Road",
+     "entityId": "stock-farm-road",
+     "stakePct": null
+    }
+   ],
+   "developer": "Stock Farm Road",
+   "operator": null,
+   "tenants": [],
+   "capitalStack": [],
+   "energy": "Jeonnam solar/offshore wind + LNG proposed",
+   "water": null,
+   "announced": "2025-02",
+   "expectedOnline": null,
+   "highlights": [
+    "Billed as the world's largest AI data center (3 GW) at MoU stage; the developer said it would need at least $10B and up to $35B"
+   ],
+   "controversy": null,
+   "sources": [
+    {
+     "title": "Fir Hills Inc claims it plans to build 3GW '$35bn' AI data center in South Korea",
+     "publisher": "DatacenterDynamics",
+     "url": "https://www.datacenterdynamics.com/en/news/fir-hills-inc-claims-it-plans-to-build-3gw-35bn-ai-data-center-in-south-korea/",
+     "date": "2025-02-20"
+    },
+    {
+     "title": "범LG家 3세 전남에 AI 데이터센터 짓는다 (Stock Farm Road plans 3 GW AI data center in Yeongam, South Jeolla)",
+     "publisher": "Hankyung (Korea Economic Daily)",
+     "url": "https://www.hankyung.com/article/2025021964001",
+     "date": "2025-02-19"
+    },
+    {
+     "title": "A Big Data Center Planned in South Korea Could Be Built and Run by AI",
+     "publisher": "Wall Street Journal",
+     "url": "https://www.wsj.com/tech/a-big-data-center-planned-in-south-korea-could-be-built-and-run-by-ai-2bdf26e5",
+     "date": "2025"
+    }
+   ]
+  },
+  {
+   "id": "naver-gak-sejong",
+   "name": "Naver Gak Sejong Data Center",
+   "aka": [
+    "Gak Sejong"
+   ],
+   "lat": 36.48,
+   "lng": 127.29,
+   "coordPrecision": "city",
+   "city": "Sejong",
+   "region": "Sejong",
+   "country": "South Korea",
+   "countryCode": "KR",
+   "status": "operational",
+   "type": "hyperscale-cloud",
+   "powerMW": null,
+   "powerMWNow": null,
+   "powerNote": "UNVERIFIED-2026: compiled from pre-mid-2026 reporting without a live re-check. Opened Nov 2023 as Naver's second owned DC (after Gak Chuncheon), built for HyperCLOVA X AI workloads; MW not confirmed.",
+   "acres": null,
+   "sizeSqft": null,
+   "compute": "HyperCLOVA X training/inference GPUs",
+   "investmentUSD": null,
+   "investmentNote": null,
+   "owners": [
+    {
+     "name": "Naver",
+     "entityId": "naver",
+     "stakePct": 100
+    }
+   ],
+   "developer": "Naver Cloud",
+   "operator": "Naver Cloud",
+   "tenants": [],
+   "capitalStack": [],
+   "energy": null,
+   "water": null,
+   "announced": null,
+   "expectedOnline": "2023-11",
+   "highlights": [
+    "Korea's home-grown 'sovereign AI' champion runs its own hyperscale campus"
+   ],
+   "controversy": null,
+   "sources": [
+    {
+     "title": "Naver Cloud data center Gak [UNVERIFIED: URL is the publisher's homepage, not the article; could not re-check on 2026-11-20 because search/fetch budget was exhausted]",
+     "publisher": "Naver Cloud",
+     "url": "https://www.navercloudcorp.com/",
+     "date": "2023-11"
+    }
+   ]
+  },
+  {
+   "id": "foxconn-nvidia-kaohsiung-ai-factory",
+   "name": "Foxconn-NVIDIA AI Factory (Taiwan)",
+   "aka": [
+    "Taiwan AI supercomputer"
+   ],
+   "lat": 22.627,
+   "lng": 120.301,
+   "coordPrecision": "city",
+   "city": "Kaohsiung",
+   "region": "Kaohsiung",
+   "country": "Taiwan",
+   "countryCode": "TW",
+   "status": "under construction",
+   "type": "sovereign-ai",
+   "powerMW": 100,
+   "powerMWNow": null,
+   "powerNote": "UNVERIFIED-2026: compiled from pre-mid-2026 reporting without a live re-check. Announced Computex May 2025: Foxconn 100 MW AI factory with ~10,000 NVIDIA Blackwell GPUs, with Taiwan's NSTC and TSMC as users. Kaohsiung siting is from reporting; not re-confirmed.",
+   "acres": null,
+   "sizeSqft": null,
+   "compute": "~10,000 NVIDIA Blackwell GPUs (first phase)",
+   "investmentUSD": null,
+   "investmentNote": null,
+   "owners": [
+    {
+     "name": "Foxconn (Hon Hai)",
+     "entityId": "foxconn",
+     "stakePct": null
+    }
+   ],
+   "developer": "Foxconn / Big Innovation Company",
+   "operator": "Foxconn",
+   "tenants": [
+    {
+     "name": "National Science and Technology Council (Taiwan)",
+     "entityId": "taiwan-nstc",
+     "role": "government research user"
+    },
+    {
+     "name": "TSMC",
+     "entityId": "tsmc",
+     "role": "user"
+    }
+   ],
+   "capitalStack": [],
+   "energy": "Taipower grid",
+   "water": null,
+   "announced": "2025-05-19",
+   "expectedOnline": "2026",
+   "highlights": [
+    "The company that assembles NVIDIA's servers is building its own AI factory"
+   ],
+   "controversy": "Taiwan's tight power supply after its nuclear phase-out makes large AI loads politically sensitive.",
+   "sources": [
+    {
+     "title": "NVIDIA newsroom - Foxconn, NVIDIA and Taiwan AI factory (Computex 2025) [UNVERIFIED: URL is the publisher's homepage, not the article; could not re-check on 2026-11-20 because search/fetch budget was exhausted]",
+     "publisher": "NVIDIA",
+     "url": "https://nvidianews.nvidia.com/",
+     "date": "2025-05-19"
+    }
+   ]
+  },
+  {
+   "id": "hong-kong-dc-cluster",
+   "name": "Hong Kong Data Center Cluster (Tseung Kwan O / Kwai Chung / Sandy Ridge)",
+   "aka": [],
+   "lat": 22.307,
+   "lng": 114.26,
+   "coordPrecision": "region",
+   "city": "Hong Kong",
+   "region": "Hong Kong SAR",
+   "country": "China (Hong Kong SAR)",
+   "countryCode": "HK",
+   "status": "operational",
+   "type": "cluster",
+   "powerMW": null,
+   "powerMWNow": null,
+   "powerNote": "UNVERIFIED-2026: compiled from pre-mid-2026 reporting without a live re-check. Main sites at Tseung Kwan O Industrial Estate and Kwai Chung; government earmarked Sandy Ridge (near Shenzhen border) for a data park. Aggregate MW not confirmed.",
+   "acres": null,
+   "sizeSqft": null,
+   "compute": "Cyberport AI Supercomputing Centre (government-backed) opened 2024-25",
+   "investmentUSD": null,
+   "investmentNote": null,
+   "owners": [
+    {
+     "name": "SUNeVision (iAdvantage)",
+     "entityId": "sunevision",
+     "stakePct": null
+    },
+    {
+     "name": "AirTrunk (HKG1)",
+     "entityId": "airtrunk",
+     "stakePct": null
+    },
+    {
+     "name": "Equinix",
+     "entityId": "equinix",
+     "stakePct": null
+    },
+    {
+     "name": "NTT DATA",
+     "entityId": "ntt-data",
+     "stakePct": null
+    },
+    {
+     "name": "GDS / DayOne",
+     "entityId": "gds",
+     "stakePct": null
+    }
+   ],
+   "developer": null,
+   "operator": null,
+   "tenants": [],
+   "capitalStack": [],
+   "energy": "CLP / HK Electric grids",
+   "water": null,
+   "announced": null,
+   "expectedOnline": null,
+   "highlights": [
+    "Gateway for mainland Chinese firms' offshore cloud and for global carriers into China"
+   ],
+   "controversy": "US export controls on advanced GPUs apply to Hong Kong as part of China.",
+   "sources": [
+    {
+     "title": "SUNeVision data centres [UNVERIFIED: URL is the publisher's homepage, not the article; could not re-check on 2026-11-20 because search/fetch budget was exhausted]",
+     "publisher": "SUNeVision",
+     "url": "https://www.sunevision.com/",
+     "date": null
+    }
+   ]
+  },
+  {
+   "id": "johor-dc-cluster",
+   "name": "Johor Data Center Cluster (Johor Bahru / Kulai / Sedenak / Iskandar Puteri)",
+   "aka": [
+    "Johor-Singapore Special Economic Zone data centres"
+   ],
+   "lat": 1.55,
+   "lng": 103.65,
+   "coordPrecision": "region",
+   "city": "Johor Bahru",
+   "region": "Johor",
+   "country": "Malaysia",
+   "countryCode": "MY",
+   "status": "operational",
+   "type": "cluster",
+   "powerMW": null,
+   "powerMWNow": null,
+   "powerNote": "UNVERIFIED-2026: compiled from pre-mid-2026 reporting without a live re-check. South-East Asia's fastest-growing market, absorbing Singapore's overflow since its 2019-22 moratorium; multiple GW in pipeline. Aggregate MW not confirmed in this pass.",
+   "acres": null,
+   "sizeSqft": null,
+   "compute": "Large NVIDIA deployments incl. YTL AI Cloud (GB200) and Chinese tech firms' AI training capacity",
+   "investmentUSD": null,
+   "investmentNote": null,
+   "owners": [
+    {
+     "name": "YTL Power",
+     "entityId": "ytl",
+     "stakePct": null
+    },
+    {
+     "name": "Bridge Data Centres (Bain Capital)",
+     "entityId": "bridge-data-centres",
+     "stakePct": null
+    },
+    {
+     "name": "AirTrunk (JHB1)",
+     "entityId": "airtrunk",
+     "stakePct": null
+    },
+    {
+     "name": "Princeton Digital Group (JH1)",
+     "entityId": "princeton-digital",
+     "stakePct": null
+    },
+    {
+     "name": "DayOne (ex-GDS International)",
+     "entityId": "dayone",
+     "stakePct": null
+    },
+    {
+     "name": "STT GDC",
+     "entityId": "st-telemedia",
+     "stakePct": null
+    },
+    {
+     "name": "Equinix",
+     "entityId": "equinix",
+     "stakePct": null
+    },
+    {
+     "name": "Yondr",
+     "entityId": "yondr",
+     "stakePct": null
+    },
+    {
+     "name": "Vantage Data Centers",
+     "entityId": "vantage",
+     "stakePct": null
+    },
+    {
+     "name": "K2 Strategic",
+     "entityId": "k2-strategic",
+     "stakePct": null
+    }
+   ],
+   "developer": null,
+   "operator": null,
+   "tenants": [
+    {
+     "name": "ByteDance",
+     "entityId": "bytedance",
+     "role": "major AI/cloud tenant (reported)"
+    },
+    {
+     "name": "Microsoft",
+     "entityId": "microsoft",
+     "role": "land owner / planned self-build (status not confirmed)"
+    },
+    {
+     "name": "Oracle",
+     "entityId": "oracle",
+     "role": "cloud tenant (reported)"
+    }
+   ],
+   "capitalStack": [],
+   "energy": "Tenaga Nasional grid (gas/coal heavy); green-tariff and solar programmes being added",
+   "water": "Johor water supply stress led state to tighten approvals for water-intensive cooling",
+   "announced": null,
+   "expectedOnline": null,
+   "highlights": [
+    "Went from almost nothing in 2020 to one of Asia's largest data-centre markets in about four years"
+   ],
+   "controversy": "Water and power strain prompted Johor to tighten approvals; reporting has highlighted Chinese firms using Johor capacity to access NVIDIA chips, drawing US export-control scrutiny and new Malaysian permit rules for US AI chips (2025).",
+   "sources": [
+    {
+     "title": "Malaysia Investment Development Authority - data centre investment [UNVERIFIED: URL is the publisher's homepage, not the article; could not re-check on 2026-11-20 because search/fetch budget was exhausted]",
+     "publisher": "MIDA",
+     "url": "https://www.mida.gov.my/",
+     "date": null
+    }
+   ]
+  },
+  {
+   "id": "ytl-kulai-green-dc-park",
+   "name": "YTL Green Data Center Park, Kulai (YTL AI Cloud)",
+   "aka": [
+    "YTL AI supercomputer",
+    "Kulai Green Data Center Park"
+   ],
+   "lat": 1.66,
+   "lng": 103.6,
+   "coordPrecision": "city",
+   "city": "Kulai",
+   "region": "Johor",
+   "country": "Malaysia",
+   "countryCode": "MY",
+   "status": "partially operational",
+   "type": "ai-training",
+   "powerMW": 500,
+   "powerMWNow": null,
+   "powerNote": "UNVERIFIED-2026: compiled from pre-mid-2026 reporting without a live re-check. 500 MW park with on-site solar; first NVIDIA GB200-based YTL AI Cloud capacity came online from 2024-25.",
+   "acres": null,
+   "sizeSqft": null,
+   "compute": "NVIDIA GB200 Grace Blackwell supercomputer (YTL AI Cloud)",
+   "investmentUSD": null,
+   "investmentNote": "Multi-billion-dollar figures appear in coverage of the Dec 2023 YTL-NVIDIA partnership; not re-verified.",
+   "owners": [
+    {
+     "name": "YTL Power International",
+     "entityId": "ytl",
+     "stakePct": 100
+    }
+   ],
+   "developer": "YTL Power",
+   "operator": "YTL AI Cloud",
+   "tenants": [],
+   "capitalStack": [],
+   "energy": "Dedicated solar farm + grid",
+   "water": null,
+   "announced": "2023-12",
+   "expectedOnline": "2024",
+   "highlights": [
+    "Jensen Huang flew to Kuala Lumpur to launch the partnership with the YTL family conglomerate"
+   ],
+   "controversy": null,
+   "sources": [
+    {
+     "title": "NVIDIA newsroom - YTL partnership (Dec 2023) [UNVERIFIED: URL is the publisher's homepage, not the article; could not re-check on 2026-11-20 because search/fetch budget was exhausted]",
+     "publisher": "NVIDIA",
+     "url": "https://nvidianews.nvidia.com/",
+     "date": "2023-12"
+    }
+   ]
+  },
+  {
+   "id": "google-malaysia-elmina",
+   "name": "Google Malaysia Data Center & Cloud Region (Elmina, Selangor)",
+   "aka": [],
+   "lat": 3.17,
+   "lng": 101.5,
+   "coordPrecision": "region",
+   "city": "Shah Alam (Elmina Business Park)",
+   "region": "Selangor",
+   "country": "Malaysia",
+   "countryCode": "MY",
+   "status": "under construction",
+   "type": "hyperscale-cloud",
+   "powerMW": null,
+   "powerMWNow": null,
+   "powerNote": "Google's first Malaysian data centre at Sime Darby Property's Elmina Business Park (groundbreaking 2024-10-01 with the Prime Minister). In Aug 2026 Google said construction was progressing as planned and it expected operations to begin within about nine months (no exact date). MW not disclosed by Google; pin approximate.",
+   "acres": null,
+   "sizeSqft": null,
+   "compute": null,
+   "investmentUSD": 2000000000,
+   "investmentNote": "US$2B (RM8.16B) announced 2024-05-30 for Google's first Malaysian data centre and Google Cloud region (plus AI literacy programmes); projected >US$3.2B economic impact by 2030.",
+   "owners": [
+    {
+     "name": "Google",
+     "entityId": "google",
+     "stakePct": 100
+    }
+   ],
+   "developer": "Google",
+   "operator": "Google",
+   "tenants": [],
+   "capitalStack": [
+    {
+     "from": "Google",
+     "entityId": "google",
+     "kind": "capex",
+     "amountUSD": 2000000000,
+     "date": "2024-05-30",
+     "note": "Google's largest Malaysia investment",
+     "url": "https://blog.google/intl/en-my/company-news/inside-google/2024_10_google-breaks-ground-on-us2-billion/"
+    }
+   ],
+   "energy": null,
+   "water": null,
+   "announced": "2024-05-30",
+   "expectedOnline": "2027 (H1, Google guidance of ~9 months from Aug 2026)",
+   "highlights": [
+    "Google's first data centre in Malaysia"
+   ],
+   "controversy": null,
+   "sources": [
+    {
+     "title": "Google Breaks Ground on US$2 Billion Malaysia Data Center and Cloud Region",
+     "publisher": "Google Malaysia Blog",
+     "url": "https://blog.google/intl/en-my/company-news/inside-google/2024_10_google-breaks-ground-on-us2-billion/",
+     "date": "2024-10-01"
+    },
+    {
+     "title": "Google's Hyperscale Data Centre at Elmina Business Park Breaks Ground",
+     "publisher": "Sime Darby Property",
+     "url": "https://www.simedarbyproperty.com/press-releases/googles-hyperscale-data-centre-elmina-business-park-breaks-ground",
+     "date": "2024-10-02"
+    },
+    {
+     "title": "Google's Elmina data centre to operate within nine months",
+     "publisher": "Media Selangor",
+     "url": "https://mediaselangor.com/en/2026/08/390529",
+     "date": "2026-08-20"
+    }
+   ]
+  },
+  {
+   "id": "aws-malaysia-region",
+   "name": "AWS Asia Pacific (Malaysia) Region",
+   "aka": [
+    "ap-southeast-5"
+   ],
+   "lat": 3.139,
+   "lng": 101.687,
+   "coordPrecision": "city",
+   "city": "Kuala Lumpur",
+   "region": "Greater Kuala Lumpur",
+   "country": "Malaysia",
+   "countryCode": "MY",
+   "status": "operational",
+   "type": "hyperscale-cloud",
+   "powerMW": null,
+   "powerMWNow": null,
+   "powerNote": "Region (ap-southeast-5) launched 2024-08-21 with three Availability Zones; MW not disclosed.",
+   "acres": null,
+   "sizeSqft": null,
+   "compute": null,
+   "investmentUSD": 6200000000,
+   "investmentNote": "MYR 29.2B (~US$6.2B, AWS figure) planned in Malaysia through 2038; AWS estimates it adds ~US$12.1B to GDP.",
+   "owners": [
+    {
+     "name": "Amazon Web Services",
+     "entityId": "amazon",
+     "stakePct": 100
+    }
+   ],
+   "developer": "AWS",
+   "operator": "AWS",
+   "tenants": [],
+   "capitalStack": [
+    {
+     "from": "Amazon Web Services",
+     "entityId": "amazon",
+     "kind": "capex",
+     "amountUSD": 6200000000,
+     "date": "2024-08-21",
+     "note": "RM 29.2B through 2038",
+     "url": "https://press.aboutamazon.com/2024/8/aws-launches-infrastructure-region-in-malaysia"
+    }
+   ],
+   "energy": null,
+   "water": null,
+   "announced": "2023-03-01",
+   "expectedOnline": "2024-08-21",
+   "highlights": [],
+   "controversy": null,
+   "sources": [
+    {
+     "title": "AWS Launches Infrastructure Region in Malaysia",
+     "publisher": "Amazon Web Services",
+     "url": "https://press.aboutamazon.com/2024/8/aws-launches-infrastructure-region-in-malaysia",
+     "date": "2024-08-21"
+    },
+    {
+     "title": "Now open - AWS Asia Pacific (Malaysia) Region",
+     "publisher": "AWS News Blog",
+     "url": "https://aws.amazon.com/blogs/aws/now-open-aws-asia-pacific-malaysia-region/",
+     "date": "2024-08-21"
+    },
+    {
+     "title": "AWS to Launch an Infrastructure Region in Malaysia",
+     "publisher": "Amazon Web Services",
+     "url": "https://press.aboutamazon.com/2023/3/aws-to-launch-an-infrastructure-region-in-malaysia",
+     "date": "2023-03-01"
+    }
+   ]
+  },
+  {
+   "id": "oracle-malaysia-region",
+   "name": "Oracle Cloud Malaysia Region",
+   "aka": [],
+   "lat": 3.14,
+   "lng": 101.69,
+   "coordPrecision": "city",
+   "city": "Kuala Lumpur",
+   "region": "Greater Kuala Lumpur",
+   "country": "Malaysia",
+   "countryCode": "MY",
+   "status": "planned",
+   "type": "hyperscale-cloud",
+   "powerMW": null,
+   "powerMWNow": null,
+   "powerNote": "MW not disclosed. Oracle announced its first Malaysian public cloud region in Oct 2024; exact site not disclosed (pinned at Greater Kuala Lumpur) and no region launch announcement found as of Nov 2026.",
+   "acres": null,
+   "sizeSqft": null,
+   "compute": null,
+   "investmentUSD": 6500000000,
+   "investmentNote": "More than US$6.5B (MIDA: at US$1 = RM4.15) to open a public cloud region in Malaysia, announced 2024-10-02.",
+   "owners": [
+    {
+     "name": "Oracle",
+     "entityId": "oracle",
+     "stakePct": 100
+    }
+   ],
+   "developer": "Oracle",
+   "operator": "Oracle",
+   "tenants": [],
+   "capitalStack": [
+    {
+     "from": "Oracle",
+     "entityId": "oracle",
+     "kind": "capex",
+     "amountUSD": 6500000000,
+     "date": "2024-10-02",
+     "note": "Malaysia public cloud region",
+     "url": "https://www.oracle.com/news/announcement/oracle-to-invest-in-ai-and-cloud-computing-in-malaysia-2024-10-02/"
+    }
+   ],
+   "energy": null,
+   "water": null,
+   "announced": "2024-10-02",
+   "expectedOnline": null,
+   "highlights": [],
+   "controversy": null,
+   "sources": [
+    {
+     "title": "Oracle to Invest More Than US$6.5 Billion in AI and Cloud Computing in Malaysia",
+     "publisher": "Oracle",
+     "url": "https://www.oracle.com/news/announcement/oracle-to-invest-in-ai-and-cloud-computing-in-malaysia-2024-10-02/",
+     "date": "2024-10-02"
+    },
+    {
+     "title": "Oracle to invest $6.5 billion to set up cloud facilities in Malaysia",
+     "publisher": "Reuters",
+     "url": "https://www.reuters.com/technology/oracle-invest-65-billion-set-up-cloud-facilities-malaysia-2024-10-02/",
+     "date": "2024-10-02"
+    }
+   ]
+  },
+  {
+   "id": "singapore-dc-cluster",
+   "name": "Singapore Data Center Cluster (Loyang / Tai Seng / Jurong / Kranji)",
+   "aka": [],
+   "lat": 1.352,
+   "lng": 103.82,
+   "coordPrecision": "region",
+   "city": "Singapore",
+   "region": "Singapore",
+   "country": "Singapore",
+   "countryCode": "SG",
+   "status": "operational",
+   "type": "cluster",
+   "powerMW": null,
+   "powerMWNow": 1400,
+   "powerNote": "UNVERIFIED-2026: compiled from pre-mid-2026 reporting without a live re-check. ~1.4 GW total capacity cited by the government (2024). Moratorium on new builds 2019-2022; 2023 pilot call awarded ~80 MW to four operators; May 2024 Green DC Roadmap opens at least 300 MW more for efficient, green-powered builds.",
+   "acres": null,
+   "sizeSqft": null,
+   "compute": null,
+   "investmentUSD": null,
+   "investmentNote": null,
+   "owners": [
+    {
+     "name": "Equinix",
+     "entityId": "equinix",
+     "stakePct": null
+    },
+    {
+     "name": "Digital Realty",
+     "entityId": "digital-realty",
+     "stakePct": null
+    },
+    {
+     "name": "STT GDC",
+     "entityId": "st-telemedia",
+     "stakePct": null
+    },
+    {
+     "name": "AirTrunk (SGP1)",
+     "entityId": "airtrunk",
+     "stakePct": null
+    },
+    {
+     "name": "Keppel DC",
+     "entityId": "keppel",
+     "stakePct": null
+    },
+    {
+     "name": "Princeton Digital Group",
+     "entityId": "princeton-digital",
+     "stakePct": null
+    },
+    {
+     "name": "GDS / DayOne",
+     "entityId": "gds",
+     "stakePct": null
+    },
+    {
+     "name": "Google",
+     "entityId": "google",
+     "stakePct": null
+    },
+    {
+     "name": "Microsoft",
+     "entityId": "microsoft",
+     "stakePct": null
+    },
+    {
+     "name": "AWS",
+     "entityId": "amazon",
+     "stakePct": null
+    }
+   ],
+   "developer": null,
+   "operator": null,
+   "tenants": [
+    {
+     "name": "ByteDance",
+     "entityId": "bytedance",
+     "role": "AirTrunk pilot-call partner (2023)"
+    }
+   ],
+   "capitalStack": [
+    {
+     "from": "Infocomm Media Development Authority / EDB",
+     "entityId": "singapore-imda",
+     "kind": "public-incentive",
+     "amountUSD": null,
+     "date": "2024-05",
+     "note": "Green Data Centre Roadmap: >=300 MW additional capacity, more if green energy",
+     "url": "https://www.imda.gov.sg/"
+    }
+   ],
+   "energy": "~95% natural gas grid; hydrogen, regional green-power imports and solar being pursued",
+   "water": null,
+   "announced": null,
+   "expectedOnline": null,
+   "highlights": [
+    "Data centres use roughly 7% of Singapore's electricity, which triggered a three-year moratorium"
+   ],
+   "controversy": "Energy and land scarcity: the 2019-2022 moratorium pushed demand to Johor and Batam.",
+   "sources": [
+    {
+     "title": "IMDA Green Data Centre Roadmap (May 2024) [UNVERIFIED: URL is the publisher's homepage, not the article; could not re-check on 2026-11-20 because search/fetch budget was exhausted]",
+     "publisher": "IMDA Singapore",
+     "url": "https://www.imda.gov.sg/",
+     "date": "2024-05-30"
+    }
+   ]
+  },
+  {
+   "id": "batam-nongsa-cluster",
+   "name": "Batam Data Center Cluster (Nongsa Digital Park & Kabil)",
+   "aka": [
+    "Nongsa Digital Park"
+   ],
+   "lat": 1.13,
+   "lng": 104.05,
+   "coordPrecision": "region",
+   "city": "Batam",
+   "region": "Riau Islands",
+   "country": "Indonesia",
+   "countryCode": "ID",
+   "status": "partially operational",
+   "type": "cluster",
+   "powerMW": null,
+   "powerMWNow": null,
+   "powerNote": "UNVERIFIED-2026: compiled from pre-mid-2026 reporting without a live re-check. Special economic zone ~25 km from Singapore marketed as Singapore's 'digital bridge'; several hundred MW proposed by multiple developers. Operator list and MW not confirmed in this pass.",
+   "acres": null,
+   "sizeSqft": null,
+   "compute": null,
+   "investmentUSD": null,
+   "investmentNote": null,
+   "owners": [
+    {
+     "name": "Nongsa Digital Park (Citramas Group)",
+     "entityId": "citramas",
+     "stakePct": null
+    }
+   ],
+   "developer": null,
+   "operator": null,
+   "tenants": [],
+   "capitalStack": [],
+   "energy": "Batam grid (gas) with large solar + battery proposals",
+   "water": null,
+   "announced": null,
+   "expectedOnline": null,
+   "highlights": [
+    "Indonesia's play to catch Singapore's overflow alongside Johor"
+   ],
+   "controversy": null,
+   "sources": [
+    {
+     "title": "Nongsa Digital Park [UNVERIFIED: URL is the publisher's homepage, not the article; could not re-check on 2026-11-20 because search/fetch budget was exhausted]",
+     "publisher": "Nongsa Digital Park",
+     "url": "https://nongsadigitalpark.com/",
+     "date": null
+    }
+   ]
+  },
+  {
+   "id": "microsoft-indonesia-central",
+   "name": "Microsoft Indonesia Central Cloud Region (Jakarta)",
+   "aka": [],
+   "lat": -6.2,
+   "lng": 106.85,
+   "coordPrecision": "city",
+   "city": "Jakarta",
+   "region": "Jakarta",
+   "country": "Indonesia",
+   "countryCode": "ID",
+   "status": "operational",
+   "type": "hyperscale-cloud",
+   "powerMW": null,
+   "powerMWNow": null,
+   "powerNote": "Indonesia Central region officially launched 2025-05-27 (AI Tour Jakarta); MW not disclosed.",
+   "acres": null,
+   "sizeSqft": null,
+   "compute": null,
+   "investmentUSD": 1700000000,
+   "investmentNote": "US$1.7B over 2024-2028 (announced by Satya Nadella 2024-04-30), Microsoft's largest Indonesia investment.",
+   "owners": [
+    {
+     "name": "Microsoft",
+     "entityId": "microsoft",
+     "stakePct": 100
+    }
+   ],
+   "developer": "Microsoft",
+   "operator": "Microsoft",
+   "tenants": [],
+   "capitalStack": [
+    {
+     "from": "Microsoft",
+     "entityId": "microsoft",
+     "kind": "capex",
+     "amountUSD": 1700000000,
+     "date": "2024-04-30",
+     "note": "2024-2028 cloud/AI commitment",
+     "url": "https://news.microsoft.com/apac/2024/04/30/microsoft-announces-us1-7-billion-investment-to-advance-indonesias-cloud-and-ai-ambitions/"
+    }
+   ],
+   "energy": null,
+   "water": null,
+   "announced": "2024-04-30",
+   "expectedOnline": "2025-05-27",
+   "highlights": [],
+   "controversy": null,
+   "sources": [
+    {
+     "title": "Microsoft announces US$1.7 billion investment to advance Indonesia's cloud and AI ambitions",
+     "publisher": "Microsoft",
+     "url": "https://news.microsoft.com/apac/2024/04/30/microsoft-announces-us1-7-billion-investment-to-advance-indonesias-cloud-and-ai-ambitions/",
+     "date": "2024-04-30"
+    },
+    {
+     "title": "Microsoft opens its first cloud region in Indonesia",
+     "publisher": "Microsoft Indonesia",
+     "url": "https://news.microsoft.com/id-id/2025/05/27/microsoft-opens-indonesia-central/",
+     "date": "2025-05-27"
+    },
+    {
+     "title": "Microsoft Expands AI Infrastructure and Cloud Services in Indonesia",
+     "publisher": "Microsoft Source Asia",
+     "url": "https://news.microsoft.com/source/asia/2025/11/25/microsoft-expands-ai-infrastructure-and-cloud-services-in-indonesia-empowering-more-organizations-to-innovate-locally/",
+     "date": "2025-11-25"
+    }
+   ]
+  },
+  {
+   "id": "aws-thailand-region",
+   "name": "AWS Asia Pacific (Thailand) Region",
+   "aka": [
+    "ap-southeast-7"
+   ],
+   "lat": 13.756,
+   "lng": 100.502,
+   "coordPrecision": "city",
+   "city": "Bangkok",
+   "region": "Bangkok",
+   "country": "Thailand",
+   "countryCode": "TH",
+   "status": "operational",
+   "type": "hyperscale-cloud",
+   "powerMW": null,
+   "powerMWNow": null,
+   "powerNote": "Region (ap-southeast-7) launched 2025-01-08 with three Availability Zones; MW not disclosed.",
+   "acres": null,
+   "sizeSqft": null,
+   "compute": null,
+   "investmentUSD": 5000000000,
+   "investmentNote": "More than US$5B (~THB 190B) planned in Thailand through 2037 (AWS).",
+   "owners": [
+    {
+     "name": "Amazon Web Services",
+     "entityId": "amazon",
+     "stakePct": 100
+    }
+   ],
+   "developer": "AWS",
+   "operator": "AWS",
+   "tenants": [],
+   "capitalStack": [
+    {
+     "from": "Amazon Web Services",
+     "entityId": "amazon",
+     "kind": "capex",
+     "amountUSD": 5000000000,
+     "date": "2025-01-08",
+     "note": "THB ~190B through 2037",
+     "url": "https://press.aboutamazon.com/2025/1/aws-launches-infrastructure-region-in-thailand"
+    }
+   ],
+   "energy": null,
+   "water": null,
+   "announced": "2022-08",
+   "expectedOnline": "2025-01-08",
+   "highlights": [],
+   "controversy": null,
+   "sources": [
+    {
+     "title": "AWS Launches Infrastructure Region in Thailand",
+     "publisher": "Amazon Web Services",
+     "url": "https://press.aboutamazon.com/2025/1/aws-launches-infrastructure-region-in-thailand",
+     "date": "2025-01-08"
+    },
+    {
+     "title": "Announcing the new AWS Asia Pacific (Thailand) Region",
+     "publisher": "AWS News Blog",
+     "url": "https://aws.amazon.com/blogs/aws/announcing-the-new-aws-asia-pacific-thailand-region/",
+     "date": "2025-01-07"
+    }
+   ]
+  },
+  {
+   "id": "google-thailand-bangkok-chonburi",
+   "name": "Google Thailand Data Center & Cloud Region (Bangkok / Chonburi)",
+   "aka": [],
+   "lat": 13.36,
+   "lng": 100.98,
+   "coordPrecision": "region",
+   "city": "Chonburi",
+   "region": "Chonburi / Bangkok",
+   "country": "Thailand",
+   "countryCode": "TH",
+   "status": "under construction",
+   "type": "hyperscale-cloud",
+   "powerMW": null,
+   "powerMWNow": null,
+   "powerNote": "UNVERIFIED-2026: compiled from pre-mid-2026 reporting without a live re-check. Data centre in Chonburi plus cloud region in Bangkok announced Sept 2024.",
+   "acres": null,
+   "sizeSqft": null,
+   "compute": null,
+   "investmentUSD": 1000000000,
+   "investmentNote": "US$1B announced Sept 2024.",
+   "owners": [
+    {
+     "name": "Google",
+     "entityId": "google",
+     "stakePct": 100
+    }
+   ],
+   "developer": "Google",
+   "operator": "Google",
+   "tenants": [],
+   "capitalStack": [
+    {
+     "from": "Google",
+     "entityId": "google",
+     "kind": "capex",
+     "amountUSD": 1000000000,
+     "date": "2024-09-30",
+     "note": "Thailand DC + cloud region",
+     "url": "https://blog.google/"
+    }
+   ],
+   "energy": null,
+   "water": null,
+   "announced": "2024-09-30",
+   "expectedOnline": null,
+   "highlights": [],
+   "controversy": null,
+   "sources": [
+    {
+     "title": "Google to invest US$1 billion in Thailand [UNVERIFIED: URL is the publisher's homepage, not the article; could not re-check on 2026-11-20 because search/fetch budget was exhausted]",
+     "publisher": "Google",
+     "url": "https://blog.google/",
+     "date": "2024-09-30"
+    }
+   ]
+  },
+  {
+   "id": "airtrunk-syd1-western-sydney",
+   "name": "AirTrunk SYD1 Hyperscale Campus (Western Sydney)",
+   "aka": [
+    "SYD1 Huntingwood"
+   ],
+   "lat": -33.8,
+   "lng": 150.88,
+   "coordPrecision": "city",
+   "city": "Huntingwood, Western Sydney",
+   "region": "New South Wales",
+   "country": "Australia",
+   "countryCode": "AU",
+   "status": "operational",
+   "type": "hyperscale-cloud",
+   "powerMW": 130,
+   "powerMWNow": null,
+   "powerNote": "AirTrunk: multi-building hyperscale campus with total capacity of 130+ MW, 132 kV diverse HV feed, design PUE 1.15; first phase opened 2017.",
+   "acres": 18.3,
+   "sizeSqft": null,
+   "compute": null,
+   "investmentUSD": 16100000000,
+   "investmentNote": "A$24B (~US$16.1B) is the enterprise value of the whole AirTrunk platform (Australia, Japan, Malaysia, Singapore, Hong Kong) acquired by Blackstone and CPP Investments (agreed 2024-09-04, completed 2024-12-23) - not SYD1 alone; SYD1 cost not disclosed.",
+   "owners": [
+    {
+     "name": "Blackstone (Infrastructure, Real Estate, Tactical Opportunities funds)",
+     "entityId": "blackstone",
+     "stakePct": null
+    },
+    {
+     "name": "CPP Investments",
+     "entityId": "cpp-investments",
+     "stakePct": null
+    }
+   ],
+   "developer": "AirTrunk",
+   "operator": "AirTrunk",
+   "tenants": [],
+   "capitalStack": [
+    {
+     "from": "Blackstone + CPP Investments",
+     "entityId": "blackstone",
+     "kind": "equity",
+     "amountUSD": 16100000000,
+     "date": "2024-09-04",
+     "note": "A$24B EV buyout from Macquarie Asset Management and PSP Investments; Blackstone's largest Asia-Pacific deal",
+     "url": "https://www.blackstone.com/news/press/blackstone-announces-agreement-to-acquire-airtrunk-in-a-a24b-transaction/"
+    }
+   ],
+   "energy": "NSW grid with renewable PPAs",
+   "water": null,
+   "announced": "2016",
+   "expectedOnline": "2017",
+   "highlights": [
+    "Set on 7.4 ha with 35,000 m² of technical data-hall space across 42 data halls (AirTrunk)."
+   ],
+   "controversy": null,
+   "sources": [
+    {
+     "title": "Blackstone Announces Agreement to Acquire AirTrunk in a A$24B Transaction",
+     "publisher": "Blackstone",
+     "url": "https://www.blackstone.com/news/press/blackstone-announces-agreement-to-acquire-airtrunk-in-a-a24b-transaction/",
+     "date": "2024-09-04"
+    },
+    {
+     "title": "Completion of AirTrunk acquisition by Blackstone",
+     "publisher": "AirTrunk",
+     "url": "https://airtrunk.com/completion-of-airtrunk-acquisition-by-blackstone-marking-new-era-of-growth/",
+     "date": "2024-12-23"
+    },
+    {
+     "title": "SYD1 Sydney West",
+     "publisher": "AirTrunk",
+     "url": "https://airtrunk.com/location/syd1-sydney-west/",
+     "date": "2026"
+    }
+   ]
+  },
+  {
+   "id": "nextdc-s7-openai-sydney",
+   "name": "NEXTDC S7 Eastern Creek AI Campus (OpenAI for Australia)",
+   "aka": [
+    "S7 Western Sydney"
+   ],
+   "lat": -33.8,
+   "lng": 150.85,
+   "coordPrecision": "city",
+   "city": "Eastern Creek, Western Sydney",
+   "region": "New South Wales",
+   "country": "Australia",
+   "countryCode": "AU",
+   "status": "planned",
+   "type": "ai-training",
+   "powerMW": null,
+   "powerMWNow": 0,
+   "powerNote": "UNVERIFIED-2026: compiled from pre-mid-2026 reporting without a live re-check. OpenAI and NEXTDC agreed (Dec 2025, 'OpenAI for Australia') to develop a hyperscale AI campus at S7; MW and investment figures not confirmed in this pass.",
+   "acres": null,
+   "sizeSqft": null,
+   "compute": null,
+   "investmentUSD": null,
+   "investmentNote": "Multi-billion A$ figures reported; not confirmed in this pass.",
+   "owners": [
+    {
+     "name": "NEXTDC",
+     "entityId": "nextdc",
+     "stakePct": null
+    }
+   ],
+   "developer": "NEXTDC",
+   "operator": "NEXTDC",
+   "tenants": [
+    {
+     "name": "OpenAI",
+     "entityId": "openai",
+     "role": "planned anchor / end user"
+    }
+   ],
+   "capitalStack": [],
+   "energy": null,
+   "water": null,
+   "announced": "2025-12",
+   "expectedOnline": null,
+   "highlights": [
+    "OpenAI's first announced Australian compute site"
+   ],
+   "controversy": null,
+   "sources": [
+    {
+     "title": "NEXTDC investor centre (OpenAI S7 announcement) [UNVERIFIED: URL is the publisher's homepage, not the article; could not re-check on 2026-11-20 because search/fetch budget was exhausted]",
+     "publisher": "NEXTDC",
+     "url": "https://www.nextdc.com/",
+     "date": "2025-12"
+    }
+   ]
+  },
+  {
+   "id": "aws-australia-sydney-melbourne",
+   "name": "AWS Australia (Sydney & Melbourne Regions)",
+   "aka": [
+    "ap-southeast-2",
+    "ap-southeast-4"
+   ],
+   "lat": -33.87,
+   "lng": 151.21,
+   "coordPrecision": "city",
+   "city": "Sydney",
+   "region": "New South Wales",
+   "country": "Australia",
+   "countryCode": "AU",
+   "status": "operational",
+   "type": "hyperscale-cloud",
+   "powerMW": null,
+   "powerMWNow": null,
+   "powerNote": "MW not disclosed by AWS.",
+   "acres": null,
+   "sizeSqft": null,
+   "compute": null,
+   "investmentUSD": 13000000000,
+   "investmentNote": "A$20B (~US$13B) over 2025-2029 to expand Australian data-centre infrastructure, announced June 2025; includes backing new solar farms in Victoria and Queensland.",
+   "owners": [
+    {
+     "name": "Amazon Web Services",
+     "entityId": "amazon",
+     "stakePct": 100
+    }
+   ],
+   "developer": "AWS",
+   "operator": "AWS",
+   "tenants": [],
+   "capitalStack": [
+    {
+     "from": "Amazon Web Services",
+     "entityId": "amazon",
+     "kind": "capex",
+     "amountUSD": 13000000000,
+     "date": "2025-06-14",
+     "note": "A$20B, 2025-2029",
+     "url": "https://www.aboutamazon.com/news/aws/amazon-data-center-investment-in-australia"
+    }
+   ],
+   "energy": "PPAs with new solar farms (European Energy) in VIC/QLD",
+   "water": null,
+   "announced": "2025-06-14",
+   "expectedOnline": null,
+   "highlights": [
+    "Amazon's largest-ever Australian commitment"
+   ],
+   "controversy": null,
+   "sources": [
+    {
+     "title": "Amazon will invest AU$20 billion in data center infrastructure in Australia",
+     "publisher": "Amazon",
+     "url": "https://www.aboutamazon.com/news/aws/amazon-data-center-investment-in-australia",
+     "date": "2025-06-14"
+    },
+    {
+     "title": "Amazon data centre investment in Australia",
+     "publisher": "Prime Minister of Australia",
+     "url": "https://www.pm.gov.au/media/amazon-data-centre-investment-australia",
+     "date": "2025-06-14"
+    }
+   ]
+  },
+  {
+   "id": "microsoft-australia",
+   "name": "Microsoft Australia Datacenter Expansion (Sydney, Melbourne, Canberra)",
+   "aka": [
+    "Azure Australia East / Southeast / Central"
+   ],
+   "lat": -33.87,
+   "lng": 151,
+   "coordPrecision": "region",
+   "city": "Sydney",
+   "region": "New South Wales",
+   "country": "Australia",
+   "countryCode": "AU",
+   "status": "operational",
+   "type": "hyperscale-cloud",
+   "powerMW": null,
+   "powerMWNow": null,
+   "powerNote": "MW not disclosed. The Oct 2023 A$5B plan grew Microsoft's Australian footprint to 29 sites across three Azure regions (Australia East/Sydney, Southeast/Melbourne, Central/Canberra); the Apr 2026 plan aims to expand that footprint by more than 140% by end-2029.",
+   "acres": null,
+   "sizeSqft": null,
+   "compute": null,
+   "investmentUSD": 18000000000,
+   "investmentNote": "A$25B (~US$18B, Microsoft's figure) in capex and opex by end-2029, announced by Satya Nadella with PM Albanese on 2026-04-23 - Microsoft's largest-ever investment in Australia - building on A$5B (~US$3.2B) over two years announced 2023-10-24. The A$25B also covers cyber (ASD Cyber-Shield) and skilling commitments.",
+   "owners": [
+    {
+     "name": "Microsoft",
+     "entityId": "microsoft",
+     "stakePct": 100
+    }
+   ],
+   "developer": "Microsoft",
+   "operator": "Microsoft",
+   "tenants": [],
+   "capitalStack": [
+    {
+     "from": "Microsoft",
+     "entityId": "microsoft",
+     "kind": "capex",
+     "amountUSD": 3200000000,
+     "date": "2023-10-24",
+     "note": "A$5B over two years",
+     "url": "https://news.microsoft.com/en-au/features/microsoft-announces-a5-billion-investment-in-computing-capacity-and-capability-to-help-australia-seize-the-ai-era/"
+    },
+    {
+     "from": "Microsoft",
+     "entityId": "microsoft",
+     "kind": "capex",
+     "amountUSD": 18000000000,
+     "date": "2026-04-23",
+     "note": "A$25B capex + opex by end-2029, with MoU with the Australian Government",
+     "url": "https://news.microsoft.com/source/asia/features/investing-in-australias-ai-future/"
+    }
+   ],
+   "energy": null,
+   "water": null,
+   "announced": "2023-10-24",
+   "expectedOnline": "2029 (end, expansion)",
+   "highlights": [
+    "Includes a cyber-shield partnership with the Australian Signals Directorate"
+   ],
+   "controversy": null,
+   "sources": [
+    {
+     "title": "Microsoft announces A$5 billion investment in computing capacity and capability to help Australia seize the AI era",
+     "publisher": "Microsoft Australia",
+     "url": "https://news.microsoft.com/en-au/features/microsoft-announces-a5-billion-investment-in-computing-capacity-and-capability-to-help-australia-seize-the-ai-era/",
+     "date": "2023-10-24"
+    },
+    {
+     "title": "Microsoft deepens commitment to Australia with A$25 billion investment in AI infrastructure, security, and skills",
+     "publisher": "Microsoft Source Asia",
+     "url": "https://news.microsoft.com/source/asia/features/investing-in-australias-ai-future/",
+     "date": "2026-04-23"
+    },
+    {
+     "title": "Microsoft investment in Australian innovation",
+     "publisher": "Prime Minister of Australia",
+     "url": "https://www.pm.gov.au/media/microsoft-investment-australian-innovation",
+     "date": "2023-10-24"
+    }
+   ]
+  },
+  {
+   "id": "sydney-dc-cluster",
+   "name": "Sydney Data Center Cluster (Western Sydney / Macquarie Park / Alexandria)",
+   "aka": [],
+   "lat": -33.82,
+   "lng": 150.95,
+   "coordPrecision": "region",
+   "city": "Sydney",
+   "region": "New South Wales",
+   "country": "Australia",
+   "countryCode": "AU",
+   "status": "operational",
+   "type": "cluster",
+   "powerMW": null,
+   "powerMWNow": null,
+   "powerNote": "UNVERIFIED-2026: compiled from pre-mid-2026 reporting without a live re-check. Australia's largest market; Western Sydney (Eastern Creek, Kemps Creek, Huntingwood, Marsden Park) hosts the hyperscale campuses. Aggregate MW not confirmed.",
+   "acres": null,
+   "sizeSqft": null,
+   "compute": null,
+   "investmentUSD": null,
+   "investmentNote": null,
+   "owners": [
+    {
+     "name": "AirTrunk",
+     "entityId": "airtrunk",
+     "stakePct": null
+    },
+    {
+     "name": "NEXTDC",
+     "entityId": "nextdc",
+     "stakePct": null
+    },
+    {
+     "name": "CDC Data Centres",
+     "entityId": "cdc-data-centres",
+     "stakePct": null
+    },
+    {
+     "name": "Equinix",
+     "entityId": "equinix",
+     "stakePct": null
+    },
+    {
+     "name": "Global Switch",
+     "entityId": "global-switch",
+     "stakePct": null
+    },
+    {
+     "name": "Digital Realty",
+     "entityId": "digital-realty",
+     "stakePct": null
+    },
+    {
+     "name": "Stack Infrastructure",
+     "entityId": "stack-infrastructure",
+     "stakePct": null
+    }
+   ],
+   "developer": null,
+   "operator": null,
+   "tenants": [
+    {
+     "name": "AWS",
+     "entityId": "amazon",
+     "role": "Sydney region"
+    },
+    {
+     "name": "Microsoft",
+     "entityId": "microsoft",
+     "role": "Australia East"
+    },
+    {
+     "name": "Google",
+     "entityId": "google",
+     "role": "Sydney region"
+    },
+    {
+     "name": "OpenAI",
+     "entityId": "openai",
+     "role": "planned via NEXTDC S7"
+    }
+   ],
+   "capitalStack": [],
+   "energy": "NSW grid (coal retiring, renewables rising); AEMO forecasts sharp DC load growth",
+   "water": null,
+   "announced": null,
+   "expectedOnline": null,
+   "highlights": [],
+   "controversy": "Grid operator AEMO and NSW planners have flagged data-centre load growth as a challenge as coal plants retire.",
+   "sources": [
+    {
+     "title": "AEMO Electricity Statement of Opportunities (data-centre load) [UNVERIFIED: URL is the publisher's homepage, not the article; could not re-check on 2026-11-20 because search/fetch budget was exhausted]",
+     "publisher": "AEMO",
+     "url": "https://aemo.com.au/",
+     "date": null
+    }
+   ]
+  },
+  {
+   "id": "melbourne-dc-cluster",
+   "name": "Melbourne Data Center Cluster (West Melbourne / Derrimut / Laverton / Port Melbourne)",
+   "aka": [],
+   "lat": -37.8,
+   "lng": 144.8,
+   "coordPrecision": "region",
+   "city": "Melbourne",
+   "region": "Victoria",
+   "country": "Australia",
+   "countryCode": "AU",
+   "status": "operational",
+   "type": "cluster",
+   "powerMW": null,
+   "powerMWNow": null,
+   "powerNote": "UNVERIFIED-2026: compiled from pre-mid-2026 reporting without a live re-check. Australia's #2 market; aggregate MW not confirmed.",
+   "acres": null,
+   "sizeSqft": null,
+   "compute": null,
+   "investmentUSD": null,
+   "investmentNote": null,
+   "owners": [
+    {
+     "name": "AirTrunk (MEL1/MEL2)",
+     "entityId": "airtrunk",
+     "stakePct": null
+    },
+    {
+     "name": "NEXTDC (M1-M3)",
+     "entityId": "nextdc",
+     "stakePct": null
+    },
+    {
+     "name": "CDC Data Centres",
+     "entityId": "cdc-data-centres",
+     "stakePct": null
+    },
+    {
+     "name": "Equinix",
+     "entityId": "equinix",
+     "stakePct": null
+    },
+    {
+     "name": "Digital Realty",
+     "entityId": "digital-realty",
+     "stakePct": null
+    }
+   ],
+   "developer": null,
+   "operator": null,
+   "tenants": [
+    {
+     "name": "AWS",
+     "entityId": "amazon",
+     "role": "Melbourne region"
+    },
+    {
+     "name": "Microsoft",
+     "entityId": "microsoft",
+     "role": "Australia Southeast"
+    }
+   ],
+   "capitalStack": [],
+   "energy": "Victorian grid (brown coal retiring; wind/solar rising)",
+   "water": null,
+   "announced": null,
+   "expectedOnline": null,
+   "highlights": [],
+   "controversy": null,
+   "sources": [
+    {
+     "title": "NEXTDC Melbourne data centres [UNVERIFIED: URL is the publisher's homepage, not the article; could not re-check on 2026-11-20 because search/fetch budget was exhausted]",
+     "publisher": "NEXTDC",
+     "url": "https://www.nextdc.com/",
+     "date": null
+    }
+   ]
+  },
+  {
+   "id": "datagrid-southland-nz",
+   "name": "Datagrid Southland Hyperscale Campus (Makarewa, NZ)",
+   "aka": [
+    "Datagrid NZ"
+   ],
+   "lat": -46.33,
+   "lng": 168.35,
+   "coordPrecision": "region",
+   "city": "Makarewa (near Invercargill)",
+   "region": "Southland",
+   "country": "New Zealand",
+   "countryCode": "NZ",
+   "status": "planned",
+   "type": "ai-training",
+   "powerMW": null,
+   "powerMWNow": 0,
+   "powerNote": "UNVERIFIED-2026: compiled from pre-mid-2026 reporting without a live re-check. Proposed renewable-powered hyperscale/AI campus near Invercargill drawing on Southland hydro (Manapouri); MW, consents and financing not confirmed.",
+   "acres": null,
+   "sizeSqft": null,
+   "compute": null,
+   "investmentUSD": null,
+   "investmentNote": null,
+   "owners": [
+    {
+     "name": "Datagrid NZ",
+     "entityId": "datagrid-nz",
+     "stakePct": null
+    }
+   ],
+   "developer": "Datagrid NZ",
+   "operator": null,
+   "tenants": [],
+   "capitalStack": [],
+   "energy": "Southland hydro (Manapouri); availability tied to Tiwai Point smelter's future demand",
+   "water": null,
+   "announced": null,
+   "expectedOnline": null,
+   "highlights": [
+    "Pitched as using the same hydro that powers the Tiwai Point aluminium smelter"
+   ],
+   "controversy": null,
+   "sources": [
+    {
+     "title": "Datagrid NZ [UNVERIFIED: URL is the publisher's homepage, not the article; could not re-check on 2026-11-20 because search/fetch budget was exhausted]",
+     "publisher": "Datagrid",
+     "url": "https://www.datagrid.co.nz/",
+     "date": null
+    }
+   ]
+  },
+  {
+   "id": "microsoft-nz-north-auckland",
+   "name": "Microsoft New Zealand North Cloud Region (Auckland)",
+   "aka": [],
+   "lat": -36.85,
+   "lng": 174.76,
+   "coordPrecision": "city",
+   "city": "Auckland",
+   "region": "Auckland",
+   "country": "New Zealand",
+   "countryCode": "NZ",
+   "status": "operational",
+   "type": "hyperscale-cloud",
+   "powerMW": null,
+   "powerMWNow": null,
+   "powerNote": "UNVERIFIED-2026: compiled from pre-mid-2026 reporting without a live re-check. Announced 2020, launched Dec 2024; three availability zones; MW not disclosed.",
+   "acres": null,
+   "sizeSqft": null,
+   "compute": null,
+   "investmentUSD": null,
+   "investmentNote": "Investment not disclosed by Microsoft.",
+   "owners": [
+    {
+     "name": "Microsoft",
+     "entityId": "microsoft",
+     "stakePct": 100
+    }
+   ],
+   "developer": "Microsoft",
+   "operator": "Microsoft",
+   "tenants": [],
+   "capitalStack": [],
+   "energy": "Contracted 100% renewable (NZ grid ~85% renewable)",
+   "water": null,
+   "announced": "2020-05",
+   "expectedOnline": "2024-12",
+   "highlights": [
+    "Microsoft's first New Zealand region, four years after announcement"
+   ],
+   "controversy": null,
+   "sources": [
+    {
+     "title": "Microsoft New Zealand news centre [UNVERIFIED: URL is the publisher's homepage, not the article; could not re-check on 2026-11-20 because search/fetch budget was exhausted]",
+     "publisher": "Microsoft NZ",
+     "url": "https://news.microsoft.com/en-nz/",
+     "date": "2024-12"
+    }
+   ]
+  }
+ ]
+}

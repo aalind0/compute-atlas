@@ -1,0 +1,438 @@
+{
+ "generated": "2026-11-20",
+ "notes": "Annual capital expenditure by company, USD. One record per company per year; 'year' is the fiscal year label (Microsoft FY ends Jun, Oracle FY ends May, Apple FY ends late Sep; others calendar year) and 'fiscal' states the exact period. kind='actual' = reported full-year figure; kind='guidance' = company outlook (capexUSD = midpoint of the range; range, date and revisions in the note), or a latest-known outlook for a year whose actual could not be verified. Definitions by company: Microsoft = 'capital expenditures including finance leases' (earnings-call figure) from FY2024 onward; FY2020-FY2023 use the cash 'additions to property and equipment' line because the incl.-finance-lease total was not verifiable for those years (DEFINITION BREAK between FY2023 and FY2024; finance-lease additions were roughly $3-4B/yr then, ~$11.6B in FY2024 and ~$20.5B in FY2025). Alphabet = 'purchases of property and equipment'. Amazon = 'purchases of property and equipment, net of proceeds from sales and incentives' (net cash capex; gross in note); excludes property acquired under finance leases. Meta = 'capital expenditures, including principal payments on finance leases' (Meta's own definition). Oracle = 'capital expenditures' (cash flow statement). Apple = 'payments for acquisition of property, plant and equipment'. Tencent = reported capex, RMB converted at the period-average USD/CNY rate (stated in note). VERIFICATION STATUS: the shared web-search budget ran out partway through this task and WebFetch/SEC EDGAR access was blocked, so (a) Microsoft FY2026 and FY2027 data was verified by web search on 2026-11-20; (b) the other historical actuals are standard 10-K / earnings-release figures entered without re-fetching the filing this session (each note says so); (c) 2026 guidance for Alphabet, Amazon and Meta and FY2026 guidance for Oracle reflect the latest outlook that could be verified (given Dec-2025 to Feb-2026). Revisions on the Q1-Q3 2026 calls (Apr, Jul and Oct 2026), FY2026 actuals for Oracle, Apple and CoreWeave, and any 2027 outlook other than Microsoft's were NOT verified and need a follow-up pass. URLs point to the primary filing or IR page; where the exact release URL could not be confirmed, the URL is the company's SEC filing index or IR page. Not covered (no verifiable figures this session): xAI (private; reported figures not confirmed), Alibaba, Baidu, Tencent 2020-2022 and 2025-2026, and CoreWeave actuals. UPDATE (money agent, 2026-11-20): CoreWeave 2026 set to the $37-39B guidance from the Q3-2026 call (earnings coverage); Nebius 2026 guidance (~$27B) added. Alibaba's only firm figure is its Feb-2025 plan to spend 'more than RMB 380B' on cloud and AI infrastructure over three years (no annual record created).",
+ "capex": [
+  {
+   "entityId": "microsoft",
+   "year": 2020,
+   "fiscal": "FY ends Jun-2020",
+   "capexUSD": 15441000000,
+   "kind": "actual",
+   "note": "Cash 'Additions to property and equipment' (cash flow statement). EXCLUDES finance leases: the incl.-finance-lease figure Microsoft quotes on calls was not verifiable for FY2020-FY2023, so this record is lower than and not comparable with the FY2024+ records. Taken from the 10-K; not re-fetched this session.",
+   "url": "https://sec.gov/Archives/edgar/data/789019/000156459020034944/msft-10k_20200630.htm"
+  },
+  {
+   "entityId": "microsoft",
+   "year": 2021,
+   "fiscal": "FY ends Jun-2021",
+   "capexUSD": 20622000000,
+   "kind": "actual",
+   "note": "Cash 'Additions to property and equipment'. EXCLUDES finance leases (the FY2023 10-K lease note shows finance-lease additions of ~$3.3B in FY2021). Not comparable with FY2024+ incl.-lease records. Taken from the 10-K; not re-fetched this session.",
+   "url": "https://www.sec.gov/Archives/edgar/data/789019/000156459021039151/"
+  },
+  {
+   "entityId": "microsoft",
+   "year": 2022,
+   "fiscal": "FY ends Jun-2022",
+   "capexUSD": 23886000000,
+   "kind": "actual",
+   "note": "Cash 'Additions to property and equipment'. EXCLUDES finance leases (~$4.2B of finance-lease additions in FY2022 per the FY2023 10-K lease note). Not comparable with FY2024+ incl.-lease records. Taken from the 10-K; not re-fetched this session.",
+   "url": "https://sec.gov/Archives/edgar/data/789019/000156459022026876/msft-10k_20220630.htm"
+  },
+  {
+   "entityId": "microsoft",
+   "year": 2023,
+   "fiscal": "FY ends Jun-2023",
+   "capexUSD": 28107000000,
+   "kind": "actual",
+   "note": "Cash 'Additions to property and equipment'. EXCLUDES finance leases (finance-lease ROU assets obtained ~$3.1B in FY2023 per 10-K lease note). The incl.-finance-lease figure is about $31.9B if you add up the quarterly call figures ($6.6B + $6.8B + $7.8B + $10.7B); those quarterly figures were not re-verified this session, so they are not used as capexUSD. Not re-fetched this session.",
+   "url": "https://sec.gov/Archives/edgar/data/789019/000095017023035122/msft-20230630.htm"
+  },
+  {
+   "entityId": "microsoft",
+   "year": 2024,
+   "fiscal": "FY ends Jun-2024",
+   "capexUSD": 55700000000,
+   "kind": "actual",
+   "note": "Capital expenditures INCLUDING finance leases, as quoted on Microsoft's earnings calls (quarters $11.2B + $11.5B + $14.0B + $19.0B). Cash 'additions to property and equipment' were $44.477B; finance-lease ROU assets obtained were ~$11.6B (10-K lease note). Not re-fetched this session.",
+   "url": "https://sec.gov/Archives/edgar/data/789019/000095017024087843/msft-20240630.htm"
+  },
+  {
+   "entityId": "microsoft",
+   "year": 2025,
+   "fiscal": "FY ends Jun-2025",
+   "capexUSD": 88200000000,
+   "kind": "actual",
+   "note": "Capital expenditures INCLUDING finance leases (call figure; quarters $20.0B + $22.6B + $21.4B + $24.2B). Cash 'additions to property and equipment' were $64.551B; finance-lease ROU assets obtained were ~$20.5B (FY2025 10-K lease note). Not re-fetched this session.",
+   "url": "https://www.sec.gov/Archives/edgar/data/789019/000095017025100235/msft-20250630.htm"
+  },
+  {
+   "entityId": "microsoft",
+   "year": 2026,
+   "fiscal": "FY ends Jun-2026",
+   "capexUSD": 145300000000,
+   "kind": "actual",
+   "note": "Capital expenditures INCLUDING finance leases, the full-year figure cited on the Q4 FY26 call (2026-07-29). Quarters: Q1 $34.9B, Q2 $37.5B, Q3 $31.9B (finance leases $4.7B), Q4 $41.0B (finance leases $5.6B), which sum to $145.3B. Cash-flow-statement capex (additions to property and equipment) was $115.948B per an analysis of the 10-K filed 2026-07-29 (https://microsoft.gcs-web.com/static-files/8a9beeed-0e9e-48e6-b4fb-593d558e2693). Verified by web search 2026-11-20; the $145.3B total is from secondary sources, but the quarterly figures add up to it.",
+   "url": "https://www.microsoft.com/en-us/investor/events/fy-2026/earnings-fy-2026-q4"
+  },
+  {
+   "entityId": "microsoft",
+   "year": 2027,
+   "fiscal": "FY ends Jun-2027",
+   "capexUSD": null,
+   "kind": "guidance",
+   "note": "No FY2027 total was guided; CFO Amy Hood said only that capex will grow further in FY27. Q1 FY27 (Jul-Sep 2026) actual: $45.2B including finance leases (~$7.4B finance leases), reported 2026-10-28. Q2 FY27 guided at >$50B, with spend accelerating in H2 FY27. Calendar-2026 guidance moved from ~$190B (Q3 FY26 call 2026-04-29, incl. ~$25B from higher component pricing) to ~$175B (Q4 FY26 call 2026-07-29, after data-center useful life went from 15 to 25 years, moving some leases from finance to operating, which capex excludes) to ~$170B (Q1 FY27 call 2026-10-28, delays in third-party capacity). SOURCE DISAGREEMENT: CNBC and others described the $170B as calendar 2027, but the quarterly figures ($31.9B + $41.0B + $45.2B + >$50B, which is about $170B) point to calendar 2026. From FY27, the lease reclassification lowers reported capex compared with earlier years. Verified by web search 2026-11-20.",
+   "url": "https://www.microsoft.com/en-us/investor/events/fy-2027/earnings-fy-2027-q1"
+  },
+  {
+   "entityId": "google",
+   "year": 2020,
+   "fiscal": "CY2020",
+   "capexUSD": 22281000000,
+   "kind": "actual",
+   "note": "Alphabet 'Purchases of property and equipment' (cash flow statement); finance leases not added. Taken from the 10-K; not re-fetched this session.",
+   "url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001652044&type=10-K&dateb=&owner=include&count=40"
+  },
+  {
+   "entityId": "google",
+   "year": 2021,
+   "fiscal": "CY2021",
+   "capexUSD": 24640000000,
+   "kind": "actual",
+   "note": "Alphabet 'Purchases of property and equipment'. Taken from the 10-K; not re-fetched this session.",
+   "url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001652044&type=10-K&dateb=&owner=include&count=40"
+  },
+  {
+   "entityId": "google",
+   "year": 2022,
+   "fiscal": "CY2022",
+   "capexUSD": 31485000000,
+   "kind": "actual",
+   "note": "Alphabet 'Purchases of property and equipment'. Taken from the 10-K; not re-fetched this session.",
+   "url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001652044&type=10-K&dateb=&owner=include&count=40"
+  },
+  {
+   "entityId": "google",
+   "year": 2023,
+   "fiscal": "CY2023",
+   "capexUSD": 32251000000,
+   "kind": "actual",
+   "note": "Alphabet 'Purchases of property and equipment'. Taken from the 10-K; not re-fetched this session.",
+   "url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001652044&type=10-K&dateb=&owner=include&count=40"
+  },
+  {
+   "entityId": "google",
+   "year": 2024,
+   "fiscal": "CY2024",
+   "capexUSD": 52535000000,
+   "kind": "actual",
+   "note": "Alphabet 'Purchases of property and equipment'. Taken from the 10-K; not re-fetched this session.",
+   "url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001652044&type=10-K&dateb=&owner=include&count=40"
+  },
+  {
+   "entityId": "google",
+   "year": 2025,
+   "fiscal": "CY2025",
+   "capexUSD": 91400000000,
+   "kind": "actual",
+   "note": "Alphabet 'Purchases of property and equipment', about $91.4B (quarters: Q1 $17.2B, Q2 $22.4B, Q3 $24.0B, Q4 $27.9B; Q4-2025 release 2026-02-04). 2025 guidance moved from $75B (Feb-2025) to $85B (Jul-2025) to $91-93B (Oct-2025). Rounded; not re-fetched this session, so check the exact figure against the FY2025 10-K.",
+   "url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001652044&type=10-K&dateb=&owner=include&count=40"
+  },
+  {
+   "entityId": "google",
+   "year": 2026,
+   "fiscal": "CY2026",
+   "capexUSD": 180000000000,
+   "kind": "guidance",
+   "note": "Midpoint of $175-185B, the 2026 capex outlook given on the Q4-2025 call (2026-02-04), roughly double 2025. Any revisions on the Q1, Q2 or Q3-2026 calls (latest late Oct 2026) and the year-to-date actuals were NOT verified this session (search budget exhausted), so update from the Q3-2026 release.",
+   "url": "https://abc.xyz/investor/"
+  },
+  {
+   "entityId": "amazon",
+   "year": 2020,
+   "fiscal": "CY2020",
+   "capexUSD": 35044000000,
+   "kind": "actual",
+   "note": "'Purchases of property and equipment, net of proceeds from sales and incentives' (NET cash capex, as used in Amazon's free-cash-flow reconciliation). Gross purchases were $40.140B. Excludes property acquired under finance leases, which was large in 2020-2021 and under $1B/yr from 2022. Taken from the 10-K; not re-fetched this session.",
+   "url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001018724&type=10-K&dateb=&owner=include&count=40"
+  },
+  {
+   "entityId": "amazon",
+   "year": 2021,
+   "fiscal": "CY2021",
+   "capexUSD": 55396000000,
+   "kind": "actual",
+   "note": "Net purchases of property and equipment (net of proceeds and incentives); gross $61.053B. Excludes finance-lease acquisitions. Taken from the 10-K; not re-fetched this session.",
+   "url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001018724&type=10-K&dateb=&owner=include&count=40"
+  },
+  {
+   "entityId": "amazon",
+   "year": 2022,
+   "fiscal": "CY2022",
+   "capexUSD": 58321000000,
+   "kind": "actual",
+   "note": "Net purchases of property and equipment; gross $63.645B. Excludes finance-lease acquisitions. Taken from the 10-K; not re-fetched this session.",
+   "url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001018724&type=10-K&dateb=&owner=include&count=40"
+  },
+  {
+   "entityId": "amazon",
+   "year": 2023,
+   "fiscal": "CY2023",
+   "capexUSD": 48133000000,
+   "kind": "actual",
+   "note": "Net purchases of property and equipment; gross $52.729B. Excludes finance-lease acquisitions. Taken from the 10-K; not re-fetched this session.",
+   "url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001018724&type=10-K&dateb=&owner=include&count=40"
+  },
+  {
+   "entityId": "amazon",
+   "year": 2024,
+   "fiscal": "CY2024",
+   "capexUSD": 77658000000,
+   "kind": "actual",
+   "note": "Net purchases of property and equipment; gross $83.004B. Excludes finance-lease acquisitions. Taken from the 10-K; not re-fetched this session.",
+   "url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001018724&type=10-K&dateb=&owner=include&count=40"
+  },
+  {
+   "entityId": "amazon",
+   "year": 2025,
+   "fiscal": "CY2025",
+   "capexUSD": 128300000000,
+   "kind": "actual",
+   "note": "Net purchases of property and equipment, about $128.3B: Q4-2025 release (2026-02-05) TTM operating cash flow of $139.5B minus free cash flow of $11.2B. Gross purchases were about $131-132B. During 2025 Amazon guided to about $125B (Oct-2025). Not re-fetched this session, so check against the FY2025 10-K.",
+   "url": "https://ir.aboutamazon.com/quarterly-results/default.aspx"
+  },
+  {
+   "entityId": "amazon",
+   "year": 2026,
+   "fiscal": "CY2026",
+   "capexUSD": 200000000000,
+   "kind": "guidance",
+   "note": "About $200B of 2026 capex across Amazon, mostly AWS/AI, given on the Q4-2025 call (2026-02-05); a point estimate, not a range. Any revisions on the Q1, Q2 or Q3-2026 calls (latest late Oct 2026) and year-to-date actuals were NOT verified this session.",
+   "url": "https://ir.aboutamazon.com/quarterly-results/default.aspx"
+  },
+  {
+   "entityId": "meta",
+   "year": 2020,
+   "fiscal": "CY2020",
+   "capexUSD": 15720000000,
+   "kind": "actual",
+   "note": "'Capital expenditures, including principal payments on finance leases' (Meta/Facebook's own definition; Q4-2020 release). Not re-fetched this session.",
+   "url": "https://investor.atmeta.com/investor-news/press-release-details/2021/Facebook-Reports-Fourth-Quarter-and-Full-Year-2020-Results/default.aspx"
+  },
+  {
+   "entityId": "meta",
+   "year": 2021,
+   "fiscal": "CY2021",
+   "capexUSD": 19240000000,
+   "kind": "actual",
+   "note": "Capital expenditures, including principal payments on finance leases (Q4-2021 release). Not re-fetched this session.",
+   "url": "https://investor.atmeta.com/investor-news/press-release-details/2022/Meta-Reports-Fourth-Quarter-and-Full-Year-2021-Results/default.aspx"
+  },
+  {
+   "entityId": "meta",
+   "year": 2022,
+   "fiscal": "CY2022",
+   "capexUSD": 31430000000,
+   "kind": "actual",
+   "note": "Capital expenditures, including principal payments on finance leases (Q4-2022 release). Not re-fetched this session.",
+   "url": "https://investor.atmeta.com/investor-news/press-release-details/2023/Meta-Reports-Fourth-Quarter-and-Full-Year-2022-Results/default.aspx"
+  },
+  {
+   "entityId": "meta",
+   "year": 2023,
+   "fiscal": "CY2023",
+   "capexUSD": 28100000000,
+   "kind": "actual",
+   "note": "Capital expenditures, including principal payments on finance leases (Q4-2023 release). Not re-fetched this session.",
+   "url": "https://investor.atmeta.com/investor-news/press-release-details/2024/Meta-Reports-Fourth-Quarter-and-Full-Year-2023-Results/default.aspx"
+  },
+  {
+   "entityId": "meta",
+   "year": 2024,
+   "fiscal": "CY2024",
+   "capexUSD": 39230000000,
+   "kind": "actual",
+   "note": "Capital expenditures, including principal payments on finance leases (Q4-2024 release). Not re-fetched this session.",
+   "url": "https://investor.atmeta.com/investor-news/press-release-details/2025/Meta-Reports-Fourth-Quarter-and-Full-Year-2024-Results/default.aspx"
+  },
+  {
+   "entityId": "meta",
+   "year": 2025,
+   "fiscal": "CY2025",
+   "capexUSD": 72220000000,
+   "kind": "actual",
+   "note": "Capital expenditures, including principal payments on finance leases (Q4-2025 release, 2026-01-28). 2025 guidance moved from $60-65B (Jan-2025) to $64-72B (Apr) to $66-72B (Jul) to $70-72B (Oct-2025). Not re-fetched this session.",
+   "url": "https://investor.atmeta.com/investor-news/press-release-details/2026/Meta-Reports-Fourth-Quarter-and-Full-Year-2025-Results/default.aspx"
+  },
+  {
+   "entityId": "meta",
+   "year": 2026,
+   "fiscal": "CY2026",
+   "capexUSD": 125000000000,
+   "kind": "guidance",
+   "note": "Midpoint of $115-135B 2026 capex (incl. principal payments on finance leases), given in the Q4-2025 release and call (2026-01-28). Any revisions on the Q1, Q2 or Q3-2026 calls (latest late Oct 2026), year-to-date actuals and any 2027 outlook were NOT verified this session.",
+   "url": "https://investor.atmeta.com/investor-news/press-release-details/2026/Meta-Reports-Fourth-Quarter-and-Full-Year-2025-Results/default.aspx"
+  },
+  {
+   "entityId": "oracle",
+   "year": 2020,
+   "fiscal": "FY ends May-2020",
+   "capexUSD": 1564000000,
+   "kind": "actual",
+   "note": "'Capital expenditures' (cash flow statement). Oracle's data-center leases are mostly operating leases, which are not in capex. Taken from the 10-K; not re-fetched this session.",
+   "url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001341439&type=10-K&dateb=&owner=include&count=40"
+  },
+  {
+   "entityId": "oracle",
+   "year": 2021,
+   "fiscal": "FY ends May-2021",
+   "capexUSD": 2135000000,
+   "kind": "actual",
+   "note": "Capital expenditures (cash flow statement). Taken from the 10-K; not re-fetched this session.",
+   "url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001341439&type=10-K&dateb=&owner=include&count=40"
+  },
+  {
+   "entityId": "oracle",
+   "year": 2022,
+   "fiscal": "FY ends May-2022",
+   "capexUSD": 4511000000,
+   "kind": "actual",
+   "note": "Capital expenditures (cash flow statement). Taken from the 10-K; not re-fetched this session.",
+   "url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001341439&type=10-K&dateb=&owner=include&count=40"
+  },
+  {
+   "entityId": "oracle",
+   "year": 2023,
+   "fiscal": "FY ends May-2023",
+   "capexUSD": 8695000000,
+   "kind": "actual",
+   "note": "Capital expenditures (cash flow statement). Taken from the 10-K; not re-fetched this session.",
+   "url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001341439&type=10-K&dateb=&owner=include&count=40"
+  },
+  {
+   "entityId": "oracle",
+   "year": 2024,
+   "fiscal": "FY ends May-2024",
+   "capexUSD": 6866000000,
+   "kind": "actual",
+   "note": "Capital expenditures (cash flow statement). Taken from the 10-K; not re-fetched this session.",
+   "url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001341439&type=10-K&dateb=&owner=include&count=40"
+  },
+  {
+   "entityId": "oracle",
+   "year": 2025,
+   "fiscal": "FY ends May-2025",
+   "capexUSD": 21215000000,
+   "kind": "actual",
+   "note": "Capital expenditures (cash flow statement). Taken from the 10-K; not re-fetched this session.",
+   "url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001341439&type=10-K&dateb=&owner=include&count=40"
+  },
+  {
+   "entityId": "oracle",
+   "year": 2026,
+   "fiscal": "FY ends May-2026",
+   "capexUSD": 50000000000,
+   "kind": "guidance",
+   "note": "FY2026 (Jun-2025 to May-2026) is over, but the actual (Q4 FY26 release, Jun-2026) was NOT verified this session. This is the latest verified guidance: about $50B, raised by ~$15B on the Q2 FY26 call (2025-12-10) from about $35B (Q1 FY26 call, Sep-2025); a point estimate. FY2027 guidance was also not verified. Replace with the 10-K actual.",
+   "url": "https://investor.oracle.com/financials/default.aspx"
+  },
+  {
+   "entityId": "apple",
+   "year": 2020,
+   "fiscal": "FY ends Sep-2020",
+   "capexUSD": 7309000000,
+   "kind": "actual",
+   "note": "'Payments for acquisition of property, plant and equipment' (cash flow statement). Taken from the 10-K; not re-fetched this session.",
+   "url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0000320193&type=10-K&dateb=&owner=include&count=40"
+  },
+  {
+   "entityId": "apple",
+   "year": 2021,
+   "fiscal": "FY ends Sep-2021",
+   "capexUSD": 11085000000,
+   "kind": "actual",
+   "note": "Payments for acquisition of property, plant and equipment. Taken from the 10-K; not re-fetched this session.",
+   "url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0000320193&type=10-K&dateb=&owner=include&count=40"
+  },
+  {
+   "entityId": "apple",
+   "year": 2022,
+   "fiscal": "FY ends Sep-2022",
+   "capexUSD": 10708000000,
+   "kind": "actual",
+   "note": "Payments for acquisition of property, plant and equipment. Taken from the 10-K; not re-fetched this session.",
+   "url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0000320193&type=10-K&dateb=&owner=include&count=40"
+  },
+  {
+   "entityId": "apple",
+   "year": 2023,
+   "fiscal": "FY ends Sep-2023",
+   "capexUSD": 10959000000,
+   "kind": "actual",
+   "note": "Payments for acquisition of property, plant and equipment. Taken from the 10-K; not re-fetched this session.",
+   "url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0000320193&type=10-K&dateb=&owner=include&count=40"
+  },
+  {
+   "entityId": "apple",
+   "year": 2024,
+   "fiscal": "FY ends Sep-2024",
+   "capexUSD": 9447000000,
+   "kind": "actual",
+   "note": "Payments for acquisition of property, plant and equipment. Taken from the 10-K; not re-fetched this session.",
+   "url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0000320193&type=10-K&dateb=&owner=include&count=40"
+  },
+  {
+   "entityId": "apple",
+   "year": 2025,
+   "fiscal": "FY ends Sep-2025",
+   "capexUSD": 12715000000,
+   "kind": "actual",
+   "note": "Payments for acquisition of property, plant and equipment. Taken from the FY2025 10-K; not re-fetched this session.",
+   "url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0000320193&type=10-K&dateb=&owner=include&count=40"
+  },
+  {
+   "entityId": "apple",
+   "year": 2026,
+   "fiscal": "FY ends Sep-2026",
+   "capexUSD": null,
+   "kind": "actual",
+   "note": "FY2026 ended late Sep-2026 and was reported around end-Oct 2026, but the figure was NOT verified this session. Apple gives no annual capex guidance. Fill in from the FY2026 10-K.",
+   "url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0000320193&type=10-K&dateb=&owner=include&count=40"
+  },
+  {
+   "entityId": "coreweave",
+   "year": 2025,
+   "fiscal": "CY2025",
+   "capexUSD": 13000000000,
+   "kind": "guidance",
+   "note": "Midpoint of $12-14B 2025 capex guidance (Q3-2025 call, 2025-11-10), cut from $20-23B because third-party data-center delivery slipped. The FY2025 actual (reported ~Feb 2026) was NOT verified this session; replace with the 10-K figure. 2023-2024 actuals were not verified.",
+   "url": "https://investors.coreweave.com/"
+  },
+  {
+   "entityId": "coreweave",
+   "year": 2026,
+   "fiscal": "CY2026",
+   "capexUSD": 38000000000,
+   "kind": "guidance",
+   "note": "Midpoint of the $37-39B 2026 capex guidance as raised on the Q3-2026 call (2026-11-10); on the Q3-2025 call management had said only that 2026 capex would be 'well in excess of double' 2025. CoreWeave capex is mostly GPUs and networking in leased third-party data centers (it does not own most of its shells); total debt was ~$47B at 2026-09-30. Figure from earnings coverage; the 10-Q was not opened this session.",
+   "url": "https://pulse2.com/coreweave-record-q3-revenue-reaches-3-66-billion-as-backlog-grows-to-132-5-billion/"
+  },
+  {
+   "entityId": "tencent",
+   "year": 2023,
+   "fiscal": "CY2023",
+   "capexUSD": 3380000000,
+   "kind": "actual",
+   "note": "Reported capex of about RMB 23.9B, converted at the 2023 average USD/CNY of about 7.08, giving about $3.38B. Taken from the annual results; not re-fetched this session.",
+   "url": "https://www.tencent.com/en-us/investors.html"
+  },
+  {
+   "entityId": "tencent",
+   "year": 2024,
+   "fiscal": "CY2024",
+   "capexUSD": 10680000000,
+   "kind": "actual",
+   "note": "Reported capex of about RMB 76.8B (up ~221% YoY; Q4-2024 alone ~RMB 36.6B), converted at the 2024 average USD/CNY of about 7.19, giving about $10.68B. Taken from the annual results; not re-fetched this session. 2025 and 2026 figures were not verified.",
+   "url": "https://www.tencent.com/en-us/investors.html"
+  },
+  {
+   "entityId": "nebius",
+   "year": 2026,
+   "fiscal": "CY2026",
+   "capexUSD": 27000000000,
+   "kind": "guidance",
+   "note": "~$27B 2026 capex guidance per Q3-2026 results coverage (2026-11-12), after power delays pushed part of the Microsoft New Jersey capacity into Q2-2027; figure from coverage of the shareholder letter, not re-read this session. Funded by equity (ATM ~$2.8B), convertibles and customer prepayments.",
+   "url": "https://stockanalysis.com/news/nebius-q3-2026-earnings/"
+  }
+ ]
+}

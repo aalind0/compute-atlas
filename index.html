@@ -1,0 +1,112 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+  <title>Compute Atlas</title>
+  <meta name="description" content="Every data center on Earth, and the money behind it. Type your address to see the data centers near you, who owns them and who paid for them." />
+  <meta name="theme-color" content="#04060c" />
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Ccircle cx='32' cy='32' r='22' fill='none' stroke='%2338e1ff' stroke-width='4'/%3E%3Cellipse cx='32' cy='32' rx='10' ry='22' fill='none' stroke='%2338e1ff' stroke-width='3'/%3E%3Ccircle cx='46' cy='20' r='6' fill='%23ffb02e'/%3E%3C/svg%3E" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;500;600&family=Space+Grotesk:wght@500;600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="css/styles.css" />
+</head>
+<body class="is-loading">
+  <div id="globe" aria-label="Interactive 3D globe of data centers"></div>
+  <div class="vignette" aria-hidden="true"></div>
+
+  <!-- top bar -->
+  <header class="topbar">
+    <a class="brand" href="#/globe" aria-label="Compute Atlas home">
+      <svg viewBox="0 0 64 64" width="28" height="28" aria-hidden="true"><circle cx="32" cy="32" r="22" fill="none" stroke="currentColor" stroke-width="3.5"/><ellipse cx="32" cy="32" rx="10" ry="22" fill="none" stroke="currentColor" stroke-width="2.5" opacity=".7"/><path d="M10 32h44" stroke="currentColor" stroke-width="2.5" opacity=".7"/><circle cx="46" cy="19" r="6" fill="var(--amber)"/></svg>
+      <span class="brand-name">COMPUTE<b>ATLAS</b></span>
+    </a>
+    <nav class="nav" aria-label="Sections">
+      <a href="#/globe" data-route="globe">Globe</a>
+      <a href="#/money" data-route="money">Money</a>
+      <a href="#/players" data-route="players">Players</a>
+      <a href="#/rankings" data-route="rankings">Rankings</a>
+      <a href="#/patterns" data-route="patterns">Patterns</a>
+      <a href="#/about" data-route="about">About</a>
+    </nav>
+    <div class="search" role="search">
+      <svg class="search-icon" viewBox="0 0 24 24" width="18" height="18" aria-hidden="true"><circle cx="11" cy="11" r="7" fill="none" stroke="currentColor" stroke-width="2"/><path d="m20 20-4-4" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg>
+      <input id="search-input" type="search" autocomplete="off" spellcheck="false" placeholder="Your address, a city, a company, a campus…" aria-label="Search for an address, city, company or data center" aria-controls="search-results" aria-expanded="false" />
+      <button id="locate-btn" class="icon-btn" title="Use my location" aria-label="Use my location">
+        <svg viewBox="0 0 24 24" width="18" height="18" aria-hidden="true"><circle cx="12" cy="12" r="3.5" fill="currentColor"/><circle cx="12" cy="12" r="8" fill="none" stroke="currentColor" stroke-width="2"/><path d="M12 1v4M12 19v4M1 12h4M19 12h4" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg>
+      </button>
+      <div id="search-results" class="search-results" role="listbox" hidden></div>
+    </div>
+  </header>
+
+  <!-- globe HUD -->
+  <section class="hud hud-left" aria-label="Map controls">
+    <button class="hud-toggle" id="hud-toggle" aria-expanded="true" aria-controls="hud-body">
+      <span>Layers &amp; filters</span>
+      <svg viewBox="0 0 24 24" width="16" height="16" aria-hidden="true"><path d="m6 9 6 6 6-6" fill="none" stroke="currentColor" stroke-width="2"/></svg>
+    </button>
+    <div class="hud-body" id="hud-body">
+      <div class="hud-label">Map mode</div>
+      <div class="modes" role="radiogroup" aria-label="Map mode">
+        <button role="radio" data-mode="facilities" aria-checked="true"><i class="mode-dot" style="--c:var(--cyan)"></i>Facilities</button>
+        <button role="radio" data-mode="density" aria-checked="false"><i class="mode-dot" style="--c:#7cf3ff"></i>Density</button>
+        <button role="radio" data-mode="money" aria-checked="false"><i class="mode-dot" style="--c:var(--gold)"></i>Money</button>
+        <button role="radio" data-mode="power" aria-checked="false"><i class="mode-dot" style="--c:var(--red)"></i>Power</button>
+      </div>
+      <p class="mode-hint" id="mode-hint"></p>
+      <div class="hud-label">Status</div>
+      <div class="chips" id="status-chips"></div>
+      <div class="hud-label">Campus type</div>
+      <div class="chips" id="type-chips"></div>
+      <div class="hud-label">Layers</div>
+      <label class="switch"><input type="checkbox" id="toggle-base" checked /><span></span>All facilities <em id="base-count"></em></label>
+      <label class="switch"><input type="checkbox" id="toggle-labels" checked /><span></span>Megaproject labels</label>
+      <label class="switch"><input type="checkbox" id="toggle-rotate" checked /><span></span>Auto-rotate</label>
+    </div>
+  </section>
+
+  <section class="hud hud-right-stats" id="pulse-mini" aria-label="Money pulse"></section>
+
+  <div class="hud hud-coords mono" id="coords" aria-hidden="true">—</div>
+
+  <footer class="ticker" aria-label="Latest deals">
+    <div class="ticker-label mono">LIVE DEAL TAPE</div>
+    <div class="ticker-track"><div class="ticker-inner" id="ticker"></div></div>
+  </footer>
+
+  <!-- intro card -->
+  <section class="intro" id="intro" aria-labelledby="intro-title">
+    <div class="intro-kicker mono">// THE PHYSICAL INTERNET, FOLLOWED BY THE MONEY</div>
+    <h1 id="intro-title">Every data center on Earth,<br /><span class="grad">and the money behind it.</span></h1>
+    <p>Type your address to fly to your neighborhood and see the data centers around you. Click any site to find out who owns it, who paid for it and where that money came from.</p>
+    <div class="intro-stats" id="intro-stats"></div>
+    <div class="intro-actions">
+      <button class="btn primary" id="intro-search">Find data centers near me</button>
+      <button class="btn ghost" id="intro-explore">Just explore</button>
+    </div>
+  </section>
+
+  <!-- right drawer -->
+  <aside class="drawer" id="drawer" aria-label="Details" aria-hidden="true">
+    <button class="drawer-close icon-btn" id="drawer-close" aria-label="Close details">
+      <svg viewBox="0 0 24 24" width="18" height="18" aria-hidden="true"><path d="M6 6l12 12M18 6 6 18" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg>
+    </button>
+    <button class="drawer-back icon-btn" id="drawer-back" aria-label="Back" hidden>
+      <svg viewBox="0 0 24 24" width="18" height="18" aria-hidden="true"><path d="M15 6l-6 6 6 6" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg>
+    </button>
+    <div class="drawer-body" id="drawer-body"></div>
+  </aside>
+
+  <!-- content pages -->
+  <main class="page" id="page" tabindex="-1" hidden></main>
+
+  <div class="tooltip" id="tooltip" role="tooltip" hidden></div>
+  <div class="loader" id="loader"><div class="loader-ring"></div><div class="mono">Loading the atlas…</div></div>
+
+  <script src="https://cdn.jsdelivr.net/npm/globe.gl@2.46.2/dist/globe.gl.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/d3@7.9.0/dist/d3.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/d3-sankey@0.12.3/dist/d3-sankey.min.js"></script>
+  <script type="module" src="js/app.js"></script>
+</body>
+</html>

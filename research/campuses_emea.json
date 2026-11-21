@@ -1,0 +1,4696 @@
+{
+ "generated": "2026-11-20",
+ "notes": "Europe, Middle East & Africa data-center campuses and market clusters for Compute Atlas. VERIFICATION STATUS: the 12 UK records (part 1) were checked against live web search in Nov 2026 (status current to ~Oct 2026). The shared web-search budget then ran out and direct page fetches were denied, so the remaining 52 records (Nordics, France, Germany, Benelux, Ireland, Iberia, Italy, Poland, Switzerland, Greece, EU, Middle East, Africa) were compiled from reporting known up to ~mid-2026; each says '[... not re-verified]' in powerNote, uncertain figures are null or flagged 'not re-verified', and many of their source URLs are official organisation/newsroom pages rather than specific article links. These need a 2026 re-verification pass. USD converted at approx. announcement-date FX with the original currency kept in investmentNote/capitalStack notes. coordPrecision 'site' = facility/site-level, 'city' = town-level, 'region' = market/area centroid. powerMW = planned full-build power as reported (IT vs facility not always distinguished; see powerNote). Null = not found in reliable sources.",
+ "campuses": [
+  {
+   "id": "stargate-uk-cobalt-park",
+   "name": "Stargate UK (Nscale Cobalt Park, North Tyneside)",
+   "aka": [
+    "Stargate UK",
+    "Nscale Cobalt Park"
+   ],
+   "lat": 55.024,
+   "lng": -1.522,
+   "coordPrecision": "city",
+   "city": "North Tyneside (Cobalt Park, near Newcastle)",
+   "region": "North East England",
+   "country": "United Kingdom",
+   "countryCode": "GB",
+   "status": "paused",
+   "type": "ai-training",
+   "powerMW": null,
+   "powerMWNow": 0,
+   "powerNote": "No site MW published for Cobalt Park. OpenAI said it would 'explore offtake' of up to 8,000 GPUs in Q1 2026, potentially scaling to 31,000 GPUs; only part of Stargate UK was to be at Cobalt Park, remainder unallocated.",
+   "acres": null,
+   "sizeSqft": null,
+   "compute": "Up to 8,000 NVIDIA GPUs planned for Q1 2026, potential 31,000 GPUs over time (OpenAI offtake, not firm)",
+   "investmentUSD": null,
+   "investmentNote": "No project-level figure. It sat inside Nvidia's 'up to £11B' UK AI-factory pledge and Nscale's UK commitment of up to 58,640 GPUs (Sept 2025).",
+   "owners": [
+    {
+     "name": "Nscale",
+     "entityId": "nscale",
+     "stakePct": null
+    }
+   ],
+   "developer": "Nscale",
+   "operator": "Nscale",
+   "tenants": [
+    {
+     "name": "OpenAI",
+     "entityId": "openai",
+     "role": "prospective offtaker (paused)"
+    }
+   ],
+   "capitalStack": [
+    {
+     "from": "NVIDIA",
+     "entityId": "nvidia",
+     "kind": "vendor-financing",
+     "amountUSD": null,
+     "date": "2025-09",
+     "note": "Nvidia named as Stargate UK partner and GPU supplier; Nvidia also an Nscale investor. No project-specific sum disclosed.",
+     "url": "https://openai.com/index/introducing-stargate-uk/"
+    }
+   ],
+   "energy": "UK grid (North East AI Growth Zone)",
+   "water": null,
+   "announced": "2025-09-16",
+   "expectedOnline": null,
+   "highlights": [
+    "Announced during Donald Trump's September 2025 state visit as OpenAI's first UK 'Stargate'.",
+    "OpenAI paused it on 9 April 2026, citing UK energy costs and regulation; it says it will proceed 'when the right conditions' exist.",
+    "A Guardian FOI found neither OpenAI nor Nscale held recorded meetings with the local authorities for Cobalt Park before the announcement."
+   ],
+   "controversy": "Paused in April 2026 over high UK power prices and regulation; criticised as a headline announcement made without site groundwork (no recorded council meetings before launch).",
+   "sources": [
+    {
+     "title": "Introducing Stargate UK",
+     "publisher": "OpenAI",
+     "url": "https://openai.com/index/introducing-stargate-uk/",
+     "date": "2025-09-16"
+    },
+    {
+     "title": "Nscale announces UK AI infrastructure commitment in partnership with Microsoft, NVIDIA and OpenAI",
+     "publisher": "Nscale",
+     "url": "https://www.nscale.com/press-releases/nscale-uk-ai-infrastructure-announcement",
+     "date": "2025-09-16"
+    },
+    {
+     "title": "OpenAI halts UK Stargate project amid regulatory and energy price concerns",
+     "publisher": "CNBC",
+     "url": "https://www.cnbc.com/2026/04/09/openai-halts-uk-stargate-project.html",
+     "date": "2026-04-09"
+    },
+    {
+     "title": "OpenAI failed to visit key site before UK's flagship AI announcement",
+     "publisher": "Computing",
+     "url": "https://www.computing.co.uk/news/2026/datacentre/openai-failed-to-visit-key-stargate-uk-site",
+     "date": "2026"
+    }
+   ]
+  },
+  {
+   "id": "nscale-loughton",
+   "name": "Nscale AI Campus Loughton (planned Microsoft UK supercomputer)",
+   "aka": [
+    "Nscale Loughton",
+    "Microsoft UK supercomputer"
+   ],
+   "lat": 51.648,
+   "lng": 0.072,
+   "coordPrecision": "city",
+   "city": "Loughton",
+   "region": "Essex",
+   "country": "United Kingdom",
+   "countryCode": "GB",
+   "status": "paused",
+   "type": "ai-training",
+   "powerMW": 90,
+   "powerMWNow": 0,
+   "powerNote": "50 MW initial, scalable to 90 MW. UK Power Networks reportedly told Nscale it could not supply enough power until the early-to-mid 2030s; Nscale exploring alternative power.",
+   "acres": null,
+   "sizeSqft": null,
+   "compute": "23,040 NVIDIA GB300 GPUs planned for Microsoft (Q1 2027 delivery) - billed as the UK's largest AI supercomputer",
+   "investmentUSD": null,
+   "investmentNote": "No site-level capex disclosed. Part of Microsoft's $30B UK commitment (2025-2028, of which ~$15B capex) announced 2025-09-16.",
+   "owners": [
+    {
+     "name": "Nscale",
+     "entityId": "nscale",
+     "stakePct": null
+    }
+   ],
+   "developer": "Nscale",
+   "operator": "Nscale",
+   "tenants": [
+    {
+     "name": "Microsoft",
+     "entityId": "microsoft",
+     "role": "anchor lessee (withdrew Oct 2026)"
+    }
+   ],
+   "capitalStack": [
+    {
+     "from": "Microsoft",
+     "entityId": "microsoft",
+     "kind": "lease",
+     "amountUSD": null,
+     "date": "2025-09",
+     "note": "Planned lease of the full 50 MW; Microsoft pulled out in Oct 2026 per The Telegraph after grid delays.",
+     "url": "https://blogs.microsoft.com/on-the-issues/2025/09/16/microsoft-30-billion-uk-ai-future/"
+    }
+   ],
+   "energy": "UK Power Networks grid connection (delayed to early/mid-2030s); alternative on-site power being explored",
+   "water": null,
+   "announced": "2025-09-16",
+   "expectedOnline": null,
+   "highlights": [
+    "Was to be Britain's biggest AI supercomputer: 23,040 Nvidia GB300s for Microsoft.",
+    "Microsoft walked away in October 2026 after the grid operator said full power would not arrive until the 2030s.",
+    "Nscale says it remains committed to Loughton and is looking for a replacement customer."
+   ],
+   "controversy": "Emblematic of UK grid-connection delays: the anchor tenant exited because power could not be delivered for years.",
+   "sources": [
+    {
+     "title": "Microsoft invests $30 billion in UK to power AI future",
+     "publisher": "Microsoft",
+     "url": "https://blogs.microsoft.com/on-the-issues/2025/09/16/microsoft-30-billion-uk-ai-future/",
+     "date": "2025-09-16"
+    },
+    {
+     "title": "Nscale announces UK AI infrastructure commitment",
+     "publisher": "Nscale",
+     "url": "https://www.nscale.com/press-releases/nscale-uk-ai-infrastructure-announcement",
+     "date": "2025-09-16"
+    },
+    {
+     "title": "Microsoft pulls out of delayed Nscale data center in Loughton, Essex",
+     "publisher": "DatacenterDynamics",
+     "url": "https://datacenterdynamics.com/en/news/microsoft-pulls-out-of-delayed-nscale-data-center-in-loughton-essex",
+     "date": "2026-10"
+    },
+    {
+     "title": "Microsoft's UK Data Centre Exit Puts Spotlight on Power Shortages",
+     "publisher": "IBTimes UK",
+     "url": "https://www.ibtimes.co.uk/microsoft-withdraws-essex-ai-data-centre-deal-1826366",
+     "date": "2026-10"
+    }
+   ]
+  },
+  {
+   "id": "qts-cambois",
+   "name": "QTS Cambois Data Centre Campus (Blyth)",
+   "aka": [
+    "Blackstone Blyth",
+    "former Britishvolt site"
+   ],
+   "lat": 55.156,
+   "lng": -1.531,
+   "coordPrecision": "site",
+   "city": "Cambois, near Blyth",
+   "region": "Northumberland",
+   "country": "United Kingdom",
+   "countryCode": "GB",
+   "status": "under construction",
+   "type": "hyperscale-cloud",
+   "powerMW": 720,
+   "powerMWNow": 0,
+   "powerNote": "~720 MW across up to 10 buildings at full build (planning documents); an earlier QTS filing referenced up to 1.1 GW. First two buildings to start construction in 2026, operations 2029, two more by 2030.",
+   "acres": null,
+   "sizeSqft": 5812512,
+   "compute": null,
+   "investmentUSD": 12500000000,
+   "investmentNote": "'Up to £10B' (Blackstone/QTS, 2024-25); ~US$12.5-13B at 2024 FX. Includes Blackstone's earlier pledge alongside its Britishvolt site purchase.",
+   "owners": [
+    {
+     "name": "QTS (Blackstone)",
+     "entityId": "qts",
+     "stakePct": 100
+    }
+   ],
+   "developer": "QTS",
+   "operator": "QTS",
+   "tenants": [],
+   "capitalStack": [
+    {
+     "from": "Blackstone (via Renaissance Land)",
+     "entityId": "blackstone",
+     "kind": "equity",
+     "amountUSD": 12500000000,
+     "date": "2024",
+     "note": "Up to £10B; planning docs say the data centres will be financed by Blackstone-owned Renaissance Land and developed/operated by QTS.",
+     "url": "https://www.northumberland.gov.uk/News/2025/Mar/Multi-billion-pound-data-centre-campus-gets-green.aspx"
+    }
+   ],
+   "energy": "Grid via former Blyth power station connection; near North Sea offshore-wind landfalls",
+   "water": null,
+   "announced": "2024-04",
+   "expectedOnline": "2029",
+   "highlights": [
+    "Built on the site of the failed Britishvolt gigafactory and the old coal-fired Blyth power station.",
+    "540,000 sq m of floorspace across up to 10 buildings - pitched as one of Europe's largest data-centre campuses.",
+    "QTS publicly reaffirmed its commitment after OpenAI paused the North East Stargate UK plan in April 2026."
+   ],
+   "controversy": "Some local councillors questioned job quality versus manufacturing; long timeline (first operations 2029).",
+   "sources": [
+    {
+     "title": "Multi-billion pound data centre campus gets green light",
+     "publisher": "Northumberland County Council",
+     "url": "https://www.northumberland.gov.uk/News/2025/Mar/Multi-billion-pound-data-centre-campus-gets-green.aspx",
+     "date": "2025-03"
+    },
+    {
+     "title": "Blackstone gets green light for £10bn QTS data center in Northumberland",
+     "publisher": "DatacenterDynamics",
+     "url": "https://datacenterdynamics.com/en/news/blackstone-gets-green-light-for-10bn-qts-data-center-in-northumberland-uk",
+     "date": "2025-03"
+    },
+    {
+     "title": "QTS reaffirms commitment to North East AI Growth Zone",
+     "publisher": "Data Centre Review",
+     "url": "https://datacentrereview.com/2026/04/qts-reaffirms-commitment-to-north-east-ai-growth-zone/",
+     "date": "2026-04"
+    },
+    {
+     "title": "New plans outline timescale for delivery of data centre at Cambois",
+     "publisher": "Northumberland Gazette",
+     "url": "https://www.northumberlandgazette.co.uk/news/politics/council/new-plans-outline-timescale-for-delivery-of-data-centre-at-cambois-in-northumberland-5138614",
+     "date": "2026"
+    }
+   ]
+  },
+  {
+   "id": "google-waltham-cross",
+   "name": "Google Waltham Cross Data Centre",
+   "aka": [],
+   "lat": 51.69,
+   "lng": -0.035,
+   "coordPrecision": "city",
+   "city": "Waltham Cross",
+   "region": "Hertfordshire",
+   "country": "United Kingdom",
+   "countryCode": "GB",
+   "status": "operational",
+   "type": "hyperscale-cloud",
+   "powerMW": null,
+   "powerMWNow": null,
+   "powerNote": "Google does not disclose MW.",
+   "acres": 33,
+   "sizeSqft": null,
+   "compute": "Google Cloud, Search, Maps, Workspace; AI workloads",
+   "investmentUSD": 1000000000,
+   "investmentNote": "~$1B for the data centre (Google's 2024 plan, cited by ITPro/DCD). It is part of a two-year £5B (~$6.8B) UK commitment covering capex, R&D and DeepMind, announced 2025-09-16.",
+   "owners": [
+    {
+     "name": "Google",
+     "entityId": "google",
+     "stakePct": 100
+    }
+   ],
+   "developer": "Google",
+   "operator": "Google",
+   "tenants": [
+    {
+     "name": "Google",
+     "entityId": "google",
+     "role": "owner-occupier"
+    }
+   ],
+   "capitalStack": [
+    {
+     "from": "Google",
+     "entityId": "google",
+     "kind": "capex",
+     "amountUSD": 1000000000,
+     "date": "2024-01",
+     "note": "$1B data centre; within £5B two-year UK plan (Sept 2025)",
+     "url": "https://www.googlecloudpresscorner.com/2025-09-16-Google-Opens-Waltham-Cross-Data-Centre-as-Part-of-Two-year-GBP5-Billion-Investment-in-the-UK-to-Help-Power-its-AI-Economy"
+    }
+   ],
+   "energy": "UK grid; Shell Energy Europe as 24/7 carbon-free energy manager; Google targets ~95% CFE in UK in 2026",
+   "water": "Air-cooled; water use limited to domestic needs; heat-export ready for local homes",
+   "announced": "2024-01",
+   "expectedOnline": "2025-09",
+   "highlights": [
+    "Opened by Chancellor Rachel Reeves on 16 Sept 2025, the eve of Trump's UK state visit.",
+    "Air-cooled design so water use is limited to domestic needs; can export waste heat to nearby homes."
+   ],
+   "controversy": null,
+   "sources": [
+    {
+     "title": "Google Opens Waltham Cross Data Centre as Part of Two-year £5 Billion Investment in the UK",
+     "publisher": "Google Cloud Press Corner",
+     "url": "https://www.googlecloudpresscorner.com/2025-09-16-Google-Opens-Waltham-Cross-Data-Centre-as-Part-of-Two-year-GBP5-Billion-Investment-in-the-UK-to-Help-Power-its-AI-Economy",
+     "date": "2025-09-16"
+    },
+    {
+     "title": "Google opens Hertfordshire data center as part of £5bn UK investment",
+     "publisher": "DatacenterDynamics",
+     "url": "https://www.datacenterdynamics.com/en/news/google-opens-hertfordshire-data-center-as-part-of-5bn-uk-investment/",
+     "date": "2025-09-16"
+    }
+   ]
+  },
+  {
+   "id": "culham-ai-growth-zone",
+   "name": "Culham AI Growth Zone (UKAEA Culham Campus)",
+   "aka": [
+    "Oxfordshire AI Growth Zone"
+   ],
+   "lat": 51.659,
+   "lng": -1.231,
+   "coordPrecision": "site",
+   "city": "Culham",
+   "region": "Oxfordshire",
+   "country": "United Kingdom",
+   "countryCode": "GB",
+   "status": "planned",
+   "type": "sovereign-ai",
+   "powerMW": 500,
+   "powerMWNow": 0,
+   "powerNote": "Government plan: start at 100 MW, scale to 500 MW. Grid freed up by closure of the JET fusion experiment; UKAEA cites up to 600 MW for the wider campus.",
+   "acres": null,
+   "sizeSqft": null,
+   "compute": null,
+   "investmentUSD": null,
+   "investmentNote": "No private partner publicly named as of late 2026; UKAEA ran a procurement for a strategic investment partner.",
+   "owners": [
+    {
+     "name": "UK Atomic Energy Authority (landowner)",
+     "entityId": "ukaea",
+     "stakePct": null
+    }
+   ],
+   "developer": null,
+   "operator": null,
+   "tenants": [],
+   "capitalStack": [],
+   "energy": "Grid capacity released by retired JET fusion reactor",
+   "water": null,
+   "announced": "2025-01-13",
+   "expectedOnline": null,
+   "highlights": [
+    "The UK's first AI Growth Zone, named in the January 2025 AI Opportunities Action Plan.",
+    "Sits beside the UK's fusion research campus and reuses grid capacity freed by the JET reactor's shutdown.",
+    "Nearly two years on, no development partner has been publicly named and the scheme has not entered planning."
+   ],
+   "controversy": "Slow progress: FOI data (Aug 2026) shows little planning activity; critics call AI Growth Zones slow to convert into projects.",
+   "sources": [
+    {
+     "title": "UK Government announces that the first AI Growth Zone will be located at Culham",
+     "publisher": "Fusion Energy APPG",
+     "url": "https://fusionenergyappg.co.uk/uk-government-announces-that-the-first-ai-growth-zone-will-be-located-at-culham-oxfordshire/",
+     "date": "2025-01"
+    },
+    {
+     "title": "Strategic investment partner tender notice (UKAEA Culham)",
+     "publisher": "Find a Tender (UK Gov)",
+     "url": "https://www.find-tender.service.gov.uk/Notice/005218-2025",
+     "date": "2025"
+    },
+    {
+     "title": "AI Growth Zones yet to accelerate planning activity, FOI data suggests",
+     "publisher": "Data Centre Review",
+     "url": "https://datacentrereview.com/2026/08/ai-growth-zones-yet-to-accelerate-planning-activity-foi-data-suggests/",
+     "date": "2026-08"
+    }
+   ]
+  },
+  {
+   "id": "datavita-lanarkshire-aigz",
+   "name": "Lanarkshire AI Growth Zone (DataVita / CoreWeave, Airdrie)",
+   "aka": [
+    "DataVita DV1",
+    "Lanarkshire AI Innovation Park"
+   ],
+   "lat": 55.86,
+   "lng": -3.95,
+   "coordPrecision": "city",
+   "city": "Airdrie / Chapelhall",
+   "region": "North Lanarkshire, Scotland",
+   "country": "United Kingdom",
+   "countryCode": "GB",
+   "status": "planned",
+   "type": "ai-training",
+   "powerMW": 500,
+   "powerMWNow": null,
+   "powerNote": "DataVita plans >500 MW of on-site power generation within four years; existing DataVita DV1 facility operational at smaller scale.",
+   "acres": null,
+   "sizeSqft": null,
+   "compute": "CoreWeave production-grade AI cloud",
+   "investmentUSD": 11200000000,
+   "investmentNote": "£8.2B private investment cited by UK government (Jan 2026), ~US$11.2B at ~1.37. CoreWeave/DataVita separately cite £1.5B (~$2B) for the AI cloud. National Wealth Fund backs a further £300M DataVita expansion.",
+   "owners": [
+    {
+     "name": "DataVita",
+     "entityId": "datavita",
+     "stakePct": null
+    }
+   ],
+   "developer": "DataVita",
+   "operator": "DataVita",
+   "tenants": [
+    {
+     "name": "CoreWeave",
+     "entityId": "coreweave",
+     "role": "AI cloud partner/tenant"
+    }
+   ],
+   "capitalStack": [
+    {
+     "from": "CoreWeave & DataVita",
+     "entityId": "coreweave",
+     "kind": "capex",
+     "amountUSD": 2000000000,
+     "date": "2026-01",
+     "note": "£1.5B for the AI cloud deployment",
+     "url": "https://www.gov.uk/government/news/more-than-3400-jobs-and-targeted-support-for-local-communities-to-help-tackle-the-cost-of-living-as-lanarkshire-named-latest-ai-growth-zone"
+    },
+    {
+     "from": "National Wealth Fund (UK)",
+     "entityId": "uk-national-wealth-fund",
+     "kind": "public-incentive",
+     "amountUSD": null,
+     "date": "2026",
+     "note": "Financial backing for DataVita's £300M expansion plan",
+     "url": "https://www.gov.uk/government/news/lanarkshire-ai-growth-zone-secures-300-million-investment-as-dell-establishes-scottish-base"
+    }
+   ],
+   "energy": "Planned >500 MW on-site generation (incl. renewables) plus grid",
+   "water": null,
+   "announced": "2026-01-29",
+   "expectedOnline": null,
+   "highlights": [
+    "Scotland's first AI Growth Zone (UK's fifth), announced 29 Jan 2026.",
+    "Community fund of up to £543M over 15 years promised to local projects.",
+    "Government says 3,400+ jobs, ~800 of them high-value AI roles."
+   ],
+   "controversy": null,
+   "sources": [
+    {
+     "title": "Lanarkshire named latest AI Growth Zone",
+     "publisher": "GOV.UK",
+     "url": "https://www.gov.uk/government/news/more-than-3400-jobs-and-targeted-support-for-local-communities-to-help-tackle-the-cost-of-living-as-lanarkshire-named-latest-ai-growth-zone",
+     "date": "2026-01-29"
+    },
+    {
+     "title": "Lanarkshire AI Growth Zone secures £300 million investment as Dell establishes Scottish base",
+     "publisher": "GOV.UK",
+     "url": "https://www.gov.uk/government/news/lanarkshire-ai-growth-zone-secures-300-million-investment-as-dell-establishes-scottish-base",
+     "date": "2026"
+    },
+    {
+     "title": "Lanarkshire becomes Scotland's first AI Growth Zone, UK's fifth",
+     "publisher": "Data Centre Review",
+     "url": "https://datacentrereview.com/2026/01/lanarkshire-becomes-scotlands-first-ai-growth-zone-uks-fifth/",
+     "date": "2026-01"
+    }
+   ]
+  },
+  {
+   "id": "vantage-newport-cwl1",
+   "name": "Vantage CWL1 Newport & South Wales AI Growth Zone",
+   "aka": [
+    "South Wales AI Growth Zone",
+    "Vantage Cardiff (CWL1)"
+   ],
+   "lat": 51.56,
+   "lng": -2.96,
+   "coordPrecision": "city",
+   "city": "Newport",
+   "region": "Wales",
+   "country": "United Kingdom",
+   "countryCode": "GB",
+   "status": "partially operational",
+   "type": "hyperscale-cloud",
+   "powerMW": 1000,
+   "powerMWNow": null,
+   "powerNote": "Vantage expects >1 GW of AI-ready capacity across Newport, Bridgend (ex-Ford engine plant) and Bro Tathan by the early 2030s; CWL1 Newport campus operating today.",
+   "acres": null,
+   "sizeSqft": null,
+   "compute": "Nebius high-density AI capacity leased at CWL1 (first commercial commitment in the zone)",
+   "investmentUSD": 13100000000,
+   "investmentNote": "£10B Vantage spending cited by UK government/Bloomberg (Nov 2025), ~US$13.1B at ~1.31. Government says it is still seeking an investor for parts of the zone, so this is a projection.",
+   "owners": [
+    {
+     "name": "Vantage Data Centers",
+     "entityId": "vantage",
+     "stakePct": 100
+    }
+   ],
+   "developer": "Vantage Data Centers",
+   "operator": "Vantage Data Centers",
+   "tenants": [
+    {
+     "name": "Nebius",
+     "entityId": "nebius",
+     "role": "AI cloud lessee"
+    },
+    {
+     "name": "Microsoft",
+     "entityId": "microsoft",
+     "role": "adjacent Microsoft Newport data-centre project within the zone"
+    }
+   ],
+   "capitalStack": [
+    {
+     "from": "Vantage Data Centers",
+     "entityId": "vantage",
+     "kind": "capex",
+     "amountUSD": 13100000000,
+     "date": "2025-11-20",
+     "note": "£10B planned investment across South Wales sites",
+     "url": "https://www.bloomberg.com/news/articles/2025-11-20/uk-plans-10-billion-wales-data-center-hub-in-ai-push"
+    },
+    {
+     "from": "UK Government",
+     "entityId": "uk-government",
+     "kind": "public-incentive",
+     "amountUSD": 6500000,
+     "date": "2025-11-20",
+     "note": "Up to £5M for AI adoption/skills in the zone",
+     "url": "https://www.gov.uk/government/news/ai-to-power-national-renewal-as-government-announces-billions-of-additional-investment-and-new-plans-to-boost-uk-businesses-jobs-and-innovation"
+    }
+   ],
+   "energy": "Grid; zone pitched on access to >1 GW power",
+   "water": null,
+   "announced": "2025-11-20",
+   "expectedOnline": null,
+   "highlights": [
+    "Wales' second AI Growth Zone runs along the M4 corridor from Newport to Bridgend, including the former Ford Bridgend engine plant.",
+    "Nebius became the first commercial tenant, leasing high-density capacity at Vantage's Newport campus."
+   ],
+   "controversy": null,
+   "sources": [
+    {
+     "title": "UK Plans £10 Billion Wales Data-Center Hub in AI Push",
+     "publisher": "Bloomberg",
+     "url": "https://www.bloomberg.com/news/articles/2025-11-20/uk-plans-10-billion-wales-data-center-hub-in-ai-push",
+     "date": "2025-11-20"
+    },
+    {
+     "title": "Second AI Growth Zone for Wales announced",
+     "publisher": "Business Wales (Welsh Government)",
+     "url": "https://businesswales.gov.wales/news-and-blog/second-ai-growth-zone-wales-announced",
+     "date": "2025-11-20"
+    },
+    {
+     "title": "Vantage and Nebius move first in South Wales AI Growth Zone deployment",
+     "publisher": "ITPro",
+     "url": "https://www.itpro.com/infrastructure/vantage-and-nebius-move-first-in-south-wales-ai-growth-zone-deployment",
+     "date": "2026"
+    }
+   ]
+  },
+  {
+   "id": "slough-cluster",
+   "name": "Slough Data Centre Cluster (Slough Trading Estate)",
+   "aka": [
+    "West London / Slough availability zone"
+   ],
+   "lat": 51.523,
+   "lng": -0.625,
+   "coordPrecision": "region",
+   "city": "Slough",
+   "region": "Berkshire",
+   "country": "United Kingdom",
+   "countryCode": "GB",
+   "status": "operational",
+   "type": "cluster",
+   "powerMW": 1000,
+   "powerMWNow": 1000,
+   "powerNote": "~1 GW across 30+ operational data centres incl. ~675 MW hyperscale (Kao Data report, Jan 2026). Government appeal decision (June 2026) cites 1,259 MW unmet need in the availability zone.",
+   "acres": null,
+   "sizeSqft": null,
+   "compute": null,
+   "investmentUSD": null,
+   "investmentNote": "Aggregate market; no single figure.",
+   "owners": [
+    {
+     "name": "SEGRO (landlord of Slough Trading Estate)",
+     "entityId": "segro",
+     "stakePct": null
+    },
+    {
+     "name": "Equinix (LD4-LD7 etc.)",
+     "entityId": "equinix",
+     "stakePct": null
+    },
+    {
+     "name": "Digital Realty",
+     "entityId": "digital-realty",
+     "stakePct": null
+    },
+    {
+     "name": "Yondr",
+     "entityId": "yondr",
+     "stakePct": null
+    },
+    {
+     "name": "CyrusOne",
+     "entityId": "cyrusone",
+     "stakePct": null
+    },
+    {
+     "name": "Kao Data",
+     "entityId": "kao-data",
+     "stakePct": null
+    }
+   ],
+   "developer": null,
+   "operator": null,
+   "tenants": [
+    {
+     "name": "Hyperscalers (AWS, Microsoft, Google, Oracle)",
+     "entityId": null,
+     "role": "major tenants"
+    }
+   ],
+   "capitalStack": [],
+   "energy": "National Grid / SSEN; Iver 132 kV grid supply point heavily reinforced; grid connections constrained",
+   "water": null,
+   "announced": null,
+   "expectedOnline": null,
+   "highlights": [
+    "Europe's densest data-centre town: ~1 GW in one industrial estate west of London.",
+    "In June 2026 the UK government approved the 147 MW Manor Farm scheme on appeal, citing 1.26 GW of unmet need."
+   ],
+   "controversy": "Grid constraints have stalled many new connections; Green Belt appeals (e.g., Manor Farm) contentious.",
+   "sources": [
+    {
+     "title": "Kao Data Slough 1GW Hub Whitepaper",
+     "publisher": "Kao Data",
+     "url": "https://www.kaodata.com/wp-content/uploads/2026/04/Kao-Data-Slough-1GW-Hub-Whitepaper.pdf",
+     "date": "2026-04"
+    },
+    {
+     "title": "Manor Farm, Slough appeal decision (3366043)",
+     "publisher": "GOV.UK (Secretary of State)",
+     "url": "https://assets.publishing.service.gov.uk/media/6a292d6edb0592d809052b94/260610_Combined_DL_IR_RtoC_-_Manor_Farm_Slough_-_3366043.pdf",
+     "date": "2026-06-10"
+    },
+    {
+     "title": "UK real estate market outlook midyear 2026: data centres",
+     "publisher": "CBRE",
+     "url": "https://www.cbre.co.uk/insights/books/uk-real-estate-market-outlook-midyear-review-2026/data-centres",
+     "date": "2026"
+    }
+   ]
+  },
+  {
+   "id": "equinix-hertfordshire",
+   "name": "Equinix Hertfordshire Campus (plus London LD estate)",
+   "aka": [
+    "Equinix £3.9B UK investment"
+   ],
+   "lat": 51.75,
+   "lng": -0.24,
+   "coordPrecision": "region",
+   "city": null,
+   "region": "Hertfordshire",
+   "country": "United Kingdom",
+   "countryCode": "GB",
+   "status": "planned",
+   "type": "colocation",
+   "powerMW": 250,
+   "powerMWNow": 0,
+   "powerNote": "250+ MW across three facilities on an 85-acre permitted plot; Equinix's existing London LD estate (Slough, Park Royal, Docklands) operational separately.",
+   "acres": 85,
+   "sizeSqft": null,
+   "compute": null,
+   "investmentUSD": 5200000000,
+   "investmentNote": "£3.9B UK investment announced 2025-10-30 (~US$5.2B at ~1.33), covering the Hertfordshire campus and wider UK estate over several years.",
+   "owners": [
+    {
+     "name": "Equinix",
+     "entityId": "equinix",
+     "stakePct": 100
+    }
+   ],
+   "developer": "Equinix",
+   "operator": "Equinix",
+   "tenants": [],
+   "capitalStack": [
+    {
+     "from": "Equinix",
+     "entityId": "equinix",
+     "kind": "capex",
+     "amountUSD": 5200000000,
+     "date": "2025-10-30",
+     "note": "£3.9B UK programme",
+     "url": "https://newsroom.equinix.com/2025-10-30-Equinix-to-invest-GBP3-9-billion-in-UKs-critical-national-infrastructure-in-boost-to-countrys-economy"
+    }
+   ],
+   "energy": "Grid",
+   "water": null,
+   "announced": "2025-10-30",
+   "expectedOnline": null,
+   "highlights": [
+    "Equinix's biggest UK bet: a three-building, 250 MW+ campus north of London on an 85-acre plot it bought in 2025."
+   ],
+   "controversy": "Green Belt location (site already had permission).",
+   "sources": [
+    {
+     "title": "Equinix to invest £3.9 billion in UK's critical national infrastructure",
+     "publisher": "Equinix",
+     "url": "https://newsroom.equinix.com/2025-10-30-Equinix-to-invest-GBP3-9-billion-in-UKs-critical-national-infrastructure-in-boost-to-countrys-economy",
+     "date": "2025-10-30"
+    },
+    {
+     "title": "Equinix datacenter Hertfordshire",
+     "publisher": "The Register",
+     "url": "https://www.theregister.com/2025/10/30/equinix_datacenter_hertfordshire/",
+     "date": "2025-10-30"
+    }
+   ]
+  },
+  {
+   "id": "london-docklands-cluster",
+   "name": "London Docklands Data Centre Cluster",
+   "aka": [
+    "Digital Docklands",
+    "Telehouse Docklands"
+   ],
+   "lat": 51.511,
+   "lng": 0.002,
+   "coordPrecision": "region",
+   "city": "London (Docklands / East India)",
+   "region": "Greater London",
+   "country": "United Kingdom",
+   "countryCode": "GB",
+   "status": "operational",
+   "type": "cluster",
+   "powerMW": null,
+   "powerMWNow": null,
+   "powerNote": "Interconnection hub rather than a hyperscale cluster; Digital Realty's four-building Digital Docklands campus listed at ~13.5 MW by Baxtel. Aggregate MW for the area not reliably published.",
+   "acres": null,
+   "sizeSqft": null,
+   "compute": "Digital Realty Innovation Lab (DRIL) London with 150 kW+ per cabinet (2026)",
+   "investmentUSD": null,
+   "investmentNote": null,
+   "owners": [
+    {
+     "name": "Digital Realty",
+     "entityId": "digital-realty",
+     "stakePct": null
+    },
+    {
+     "name": "Equinix (LD8)",
+     "entityId": "equinix",
+     "stakePct": null
+    },
+    {
+     "name": "Telehouse (KDDI)",
+     "entityId": "kddi",
+     "stakePct": null
+    }
+   ],
+   "developer": null,
+   "operator": null,
+   "tenants": [
+    {
+     "name": "LINX (London Internet Exchange) and carriers",
+     "entityId": null,
+     "role": "interconnection"
+    }
+   ],
+   "capitalStack": [],
+   "energy": "Grid",
+   "water": null,
+   "announced": null,
+   "expectedOnline": null,
+   "highlights": [
+    "Home of the London Internet Exchange's core and Europe's most interconnected financial-services data centres."
+   ],
+   "controversy": null,
+   "sources": [
+    {
+     "title": "London Docklands Data Centres & Colocation",
+     "publisher": "Baxtel",
+     "url": "https://baxtel.com/regions/london-docklands",
+     "date": "2026"
+    },
+    {
+     "title": "Digital Realty expands Innovation Lab network to London",
+     "publisher": "Barchart / Digital Realty",
+     "url": "https://www.barchart.com/story/news/412125/digital-realty-expands-innovation-lab-network-to-singapore-japan-and-london-to-accelerate-ai-and-hybrid-cloud-implementation",
+     "date": "2026"
+    }
+   ]
+  },
+  {
+   "id": "kao-data-harlow",
+   "name": "Kao Data Harlow Campus",
+   "aka": [
+    "Kao Data London One"
+   ],
+   "lat": 51.776,
+   "lng": 0.118,
+   "coordPrecision": "city",
+   "city": "Harlow",
+   "region": "Essex",
+   "country": "United Kingdom",
+   "countryCode": "GB",
+   "status": "partially operational",
+   "type": "colocation",
+   "powerMW": 83,
+   "powerMWNow": null,
+   "powerNote": "Up to ~83 MW IT at full build (Datacentermap, single source). KLON-01 operational; KLON-02 (10 MW) completed Nov 2023; KLON-03 (17.6 MW, liquid-cooling ready) under construction from 2025, due ~2027. Kao also pursuing a 1 GW Slough hub.",
+   "acres": null,
+   "sizeSqft": null,
+   "compute": "HPC/AI colocation; Datacentermap reports a 22 MW lease to Nebius (June 2026, single source)",
+   "investmentUSD": null,
+   "investmentNote": "Infratil invested up to £130M (2021) for 40%, rising to 53% in 2023; L&G Capital 32%, Goldacre 15%.",
+   "owners": [
+    {
+     "name": "Infratil",
+     "entityId": "infratil",
+     "stakePct": 53
+    },
+    {
+     "name": "Legal & General Capital",
+     "entityId": "legal-general",
+     "stakePct": 32
+    },
+    {
+     "name": "Goldacre (Noé Group)",
+     "entityId": "goldacre",
+     "stakePct": 15
+    }
+   ],
+   "developer": "Kao Data",
+   "operator": "Kao Data",
+   "tenants": [],
+   "capitalStack": [
+    {
+     "from": "Infratil",
+     "entityId": "infratil",
+     "kind": "equity",
+     "amountUSD": 180000000,
+     "date": "2021",
+     "note": "Up to £130M (~$180M) for 40% stake; raised to 53% in 2023",
+     "url": "https://datacenterdynamics.com/en/news/infratil-invests-up-to-130-million-acquiring-stake-in-uks-kao-data"
+    }
+   ],
+   "energy": "100% renewable PPA (company claim); grid",
+   "water": null,
+   "announced": "2017",
+   "expectedOnline": null,
+   "highlights": [
+    "Named after Nobel laureate Charles Kao, who pioneered fibre-optic communications at STL's Harlow labs."
+   ],
+   "controversy": null,
+   "sources": [
+    {
+     "title": "Kao Data expands Harlow datacentre campus by opening second 10MW facility",
+     "publisher": "Computer Weekly",
+     "url": "https://www.computerweekly.com/news/252513997/Kao-Data-expands-Harlow-datacentre-campus-by-opening-second-10MW-facility",
+     "date": "2023-11"
+    },
+    {
+     "title": "Kao Data Harlow Campus",
+     "publisher": "Datacentermap",
+     "url": "https://www.datacentermap.com/united-kingdom/london/kao-data-harlow-campus/",
+     "date": "2026"
+    },
+    {
+     "title": "Infratil invests up to £130 million acquiring stake in UK's Kao Data",
+     "publisher": "DatacenterDynamics",
+     "url": "https://datacenterdynamics.com/en/news/infratil-invests-up-to-130-million-acquiring-stake-in-uks-kao-data",
+     "date": "2021"
+    },
+    {
+     "title": "Infratil and Legal & General up stakes in UK data center operator Kao Data",
+     "publisher": "DatacenterDynamics",
+     "url": "https://www.datacenterdynamics.com/en/news/infratil-and-legal-general-up-stakes-in-uk-data-center-operator-kao-data",
+     "date": "2023"
+    }
+   ]
+  },
+  {
+   "id": "ark-longcross",
+   "name": "Ark Data Centres Longcross Park",
+   "aka": [
+    "Ark Longcross"
+   ],
+   "lat": 51.383,
+   "lng": -0.594,
+   "coordPrecision": "city",
+   "city": "Longcross, Chertsey",
+   "region": "Surrey",
+   "country": "United Kingdom",
+   "countryCode": "GB",
+   "status": "partially operational",
+   "type": "ai-inference",
+   "powerMW": 54,
+   "powerMWNow": null,
+   "powerNote": "54 MW across two modular data centres; Longcross 1 operational, Longcross 2 under construction (2026). Ark also runs Union Park (Hayes), Cody Park (Farnborough) and Spring Park (Corsham, Crown Hosting).",
+   "acres": null,
+   "sizeSqft": null,
+   "compute": "Nebius GPU cloud - leases entire existing facility",
+   "investmentUSD": 1000000000,
+   "investmentNote": "£807M (~$1B) Ark commitment to the site (reported by IT Brief/DataCentreNews).",
+   "owners": [
+    {
+     "name": "Ark Data Centres (controlled by Elliott Investment Management; Revcap minority)",
+     "entityId": "elliott",
+     "stakePct": null
+    }
+   ],
+   "developer": "Ark Data Centres",
+   "operator": "Ark Data Centres",
+   "tenants": [
+    {
+     "name": "Nebius",
+     "entityId": "nebius",
+     "role": "lessee of entire first building"
+    }
+   ],
+   "capitalStack": [
+    {
+     "from": "Ark Data Centres",
+     "entityId": "ark-data-centres",
+     "kind": "capex",
+     "amountUSD": 1000000000,
+     "date": "2025",
+     "note": "£807M expansion",
+     "url": "https://itbrief.co.uk/story/ark-to-invest-gbp-807m-in-surrey-data-centre-expansion"
+    }
+   ],
+   "energy": "Grid; hydrogen-ready campus (company claim)",
+   "water": null,
+   "announced": null,
+   "expectedOnline": "2026",
+   "highlights": [
+    "Nebius filled Ark's Longcross building to capacity - one of the first big neocloud leases in the UK."
+   ],
+   "controversy": null,
+   "sources": [
+    {
+     "title": "Ark to invest £807m in Surrey data centre expansion",
+     "publisher": "IT Brief UK",
+     "url": "https://itbrief.co.uk/story/ark-to-invest-gbp-807m-in-surrey-data-centre-expansion",
+     "date": "2025"
+    },
+    {
+     "title": "Nebius fills Ark's Longcross data centre to capacity",
+     "publisher": "IT Brief UK",
+     "url": "https://itbrief.co.uk/story/nebius-fills-ark-s-longcross-data-centre-to-capacity",
+     "date": "2025"
+    },
+    {
+     "title": "Ark Longcross Park campus",
+     "publisher": "Baxtel",
+     "url": "https://baxtel.com/campus/ark-longcross-park",
+     "date": "2026"
+    }
+   ]
+  },
+  {
+   "id": "stargate-norway-narvik",
+   "name": "Stargate Norway (Nscale/Aker, Kvandal near Narvik)",
+   "aka": [
+    "Stargate Norway",
+    "Aker-Nscale Narvik AI campus"
+   ],
+   "lat": 68.438,
+   "lng": 17.427,
+   "coordPrecision": "city",
+   "city": "Narvik (Kvandal)",
+   "region": "Nordland",
+   "country": "Norway",
+   "countryCode": "NO",
+   "status": "under construction",
+   "type": "ai-training",
+   "powerMW": 520,
+   "powerMWNow": null,
+   "powerNote": "230 MW initial capacity with ambition to add 290 MW (520 MW total), per the July 2025 launch. [Compiled from reporting to mid-2026 after search budget ran out; late-2026 status not re-verified.]",
+   "acres": null,
+   "sizeSqft": null,
+   "compute": "Target 100,000 NVIDIA GPUs by end-2026; Microsoft contracted ~52,000 GB300-class GPUs here under its Oct-2025 Nscale deal",
+   "investmentUSD": null,
+   "investmentNote": "No official total capex published in sources reviewed. Microsoft's five-year capacity contract for the site was reported at ~$6.2B (Sept 2025).",
+   "owners": [
+    {
+     "name": "Nscale",
+     "entityId": "nscale",
+     "stakePct": 50
+    },
+    {
+     "name": "Aker ASA",
+     "entityId": "aker",
+     "stakePct": 50
+    }
+   ],
+   "developer": "Nscale / Aker JV",
+   "operator": "Nscale",
+   "tenants": [
+    {
+     "name": "OpenAI",
+     "entityId": "openai",
+     "role": "initial offtaker under Stargate"
+    },
+    {
+     "name": "Microsoft",
+     "entityId": "microsoft",
+     "role": "contracted AI capacity (~$6.2B, 5 years)"
+    }
+   ],
+   "capitalStack": [
+    {
+     "from": "Microsoft",
+     "entityId": "microsoft",
+     "kind": "lease",
+     "amountUSD": 6200000000,
+     "date": "2025-09",
+     "note": "Reported five-year AI capacity contract with Nscale/Aker for Narvik",
+     "url": "https://openai.com/index/introducing-stargate-norway/"
+    }
+   ],
+   "energy": "100% renewable hydropower; closed-loop direct-to-chip liquid cooling; waste heat offered to local industry",
+   "water": null,
+   "announced": "2025-07-31",
+   "expectedOnline": "2026",
+   "highlights": [
+    "OpenAI's first Stargate in Europe, inside the Arctic Circle.",
+    "Cheap Nordic hydropower: the region has surplus power and low prices."
+   ],
+   "controversy": null,
+   "sources": [
+    {
+     "title": "Introducing Stargate Norway",
+     "publisher": "OpenAI",
+     "url": "https://openai.com/index/introducing-stargate-norway/",
+     "date": "2025-07-31"
+    },
+    {
+     "title": "Nscale contracts approximately 200,000 NVIDIA GB300 GPUs with Microsoft",
+     "publisher": "Seeking Alpha (Nscale press release)",
+     "url": "https://seekingalpha.com/pr/20266079-nscale-contracts-approximately-200000-nvidia-gb300-gpus-with-microsoft-to-deliver-nvidia-ai",
+     "date": "2025-10-15"
+    },
+    {
+     "title": "Nscale inks massive AI infrastructure deal with Microsoft",
+     "publisher": "TechCrunch",
+     "url": "https://techcrunch.com/2025/10/15/nscale-inks-massive-ai-infrastructure-deal-with-microsoft/",
+     "date": "2025-10-15"
+    }
+   ]
+  },
+  {
+   "id": "nscale-glomfjord",
+   "name": "Nscale Glomfjord Data Centre",
+   "aka": [],
+   "lat": 66.81,
+   "lng": 13.95,
+   "coordPrecision": "city",
+   "city": "Glomfjord",
+   "region": "Nordland",
+   "country": "Norway",
+   "countryCode": "NO",
+   "status": "operational",
+   "type": "ai-training",
+   "powerMW": null,
+   "powerMWNow": null,
+   "powerNote": "Nscale's first owned site, powered by local hydropower; MW not confirmed in sources reviewed. [Compiled from reporting to mid-2026; not re-verified.]",
+   "acres": null,
+   "sizeSqft": null,
+   "compute": "NVIDIA/AMD GPU cloud",
+   "investmentUSD": null,
+   "investmentNote": null,
+   "owners": [
+    {
+     "name": "Nscale",
+     "entityId": "nscale",
+     "stakePct": 100
+    }
+   ],
+   "developer": "Nscale",
+   "operator": "Nscale",
+   "tenants": [],
+   "capitalStack": [],
+   "energy": "Hydropower",
+   "water": null,
+   "announced": "2024",
+   "expectedOnline": null,
+   "highlights": [
+    "The hydro-powered Arctic site where Nscale (spun out of Arkon Energy in 2024) started before its Microsoft and OpenAI megadeals."
+   ],
+   "controversy": null,
+   "sources": [
+    {
+     "title": "NScale",
+     "publisher": "Wikipedia",
+     "url": "https://en.wikipedia.org/wiki/NScale",
+     "date": "2026"
+    }
+   ]
+  },
+  {
+   "id": "microsoft-sweden-central",
+   "name": "Microsoft Sweden Central (Gävle, Sandviken, Staffanstorp)",
+   "aka": [
+    "Microsoft Sweden Central region"
+   ],
+   "lat": 60.675,
+   "lng": 17.141,
+   "coordPrecision": "city",
+   "city": "Gävle (also Sandviken, Staffanstorp)",
+   "region": "Gävleborg / Skåne",
+   "country": "Sweden",
+   "countryCode": "SE",
+   "status": "operational",
+   "type": "hyperscale-cloud",
+   "powerMW": null,
+   "powerMWNow": null,
+   "powerNote": "Sweden Central region campuses at Gävle, Sandviken and Staffanstorp; MW not disclosed.",
+   "acres": null,
+   "sizeSqft": null,
+   "compute": "~20,000 advanced GPUs pledged under the 2024 expansion",
+   "investmentUSD": 3200000000,
+   "investmentNote": "SEK 33.7B (~US$3.2B) over two years to expand cloud and AI infrastructure in Sweden, incl. ~20,000 advanced GPUs, announced 2024-06-03 - Microsoft's largest-ever investment in Sweden.",
+   "owners": [
+    {
+     "name": "Microsoft",
+     "entityId": "microsoft",
+     "stakePct": 100
+    }
+   ],
+   "developer": "Microsoft",
+   "operator": "Microsoft",
+   "tenants": [
+    {
+     "name": "Microsoft Azure",
+     "entityId": "microsoft",
+     "role": "owner-occupier"
+    }
+   ],
+   "capitalStack": [
+    {
+     "from": "Microsoft",
+     "entityId": "microsoft",
+     "kind": "capex",
+     "amountUSD": 3200000000,
+     "date": "2024-06-03",
+     "note": "SEK 33.7B, two-year programme",
+     "url": "https://www.reuters.com/technology/microsoft-invest-32-bln-swedish-cloud-ai-2024-06-03/"
+    }
+   ],
+   "energy": "Swedish grid (hydro/nuclear); region launched in 2021 with 100% renewable energy commitment",
+   "water": null,
+   "announced": "2020-11",
+   "expectedOnline": "2021",
+   "highlights": [
+    "Microsoft's largest-ever investment in Sweden: SEK 33.7B and ~20,000 GPUs (2024)."
+   ],
+   "controversy": null,
+   "sources": [
+    {
+     "title": "Microsoft to invest $3.2 bln in Swedish cloud, AI",
+     "publisher": "Reuters",
+     "url": "https://www.reuters.com/technology/microsoft-invest-32-bln-swedish-cloud-ai-2024-06-03/",
+     "date": "2024-06-03"
+    },
+    {
+     "title": "Microsoft to deploy 20,000 GPUs in Sweden",
+     "publisher": "DatacenterDynamics",
+     "url": "https://www.datacenterdynamics.com/en/news/microsoft-to-deploy-20000-gpus-in-sweden/",
+     "date": "2024-06-03"
+    },
+    {
+     "title": "Microsoft datacenter globe (Sweden Central)",
+     "publisher": "Microsoft",
+     "url": "https://datacenters.microsoft.com/globe/explore",
+     "date": "2026"
+    }
+   ]
+  },
+  {
+   "id": "google-hamina",
+   "name": "Google Hamina Data Center",
+   "aka": [
+    "Summa paper mill site"
+   ],
+   "lat": 60.569,
+   "lng": 27.198,
+   "coordPrecision": "city",
+   "city": "Hamina",
+   "region": "Kymenlaakso",
+   "country": "Finland",
+   "countryCode": "FI",
+   "status": "operational",
+   "type": "hyperscale-cloud",
+   "powerMW": null,
+   "powerMWNow": null,
+   "powerNote": "Google does not disclose MW. Operational since 2011; the €1B expansion announced 2024-05-20 was the campus's seventh expansion.",
+   "acres": null,
+   "sizeSqft": null,
+   "compute": "Google Cloud europe-north1 region",
+   "investmentUSD": 1080000000,
+   "investmentNote": "€1B expansion announced 2024-05-20 (~US$1.08B at the time); Google has invested several billion euros in Hamina since buying the former Stora Enso Summa paper mill in 2009. Google also bought land in Muhos and Kajaani for future sites.",
+   "owners": [
+    {
+     "name": "Google",
+     "entityId": "google",
+     "stakePct": 100
+    }
+   ],
+   "developer": "Google",
+   "operator": "Google",
+   "tenants": [
+    {
+     "name": "Google",
+     "entityId": "google",
+     "role": "owner-occupier"
+    }
+   ],
+   "capitalStack": [
+    {
+     "from": "Google",
+     "entityId": "google",
+     "kind": "capex",
+     "amountUSD": 1080000000,
+     "date": "2024-05-20",
+     "note": "€1B expansion",
+     "url": "https://www.businessfinland.fi/en/whats-new/news/2024/google-announced-an-expansion-of-its-hamina-data-center"
+    }
+   ],
+   "energy": "Nordic grid with wind PPAs; heat recovery to Hamina district heating",
+   "water": "Seawater cooling drawn from the Gulf of Finland via the old paper mill's tunnels",
+   "announced": "2009",
+   "expectedOnline": "2011",
+   "highlights": [
+    "A converted 1950s paper mill cooled with Baltic seawater through the mill's original intake tunnels.",
+    "Now also supplies waste heat to Hamina's district heating network."
+   ],
+   "controversy": null,
+   "sources": [
+    {
+     "title": "Hamina, Finland data center",
+     "publisher": "Google",
+     "url": "https://www.datacenters.google/locations/hamina/",
+     "date": "2026"
+    },
+    {
+     "title": "Google announced an expansion of its Hamina data center",
+     "publisher": "Business Finland",
+     "url": "https://www.businessfinland.fi/en/whats-new/news/2024/google-announced-an-expansion-of-its-hamina-data-center",
+     "date": "2024-05-20"
+    },
+    {
+     "title": "Google Plans $1B Expansion at Data Center in Finland (Bloomberg)",
+     "publisher": "Data Center Knowledge",
+     "url": "https://www.datacenterknowledge.com/build-design/google-plans-1b-expansion-at-data-center-in-finland",
+     "date": "2024-05-20"
+    }
+   ]
+  },
+  {
+   "id": "meta-lulea",
+   "name": "Meta Luleå Data Center",
+   "aka": [
+    "Facebook Luleå"
+   ],
+   "lat": 65.584,
+   "lng": 22.155,
+   "coordPrecision": "city",
+   "city": "Luleå",
+   "region": "Norrbotten",
+   "country": "Sweden",
+   "countryCode": "SE",
+   "status": "operational",
+   "type": "hyperscale-cloud",
+   "powerMW": null,
+   "powerMWNow": null,
+   "powerNote": "Meta does not disclose MW. [Compiled from reporting to mid-2026; not re-verified.]",
+   "acres": null,
+   "sizeSqft": null,
+   "compute": null,
+   "investmentUSD": null,
+   "investmentNote": null,
+   "owners": [
+    {
+     "name": "Meta",
+     "entityId": "meta",
+     "stakePct": 100
+    }
+   ],
+   "developer": "Meta",
+   "operator": "Meta",
+   "tenants": [
+    {
+     "name": "Meta",
+     "entityId": "meta",
+     "role": "owner-occupier"
+    }
+   ],
+   "capitalStack": [],
+   "energy": "100% hydropower from the Lule River; free-air cooling",
+   "water": null,
+   "announced": "2011",
+   "expectedOnline": "2013",
+   "highlights": [
+    "Meta's first data centre outside the US (opened 2013), cooled by sub-Arctic air just below the Arctic Circle."
+   ],
+   "controversy": null,
+   "sources": [
+    {
+     "title": "Meta data centers",
+     "publisher": "Meta",
+     "url": "https://datacenters.atmeta.com/",
+     "date": "2026"
+    }
+   ]
+  },
+  {
+   "id": "meta-odense",
+   "name": "Meta Odense Data Center",
+   "aka": [
+    "Facebook Odense"
+   ],
+   "lat": 55.403,
+   "lng": 10.402,
+   "coordPrecision": "city",
+   "city": "Odense",
+   "region": "Southern Denmark",
+   "country": "Denmark",
+   "countryCode": "DK",
+   "status": "operational",
+   "type": "hyperscale-cloud",
+   "powerMW": null,
+   "powerMWNow": null,
+   "powerNote": "MW not disclosed. [Compiled from reporting to mid-2026; not re-verified.]",
+   "acres": null,
+   "sizeSqft": null,
+   "compute": null,
+   "investmentUSD": null,
+   "investmentNote": null,
+   "owners": [
+    {
+     "name": "Meta",
+     "entityId": "meta",
+     "stakePct": 100
+    }
+   ],
+   "developer": "Meta",
+   "operator": "Meta",
+   "tenants": [
+    {
+     "name": "Meta",
+     "entityId": "meta",
+     "role": "owner-occupier"
+    }
+   ],
+   "capitalStack": [],
+   "energy": "Wind PPAs; waste heat recovered via heat pumps into Fjernvarme Fyn district heating",
+   "water": null,
+   "announced": "2017-01",
+   "expectedOnline": "2019",
+   "highlights": [
+    "One of the world's largest data-centre heat-recovery schemes: server heat warms homes across Odense."
+   ],
+   "controversy": null,
+   "sources": [
+    {
+     "title": "Meta data centers",
+     "publisher": "Meta",
+     "url": "https://datacenters.atmeta.com/",
+     "date": "2026"
+    }
+   ]
+  },
+  {
+   "id": "atnorth-nordics",
+   "name": "atNorth Nordic Campuses (Iceland, Sweden, Finland, Denmark)",
+   "aka": [
+    "atNorth ICE02 Keflavík",
+    "atNorth DEN01 Ballerup"
+   ],
+   "lat": 63.985,
+   "lng": -22.605,
+   "coordPrecision": "region",
+   "city": "Reykjanesbær (ICE02); also Akureyri, Stockholm, Sollefteå, Kouvola, Espoo, Ballerup",
+   "region": "Nordics",
+   "country": "Iceland",
+   "countryCode": "IS",
+   "status": "partially operational",
+   "type": "colocation",
+   "powerMW": null,
+   "powerMWNow": null,
+   "powerNote": "Multi-site platform pin placed at its largest Iceland campus; per-site MW not confirmed in sources reviewed. [Compiled from reporting to mid-2026; not re-verified.]",
+   "acres": null,
+   "sizeSqft": null,
+   "compute": "HPC/AI colocation (customers include BNP Paribas in Iceland)",
+   "investmentUSD": null,
+   "investmentNote": "Owned by Partners Group (acquired from Altor in 2022; price not disclosed in sources reviewed).",
+   "owners": [
+    {
+     "name": "Partners Group",
+     "entityId": "partners-group",
+     "stakePct": 100
+    }
+   ],
+   "developer": "atNorth",
+   "operator": "atNorth",
+   "tenants": [],
+   "capitalStack": [],
+   "energy": "Geothermal and hydro (Iceland); Nordic grid; heat reuse partnerships",
+   "water": null,
+   "announced": null,
+   "expectedOnline": null,
+   "highlights": [
+    "Runs on Iceland's geothermal and hydro power; Danish DEN01 campus designed to feed heat into local district heating."
+   ],
+   "controversy": null,
+   "sources": [
+    {
+     "title": "atNorth",
+     "publisher": "atNorth",
+     "url": "https://www.atnorth.com/",
+     "date": "2026"
+    }
+   ]
+  },
+  {
+   "id": "ecodatacenter-falun",
+   "name": "EcoDataCenter Falun (and Borlänge expansion)",
+   "aka": [
+    "EcoDataCenter 1"
+   ],
+   "lat": 60.607,
+   "lng": 15.636,
+   "coordPrecision": "city",
+   "city": "Falun",
+   "region": "Dalarna",
+   "country": "Sweden",
+   "countryCode": "SE",
+   "status": "partially operational",
+   "type": "ai-training",
+   "powerMW": null,
+   "powerMWNow": null,
+   "powerNote": "MW not confirmed in sources reviewed. [Compiled from reporting to mid-2026; not re-verified.]",
+   "acres": null,
+   "sizeSqft": null,
+   "compute": "Hosts CoreWeave GPU capacity in Sweden (2024 deal, reported)",
+   "investmentUSD": null,
+   "investmentNote": null,
+   "owners": [
+    {
+     "name": "Areim (majority)",
+     "entityId": "areim",
+     "stakePct": null
+    }
+   ],
+   "developer": "EcoDataCenter",
+   "operator": "EcoDataCenter",
+   "tenants": [
+    {
+     "name": "CoreWeave",
+     "entityId": "coreweave",
+     "role": "GPU cloud tenant (reported)"
+    }
+   ],
+   "capitalStack": [],
+   "energy": "Renewable Swedish power; waste heat to Falu Energi & Vatten's district heating and a wood-pellet plant",
+   "water": null,
+   "announced": null,
+   "expectedOnline": null,
+   "highlights": [
+    "Pitches itself as 'climate positive': server heat dries wood pellets next door."
+   ],
+   "controversy": null,
+   "sources": [
+    {
+     "title": "EcoDataCenter",
+     "publisher": "EcoDataCenter",
+     "url": "https://ecodatacenter.tech/",
+     "date": "2026"
+    }
+   ]
+  },
+  {
+   "id": "verne-keflavik",
+   "name": "Verne Iceland Campus (Keflavík / Ásbrú)",
+   "aka": [
+    "Verne Global Iceland"
+   ],
+   "lat": 63.97,
+   "lng": -22.58,
+   "coordPrecision": "city",
+   "city": "Keflavík (Ásbrú, former NATO base)",
+   "region": "Reykjanes",
+   "country": "Iceland",
+   "countryCode": "IS",
+   "status": "operational",
+   "type": "colocation",
+   "powerMW": null,
+   "powerMWNow": null,
+   "powerNote": "MW not confirmed in sources reviewed. [Compiled from reporting to mid-2026; not re-verified.]",
+   "acres": null,
+   "sizeSqft": null,
+   "compute": "HPC/AI colocation (high-density)",
+   "investmentUSD": null,
+   "investmentNote": "Owned by Ardian since 2021 (price not verified in sources reviewed).",
+   "owners": [
+    {
+     "name": "Ardian",
+     "entityId": "ardian",
+     "stakePct": 100
+    }
+   ],
+   "developer": "Verne",
+   "operator": "Verne",
+   "tenants": [],
+   "capitalStack": [],
+   "energy": "100% geothermal and hydro Icelandic grid",
+   "water": null,
+   "announced": "2012",
+   "expectedOnline": null,
+   "highlights": [
+    "Built on a former NATO air base; runs entirely on Iceland's geothermal and hydro power."
+   ],
+   "controversy": null,
+   "sources": [
+    {
+     "title": "Verne",
+     "publisher": "Verne",
+     "url": "https://verneglobal.com/",
+     "date": "2026"
+    }
+   ]
+  },
+  {
+   "id": "nebius-mantsala",
+   "name": "Nebius Mäntsälä Data Center",
+   "aka": [],
+   "lat": 60.636,
+   "lng": 25.318,
+   "coordPrecision": "city",
+   "city": "Mäntsälä",
+   "region": "Uusimaa",
+   "country": "Finland",
+   "countryCode": "FI",
+   "status": "operational",
+   "type": "ai-training",
+   "powerMW": 75,
+   "powerMWNow": null,
+   "powerNote": "Nebius announced in Oct 2024 it would triple capacity to 75 MW. [Compiled from reporting to mid-2026; not re-verified.]",
+   "acres": null,
+   "sizeSqft": null,
+   "compute": "NVIDIA H100/H200/Blackwell GPU cloud",
+   "investmentUSD": null,
+   "investmentNote": null,
+   "owners": [
+    {
+     "name": "Nebius",
+     "entityId": "nebius",
+     "stakePct": 100
+    }
+   ],
+   "developer": "Nebius",
+   "operator": "Nebius",
+   "tenants": [],
+   "capitalStack": [],
+   "energy": "Finnish grid; waste heat supplies Mäntsälä's district heating",
+   "water": null,
+   "announced": null,
+   "expectedOnline": null,
+   "highlights": [
+    "Built by Yandex, kept by Nebius after the 2024 split from Yandex's Russian business; heat warms the town."
+   ],
+   "controversy": null,
+   "sources": [
+    {
+     "title": "Nebius",
+     "publisher": "Nebius",
+     "url": "https://nebius.com/",
+     "date": "2026"
+    }
+   ]
+  },
+  {
+   "id": "gefion-copenhagen",
+   "name": "Gefion AI Supercomputer (DCAI, Copenhagen)",
+   "aka": [
+    "Danish Centre for AI Innovation"
+   ],
+   "lat": 55.676,
+   "lng": 12.568,
+   "coordPrecision": "city",
+   "city": "Copenhagen area (hosted at Digital Realty)",
+   "region": "Capital Region",
+   "country": "Denmark",
+   "countryCode": "DK",
+   "status": "operational",
+   "type": "sovereign-ai",
+   "powerMW": null,
+   "powerMWNow": null,
+   "powerNote": "Hosted in a Digital Realty Copenhagen facility. [Compiled from reporting to mid-2026; not re-verified.]",
+   "acres": null,
+   "sizeSqft": null,
+   "compute": "NVIDIA DGX SuperPOD with 1,528 H100 GPUs (launched Oct 2024)",
+   "investmentUSD": null,
+   "investmentNote": "Funded by the Novo Nordisk Foundation and Denmark's Export and Investment Fund (EIFO); reported at ~DKK 700M combined (not re-verified).",
+   "owners": [
+    {
+     "name": "Novo Nordisk Foundation",
+     "entityId": "novo-nordisk-foundation",
+     "stakePct": null
+    },
+    {
+     "name": "EIFO (Denmark)",
+     "entityId": "eifo",
+     "stakePct": null
+    }
+   ],
+   "developer": "DCAI",
+   "operator": "DCAI",
+   "tenants": [],
+   "capitalStack": [],
+   "energy": "Danish grid, renewable",
+   "water": null,
+   "announced": "2024",
+   "expectedOnline": "2024-10",
+   "highlights": [
+    "Denmark's sovereign AI supercomputer, bankrolled by the foundation behind Ozempic maker Novo Nordisk; Jensen Huang attended the launch."
+   ],
+   "controversy": null,
+   "sources": [
+    {
+     "title": "Danish Centre for AI Innovation",
+     "publisher": "DCAI",
+     "url": "https://www.dcai.dk/",
+     "date": "2026"
+    }
+   ]
+  },
+  {
+   "id": "campus-ia-fouju",
+   "name": "Campus IA Fouju (MGX / Bpifrance / Mistral AI / NVIDIA)",
+   "aka": [
+    "UAE-France 1 GW AI campus",
+    "Europe's largest AI campus"
+   ],
+   "lat": 48.585,
+   "lng": 2.776,
+   "coordPrecision": "city",
+   "city": "Fouju",
+   "region": "Seine-et-Marne, Ile-de-France",
+   "country": "France",
+   "countryCode": "FR",
+   "status": "planned",
+   "type": "ai-training",
+   "powerMW": 1400,
+   "powerMWNow": 0,
+   "powerNote": "Up to 1.4 GW announced at Choose France (May 2025); first operations targeted ~2028. [Compiled from reporting to mid-2026 after search budget ran out; late-2026 status not re-verified.]",
+   "acres": null,
+   "sizeSqft": null,
+   "compute": null,
+   "investmentUSD": null,
+   "investmentNote": "Part of the UAE's Feb-2025 pledge of €30-50B (~US$31-52B at ~1.04) for a 1 GW AI campus in France; project-level capex not confirmed in sources reviewed.",
+   "owners": [
+    {
+     "name": "MGX",
+     "entityId": "mgx",
+     "stakePct": null
+    },
+    {
+     "name": "Bpifrance",
+     "entityId": "bpifrance",
+     "stakePct": null
+    },
+    {
+     "name": "Mistral AI",
+     "entityId": "mistral",
+     "stakePct": null
+    },
+    {
+     "name": "NVIDIA",
+     "entityId": "nvidia",
+     "stakePct": null
+    }
+   ],
+   "developer": "MGX-led JV",
+   "operator": null,
+   "tenants": [
+    {
+     "name": "Mistral AI",
+     "entityId": "mistral",
+     "role": "JV partner / expected user"
+    }
+   ],
+   "capitalStack": [
+    {
+     "from": "UAE (via MGX)",
+     "entityId": "mgx",
+     "kind": "jv",
+     "amountUSD": null,
+     "date": "2025-02-06",
+     "note": "France-UAE framework: €30-50B for a 1 GW AI campus; JV with Bpifrance, Mistral and Nvidia formalised May 2025",
+     "url": "https://www.mgx.ae/"
+    }
+   ],
+   "energy": "French grid (nuclear-heavy, low-carbon)",
+   "water": null,
+   "announced": "2025-02-06",
+   "expectedOnline": "2028",
+   "highlights": [
+    "The centrepiece of Macron's €109B AI Action Summit investment wave (Feb 2025).",
+    "Gulf sovereign money (Abu Dhabi's MGX) building France's sovereign-AI flagship."
+   ],
+   "controversy": null,
+   "sources": [
+    {
+     "title": "MGX",
+     "publisher": "MGX",
+     "url": "https://www.mgx.ae/",
+     "date": "2025"
+    },
+    {
+     "title": "Élysée - AI Action Summit",
+     "publisher": "Présidence de la République",
+     "url": "https://www.elysee.fr/",
+     "date": "2025-02"
+    }
+   ]
+  },
+  {
+   "id": "fluidstack-france-1gw",
+   "name": "Fluidstack France 1 GW AI Supercomputer (Bosquel, Somme) - abandoned",
+   "aka": [],
+   "lat": 49.75,
+   "lng": 2.2,
+   "coordPrecision": "city",
+   "city": "Bosquel (near Amiens)",
+   "region": "Somme, Hauts-de-France",
+   "country": "France",
+   "countryCode": "FR",
+   "status": "cancelled",
+   "type": "ai-training",
+   "powerMW": 1000,
+   "powerMWNow": 0,
+   "powerNote": "Planned 1 GW (first phase targeted 2026, scalable beyond 1 GW by 2028) at Bosquel near Amiens. Bloomberg reported on 2026-03-18 that Fluidstack had pulled out to focus on larger US contracts; the Somme Sud-Ouest community of communes and RTE reportedly launched a new call for a replacement developer.",
+   "acres": null,
+   "sizeSqft": null,
+   "compute": null,
+   "investmentUSD": 10400000000,
+   "investmentNote": "€10B (~US$10.4B at ~1.04, Feb 2025) pledged under a Feb 2025 MoU with the French government at the Paris AI Action Summit; never financed - Fluidstack withdrew in March 2026.",
+   "owners": [
+    {
+     "name": "Fluidstack",
+     "entityId": "fluidstack",
+     "stakePct": null
+    }
+   ],
+   "developer": "Fluidstack",
+   "operator": "Fluidstack",
+   "tenants": [],
+   "capitalStack": [
+    {
+     "from": "Fluidstack (financing not disclosed)",
+     "entityId": "fluidstack",
+     "kind": "capex",
+     "amountUSD": 10400000000,
+     "date": "2025-02",
+     "note": "€10B MoU pledge (abandoned Mar 2026)",
+     "url": "https://www.businesswire.com/news/home/20250210579531/en/"
+    }
+   ],
+   "energy": "French nuclear-backed grid (low-carbon)",
+   "water": null,
+   "announced": "2025-02",
+   "expectedOnline": null,
+   "highlights": [
+    "Announced by Emmanuel Macron at the Feb 2025 AI Action Summit as a nuclear-powered 1 GW AI supercomputer; dropped a year later as Fluidstack moved its HQ to New York and pivoted to US projects (incl. Anthropic's $50B data-center build)."
+   ],
+   "controversy": "Fluidstack's withdrawal (Bloomberg, Mar 2026) left one of France's flagship AI Action Summit pledges without a developer; Bloomberg also reported it exited a Mistral-linked supercomputer project south of Paris.",
+   "sources": [
+    {
+     "title": "Fluidstack to Build 1GW AI Supercomputer in France",
+     "publisher": "Fluidstack (Business Wire)",
+     "url": "https://www.businesswire.com/news/home/20250210579531/en/",
+     "date": "2025-02-10"
+    },
+    {
+     "title": "GPU cloud provider Fluidstack signs MoU for 1GW AI supercomputer in France",
+     "publisher": "DatacenterDynamics",
+     "url": "https://www.datacenterdynamics.com/en/news/gpu-cloud-provider-fluidstack-signs-mou-for-1gw-ai-supercomputer-in-france/",
+     "date": "2025-02-18"
+    },
+    {
+     "title": "Fluidstack Drops Out of Marquee €10 Billion AI Project in France",
+     "publisher": "Bloomberg",
+     "url": "https://www.bloomberg.com/news/articles/2026-03-18/fluidstack-drops-out-of-marquee-10-billion-ai-project-in-france",
+     "date": "2026-03-18"
+    },
+    {
+     "title": "La start-up Fluidstack aurait renoncé à son mégaprojet de supercalculateur à 10 milliards d'euros dans les Hauts-de-France",
+     "publisher": "La Voix du Nord",
+     "url": "https://www.lavoixdunord.fr/1686331/article/2026-03-20/la-start-fluidstack-aurait-renonce-son-megaprojet-de-supercalculateur-10",
+     "date": "2026-03-20"
+    }
+   ]
+  },
+  {
+   "id": "brookfield-cambrai",
+   "name": "Brookfield Cambrai AI Data Centre (former Air Base 103)",
+   "aka": [
+    "Cambrai-Épinoy"
+   ],
+   "lat": 50.22,
+   "lng": 3.15,
+   "coordPrecision": "city",
+   "city": "Cambrai (Épinoy)",
+   "region": "Hauts-de-France",
+   "country": "France",
+   "countryCode": "FR",
+   "status": "planned",
+   "type": "ai-training",
+   "powerMW": 1000,
+   "powerMWNow": 0,
+   "powerNote": "~1 GW campus on the former Cambrai-Épinoy air base. [Compiled from reporting to mid-2026; not re-verified.]",
+   "acres": null,
+   "sizeSqft": null,
+   "compute": null,
+   "investmentUSD": null,
+   "investmentNote": "Part of Brookfield's €20B (~US$20.8B) France AI infrastructure pledge through 2030 (Feb 2025), which also covers Data4 expansion and associated energy infrastructure; the Cambrai share was not confirmed in sources reviewed.",
+   "owners": [
+    {
+     "name": "Brookfield",
+     "entityId": "brookfield",
+     "stakePct": null
+    }
+   ],
+   "developer": "Brookfield (with Data4)",
+   "operator": null,
+   "tenants": [],
+   "capitalStack": [
+    {
+     "from": "Brookfield",
+     "entityId": "brookfield",
+     "kind": "equity",
+     "amountUSD": 20800000000,
+     "date": "2025-02-09",
+     "note": "€20B France programme through 2030 (whole programme, not Cambrai alone)",
+     "url": "https://bam.brookfield.com/"
+    }
+   ],
+   "energy": "French grid (nuclear-heavy)",
+   "water": null,
+   "announced": "2025-02-09",
+   "expectedOnline": null,
+   "highlights": [
+    "A Cold War-era NATO/French air base in northern France slated to become a gigawatt AI campus."
+   ],
+   "controversy": null,
+   "sources": [
+    {
+     "title": "Brookfield Asset Management",
+     "publisher": "Brookfield",
+     "url": "https://bam.brookfield.com/",
+     "date": "2025"
+    }
+   ]
+  },
+  {
+   "id": "mistral-compute-bruyeres",
+   "name": "Mistral Compute Campus (Bruyères-le-Châtel, Essonne)",
+   "aka": [
+    "Mistral Compute"
+   ],
+   "lat": 48.589,
+   "lng": 2.19,
+   "coordPrecision": "city",
+   "city": "Bruyères-le-Châtel",
+   "region": "Essonne, Ile-de-France",
+   "country": "France",
+   "countryCode": "FR",
+   "status": "under construction",
+   "type": "sovereign-ai",
+   "powerMW": 40,
+   "powerMWNow": null,
+   "powerNote": "~40 MW initial phase at an Eclairion-built site, announced June 2025. [Compiled from reporting to mid-2026; late-2026 status not re-verified.]",
+   "acres": null,
+   "sizeSqft": null,
+   "compute": "18,000 NVIDIA Grace Blackwell superchips in the first phase",
+   "investmentUSD": null,
+   "investmentNote": "Capex not disclosed. Mistral raised a €1.7B Series C in Sept 2025 led by ASML (€1.3B), valuing it at €11.7B.",
+   "owners": [
+    {
+     "name": "Mistral AI",
+     "entityId": "mistral",
+     "stakePct": null
+    }
+   ],
+   "developer": "Eclairion (site) / Mistral AI",
+   "operator": "Mistral AI",
+   "tenants": [
+    {
+     "name": "Mistral AI",
+     "entityId": "mistral",
+     "role": "owner-operator; sells capacity to European enterprises and governments"
+    }
+   ],
+   "capitalStack": [
+    {
+     "from": "NVIDIA",
+     "entityId": "nvidia",
+     "kind": "vendor-financing",
+     "amountUSD": null,
+     "date": "2025-06-11",
+     "note": "Nvidia partner for Mistral Compute (GPUs); terms not disclosed",
+     "url": "https://mistral.ai/news/mistral-compute"
+    }
+   ],
+   "energy": "French grid (decarbonised)",
+   "water": null,
+   "announced": "2025-06-11",
+   "expectedOnline": "2026",
+   "highlights": [
+    "Unveiled on stage by Arthur Mensch and Jensen Huang with Macron at VivaTech: Europe's 'sovereign' AI cloud."
+   ],
+   "controversy": null,
+   "sources": [
+    {
+     "title": "Mistral Compute",
+     "publisher": "Mistral AI",
+     "url": "https://mistral.ai/news/mistral-compute",
+     "date": "2025-06-11"
+    }
+   ]
+  },
+  {
+   "id": "evroc-mougins",
+   "name": "evroc Mougins Hyperscale Data Centre",
+   "aka": [],
+   "lat": 43.6,
+   "lng": 7,
+   "coordPrecision": "city",
+   "city": "Mougins (Sophia Antipolis area)",
+   "region": "Provence-Alpes-Côte d'Azur",
+   "country": "France",
+   "countryCode": "FR",
+   "status": "under construction",
+   "type": "sovereign-ai",
+   "powerMW": 96,
+   "powerMWNow": 0,
+   "powerNote": "96 MW hyperscale 'AI factory' (designed for up to 50,000 GPUs), built in phases at the former Titan Data Center (Valimmo Reim) in the Actipôle de Mougins; evroc originally targeted completion in 2025. As of May 2026 evroc still listed Mougins (with Stockholm) as a data centre under construction; go-live date not confirmed.",
+   "acres": null,
+   "sizeSqft": null,
+   "compute": null,
+   "investmentUSD": 4200000000,
+   "investmentNote": "Up to €4B (~US$4.2B at ~1.04) at full capacity, announced 2025-02-10 at the Paris AI Action Summit.",
+   "owners": [
+    {
+     "name": "evroc",
+     "entityId": "evroc",
+     "stakePct": 100
+    }
+   ],
+   "developer": "evroc",
+   "operator": "evroc",
+   "tenants": [],
+   "capitalStack": [
+    {
+     "from": "evroc",
+     "entityId": "evroc",
+     "kind": "capex",
+     "amountUSD": 4200000000,
+     "date": "2025-02-10",
+     "note": "Up to €4B at full capacity",
+     "url": "https://evroc.com/developer/blog/evroc-boosts-europe-s-competitiveness-with-first-ai-factory-in-france-pioneering-next-generation-hyperscale-cloud-and-critical-ai-infrastructure/"
+    }
+   ],
+   "energy": "French grid",
+   "water": null,
+   "announced": "2025-02-10",
+   "expectedOnline": null,
+   "highlights": [
+    "Swedish start-up evroc is trying to build a European-owned hyperscale cloud to rival US giants."
+   ],
+   "controversy": null,
+   "sources": [
+    {
+     "title": "evroc boosts Europe's competitiveness with first AI factory in France",
+     "publisher": "evroc",
+     "url": "https://evroc.com/developer/blog/evroc-boosts-europe-s-competitiveness-with-first-ai-factory-in-france-pioneering-next-generation-hyperscale-cloud-and-critical-ai-infrastructure/",
+     "date": "2025-02-10"
+    },
+    {
+     "title": "Evroc plans 96MW data center outside Cannes, France",
+     "publisher": "DatacenterDynamics",
+     "url": "https://www.datacenterdynamics.com/en/news/evroc-plans-96mw-data-center-outside-cannes-france/",
+     "date": "2025-02-10"
+    },
+    {
+     "title": "À Mougins, l'IA Factory cherche sa place au sol",
+     "publisher": "La Clé Publique",
+     "url": "https://laclepublique.fr/alpes-maritimes/articles/2026/2026-05-11-ia-factory-mougins/",
+     "date": "2026-05-11"
+    }
+   ]
+  },
+  {
+   "id": "data4-paris-saclay",
+   "name": "Data4 Paris-Saclay Campus (Marcoussis/Nozay)",
+   "aka": [
+    "Data4 PAR"
+   ],
+   "lat": 48.641,
+   "lng": 2.23,
+   "coordPrecision": "city",
+   "city": "Marcoussis / Nozay",
+   "region": "Essonne, Ile-de-France",
+   "country": "France",
+   "countryCode": "FR",
+   "status": "operational",
+   "type": "colocation",
+   "powerMW": null,
+   "powerMWNow": null,
+   "powerNote": "Data4's flagship campus on a former Alcatel research site; MW not confirmed in sources reviewed. [Not re-verified.]",
+   "acres": null,
+   "sizeSqft": null,
+   "compute": null,
+   "investmentUSD": null,
+   "investmentNote": "Data4 is owned by Brookfield (acquired 2023); its expansion is part of Brookfield's €20B France pledge (Feb 2025).",
+   "owners": [
+    {
+     "name": "Data4 (Brookfield)",
+     "entityId": "brookfield",
+     "stakePct": 100
+    }
+   ],
+   "developer": "Data4",
+   "operator": "Data4",
+   "tenants": [],
+   "capitalStack": [],
+   "energy": "French grid",
+   "water": null,
+   "announced": null,
+   "expectedOnline": null,
+   "highlights": [
+    "One of France's largest data-centre campuses, south of Paris."
+   ],
+   "controversy": null,
+   "sources": [
+    {
+     "title": "Data4 Group",
+     "publisher": "Data4",
+     "url": "https://www.data4group.com/",
+     "date": "2026"
+    }
+   ]
+  },
+  {
+   "id": "digital-realty-marseille",
+   "name": "Digital Realty Marseille Campus (MRS1-MRS5)",
+   "aka": [
+    "Interxion Marseille"
+   ],
+   "lat": 43.315,
+   "lng": 5.36,
+   "coordPrecision": "city",
+   "city": "Marseille",
+   "region": "Provence-Alpes-Côte d'Azur",
+   "country": "France",
+   "countryCode": "FR",
+   "status": "partially operational",
+   "type": "colocation",
+   "powerMW": null,
+   "powerMWNow": null,
+   "powerNote": "Multi-building port campus; MW not confirmed in sources reviewed. [Not re-verified.]",
+   "acres": null,
+   "sizeSqft": null,
+   "compute": null,
+   "investmentUSD": null,
+   "investmentNote": null,
+   "owners": [
+    {
+     "name": "Digital Realty",
+     "entityId": "digital-realty",
+     "stakePct": 100
+    }
+   ],
+   "developer": "Digital Realty",
+   "operator": "Digital Realty",
+   "tenants": [
+    {
+     "name": "Subsea cable operators and cloud on-ramps",
+     "entityId": null,
+     "role": "interconnection"
+    }
+   ],
+   "capitalStack": [],
+   "energy": "Grid; river-cooling system using water from former mine galleries (company project)",
+   "water": null,
+   "announced": null,
+   "expectedOnline": null,
+   "highlights": [
+    "Marseille is the landing point for 15+ subsea cables linking Europe to Africa, the Middle East and Asia.",
+    "One building sits inside a former WWII German U-boat base in the port."
+   ],
+   "controversy": "Local groups have opposed data-centre growth for taking grid capacity needed to electrify the port and ships.",
+   "sources": [
+    {
+     "title": "Digital Realty",
+     "publisher": "Digital Realty",
+     "url": "https://www.digitalrealty.com/",
+     "date": "2026"
+    }
+   ]
+  },
+  {
+   "id": "frankfurt-cluster",
+   "name": "Frankfurt Data Centre Cluster (FLAP-D)",
+   "aka": [
+    "Frankfurt am Main / Rhine-Main"
+   ],
+   "lat": 50.11,
+   "lng": 8.682,
+   "coordPrecision": "region",
+   "city": "Frankfurt am Main (incl. Hanau, Offenbach, Dietzenbach)",
+   "region": "Hesse",
+   "country": "Germany",
+   "countryCode": "DE",
+   "status": "operational",
+   "type": "cluster",
+   "powerMW": null,
+   "powerMWNow": null,
+   "powerNote": "Continental Europe's largest market; reliable aggregate MW not available in sources reviewed. [Compiled from reporting to mid-2026; not re-verified.]",
+   "acres": null,
+   "sizeSqft": null,
+   "compute": null,
+   "investmentUSD": null,
+   "investmentNote": "Aggregate market.",
+   "owners": [
+    {
+     "name": "Equinix",
+     "entityId": "equinix",
+     "stakePct": null
+    },
+    {
+     "name": "Digital Realty",
+     "entityId": "digital-realty",
+     "stakePct": null
+    },
+    {
+     "name": "NTT Data",
+     "entityId": "ntt-data",
+     "stakePct": null
+    },
+    {
+     "name": "Vantage",
+     "entityId": "vantage",
+     "stakePct": null
+    },
+    {
+     "name": "CyrusOne",
+     "entityId": "cyrusone",
+     "stakePct": null
+    },
+    {
+     "name": "Google (Hanau)",
+     "entityId": "google",
+     "stakePct": null
+    }
+   ],
+   "developer": null,
+   "operator": null,
+   "tenants": [
+    {
+     "name": "DE-CIX Frankfurt (internet exchange) and hyperscalers",
+     "entityId": null,
+     "role": "interconnection / cloud regions"
+    }
+   ],
+   "capitalStack": [],
+   "energy": "Grid (Syna/Mainova); Germany's Energy Efficiency Act requires waste-heat reuse and renewable power for new data centres",
+   "water": null,
+   "announced": null,
+   "expectedOnline": null,
+   "highlights": [
+    "Home of DE-CIX Frankfurt, one of the world's busiest internet exchanges.",
+    "Frankfurt adopted a data-centre masterplan restricting new builds to designated zones."
+   ],
+   "controversy": "Grid connections in the Rhine-Main area are heavily constrained; city zoning limits new sites.",
+   "sources": [
+    {
+     "title": "DE-CIX",
+     "publisher": "DE-CIX",
+     "url": "https://www.de-cix.net/",
+     "date": "2026"
+    }
+   ]
+  },
+  {
+   "id": "telekom-industrial-ai-cloud-munich",
+   "name": "Deutsche Telekom-NVIDIA Industrial AI Cloud (Munich)",
+   "aka": [
+    "Industrial AI Cloud",
+    "Telekom AI Factory Munich"
+   ],
+   "lat": 48.137,
+   "lng": 11.575,
+   "coordPrecision": "city",
+   "city": "Munich (Tucherpark)",
+   "region": "Bavaria",
+   "country": "Germany",
+   "countryCode": "DE",
+   "status": "operational",
+   "type": "sovereign-ai",
+   "powerMW": null,
+   "powerMWNow": null,
+   "powerNote": "Officially launched 2026-02-04 in a data centre operated by partner Polarise in Munich's Tucherpark; more than a third of the compute was already in use by customers at launch. MW not disclosed.",
+   "acres": null,
+   "sizeSqft": null,
+   "compute": "~10,000 NVIDIA Blackwell GPUs (DGX B200 and RTX PRO servers)",
+   "investmentUSD": 1160000000,
+   "investmentNote": "~€1B (~US$1.16-1.2B) announced by Deutsche Telekom and NVIDIA on 2025-11-04.",
+   "owners": [
+    {
+     "name": "Deutsche Telekom",
+     "entityId": "deutsche-telekom",
+     "stakePct": null
+    }
+   ],
+   "developer": "Deutsche Telekom / Polarise",
+   "operator": "T-Systems (Deutsche Telekom)",
+   "tenants": [
+    {
+     "name": "SAP",
+     "entityId": "sap",
+     "role": "'Germany Stack' platform partner"
+    },
+    {
+     "name": "Siemens",
+     "entityId": "siemens",
+     "role": "integrating SIMCenter simulation software"
+    }
+   ],
+   "capitalStack": [
+    {
+     "from": "Deutsche Telekom",
+     "entityId": "deutsche-telekom",
+     "kind": "capex",
+     "amountUSD": 1160000000,
+     "date": "2025-11-04",
+     "note": "€1B with Nvidia as technology partner",
+     "url": "https://www.telekom.com/en/newsroom/latest-updates/media-information/2025/11/for-a-sovereign-germany"
+    }
+   ],
+   "energy": "German grid",
+   "water": null,
+   "announced": "2025-11-04",
+   "expectedOnline": "2026-02-04",
+   "highlights": [
+    "Pitched as Germany's sovereign 'AI factory' for industry - roughly a 50% boost to the country's AI compute, per Telekom."
+   ],
+   "controversy": null,
+   "sources": [
+    {
+     "title": "For a sovereign Germany: Deutsche Telekom launches Industrial AI Cloud",
+     "publisher": "Deutsche Telekom",
+     "url": "https://www.telekom.com/en/newsroom/latest-updates/media-information/2025/11/for-a-sovereign-germany",
+     "date": "2025-11-04"
+    },
+    {
+     "title": "Germany's first AI factory for industry officially launched",
+     "publisher": "Deutsche Telekom",
+     "url": "https://www.telekom.com/en/newsroom/latest-updates/media-information/2026/2/germany-s-first-ai-factory-for-industry",
+     "date": "2026-02-04"
+    },
+    {
+     "title": "Deutsche Telekom launches Nvidia AI factory data center in Munich's Tucherpark",
+     "publisher": "DatacenterDynamics",
+     "url": "https://www.datacenterdynamics.com/en/news/deutsche-telekom-launches-nvidia-powered-ai-factory-in-munichs-tucherpark/",
+     "date": "2026-02-09"
+    },
+    {
+     "title": "Deutsche Telekom, Nvidia to launch $1.2 billion AI cloud for industrial firms",
+     "publisher": "Reuters",
+     "url": "https://www.reuters.com/business/media-telecom/deutsche-telekom-partners-with-nvidia-ai-cloud-q1-2026-2025-11-04/",
+     "date": "2025-11-04"
+    }
+   ]
+  },
+  {
+   "id": "google-dietzenbach-hanau",
+   "name": "Google Germany Data Centres (Dietzenbach new build, Hanau expansion)",
+   "aka": [
+    "Google €5.5B Germany"
+   ],
+   "lat": 50.009,
+   "lng": 8.786,
+   "coordPrecision": "city",
+   "city": "Dietzenbach (and Hanau)",
+   "region": "Hesse",
+   "country": "Germany",
+   "countryCode": "DE",
+   "status": "partially operational",
+   "type": "hyperscale-cloud",
+   "powerMW": null,
+   "powerMWNow": null,
+   "powerNote": "MW not disclosed. Hanau campus opened 2023 and continues to be expanded; Dietzenbach is a new build announced 2025-11-11 (construction status not confirmed here).",
+   "acres": null,
+   "sizeSqft": null,
+   "compute": "Google Cloud europe-west3 (Frankfurt) region",
+   "investmentUSD": 6400000000,
+   "investmentNote": "€5.5B (~US$6.4B at ~1.16) for 2026-2029 announced 2025-11-11 - Google's largest German investment programme - covering the new Dietzenbach data centre, continued Hanau investment and offices in Berlin, Frankfurt and Munich.",
+   "owners": [
+    {
+     "name": "Google",
+     "entityId": "google",
+     "stakePct": 100
+    }
+   ],
+   "developer": "Google",
+   "operator": "Google",
+   "tenants": [
+    {
+     "name": "Google",
+     "entityId": "google",
+     "role": "owner-occupier"
+    }
+   ],
+   "capitalStack": [
+    {
+     "from": "Google",
+     "entityId": "google",
+     "kind": "capex",
+     "amountUSD": 6400000000,
+     "date": "2025-11-11",
+     "note": "€5.5B, 2026-2029",
+     "url": "https://www.googlecloudpresscorner.com/2025-11-11-Google-Announces-EUR5-5-Billion-Investment-in-Germany,-including-AI-Infrastructure,-through-2029"
+    }
+   ],
+   "energy": "Grid with 24/7 carbon-free energy deal with Engie (extended to 2030) and Ørsted Borkum Riffgrund 3 offshore wind offtake; Dietzenbach waste heat to EVO district heating",
+   "water": null,
+   "announced": "2025-11-11",
+   "expectedOnline": null,
+   "highlights": [
+    "Google's biggest-ever German investment includes feeding data-centre heat into local homes' heating."
+   ],
+   "controversy": null,
+   "sources": [
+    {
+     "title": "Google Announces €5.5 Billion Investment in Germany, including AI Infrastructure, through 2029",
+     "publisher": "Google Cloud Press Corner",
+     "url": "https://www.googlecloudpresscorner.com/2025-11-11-Google-Announces-EUR5-5-Billion-Investment-in-Germany,-including-AI-Infrastructure,-through-2029",
+     "date": "2025-11-11"
+    },
+    {
+     "title": "5,5 Milliarden Euro für Deutschlands digitale Zukunft",
+     "publisher": "Google Deutschland Blog",
+     "url": "https://blog.google/intl/de-de/unternehmen/engagement/google-investiert-milliarden-in-deutschlands-digitale-zukunft/",
+     "date": "2025-11-11"
+    },
+    {
+     "title": "Rechenzentren: Google will 5,5 Milliarden Euro in Deutschland investieren",
+     "publisher": "Die Zeit",
+     "url": "https://www.zeit.de/politik/deutschland/2025-11/google-investition-milliarden-deutschland-rechenzentren-hessen",
+     "date": "2025-11-11"
+    }
+   ]
+  },
+  {
+   "id": "microsoft-rhineland",
+   "name": "Microsoft Rhenish Mining Area Data Centres (Bergheim / Bedburg)",
+   "aka": [
+    "Microsoft Rheinisches Revier"
+   ],
+   "lat": 50.955,
+   "lng": 6.639,
+   "coordPrecision": "city",
+   "city": "Bergheim / Bedburg",
+   "region": "North Rhine-Westphalia",
+   "country": "Germany",
+   "countryCode": "DE",
+   "status": "planned",
+   "type": "hyperscale-cloud",
+   "powerMW": null,
+   "powerMWNow": null,
+   "powerNote": "MW not disclosed; construction status not confirmed in sources reviewed. [Compiled from reporting to mid-2026.]",
+   "acres": null,
+   "sizeSqft": null,
+   "compute": null,
+   "investmentUSD": 3450000000,
+   "investmentNote": "€3.2B (~US$3.45B at ~1.08, Feb 2024) Germany-wide investment through end-2025 to double AI/cloud capacity, centred on new Rhineland sites and Frankfurt.",
+   "owners": [
+    {
+     "name": "Microsoft",
+     "entityId": "microsoft",
+     "stakePct": 100
+    }
+   ],
+   "developer": "Microsoft",
+   "operator": "Microsoft",
+   "tenants": [
+    {
+     "name": "Microsoft Azure",
+     "entityId": "microsoft",
+     "role": "owner-occupier"
+    }
+   ],
+   "capitalStack": [
+    {
+     "from": "Microsoft",
+     "entityId": "microsoft",
+     "kind": "capex",
+     "amountUSD": 3450000000,
+     "date": "2024-02-15",
+     "note": "€3.2B Germany programme (not Rhineland alone)",
+     "url": "https://news.microsoft.com/de-de/"
+    }
+   ],
+   "energy": "Grid; region transitioning off lignite mining",
+   "water": null,
+   "announced": "2024-02-15",
+   "expectedOnline": null,
+   "highlights": [
+    "Microsoft is rebuilding on land in Germany's lignite-coal heartland as mining winds down."
+   ],
+   "controversy": null,
+   "sources": [
+    {
+     "title": "Microsoft Deutschland News Center",
+     "publisher": "Microsoft",
+     "url": "https://news.microsoft.com/de-de/",
+     "date": "2024-02-15"
+    }
+   ]
+  },
+  {
+   "id": "stackit-lubbenau",
+   "name": "Schwarz Digits / STACKIT Lübbenau Data Centre",
+   "aka": [
+    "Schwarz Group €11B data centre"
+   ],
+   "lat": 51.867,
+   "lng": 13.963,
+   "coordPrecision": "city",
+   "city": "Lübbenau",
+   "region": "Brandenburg",
+   "country": "Germany",
+   "countryCode": "DE",
+   "status": "under construction",
+   "type": "sovereign-ai",
+   "powerMW": 200,
+   "powerMWNow": 0,
+   "powerNote": "Initial grid connection of ~200 MW, modularly expandable in two construction phases; up to 100,000 GPUs. First phase (three modules) due end-2027 on the 13 ha site of the former Lübbenau power plant; waste heat to the town's district-heating network from 2028. Groundbreaking 2025-11-17.",
+   "acres": 32.1,
+   "sizeSqft": null,
+   "compute": "STACKIT sovereign cloud and AI capacity",
+   "investmentUSD": 12800000000,
+   "investmentNote": "€11B (~US$12.8B at ~1.16, Nov 2025) total investment announced by Schwarz Digits (IT arm of Lidl/Kaufland owner Schwarz Group) at the 2025-11-17 groundbreaking: the largest single investment in the group's history. STACKIT will run it as its fifth data centre.",
+   "owners": [
+    {
+     "name": "Schwarz Group (Schwarz Digits)",
+     "entityId": "schwarz-group",
+     "stakePct": 100
+    }
+   ],
+   "developer": "Schwarz Digits",
+   "operator": "STACKIT",
+   "tenants": [],
+   "capitalStack": [
+    {
+     "from": "Schwarz Group",
+     "entityId": "schwarz-group",
+     "kind": "capex",
+     "amountUSD": 12800000000,
+     "date": "2025-11-17",
+     "note": "€11B, self-funded by Europe's largest retailer",
+     "url": "https://www.presseportal.de/pm/176941/6160204"
+    }
+   ],
+   "energy": "Grid-connected; 100% green electricity in regular operation (company); former coal-power-plant site",
+   "water": null,
+   "announced": "2025-11-17",
+   "expectedOnline": "2027 (end, phase 1)",
+   "highlights": [
+    "The owner of Lidl is building one of Germany's biggest data centres to sell a European alternative to AWS and Azure."
+   ],
+   "controversy": null,
+   "sources": [
+    {
+     "title": "Spatenstich in Lübbenau: Schwarz Digits investiert 11 Milliarden Euro in Europas digitale Souveränität",
+     "publisher": "Schwarz Digits (via ots/Presseportal)",
+     "url": "https://www.presseportal.de/pm/176941/6160204",
+     "date": "2025-11-17"
+    },
+    {
+     "title": "Schwarz Digits Datacenter Lübbenau",
+     "publisher": "Schwarz Digits",
+     "url": "https://schwarz-digits.de/schwarz-digits-datacenter-luebbenau",
+     "date": "2025"
+    },
+    {
+     "title": "Schwarz-Gruppe baut Rechenzentrum für elf Milliarden Euro in Lübbenau",
+     "publisher": "rbb24",
+     "url": "https://www.rbb24.de/wirtschaft/beitrag/2025/11/brandenburg-oberspreewald-lausitz-luebbenau-rechenzentrum-discounter-spatenstich.html",
+     "date": "2025-11-17"
+    }
+   ]
+  },
+  {
+   "id": "jupiter-julich",
+   "name": "JUPITER Exascale Supercomputer (Forschungszentrum Jülich)",
+   "aka": [
+    "JUPITER AI Factory"
+   ],
+   "lat": 50.905,
+   "lng": 6.413,
+   "coordPrecision": "site",
+   "city": "Jülich",
+   "region": "North Rhine-Westphalia",
+   "country": "Germany",
+   "countryCode": "DE",
+   "status": "operational",
+   "type": "sovereign-ai",
+   "powerMW": null,
+   "powerMWNow": null,
+   "powerNote": "Housed in a modular data centre; inaugurated Sept 2025. [Not re-verified for 2026.]",
+   "acres": null,
+   "sizeSqft": null,
+   "compute": "~24,000 NVIDIA GH200 Grace Hopper superchips; Europe's first exascale system",
+   "investmentUSD": null,
+   "investmentNote": "~€500M total cost, split between EuroHPC JU and Germany (federal research ministry + North Rhine-Westphalia), per launch reporting (not re-verified).",
+   "owners": [
+    {
+     "name": "EuroHPC Joint Undertaking",
+     "entityId": "eurohpc",
+     "stakePct": 50
+    },
+    {
+     "name": "Germany (BMBF) & North Rhine-Westphalia",
+     "entityId": "german-government",
+     "stakePct": 50
+    }
+   ],
+   "developer": "Eviden (Atos) / ParTec with NVIDIA",
+   "operator": "Jülich Supercomputing Centre",
+   "tenants": [],
+   "capitalStack": [],
+   "energy": "Grid, renewable supply; waste heat reuse on campus",
+   "water": null,
+   "announced": "2022",
+   "expectedOnline": "2025-09",
+   "highlights": [
+    "Europe's first exascale supercomputer, inaugurated by Chancellor Merz in Sept 2025; also hosts an EU 'AI Factory'."
+   ],
+   "controversy": null,
+   "sources": [
+    {
+     "title": "EuroHPC Joint Undertaking",
+     "publisher": "EuroHPC JU",
+     "url": "https://eurohpc-ju.europa.eu/",
+     "date": "2025"
+    },
+    {
+     "title": "Forschungszentrum Jülich",
+     "publisher": "Forschungszentrum Jülich",
+     "url": "https://www.fz-juelich.de/en",
+     "date": "2025-09"
+    }
+   ]
+  },
+  {
+   "id": "amsterdam-cluster",
+   "name": "Amsterdam Metropolitan Data Centre Cluster",
+   "aka": [
+    "Amsterdam / Schiphol / Haarlemmermeer"
+   ],
+   "lat": 52.33,
+   "lng": 4.85,
+   "coordPrecision": "region",
+   "city": "Amsterdam, Haarlemmermeer, Almere",
+   "region": "North Holland",
+   "country": "Netherlands",
+   "countryCode": "NL",
+   "status": "operational",
+   "type": "cluster",
+   "powerMW": null,
+   "powerMWNow": null,
+   "powerNote": "One of Europe's FLAP-D hubs; reliable aggregate MW not available in sources reviewed. [Not re-verified.]",
+   "acres": null,
+   "sizeSqft": null,
+   "compute": null,
+   "investmentUSD": null,
+   "investmentNote": "Aggregate market.",
+   "owners": [
+    {
+     "name": "Equinix",
+     "entityId": "equinix",
+     "stakePct": null
+    },
+    {
+     "name": "Digital Realty",
+     "entityId": "digital-realty",
+     "stakePct": null
+    },
+    {
+     "name": "NorthC",
+     "entityId": "northc",
+     "stakePct": null
+    },
+    {
+     "name": "Microsoft",
+     "entityId": "microsoft",
+     "stakePct": null
+    }
+   ],
+   "developer": null,
+   "operator": null,
+   "tenants": [
+    {
+     "name": "AMS-IX (internet exchange) and cloud regions",
+     "entityId": null,
+     "role": "interconnection"
+    }
+   ],
+   "capitalStack": [],
+   "energy": "Grid (Liander) - severe congestion",
+   "water": null,
+   "announced": null,
+   "expectedOnline": null,
+   "highlights": [
+    "Amsterdam and Haarlemmermeer imposed a moratorium on new data centres in 2019-2020.",
+    "National rules since 2022 restrict hyperscale campuses (>70 MW, >10 ha) to Eemshaven and Middenmeer."
+   ],
+   "controversy": "Grid congestion, land use and energy concerns led to a 2019-20 moratorium and lasting zoning restrictions.",
+   "sources": [
+    {
+     "title": "Dutch Data Center Association",
+     "publisher": "DDA",
+     "url": "https://www.dutchdatacenters.nl/",
+     "date": "2026"
+    }
+   ]
+  },
+  {
+   "id": "google-eemshaven",
+   "name": "Google Eemshaven Data Center",
+   "aka": [],
+   "lat": 53.437,
+   "lng": 6.835,
+   "coordPrecision": "city",
+   "city": "Eemshaven",
+   "region": "Groningen",
+   "country": "Netherlands",
+   "countryCode": "NL",
+   "status": "operational",
+   "type": "hyperscale-cloud",
+   "powerMW": null,
+   "powerMWNow": null,
+   "powerNote": "MW not disclosed. [Not re-verified.]",
+   "acres": null,
+   "sizeSqft": null,
+   "compute": "Google Cloud europe-west4 region",
+   "investmentUSD": null,
+   "investmentNote": "Investment total not confirmed in sources reviewed.",
+   "owners": [
+    {
+     "name": "Google",
+     "entityId": "google",
+     "stakePct": 100
+    }
+   ],
+   "developer": "Google",
+   "operator": "Google",
+   "tenants": [
+    {
+     "name": "Google",
+     "entityId": "google",
+     "role": "owner-occupier"
+    }
+   ],
+   "capitalStack": [],
+   "energy": "Offshore wind landing nearby (Gemini, NorNed/COBRAcable interconnectors) plus Dutch wind/solar PPAs",
+   "water": null,
+   "announced": "2014",
+   "expectedOnline": "2016",
+   "highlights": [
+    "Sits where North Sea wind and the Norway (NorNed) and Denmark (COBRA) power cables come ashore."
+   ],
+   "controversy": null,
+   "sources": [
+    {
+     "title": "Eemshaven, Netherlands data center",
+     "publisher": "Google",
+     "url": "https://www.datacenters.google/locations/eemshaven/",
+     "date": "2026"
+    }
+   ]
+  },
+  {
+   "id": "microsoft-middenmeer",
+   "name": "Microsoft Middenmeer Campus (Agriport, Wieringermeer)",
+   "aka": [
+    "Microsoft Netherlands"
+   ],
+   "lat": 52.81,
+   "lng": 5.02,
+   "coordPrecision": "city",
+   "city": "Middenmeer",
+   "region": "North Holland (Hollands Kroon)",
+   "country": "Netherlands",
+   "countryCode": "NL",
+   "status": "operational",
+   "type": "hyperscale-cloud",
+   "powerMW": null,
+   "powerMWNow": null,
+   "powerNote": "MW not disclosed. [Not re-verified.]",
+   "acres": null,
+   "sizeSqft": null,
+   "compute": "Azure West Europe region capacity",
+   "investmentUSD": null,
+   "investmentNote": null,
+   "owners": [
+    {
+     "name": "Microsoft",
+     "entityId": "microsoft",
+     "stakePct": 100
+    }
+   ],
+   "developer": "Microsoft",
+   "operator": "Microsoft",
+   "tenants": [
+    {
+     "name": "Microsoft Azure",
+     "entityId": "microsoft",
+     "role": "owner-occupier"
+    }
+   ],
+   "capitalStack": [],
+   "energy": "Dutch grid; wind PPAs",
+   "water": "Became a national story in 2021-22 after local reporting showed far higher drinking-water use during a drought than originally indicated",
+   "announced": "2014",
+   "expectedOnline": "2015",
+   "highlights": [
+    "One of only two Dutch locations still allowed to host hyperscale campuses."
+   ],
+   "controversy": "Water use during the 2021-22 drought far exceeded figures cited when the campus was approved, prompting political backlash.",
+   "sources": [
+    {
+     "title": "Microsoft datacenter globe (West Europe)",
+     "publisher": "Microsoft",
+     "url": "https://datacenters.microsoft.com/globe/explore",
+     "date": "2026"
+    }
+   ]
+  },
+  {
+   "id": "meta-zeewolde",
+   "name": "Meta Zeewolde Hyperscale Data Centre (cancelled)",
+   "aka": [],
+   "lat": 52.33,
+   "lng": 5.54,
+   "coordPrecision": "city",
+   "city": "Zeewolde",
+   "region": "Flevoland",
+   "country": "Netherlands",
+   "countryCode": "NL",
+   "status": "cancelled",
+   "type": "hyperscale-cloud",
+   "powerMW": null,
+   "powerMWNow": 0,
+   "powerNote": "Was to be the Netherlands' largest data centre (~166 ha). [Compiled from reporting; not re-verified.]",
+   "acres": 410,
+   "sizeSqft": null,
+   "compute": null,
+   "investmentUSD": null,
+   "investmentNote": null,
+   "owners": [
+    {
+     "name": "Meta",
+     "entityId": "meta",
+     "stakePct": 100
+    }
+   ],
+   "developer": "Meta",
+   "operator": null,
+   "tenants": [],
+   "capitalStack": [],
+   "energy": "Was to use Flevoland wind power",
+   "water": null,
+   "announced": "2021",
+   "expectedOnline": null,
+   "highlights": [
+    "Meta's Zeewolde plan triggered a national revolt in 2022 and led to the Netherlands' hyperscale restrictions; Meta dropped it."
+   ],
+   "controversy": "Farmland use, wind-power consumption and secrecy sparked parliamentary opposition; the project was abandoned in 2022.",
+   "sources": [
+    {
+     "title": "Meta data centers",
+     "publisher": "Meta",
+     "url": "https://datacenters.atmeta.com/",
+     "date": "2022"
+    }
+   ]
+  },
+  {
+   "id": "dublin-cluster",
+   "name": "Dublin Data Centre Cluster",
+   "aka": [
+    "West Dublin / Clondalkin / Blanchardstown"
+   ],
+   "lat": 53.33,
+   "lng": -6.4,
+   "coordPrecision": "region",
+   "city": "Dublin (Clondalkin, Grange Castle, Blanchardstown, Clonee)",
+   "region": "Leinster",
+   "country": "Ireland",
+   "countryCode": "IE",
+   "status": "operational",
+   "type": "cluster",
+   "powerMW": null,
+   "powerMWNow": null,
+   "powerNote": "Data centres used ~21% of Ireland's metered electricity in 2023 (CSO). EirGrid has effectively paused new Dublin-area grid connections until ~2028; a 2025 CRU policy requires new sites to bring on-site/dispatchable generation. [Not re-verified for late 2026.]",
+   "acres": null,
+   "sizeSqft": null,
+   "compute": null,
+   "investmentUSD": null,
+   "investmentNote": "Aggregate market.",
+   "owners": [
+    {
+     "name": "Amazon (AWS)",
+     "entityId": "amazon",
+     "stakePct": null
+    },
+    {
+     "name": "Microsoft",
+     "entityId": "microsoft",
+     "stakePct": null
+    },
+    {
+     "name": "Google",
+     "entityId": "google",
+     "stakePct": null
+    },
+    {
+     "name": "Meta (Clonee)",
+     "entityId": "meta",
+     "stakePct": null
+    },
+    {
+     "name": "Equinix",
+     "entityId": "equinix",
+     "stakePct": null
+    },
+    {
+     "name": "Digital Realty",
+     "entityId": "digital-realty",
+     "stakePct": null
+    },
+    {
+     "name": "CyrusOne",
+     "entityId": "cyrusone",
+     "stakePct": null
+    }
+   ],
+   "developer": null,
+   "operator": null,
+   "tenants": [],
+   "capitalStack": [],
+   "energy": "Irish grid (EirGrid); gas-fired on-site generation increasingly required",
+   "water": null,
+   "announced": null,
+   "expectedOnline": null,
+   "highlights": [
+    "Data centres use about a fifth of Ireland's electricity - more than all urban homes combined.",
+    "A de facto moratorium on new Dublin grid connections has pushed projects to on-site gas generation."
+   ],
+   "controversy": "Grid moratorium in Dublin; data centres' share of national power and climate targets are a political flashpoint.",
+   "sources": [
+    {
+     "title": "Data Centres Metered Electricity Consumption 2023",
+     "publisher": "Central Statistics Office (Ireland)",
+     "url": "https://www.cso.ie/en/releasesandpublications/ep/p-dcmec/datacentresmeteredelectricityconsumption2023/",
+     "date": "2024-07"
+    },
+    {
+     "title": "EirGrid",
+     "publisher": "EirGrid",
+     "url": "https://www.eirgrid.ie/",
+     "date": "2026"
+    }
+   ]
+  },
+  {
+   "id": "aws-aragon",
+   "name": "AWS Europe (Spain) Region, Aragón",
+   "aka": [
+    "AWS eu-south-2"
+   ],
+   "lat": 41.65,
+   "lng": -0.88,
+   "coordPrecision": "region",
+   "city": "Villanueva de Gállego, El Burgo de Ebro, Huesca (Walqa)",
+   "region": "Aragón",
+   "country": "Spain",
+   "countryCode": "ES",
+   "status": "partially operational",
+   "type": "hyperscale-cloud",
+   "powerMW": null,
+   "powerMWNow": null,
+   "powerNote": "Three-site region (Villanueva de Gállego, El Burgo de Ebro, Huesca/Walqa) live since Nov 2022. Expansion adds five new campuses (Zaragoza 'CAR' near Empresarium/La Cartuja with seven data halls, two in Villanueva de Gállego, one in Huesca, one in El Burgo de Ebro); Aragón's environmental authority (Inaga) put their combined demand at ~10,347 GWh/yr at full build, roughly all of Aragón's 2025 electricity demand (El Periódico de Aragón, Jul 2026). Nameplate MW not disclosed.",
+   "acres": null,
+   "sizeSqft": null,
+   "compute": "AWS cloud and AI (Trainium/GPU) capacity",
+   "investmentUSD": 39800000000,
+   "investmentNote": "€33.7B (~US$39.8B, Amazon's figure) planned in Spain's Aragón region, announced at MWC26 Barcelona on 2026-03-02: adds €18B to the €15.7B (~US$17B) announced in May 2024 (which itself replaced an earlier €2.5B plan). Includes supply-chain facilities (server assembly/repair) in Aragón. Amazon says it contributes €31.7B to Spain's GDP through 2035.",
+   "owners": [
+    {
+     "name": "Amazon Web Services",
+     "entityId": "amazon",
+     "stakePct": 100
+    }
+   ],
+   "developer": "AWS",
+   "operator": "AWS",
+   "tenants": [
+    {
+     "name": "AWS",
+     "entityId": "amazon",
+     "role": "owner-occupier"
+    }
+   ],
+   "capitalStack": [
+    {
+     "from": "Amazon",
+     "entityId": "amazon",
+     "kind": "capex",
+     "amountUSD": 17000000000,
+     "date": "2024-05",
+     "note": "€15.7B plan through 2033 (superseded/extended)",
+     "url": "https://www.aboutamazon.eu/news/job-creation-and-investment/learn-about-awss-long-term-commitment-to-aragon-spain"
+    },
+    {
+     "from": "Amazon",
+     "entityId": "amazon",
+     "kind": "capex",
+     "amountUSD": 22800000000,
+     "date": "2026-03-02",
+     "note": "Additional €18B announced at MWC26, total €33.7B (US$39.8B)",
+     "url": "https://www.aboutamazon.com/news/company-news/amazon-spain-investment"
+    }
+   ],
+   "energy": "Spanish grid with Amazon-contracted solar and wind in Aragón",
+   "water": "Water permits in a drought-prone basin drew scrutiny from activists",
+   "announced": "2021",
+   "expectedOnline": "2022-11",
+   "highlights": [
+    "Aragón has become southern Europe's hyperscale hotspot, with AWS, Microsoft and Blackstone all building near Zaragoza."
+   ],
+   "controversy": "Campaigners (e.g., 'Tu Nube Seca Mi Río') criticise water and grid use in a semi-arid region.",
+   "sources": [
+    {
+     "title": "Amazon increases Spain investment to €33.7 billion",
+     "publisher": "Amazon",
+     "url": "https://www.aboutamazon.com/news/company-news/amazon-spain-investment",
+     "date": "2026-03-02"
+    },
+    {
+     "title": "The Government celebrates Amazon's commitment to Spain",
+     "publisher": "La Moncloa (Government of Spain)",
+     "url": "https://www.lamoncloa.gob.es/lang/en/gobierno/news/Paginas/2026/20260302-wmc-amazon-investment.aspx",
+     "date": "2026-03-02"
+    },
+    {
+     "title": "Amazon to invest €33.7bn in data centers in Aragon, Spain",
+     "publisher": "DatacenterDynamics",
+     "url": "https://www.datacenterdynamics.com/en/news/amazon-invests-337-million-in-data-centers-in-aragon-for-ai/",
+     "date": "2026-03"
+    },
+    {
+     "title": "Así será el macrocentro de datos de Amazon en Zaragoza: siete edificios y tanto consumo eléctrico como un tercio de Aragón",
+     "publisher": "El Periódico de Aragón",
+     "url": "https://www.elperiodicodearagon.com/aragon/2026/07/16/sera-macrocentro-datos-amazon-zaragoza-132491880.html",
+     "date": "2026-07-16"
+    },
+    {
+     "title": "AWS Regions and Availability Zones",
+     "publisher": "AWS",
+     "url": "https://aws.amazon.com/about-aws/global-infrastructure/regions_az/",
+     "date": "2026"
+    }
+   ]
+  },
+  {
+   "id": "microsoft-aragon",
+   "name": "Microsoft Aragón Data Centres (Zaragoza area)",
+   "aka": [],
+   "lat": 41.69,
+   "lng": -0.78,
+   "coordPrecision": "region",
+   "city": "Villamayor de Gállego / La Puebla de Alfindén / Zaragoza",
+   "region": "Aragón",
+   "country": "Spain",
+   "countryCode": "ES",
+   "status": "planned",
+   "type": "hyperscale-cloud",
+   "powerMW": null,
+   "powerMWNow": 0,
+   "powerNote": "Three sites declared projects of regional interest by the Aragón government; MW and construction status not confirmed in sources reviewed. [Compiled from reporting to mid-2026.]",
+   "acres": null,
+   "sizeSqft": null,
+   "compute": null,
+   "investmentUSD": null,
+   "investmentNote": "Multi-billion-euro plan reported; figure not verified in sources reviewed.",
+   "owners": [
+    {
+     "name": "Microsoft",
+     "entityId": "microsoft",
+     "stakePct": 100
+    }
+   ],
+   "developer": "Microsoft",
+   "operator": "Microsoft",
+   "tenants": [],
+   "capitalStack": [],
+   "energy": "Spanish grid; renewables PPAs",
+   "water": null,
+   "announced": "2023",
+   "expectedOnline": null,
+   "highlights": [
+    "Complements Microsoft's Spain Central (Madrid) region launched in 2024."
+   ],
+   "controversy": "Same water/grid concerns as other Aragón hyperscale projects.",
+   "sources": [
+    {
+     "title": "Microsoft datacenter globe",
+     "publisher": "Microsoft",
+     "url": "https://datacenters.microsoft.com/globe/explore",
+     "date": "2026"
+    }
+   ]
+  },
+  {
+   "id": "blackstone-calatorao",
+   "name": "Blackstone Aragón Data Centre Campus (Calatorao)",
+   "aka": [],
+   "lat": 41.52,
+   "lng": -1.35,
+   "coordPrecision": "city",
+   "city": "Calatorao",
+   "region": "Aragón",
+   "country": "Spain",
+   "countryCode": "ES",
+   "status": "planned",
+   "type": "hyperscale-cloud",
+   "powerMW": null,
+   "powerMWNow": 0,
+   "powerNote": "Declared a project of general interest (PIGA) by the Aragón government; MW not confirmed in sources reviewed. [Compiled from reporting to mid-2026.]",
+   "acres": null,
+   "sizeSqft": null,
+   "compute": null,
+   "investmentUSD": null,
+   "investmentNote": "Reported as a multi-billion-euro (€4B+) plan; exact figure not re-verified.",
+   "owners": [
+    {
+     "name": "Blackstone",
+     "entityId": "blackstone",
+     "stakePct": 100
+    }
+   ],
+   "developer": "Blackstone (QTS expected operator)",
+   "operator": null,
+   "tenants": [],
+   "capitalStack": [],
+   "energy": "Grid plus Aragón renewables",
+   "water": null,
+   "announced": "2024",
+   "expectedOnline": null,
+   "highlights": [
+    "Blackstone's largest bet in southern Europe's data-centre boom."
+   ],
+   "controversy": "Water and grid concerns in the Ebro valley.",
+   "sources": [
+    {
+     "title": "Blackstone",
+     "publisher": "Blackstone",
+     "url": "https://www.blackstone.com/",
+     "date": "2024"
+    }
+   ]
+  },
+  {
+   "id": "madrid-cluster",
+   "name": "Madrid Data Centre Cluster",
+   "aka": [
+    "Alcobendas / San Sebastián de los Reyes / Alcalá"
+   ],
+   "lat": 40.45,
+   "lng": -3.65,
+   "coordPrecision": "region",
+   "city": "Madrid region",
+   "region": "Community of Madrid",
+   "country": "Spain",
+   "countryCode": "ES",
+   "status": "operational",
+   "type": "cluster",
+   "powerMW": null,
+   "powerMWNow": null,
+   "powerNote": "Aggregate MW not available in sources reviewed. [Not re-verified.]",
+   "acres": null,
+   "sizeSqft": null,
+   "compute": null,
+   "investmentUSD": null,
+   "investmentNote": "Aggregate market.",
+   "owners": [
+    {
+     "name": "Digital Realty",
+     "entityId": "digital-realty",
+     "stakePct": null
+    },
+    {
+     "name": "Equinix",
+     "entityId": "equinix",
+     "stakePct": null
+    },
+    {
+     "name": "Data4",
+     "entityId": "brookfield",
+     "stakePct": null
+    },
+    {
+     "name": "Merlin Properties",
+     "entityId": "merlin-properties",
+     "stakePct": null
+    },
+    {
+     "name": "Microsoft (Spain Central)",
+     "entityId": "microsoft",
+     "stakePct": null
+    },
+    {
+     "name": "Google Cloud (Madrid)",
+     "entityId": "google",
+     "stakePct": null
+    }
+   ],
+   "developer": null,
+   "operator": null,
+   "tenants": [],
+   "capitalStack": [],
+   "energy": "Spanish grid; grid-access queues a constraint",
+   "water": null,
+   "announced": null,
+   "expectedOnline": null,
+   "highlights": [
+    "Iberia's interconnection hub, with Microsoft, Google and Oracle cloud regions."
+   ],
+   "controversy": null,
+   "sources": [
+    {
+     "title": "Microsoft datacenter globe (Spain Central)",
+     "publisher": "Microsoft",
+     "url": "https://datacenters.microsoft.com/globe/explore",
+     "date": "2026"
+    }
+   ]
+  },
+  {
+   "id": "start-campus-sines",
+   "name": "Start Campus SINES (Sines AI/hyperscale campus)",
+   "aka": [
+    "SINES DC",
+    "Start Campus Sines"
+   ],
+   "lat": 37.95,
+   "lng": -8.85,
+   "coordPrecision": "city",
+   "city": "Sines",
+   "region": "Alentejo",
+   "country": "Portugal",
+   "countryCode": "PT",
+   "status": "partially operational",
+   "type": "hyperscale-cloud",
+   "powerMW": 1200,
+   "powerMWNow": null,
+   "powerNote": "1.2 GW planned across multiple buildings by ~2030; first building (SIN01) live. [Compiled from reporting to mid-2026; not re-verified.]",
+   "acres": null,
+   "sizeSqft": null,
+   "compute": "Microsoft capacity via Nscale: ~12,600 NVIDIA GB300 GPUs (Oct 2025 deal)",
+   "investmentUSD": null,
+   "investmentNote": "€8.5B total project cost widely reported (not re-verified); backed by Davidson Kempner and Pioneer Point Partners.",
+   "owners": [
+    {
+     "name": "Davidson Kempner Capital Management",
+     "entityId": "davidson-kempner",
+     "stakePct": null
+    },
+    {
+     "name": "Pioneer Point Partners",
+     "entityId": "pioneer-point",
+     "stakePct": null
+    }
+   ],
+   "developer": "Start Campus",
+   "operator": "Start Campus",
+   "tenants": [
+    {
+     "name": "Nscale",
+     "entityId": "nscale",
+     "role": "GPU cloud lessee"
+    },
+    {
+     "name": "Microsoft",
+     "entityId": "microsoft",
+     "role": "end customer of Nscale capacity"
+    }
+   ],
+   "capitalStack": [],
+   "energy": "Renewable PPAs; seawater cooling reusing the former Sines coal plant's cooling infrastructure; near subsea cable landings",
+   "water": "Seawater cooling (no freshwater for cooling, per company)",
+   "announced": "2021",
+   "expectedOnline": "2025",
+   "highlights": [
+    "Built on the site of Portugal's last coal power station, reusing its seawater cooling channels.",
+    "A 2023 corruption probe touching the project ('Operação Influencer') led to PM António Costa's resignation."
+   ],
+   "controversy": "Named in the Nov-2023 'Operação Influencer' investigation into alleged influence-peddling over permits; Costa resigned while denying wrongdoing.",
+   "sources": [
+    {
+     "title": "Start Campus",
+     "publisher": "Start Campus",
+     "url": "https://www.startcampus.pt/",
+     "date": "2026"
+    },
+    {
+     "title": "Nscale contracts approximately 200,000 NVIDIA GB300 GPUs with Microsoft",
+     "publisher": "Seeking Alpha (Nscale press release)",
+     "url": "https://seekingalpha.com/pr/20266079-nscale-contracts-approximately-200000-nvidia-gb300-gpus-with-microsoft-to-deliver-nvidia-ai",
+     "date": "2025-10-15"
+    }
+   ]
+  },
+  {
+   "id": "milan-cluster",
+   "name": "Milan Data Centre Cluster (incl. Microsoft & AWS Italy regions)",
+   "aka": [
+    "Lombardy"
+   ],
+   "lat": 45.464,
+   "lng": 9.19,
+   "coordPrecision": "region",
+   "city": "Milan metro (Settimo Milanese, Cornaredo, Rozzano)",
+   "region": "Lombardy",
+   "country": "Italy",
+   "countryCode": "IT",
+   "status": "operational",
+   "type": "cluster",
+   "powerMW": null,
+   "powerMWNow": null,
+   "powerNote": "Aggregate MW not available in sources reviewed.",
+   "acres": null,
+   "sizeSqft": null,
+   "compute": null,
+   "investmentUSD": 6050000000,
+   "investmentNote": "Sum of two hyperscaler pledges: Microsoft €4.3B (~US$4.75B) over two years for AI and cloud infrastructure in Italy (Italy North region, Milan), announced 2024-10-02 - its largest investment in Italy; plus AWS €1.2B (~US$1.3B) over 2024-2029 to expand its Europe (Milan) region (designated a strategic project by Italy's Council of Ministers on 2024-11-29).",
+   "owners": [
+    {
+     "name": "Microsoft",
+     "entityId": "microsoft",
+     "stakePct": null
+    },
+    {
+     "name": "Amazon Web Services",
+     "entityId": "amazon",
+     "stakePct": null
+    },
+    {
+     "name": "Data4",
+     "entityId": "brookfield",
+     "stakePct": null
+    },
+    {
+     "name": "Aruba",
+     "entityId": "aruba",
+     "stakePct": null
+    },
+    {
+     "name": "Equinix",
+     "entityId": "equinix",
+     "stakePct": null
+    },
+    {
+     "name": "Vantage",
+     "entityId": "vantage",
+     "stakePct": null
+    }
+   ],
+   "developer": null,
+   "operator": null,
+   "tenants": [],
+   "capitalStack": [
+    {
+     "from": "Microsoft",
+     "entityId": "microsoft",
+     "kind": "capex",
+     "amountUSD": 4750000000,
+     "date": "2024-10-02",
+     "note": "€4.3B Italy commitment over two years",
+     "url": "https://news.microsoft.com/it-it/2024/10/02/microsoft-invests-e4-3b-to-boost-ai-infrastructure-and-cloud-capacity-in-italy/"
+    },
+    {
+     "from": "Amazon Web Services",
+     "entityId": "amazon",
+     "kind": "capex",
+     "amountUSD": 1300000000,
+     "date": "2024-12",
+     "note": "€1.2B to expand the Milan region through 2029",
+     "url": "https://www.aboutamazon.eu/news/job-creation-and-investment/aws-invests-1-2-billion-to-expand-cloud-infrastructure-in-italy"
+    }
+   ],
+   "energy": "Italian grid (Terna) - connection requests far exceed near-term capacity",
+   "water": null,
+   "announced": null,
+   "expectedOnline": null,
+   "highlights": [
+    "Microsoft's €4.3B Italy pledge, announced with PM Meloni in Oct 2024, is its biggest ever in the country."
+   ],
+   "controversy": "Grid connection queue in Lombardy is a bottleneck.",
+   "sources": [
+    {
+     "title": "Microsoft invests €4.3B to boost AI infrastructure and cloud capacity in Italy",
+     "publisher": "Microsoft News Centre Italia",
+     "url": "https://news.microsoft.com/it-it/2024/10/02/microsoft-invests-e4-3b-to-boost-ai-infrastructure-and-cloud-capacity-in-italy/",
+     "date": "2024-10-02"
+    },
+    {
+     "title": "Microsoft to make $4.8 bln AI, cloud investment in Italy",
+     "publisher": "Reuters",
+     "url": "https://www.reuters.com/technology/artificial-intelligence/microsoft-invest-43-bln-euros-italy-ai-infrastructure-cloud-capacity-2024-10-02/",
+     "date": "2024-10-02"
+    },
+    {
+     "title": "AWS invests €1.2 billion to expand cloud infrastructure in Italy",
+     "publisher": "Amazon EU",
+     "url": "https://www.aboutamazon.eu/news/job-creation-and-investment/aws-invests-1-2-billion-to-expand-cloud-infrastructure-in-italy",
+     "date": "2024-12-05"
+    },
+    {
+     "title": "Amazon to invest $1.3bn expanding data center presence in Italy",
+     "publisher": "DatacenterDynamics",
+     "url": "https://www.datacenterdynamics.com/en/news/amazon-to-invest-13bn-expanding-data-center-presence-in-italy/",
+     "date": "2024-11-08"
+    }
+   ]
+  },
+  {
+   "id": "warsaw-cluster",
+   "name": "Warsaw Data Centre Cluster (Microsoft Poland Central, Google Warsaw)",
+   "aka": [],
+   "lat": 52.23,
+   "lng": 21.01,
+   "coordPrecision": "region",
+   "city": "Warsaw",
+   "region": "Masovia",
+   "country": "Poland",
+   "countryCode": "PL",
+   "status": "operational",
+   "type": "cluster",
+   "powerMW": null,
+   "powerMWNow": null,
+   "powerNote": "Aggregate MW not available in sources reviewed. [Not re-verified.]",
+   "acres": null,
+   "sizeSqft": null,
+   "compute": null,
+   "investmentUSD": 700000000,
+   "investmentNote": "Microsoft: PLN 2.8B (~US$700M) additional cloud/AI investment in Poland by mid-2026 (announced Feb 2025).",
+   "owners": [
+    {
+     "name": "Microsoft",
+     "entityId": "microsoft",
+     "stakePct": null
+    },
+    {
+     "name": "Google",
+     "entityId": "google",
+     "stakePct": null
+    },
+    {
+     "name": "Atman",
+     "entityId": "atman",
+     "stakePct": null
+    },
+    {
+     "name": "Equinix",
+     "entityId": "equinix",
+     "stakePct": null
+    },
+    {
+     "name": "Data4",
+     "entityId": "brookfield",
+     "stakePct": null
+    }
+   ],
+   "developer": null,
+   "operator": null,
+   "tenants": [],
+   "capitalStack": [
+    {
+     "from": "Microsoft",
+     "entityId": "microsoft",
+     "kind": "capex",
+     "amountUSD": 700000000,
+     "date": "2025-02",
+     "note": "PLN 2.8B",
+     "url": "https://news.microsoft.com/pl-pl/"
+    }
+   ],
+   "energy": "Coal-heavy Polish grid (a challenge for operators' renewable targets)",
+   "water": null,
+   "announced": null,
+   "expectedOnline": null,
+   "highlights": [
+    "Central Europe's fastest-growing hub; Microsoft Poland Central launched in 2023."
+   ],
+   "controversy": null,
+   "sources": [
+    {
+     "title": "Microsoft News Centrum Polska",
+     "publisher": "Microsoft",
+     "url": "https://news.microsoft.com/pl-pl/",
+     "date": "2025-02"
+    }
+   ]
+  },
+  {
+   "id": "cscs-alps-lugano",
+   "name": "CSCS 'Alps' AI Supercomputer (Lugano)",
+   "aka": [
+    "Swiss National Supercomputing Centre"
+   ],
+   "lat": 46.025,
+   "lng": 8.96,
+   "coordPrecision": "city",
+   "city": "Lugano",
+   "region": "Ticino",
+   "country": "Switzerland",
+   "countryCode": "CH",
+   "status": "operational",
+   "type": "sovereign-ai",
+   "powerMW": null,
+   "powerMWNow": null,
+   "powerNote": "MW not confirmed in sources reviewed. [Not re-verified.]",
+   "acres": null,
+   "sizeSqft": null,
+   "compute": "HPE Cray system with ~10,000+ NVIDIA GH200 superchips",
+   "investmentUSD": null,
+   "investmentNote": null,
+   "owners": [
+    {
+     "name": "ETH Zurich (CSCS)",
+     "entityId": "eth-zurich",
+     "stakePct": 100
+    }
+   ],
+   "developer": "HPE / NVIDIA",
+   "operator": "CSCS",
+   "tenants": [
+    {
+     "name": "Swiss AI Initiative (ETH Zurich, EPFL)",
+     "entityId": null,
+     "role": "research users"
+    }
+   ],
+   "capitalStack": [],
+   "energy": "Swiss grid; lake-water cooling from Lake Lugano",
+   "water": "Cooled with water drawn from Lake Lugano",
+   "announced": "2023",
+   "expectedOnline": "2024-09",
+   "highlights": [
+    "Trained Switzerland's open 'Apertus' LLM (2025); cooled with water from Lake Lugano."
+   ],
+   "controversy": null,
+   "sources": [
+    {
+     "title": "CSCS - Swiss National Supercomputing Centre",
+     "publisher": "CSCS",
+     "url": "https://www.cscs.ch/",
+     "date": "2025"
+    }
+   ]
+  },
+  {
+   "id": "microsoft-greece-attica",
+   "name": "Microsoft Greece Data Centre Region (Attica)",
+   "aka": [
+    "GR for Growth"
+   ],
+   "lat": 37.96,
+   "lng": 23.91,
+   "coordPrecision": "region",
+   "city": "Spata / Koropi / Markopoulo",
+   "region": "Attica",
+   "country": "Greece",
+   "countryCode": "GR",
+   "status": "under construction",
+   "type": "hyperscale-cloud",
+   "powerMW": null,
+   "powerMWNow": null,
+   "powerNote": "Three-site region announced 2020; long delayed. Launch timing not confirmed in sources reviewed. [Compiled from reporting to mid-2026.]",
+   "acres": null,
+   "sizeSqft": null,
+   "compute": null,
+   "investmentUSD": null,
+   "investmentNote": "Reported at around US$1B when announced (2020); not re-verified.",
+   "owners": [
+    {
+     "name": "Microsoft",
+     "entityId": "microsoft",
+     "stakePct": 100
+    }
+   ],
+   "developer": "Microsoft",
+   "operator": "Microsoft",
+   "tenants": [],
+   "capitalStack": [],
+   "energy": "Greek grid",
+   "water": null,
+   "announced": "2020-10",
+   "expectedOnline": null,
+   "highlights": [
+    "Greece's biggest tech investment when announced in 2020 under the 'GR for Growth' programme."
+   ],
+   "controversy": null,
+   "sources": [
+    {
+     "title": "Microsoft datacenter globe",
+     "publisher": "Microsoft",
+     "url": "https://datacenters.microsoft.com/globe/explore",
+     "date": "2026"
+    }
+   ]
+  },
+  {
+   "id": "eu-ai-gigafactories",
+   "name": "EU AI Gigafactories Programme (InvestAI)",
+   "aka": [
+    "InvestAI",
+    "EuroHPC AI Gigafactories"
+   ],
+   "lat": 50.85,
+   "lng": 4.35,
+   "coordPrecision": "region",
+   "city": "Brussels (programme HQ; sites across EU)",
+   "region": "European Union",
+   "country": "Belgium",
+   "countryCode": "BE",
+   "status": "planned",
+   "type": "sovereign-ai",
+   "powerMW": null,
+   "powerMWNow": 0,
+   "powerNote": "4-5 AI gigafactories each with ~100,000 advanced AI chips envisaged. 76 expressions of interest from 16 member states (mid-2025); formal selection not confirmed in sources reviewed. [Compiled from reporting to mid-2026; check for 2026 award decisions.]",
+   "acres": null,
+   "sizeSqft": null,
+   "compute": "~100,000 latest-generation AI chips per gigafactory (target)",
+   "investmentUSD": 20800000000,
+   "investmentNote": "€20B (~US$20.8B at ~1.04, Feb 2025) InvestAI fund for AI gigafactories, within the €200B InvestAI mobilisation announced by Ursula von der Leyen on 2025-02-11.",
+   "owners": [
+    {
+     "name": "European Commission / EuroHPC JU (with member states and private partners)",
+     "entityId": "european-commission",
+     "stakePct": null
+    }
+   ],
+   "developer": null,
+   "operator": null,
+   "tenants": [],
+   "capitalStack": [
+    {
+     "from": "European Union (InvestAI)",
+     "entityId": "european-commission",
+     "kind": "public-incentive",
+     "amountUSD": 20800000000,
+     "date": "2025-02-11",
+     "note": "€20B gigafactory fund, mix of EU, member-state and private capital",
+     "url": "https://ec.europa.eu/commission/presscorner/detail/en/ip_25_467"
+    }
+   ],
+   "energy": null,
+   "water": null,
+   "announced": "2025-02-11",
+   "expectedOnline": null,
+   "highlights": [
+    "Europe's answer to Stargate: €20B to co-fund four or five 100,000-GPU 'AI gigafactories'."
+   ],
+   "controversy": "Critics question whether public co-funding can match US/Gulf private spending and whether grid capacity exists.",
+   "sources": [
+    {
+     "title": "EU launches InvestAI initiative to mobilise €200 billion of investment in artificial intelligence",
+     "publisher": "European Commission",
+     "url": "https://ec.europa.eu/commission/presscorner/detail/en/ip_25_467",
+     "date": "2025-02-11"
+    },
+    {
+     "title": "EuroHPC Joint Undertaking",
+     "publisher": "EuroHPC JU",
+     "url": "https://eurohpc-ju.europa.eu/",
+     "date": "2026"
+    }
+   ]
+  },
+  {
+   "id": "stargate-uae-abu-dhabi",
+   "name": "UAE-US AI Campus & Stargate UAE (Abu Dhabi)",
+   "aka": [
+    "Stargate UAE",
+    "5 GW UAE-US AI Campus"
+   ],
+   "lat": 24.45,
+   "lng": 54.38,
+   "coordPrecision": "region",
+   "city": "Abu Dhabi",
+   "region": "Abu Dhabi",
+   "country": "United Arab Emirates",
+   "countryCode": "AE",
+   "status": "under construction",
+   "type": "ai-training",
+   "powerMW": 5000,
+   "powerMWNow": null,
+   "powerNote": "5 GW, ~10 sq mile campus announced May 2025; Stargate UAE is a 1 GW cluster within it, with the first 200 MW targeted for 2026. Exact site not published in sources reviewed. [Compiled from reporting to mid-2026 after search budget ran out; late-2026 status not re-verified.]",
+   "acres": 6400,
+   "sizeSqft": null,
+   "compute": "NVIDIA GB300 systems for Stargate UAE (OpenAI/Oracle); US export arrangements reported to allow large annual shipments of Nvidia chips to the UAE",
+   "investmentUSD": null,
+   "investmentNote": "No official campus capex published. Linked to the UAE's pledge of $1.4 trillion of US investment over 10 years (March 2025).",
+   "owners": [
+    {
+     "name": "G42",
+     "entityId": "g42",
+     "stakePct": null
+    }
+   ],
+   "developer": "G42 / Khazna",
+   "operator": "Khazna (data centres); OpenAI/Oracle (Stargate cluster)",
+   "tenants": [
+    {
+     "name": "OpenAI",
+     "entityId": "openai",
+     "role": "Stargate UAE anchor"
+    },
+    {
+     "name": "Oracle",
+     "entityId": "oracle",
+     "role": "cloud operator"
+    },
+    {
+     "name": "NVIDIA",
+     "entityId": "nvidia",
+     "role": "GPU supplier/partner"
+    },
+    {
+     "name": "Cisco",
+     "entityId": "cisco",
+     "role": "networking partner"
+    },
+    {
+     "name": "SoftBank",
+     "entityId": "softbank",
+     "role": "partner"
+    }
+   ],
+   "capitalStack": [
+    {
+     "from": "G42 (Abu Dhabi state-backed)",
+     "entityId": "g42",
+     "kind": "capex",
+     "amountUSD": null,
+     "date": "2025-05-22",
+     "note": "G42 builds the 1 GW Stargate UAE cluster; financing undisclosed",
+     "url": "https://openai.com/index/introducing-stargate-uae/"
+    }
+   ],
+   "energy": "Mix of nuclear (Barakah), solar and natural gas, per the May-2025 announcement",
+   "water": null,
+   "announced": "2025-05-15",
+   "expectedOnline": "2026",
+   "highlights": [
+    "Unveiled during Trump's May 2025 Gulf tour: the largest AI campus outside the US.",
+    "OpenAI's first 'OpenAI for Countries' deal; under the US-UAE framework the UAE committed to fund US data centres at least as large as those built in the UAE."
+   ],
+   "controversy": "US national-security concerns over chip exports to the Gulf and G42's past China ties shaped the deal's security terms.",
+   "sources": [
+    {
+     "title": "Introducing Stargate UAE",
+     "publisher": "OpenAI",
+     "url": "https://openai.com/index/introducing-stargate-uae/",
+     "date": "2025-05-22"
+    },
+    {
+     "title": "G42",
+     "publisher": "G42",
+     "url": "https://www.g42.ai/",
+     "date": "2025"
+    }
+   ]
+  },
+  {
+   "id": "microsoft-g42-uae",
+   "name": "Microsoft-G42 / Khazna AI Data Centres (UAE)",
+   "aka": [
+    "Microsoft UAE North & UAE Central"
+   ],
+   "lat": 25.2,
+   "lng": 55.27,
+   "coordPrecision": "region",
+   "city": "Dubai and Abu Dhabi",
+   "region": "UAE",
+   "country": "United Arab Emirates",
+   "countryCode": "AE",
+   "status": "partially operational",
+   "type": "hyperscale-cloud",
+   "powerMW": null,
+   "powerMWNow": null,
+   "powerNote": "Azure UAE North (Dubai) and UAE Central (Abu Dhabi) regions operational. On 2025-11-05 Microsoft and G42 announced a 200 MW capacity expansion delivered through G42's Khazna Data Centers, expected to start coming online before end-2026. Total MW not disclosed.",
+   "acres": null,
+   "sizeSqft": null,
+   "compute": "Earlier licences let Microsoft accumulate the equivalent of 21,500 NVIDIA A100s (A100/H100/H200) in the UAE; Sept 2025 US export licences allow shipping the equivalent of 60,400 more A100s as GB300s (Microsoft, 2025-11-03).",
+   "investmentUSD": 15200000000,
+   "investmentNote": "Microsoft: $15.2B in the UAE 2023-2029. ~$7.3B by end-2025 (incl. $1.5B G42 equity stake, >$4.6B AI/cloud datacenter capex, >$1.2B opex/COGS) plus >$7.9B in 2026-2029 (incl. >$5.5B capex). Per Brad Smith, 2025-11-03.",
+   "owners": [
+    {
+     "name": "Microsoft",
+     "entityId": "microsoft",
+     "stakePct": null
+    },
+    {
+     "name": "G42 / Khazna",
+     "entityId": "khazna",
+     "stakePct": null
+    }
+   ],
+   "developer": "Khazna / Microsoft",
+   "operator": "Microsoft",
+   "tenants": [
+    {
+     "name": "Microsoft Azure",
+     "entityId": "microsoft",
+     "role": "cloud operator"
+    }
+   ],
+   "capitalStack": [
+    {
+     "from": "Microsoft",
+     "entityId": "microsoft",
+     "kind": "equity",
+     "amountUSD": 1500000000,
+     "date": "2024-04-16",
+     "note": "Minority stake in G42; Brad Smith joined G42 board",
+     "url": "https://blogs.microsoft.com/on-the-issues/2025/11/03/microsofts-15-2-billion-usd-investment-in-the-uae/"
+    },
+    {
+     "from": "Microsoft",
+     "entityId": "microsoft",
+     "kind": "capex",
+     "amountUSD": 15200000000,
+     "date": "2025-11-03",
+     "note": "UAE investment 2023-2029 incl. the G42 stake; >$10.1B of it datacenter capex",
+     "url": "https://blogs.microsoft.com/on-the-issues/2025/11/03/microsofts-15-2-billion-usd-investment-in-the-uae/"
+    }
+   ],
+   "energy": "UAE grid (gas, solar, Barakah nuclear)",
+   "water": null,
+   "announced": "2024-04-16",
+   "expectedOnline": "2026 (200 MW Khazna expansion starts coming online)",
+   "highlights": [
+    "G42 cut ties with Chinese hardware suppliers as a condition of Microsoft's $1.5B investment."
+   ],
+   "controversy": "US lawmakers scrutinised G42's China links and AI chip exports to the UAE.",
+   "sources": [
+    {
+     "title": "Microsoft's $15.2 billion USD investment in the UAE",
+     "publisher": "Microsoft On the Issues",
+     "url": "https://blogs.microsoft.com/on-the-issues/2025/11/03/microsofts-15-2-billion-usd-investment-in-the-uae/",
+     "date": "2025-11-03"
+    },
+    {
+     "title": "Microsoft and G42 Accelerate UAE's Digital Future with Major Data Centre Expansion",
+     "publisher": "Microsoft Source EMEA",
+     "url": "https://news.microsoft.com/source/emea/2025/11/microsoft-and-g42-accelerate-uaes-digital-future-with-major-data-centre-expansion/",
+     "date": "2025-11-05"
+    },
+    {
+     "title": "Microsoft, G42 announce 200 MW data centre capacity expansion in UAE",
+     "publisher": "Reuters",
+     "url": "https://www.reuters.com/world/middle-east/microsoft-g42-announce-200-mw-data-centre-capacity-expansion-uae-2025-11-05/",
+     "date": "2025-11-05"
+    }
+   ]
+  },
+  {
+   "id": "humain-saudi-hubs",
+   "name": "HUMAIN AI Data Centres (Riyadh & Dammam hubs)",
+   "aka": [
+    "HUMAIN",
+    "PIF AI company"
+   ],
+   "lat": 24.713,
+   "lng": 46.675,
+   "coordPrecision": "region",
+   "city": "Riyadh (and Dammam)",
+   "region": "Riyadh / Eastern Province",
+   "country": "Saudi Arabia",
+   "countryCode": "SA",
+   "status": "under construction",
+   "type": "sovereign-ai",
+   "powerMW": 1900,
+   "powerMWNow": null,
+   "powerNote": "HUMAIN targets ~1.9 GW by 2030 (6.6 GW by 2034 stated ambition); first data-centre phases in Riyadh and Dammam targeted for 2026. Partner deals: Nvidia (initial 18,000 GB300, 500 MW over 5 years), AMD (500 MW, ~$10B), xAI (500 MW, Nov 2025), AWS AI Zone. [Compiled from reporting to mid-2026; late-2026 status not re-verified.]",
+   "acres": null,
+   "sizeSqft": null,
+   "compute": "Initial 18,000 NVIDIA GB300 (May 2025), scaling to several hundred thousand Nvidia GPUs over five years; AMD Instinct GPUs; Qualcomm and Groq inference",
+   "investmentUSD": null,
+   "investmentNote": "No consolidated capex; partner pledges include AMD ~$10B and AWS >$5B (AI Zone). Funded by PIF.",
+   "owners": [
+    {
+     "name": "Public Investment Fund (PIF)",
+     "entityId": "pif",
+     "stakePct": 100
+    }
+   ],
+   "developer": "HUMAIN",
+   "operator": "HUMAIN",
+   "tenants": [
+    {
+     "name": "xAI",
+     "entityId": "xai",
+     "role": "500 MW data-centre partner (announced Nov 2025)"
+    },
+    {
+     "name": "Amazon Web Services",
+     "entityId": "amazon",
+     "role": "'AI Zone' partner"
+    },
+    {
+     "name": "NVIDIA",
+     "entityId": "nvidia",
+     "role": "GPU supplier"
+    },
+    {
+     "name": "AMD",
+     "entityId": "amd",
+     "role": "GPU supplier/JV partner"
+    },
+    {
+     "name": "Qualcomm",
+     "entityId": "qualcomm",
+     "role": "inference chips"
+    }
+   ],
+   "capitalStack": [
+    {
+     "from": "PIF",
+     "entityId": "pif",
+     "kind": "equity",
+     "amountUSD": null,
+     "date": "2025-05-12",
+     "note": "HUMAIN launched as wholly PIF-owned, chaired by Crown Prince Mohammed bin Salman",
+     "url": "https://www.humain.com/"
+    },
+    {
+     "from": "AMD",
+     "entityId": "amd",
+     "kind": "vendor-financing",
+     "amountUSD": 10000000000,
+     "date": "2025-05-13",
+     "note": "~$10B collaboration to deploy 500 MW of AMD compute over five years",
+     "url": "https://www.humain.com/"
+    },
+    {
+     "from": "Amazon Web Services",
+     "entityId": "amazon",
+     "kind": "capex",
+     "amountUSD": 5000000000,
+     "date": "2025-05-13",
+     "note": ">$5B 'AI Zone' in Saudi Arabia with HUMAIN",
+     "url": "https://www.humain.com/"
+    }
+   ],
+   "energy": "Saudi grid (gas, growing solar)",
+   "water": null,
+   "announced": "2025-05-12",
+   "expectedOnline": "2026",
+   "highlights": [
+    "Launched the day before Trump's Riyadh visit and immediately signed deals with Nvidia, AMD, AWS and Qualcomm.",
+    "Elon Musk's xAI agreed a 500 MW data centre with HUMAIN in Nov 2025."
+   ],
+   "controversy": "Concerns in Washington over large AI-chip exports to the Gulf.",
+   "sources": [
+    {
+     "title": "HUMAIN",
+     "publisher": "HUMAIN",
+     "url": "https://www.humain.com/",
+     "date": "2025"
+    },
+    {
+     "title": "xAI news",
+     "publisher": "xAI",
+     "url": "https://x.ai/news",
+     "date": "2025-11"
+    }
+   ]
+  },
+  {
+   "id": "datavolt-oxagon",
+   "name": "DataVolt Net-Zero AI Factory (Oxagon, NEOM)",
+   "aka": [],
+   "lat": 27.55,
+   "lng": 35.55,
+   "coordPrecision": "region",
+   "city": "Oxagon (NEOM)",
+   "region": "Tabuk",
+   "country": "Saudi Arabia",
+   "countryCode": "SA",
+   "status": "under construction",
+   "type": "ai-training",
+   "powerMW": 1500,
+   "powerMWNow": null,
+   "powerNote": "1.5 GW planned campus. Construction of a 360 MW first phase launched 2026-08-31 (up from a 300 MW first phase described earlier); HUMAIN and DataVolt will jointly develop 100 MW of it, with the first 100 MW expected in 2028.",
+   "acres": null,
+   "sizeSqft": null,
+   "compute": null,
+   "investmentUSD": 5000000000,
+   "investmentNote": "$5B initial investment for the first phase under the NEOM-DataVolt agreement signed 2025-02-10 (LEAP 2025).",
+   "owners": [
+    {
+     "name": "DataVolt",
+     "entityId": "datavolt",
+     "stakePct": null
+    }
+   ],
+   "developer": "DataVolt",
+   "operator": "DataVolt",
+   "tenants": [
+    {
+     "name": "HUMAIN",
+     "entityId": "humain",
+     "role": "co-developer of 100 MW within phase 1"
+    }
+   ],
+   "capitalStack": [
+    {
+     "from": "DataVolt",
+     "entityId": "datavolt",
+     "kind": "capex",
+     "amountUSD": 5000000000,
+     "date": "2025-02-10",
+     "note": "$5B agreement with NEOM",
+     "url": "https://www.neom.com/en-us/newsroom/datavolt-signs-agreement-with-neom"
+    }
+   ],
+   "energy": "Renewables (solar, wind) planned for net-zero operation",
+   "water": null,
+   "announced": "2025-02",
+   "expectedOnline": "2028 (first 100 MW)",
+   "highlights": [
+    "A gigawatt-scale AI factory in NEOM's floating industrial city on the Red Sea; DataVolt separately pledged $20B for US AI data centres."
+   ],
+   "controversy": "NEOM's wider budget cuts and scaled-back giga-projects cast doubt on timelines; the first phase slipped from a 2025 target to 2028.",
+   "sources": [
+    {
+     "title": "DataVolt and NEOM to develop region's first net-zero AI factory",
+     "publisher": "NEOM",
+     "url": "https://www.neom.com/en-us/newsroom/datavolt-signs-agreement-with-neom",
+     "date": "2025-02-10"
+    },
+    {
+     "title": "NEOM, DataVolt Launch Sustainable AI Project in Oxagon with $5 Billion Investment",
+     "publisher": "Saudi Press Agency",
+     "url": "https://www.spa.gov.sa/en/N2259124",
+     "date": "2025-02"
+    },
+    {
+     "title": "HUMAIN partners with DataVolt to jointly develop 100MW of a 360MW AI data center project in NEOM",
+     "publisher": "NEOM",
+     "url": "https://www.neom.com/en-us/newsroom/HUMAIN-and-DataVolt-to-develop-AI-data-center-in-NEOM",
+     "date": "2026-08-31"
+    },
+    {
+     "title": "$5 Billion NEOM DataVolt Data Center: Construction Starts on 360MW First Phase at Oxagon",
+     "publisher": "Construction Review Online",
+     "url": "https://constructionreviewonline.com/neom-and-datavolt-to-build-1-5gw-ai-data-center-in-oxagon-for-5-billion/",
+     "date": "2026-09-21"
+    }
+   ]
+  },
+  {
+   "id": "dammam-hyperscale-cluster",
+   "name": "Dammam / Eastern Province Cloud Cluster (Google-Aramco, Microsoft Saudi East)",
+   "aka": [],
+   "lat": 26.42,
+   "lng": 50.09,
+   "coordPrecision": "region",
+   "city": "Dammam",
+   "region": "Eastern Province",
+   "country": "Saudi Arabia",
+   "countryCode": "SA",
+   "status": "partially operational",
+   "type": "cluster",
+   "powerMW": null,
+   "powerMWNow": null,
+   "powerNote": "Google Cloud's Dammam region (built with Aramco) launched 2023; Microsoft's Saudi Arabia East region was due in 2026. Oracle operates Saudi regions in Jeddah and Riyadh. [Compiled from reporting to mid-2026; not re-verified.]",
+   "acres": null,
+   "sizeSqft": null,
+   "compute": null,
+   "investmentUSD": null,
+   "investmentNote": "Aggregate market.",
+   "owners": [
+    {
+     "name": "Google Cloud (with Aramco)",
+     "entityId": "google",
+     "stakePct": null
+    },
+    {
+     "name": "Microsoft",
+     "entityId": "microsoft",
+     "stakePct": null
+    }
+   ],
+   "developer": null,
+   "operator": null,
+   "tenants": [],
+   "capitalStack": [],
+   "energy": "Saudi grid",
+   "water": null,
+   "announced": null,
+   "expectedOnline": null,
+   "highlights": [
+    "Saudi Aramco is Google's local partner for its Dammam cloud region."
+   ],
+   "controversy": "Human-rights groups criticised Google's Saudi cloud region over surveillance risks.",
+   "sources": [
+    {
+     "title": "Google Cloud locations",
+     "publisher": "Google Cloud",
+     "url": "https://cloud.google.com/about/locations",
+     "date": "2026"
+    },
+    {
+     "title": "Microsoft datacenter globe",
+     "publisher": "Microsoft",
+     "url": "https://datacenters.microsoft.com/globe/explore",
+     "date": "2026"
+    }
+   ]
+  },
+  {
+   "id": "doha-cluster",
+   "name": "Doha Cloud & AI Cluster (Microsoft Qatar Central, Google Doha)",
+   "aka": [],
+   "lat": 25.29,
+   "lng": 51.53,
+   "coordPrecision": "region",
+   "city": "Doha",
+   "region": "Doha",
+   "country": "Qatar",
+   "countryCode": "QA",
+   "status": "operational",
+   "type": "cluster",
+   "powerMW": null,
+   "powerMWNow": null,
+   "powerNote": "Microsoft Qatar Central (2022) and Google Cloud Doha (2023) regions operational. QIA and Brookfield reported a $20B AI-infrastructure JV in Qatar in Dec 2025 (sites not disclosed). [Compiled from reporting to mid-2026; not re-verified.]",
+   "acres": null,
+   "sizeSqft": null,
+   "compute": null,
+   "investmentUSD": null,
+   "investmentNote": "Reported $20B QIA (via its AI company Qai) - Brookfield JV for AI infrastructure in Qatar (Dec 2025; not re-verified).",
+   "owners": [
+    {
+     "name": "Microsoft",
+     "entityId": "microsoft",
+     "stakePct": null
+    },
+    {
+     "name": "Google",
+     "entityId": "google",
+     "stakePct": null
+    },
+    {
+     "name": "Qatar Investment Authority",
+     "entityId": "qia",
+     "stakePct": null
+    },
+    {
+     "name": "Brookfield",
+     "entityId": "brookfield",
+     "stakePct": null
+    }
+   ],
+   "developer": null,
+   "operator": null,
+   "tenants": [],
+   "capitalStack": [
+    {
+     "from": "QIA & Brookfield",
+     "entityId": "qia",
+     "kind": "jv",
+     "amountUSD": 20000000000,
+     "date": "2025-12",
+     "note": "Reported $20B AI infrastructure JV (not re-verified)",
+     "url": "https://bam.brookfield.com/"
+    }
+   ],
+   "energy": "Qatar grid (gas)",
+   "water": null,
+   "announced": null,
+   "expectedOnline": null,
+   "highlights": [
+    "Qatar's sovereign fund moved from investing abroad to building AI infrastructure at home with Brookfield."
+   ],
+   "controversy": null,
+   "sources": [
+    {
+     "title": "Microsoft datacenter globe (Qatar Central)",
+     "publisher": "Microsoft",
+     "url": "https://datacenters.microsoft.com/globe/explore",
+     "date": "2026"
+    },
+    {
+     "title": "Brookfield Asset Management",
+     "publisher": "Brookfield",
+     "url": "https://bam.brookfield.com/",
+     "date": "2025-12"
+    }
+   ]
+  },
+  {
+   "id": "israel-cloud-nimbus",
+   "name": "Israel Cloud Regions (Project Nimbus: Google Tel Aviv, AWS Israel)",
+   "aka": [
+    "Project Nimbus"
+   ],
+   "lat": 32.08,
+   "lng": 34.78,
+   "coordPrecision": "region",
+   "city": "Tel Aviv area",
+   "region": "Central District",
+   "country": "Israel",
+   "countryCode": "IL",
+   "status": "operational",
+   "type": "hyperscale-cloud",
+   "powerMW": null,
+   "powerMWNow": null,
+   "powerNote": "Google Cloud (Tel Aviv) and AWS (Israel) cloud regions are operational; MW not disclosed. NVIDIA also runs its Israel-1 AI supercomputer in Israel.",
+   "acres": null,
+   "sizeSqft": null,
+   "compute": null,
+   "investmentUSD": 1200000000,
+   "investmentNote": "Project Nimbus: NIS 4B (~$1.2B) Israeli government cloud contract; Google and AWS were selected on 2021-04-21 and the deal was signed 2021-05-24 (contract value, not capex).",
+   "owners": [
+    {
+     "name": "Google",
+     "entityId": "google",
+     "stakePct": null
+    },
+    {
+     "name": "Amazon Web Services",
+     "entityId": "amazon",
+     "stakePct": null
+    }
+   ],
+   "developer": null,
+   "operator": null,
+   "tenants": [
+    {
+     "name": "Government of Israel (incl. defence establishment)",
+     "entityId": "israel-government",
+     "role": "Nimbus customer"
+    }
+   ],
+   "capitalStack": [
+    {
+     "from": "Government of Israel",
+     "entityId": "israel-government",
+     "kind": "lease",
+     "amountUSD": 1200000000,
+     "date": "2021-04",
+     "note": "Project Nimbus cloud contract to Google and AWS",
+     "url": "https://www.reuters.com/technology/israel-signs-cloud-services-deal-with-amazon-google-2021-05-24/"
+    }
+   ],
+   "energy": "Israeli grid",
+   "water": null,
+   "announced": "2021-04",
+   "expectedOnline": "2022",
+   "highlights": [
+    "Project Nimbus put Google and Amazon cloud regions in Israel to serve the government, including the military."
+   ],
+   "controversy": "Employee protests ('No Tech for Apartheid') over military use; Google fired ~50 staff after 2024 sit-ins. The Guardian/+972 reported in Oct 2025 that the contract required the firms to secretly signal ('wink') if they handed Israeli data to foreign authorities.",
+   "sources": [
+    {
+     "title": "Israel picks Amazon's AWS, Google for flagship cloud project",
+     "publisher": "Reuters",
+     "url": "https://www.reuters.com/world/middle-east/israel-picks-amazons-aws-google-flagship-cloud-project-2021-04-21/",
+     "date": "2021-04-21"
+    },
+    {
+     "title": "Israel signs cloud services deal with Amazon, Google",
+     "publisher": "Reuters",
+     "url": "https://www.reuters.com/technology/israel-signs-cloud-services-deal-with-amazon-google-2021-05-24/",
+     "date": "2021-05-24"
+    },
+    {
+     "title": "Google, AWS win $1.2 billion Israel Nimbus tender for cloud services",
+     "publisher": "DatacenterDynamics",
+     "url": "https://www.datacenterdynamics.com/en/news/google-aws-win-12-billion-israel-nimbus-tender-for-cloud-services/",
+     "date": "2021-04-22"
+    },
+    {
+     "title": "Revealed: Israel demanded Google and Amazon use secret 'wink' to sidestep legal orders",
+     "publisher": "The Guardian",
+     "url": "https://www.theguardian.com/us-news/2025/oct/29/google-amazon-israel-contract-secret-code",
+     "date": "2025-10-29"
+    }
+   ]
+  },
+  {
+   "id": "teraco-johannesburg",
+   "name": "Teraco Johannesburg Campuses (Isando JB1/JB3/JB5/JB7, Bredell JB4)",
+   "aka": [
+    "Teraco"
+   ],
+   "lat": -26.14,
+   "lng": 28.2,
+   "coordPrecision": "city",
+   "city": "Isando / Bredell (Ekurhuleni)",
+   "region": "Gauteng",
+   "country": "South Africa",
+   "countryCode": "ZA",
+   "status": "partially operational",
+   "type": "colocation",
+   "powerMW": 160,
+   "powerMWNow": 120,
+   "powerNote": "Teraco figures: Isando Campus ~70 MW critical IT (JB1, JB3, JB5) rising to 110 MW with JB7 (40 MW, construction began Nov 2024, completion scheduled 2026); JB4 at the Bredell Campus reached 50 MW after a 30 MW expansion completed Aug 2025 (largest standalone data centre in Africa). Teraco's whole platform was 189 MW in Aug 2025 and 228 MW incl. JB7 plans (also Cape Town and Durban sites).",
+   "acres": null,
+   "sizeSqft": null,
+   "compute": null,
+   "investmentUSD": 3500000000,
+   "investmentNote": "Digital Realty bought a majority stake in Teraco at ~$3.5B enterprise value (announced Feb 2022, closed 2022-08-01) - an acquisition, not capex. JB7 is funded by a R8B syndicated loan (Nov 2024).",
+   "owners": [
+    {
+     "name": "Digital Realty (majority)",
+     "entityId": "digital-realty",
+     "stakePct": null
+    }
+   ],
+   "developer": "Teraco",
+   "operator": "Teraco",
+   "tenants": [
+    {
+     "name": "Hyperscale cloud on-ramps and NAPAfrica internet exchange",
+     "entityId": null,
+     "role": "interconnection / cloud"
+    }
+   ],
+   "capitalStack": [
+    {
+     "from": "Digital Realty",
+     "entityId": "digital-realty",
+     "kind": "equity",
+     "amountUSD": 3500000000,
+     "date": "2022-08-01",
+     "note": "Enterprise value of the majority acquisition from Berkshire Partners, Permira and others",
+     "url": "https://www.digitalrealty.com/about/newsroom/press-releases/122709/digital-realty-completes-acquisition-of-teraco"
+    },
+    {
+     "from": "Syndicated lenders",
+     "entityId": null,
+     "kind": "debt",
+     "amountUSD": null,
+     "date": "2024-11-13",
+     "note": "R8 billion syndicated loan funding JB7",
+     "url": "https://www.teraco.co.za/news/teraco-announces-jb7-and-a-new-r8-billion-syndicated-loan/"
+    }
+   ],
+   "energy": "Eskom grid with diesel backup through load-shedding; Teraco developing a ~120 MW solar PV plant in the Free State to wheel renewable power",
+   "water": null,
+   "announced": null,
+   "expectedOnline": null,
+   "highlights": [
+    "Hosts NAPAfrica, Africa's largest internet exchange; survived years of Eskom load-shedding on backup power."
+   ],
+   "controversy": "Heavy diesel use during national load-shedding.",
+   "sources": [
+    {
+     "title": "Digital Realty Completes Acquisition of Teraco",
+     "publisher": "Digital Realty",
+     "url": "https://www.digitalrealty.com/about/newsroom/press-releases/122709/digital-realty-completes-acquisition-of-teraco",
+     "date": "2022-08-01"
+    },
+    {
+     "title": "Teraco announces JB7 and R8 billion syndicated loan",
+     "publisher": "Teraco",
+     "url": "https://www.teraco.co.za/news/teraco-announces-jb7-and-a-new-r8-billion-syndicated-loan/",
+     "date": "2024-11-13"
+    },
+    {
+     "title": "Teraco completes significant JB4 hyperscale data centre expansion",
+     "publisher": "Teraco",
+     "url": "https://www.teraco.co.za/news/teraco-completes-significant-jb4-hyperscale-data-centre-expansion-incorporating-new-sustainability-designs/",
+     "date": "2025-08-12"
+    }
+   ]
+  },
+  {
+   "id": "microsoft-south-africa",
+   "name": "Microsoft South Africa North & West Regions (Johannesburg, Cape Town)",
+   "aka": [],
+   "lat": -26.204,
+   "lng": 28.047,
+   "coordPrecision": "city",
+   "city": "Johannesburg (and Cape Town)",
+   "region": "Gauteng / Western Cape",
+   "country": "South Africa",
+   "countryCode": "ZA",
+   "status": "operational",
+   "type": "hyperscale-cloud",
+   "powerMW": null,
+   "powerMWNow": null,
+   "powerNote": "Africa's first hyperscale cloud regions (2019). [Compiled from reporting to mid-2026; not re-verified.]",
+   "acres": null,
+   "sizeSqft": null,
+   "compute": null,
+   "investmentUSD": 298000000,
+   "investmentNote": "ZAR 5.4B (~US$298M) additional AI/cloud investment by end-2027 announced March 2025.",
+   "owners": [
+    {
+     "name": "Microsoft",
+     "entityId": "microsoft",
+     "stakePct": 100
+    }
+   ],
+   "developer": "Microsoft",
+   "operator": "Microsoft",
+   "tenants": [
+    {
+     "name": "Microsoft Azure",
+     "entityId": "microsoft",
+     "role": "owner-occupier"
+    }
+   ],
+   "capitalStack": [
+    {
+     "from": "Microsoft",
+     "entityId": "microsoft",
+     "kind": "capex",
+     "amountUSD": 298000000,
+     "date": "2025-03",
+     "note": "ZAR 5.4B through 2027",
+     "url": "https://datacenters.microsoft.com/globe/explore"
+    }
+   ],
+   "energy": "Eskom grid; renewable PPAs",
+   "water": null,
+   "announced": "2017-05",
+   "expectedOnline": "2019-03",
+   "highlights": [
+    "The first hyperscale cloud regions on the African continent (2019)."
+   ],
+   "controversy": null,
+   "sources": [
+    {
+     "title": "Microsoft datacenter globe (South Africa North)",
+     "publisher": "Microsoft",
+     "url": "https://datacenters.microsoft.com/globe/explore",
+     "date": "2026"
+    }
+   ]
+  },
+  {
+   "id": "aws-cape-town",
+   "name": "AWS Africa (Cape Town) Region",
+   "aka": [
+    "af-south-1"
+   ],
+   "lat": -33.925,
+   "lng": 18.424,
+   "coordPrecision": "city",
+   "city": "Cape Town",
+   "region": "Western Cape",
+   "country": "South Africa",
+   "countryCode": "ZA",
+   "status": "operational",
+   "type": "hyperscale-cloud",
+   "powerMW": null,
+   "powerMWNow": null,
+   "powerNote": "Launched April 2020. [Compiled from reporting to mid-2026; not re-verified.]",
+   "acres": null,
+   "sizeSqft": null,
+   "compute": null,
+   "investmentUSD": null,
+   "investmentNote": "AWS has said it plans to invest ZAR 46.4B in South African cloud infrastructure through 2029 (figure not re-verified).",
+   "owners": [
+    {
+     "name": "Amazon Web Services",
+     "entityId": "amazon",
+     "stakePct": 100
+    }
+   ],
+   "developer": "AWS",
+   "operator": "AWS",
+   "tenants": [
+    {
+     "name": "AWS",
+     "entityId": "amazon",
+     "role": "owner-occupier"
+    }
+   ],
+   "capitalStack": [],
+   "energy": "Eskom grid; Amazon solar projects in South Africa",
+   "water": null,
+   "announced": "2018-10",
+   "expectedOnline": "2020-04",
+   "highlights": [
+    "AWS's first African region; Cape Town also hosts a large Amazon engineering hub."
+   ],
+   "controversy": null,
+   "sources": [
+    {
+     "title": "AWS Regions and Availability Zones",
+     "publisher": "AWS",
+     "url": "https://aws.amazon.com/about-aws/global-infrastructure/regions_az/",
+     "date": "2026"
+    }
+   ]
+  },
+  {
+   "id": "cassava-adc-ai-factory",
+   "name": "Africa Data Centres / Cassava-NVIDIA AI Factory (Johannesburg)",
+   "aka": [
+    "Cassava AI Factory",
+    "ADC JHB1 Midrand"
+   ],
+   "lat": -25.99,
+   "lng": 28.13,
+   "coordPrecision": "city",
+   "city": "Midrand, Johannesburg",
+   "region": "Gauteng",
+   "country": "South Africa",
+   "countryCode": "ZA",
+   "status": "partially operational",
+   "type": "sovereign-ai",
+   "powerMW": null,
+   "powerMWNow": null,
+   "powerNote": "ADC operates sites in Johannesburg, Cape Town, Nairobi and Lagos; Cassava's AI factory began in South Africa in 2025, with Egypt, Kenya, Morocco and Nigeria to follow. [Compiled from reporting to mid-2026; not re-verified.]",
+   "acres": null,
+   "sizeSqft": null,
+   "compute": "Up to 12,000 NVIDIA GPUs across Africa (plan announced 2025)",
+   "investmentUSD": 720000000,
+   "investmentNote": "~$720M plan announced by Cassava Technologies (Strive Masiyiwa) in 2025 to build NVIDIA-powered AI factories across Africa.",
+   "owners": [
+    {
+     "name": "Cassava Technologies (Africa Data Centres)",
+     "entityId": "cassava",
+     "stakePct": 100
+    }
+   ],
+   "developer": "Africa Data Centres",
+   "operator": "Africa Data Centres / Cassava",
+   "tenants": [],
+   "capitalStack": [
+    {
+     "from": "Cassava Technologies",
+     "entityId": "cassava",
+     "kind": "capex",
+     "amountUSD": 720000000,
+     "date": "2025",
+     "note": "AI factory programme across five African countries",
+     "url": "https://www.cassavatechnologies.com/"
+    }
+   ],
+   "energy": "Eskom grid plus solar",
+   "water": null,
+   "announced": "2025",
+   "expectedOnline": "2025",
+   "highlights": [
+    "Africa's first NVIDIA 'AI factory', backed by Zimbabwean billionaire Strive Masiyiwa's Cassava."
+   ],
+   "controversy": null,
+   "sources": [
+    {
+     "title": "Cassava Technologies",
+     "publisher": "Cassava Technologies",
+     "url": "https://www.cassavatechnologies.com/",
+     "date": "2025"
+    },
+    {
+     "title": "Africa Data Centres",
+     "publisher": "Africa Data Centres",
+     "url": "https://www.africadatacentres.com/",
+     "date": "2026"
+    }
+   ]
+  },
+  {
+   "id": "g42-microsoft-olkaria-kenya",
+   "name": "Microsoft-G42 Geothermal Data Centre (Olkaria, Kenya)",
+   "aka": [
+    "EcoCloud Olkaria"
+   ],
+   "lat": -0.88,
+   "lng": 36.3,
+   "coordPrecision": "city",
+   "city": "Olkaria (Naivasha)",
+   "region": "Nakuru County",
+   "country": "Kenya",
+   "countryCode": "KE",
+   "status": "paused",
+   "type": "hyperscale-cloud",
+   "powerMW": 1000,
+   "powerMWNow": 0,
+   "powerNote": "Planned initial 100 MW, scalable to 1 GW, on Olkaria geothermal power. Stalled: no construction started; it missed its May 2026 launch target. President Ruto said in May 2026 that the 1 GW load would be a third of Kenya's ~3 GW supply ('we would need to shut off power for half the country'); Bloomberg reported talks broke down over the government's inability to commit to annual capacity leasing, though discussions may continue at a smaller scale.",
+   "acres": null,
+   "sizeSqft": null,
+   "compute": "To host a new Azure East Africa cloud region",
+   "investmentUSD": 1000000000,
+   "investmentNote": "$1B digital investment package announced by Microsoft and G42 with Kenya's government (May 2024), centred on the Olkaria data centre; Kenya's National Treasury did not clear the project concept note.",
+   "owners": [
+    {
+     "name": "G42",
+     "entityId": "g42",
+     "stakePct": null
+    },
+    {
+     "name": "Microsoft",
+     "entityId": "microsoft",
+     "stakePct": null
+    }
+   ],
+   "developer": "G42 with EcoCloud",
+   "operator": null,
+   "tenants": [
+    {
+     "name": "Microsoft Azure",
+     "entityId": "microsoft",
+     "role": "planned cloud region"
+    }
+   ],
+   "capitalStack": [
+    {
+     "from": "Microsoft & G42",
+     "entityId": "g42",
+     "kind": "capex",
+     "amountUSD": 1000000000,
+     "date": "2024-05-22",
+     "note": "$1B package incl. geothermal data centre",
+     "url": "https://www.datacenterdynamics.com/en/news/microsoft-and-g42-data-center-in-kenya-stalled-due-to-lack-of-power-capacity/"
+    }
+   ],
+   "energy": "Geothermal (Olkaria field, KenGen)",
+   "water": null,
+   "announced": "2024-05-22",
+   "expectedOnline": null,
+   "highlights": [
+    "Announced during President Ruto's 2024 US state visit: a geothermal-powered cloud region in the Rift Valley."
+   ],
+   "controversy": "Shelved in May 2026 over grid capacity and the government's inability to guarantee capacity purchases; the planned Azure East Africa region had not launched.",
+   "sources": [
+    {
+     "title": "Microsoft and G42 data center in Kenya stalled due to lack of power capacity",
+     "publisher": "DatacenterDynamics",
+     "url": "https://www.datacenterdynamics.com/en/news/microsoft-and-g42-data-center-in-kenya-stalled-due-to-lack-of-power-capacity/",
+     "date": "2026-05-07"
+    },
+    {
+     "title": "Energy shortfall 'problem' scuppers Kenya's $1B Microsoft data center",
+     "publisher": "Semafor",
+     "url": "https://www.semafor.com/article/05/06/2026/energy-shortfall-problem-scuppers-kenyas-1b-microsoft-data-center",
+     "date": "2026-05-06"
+    },
+    {
+     "title": "Kenya suspends plans for Microsoft's geothermal-powered data centre",
+     "publisher": "ThinkGeoEnergy",
+     "url": "https://www.thinkgeoenergy.com/kenya-suspends-plans-for-microsofts-geothermal-powered-data-centre/",
+     "date": "2026-05-08"
+    }
+   ]
+  },
+  {
+   "id": "lagos-cluster",
+   "name": "Lagos Data Centre Cluster (Rack Centre, Equinix-MainOne, Open Access, ADC)",
+   "aka": [
+    "Lekki / Victoria Island"
+   ],
+   "lat": 6.44,
+   "lng": 3.47,
+   "coordPrecision": "region",
+   "city": "Lagos (Lekki, Victoria Island, Ikeja)",
+   "region": "Lagos State",
+   "country": "Nigeria",
+   "countryCode": "NG",
+   "status": "operational",
+   "type": "cluster",
+   "powerMW": null,
+   "powerMWNow": null,
+   "powerNote": "West Africa's largest hub; aggregate MW not confirmed in sources reviewed. [Compiled from reporting to mid-2026; not re-verified.]",
+   "acres": null,
+   "sizeSqft": null,
+   "compute": null,
+   "investmentUSD": null,
+   "investmentNote": "Equinix acquired MainOne (incl. its Lagos data centres) for ~$320M enterprise value, completed 2022. Rack Centre is owned by Actis.",
+   "owners": [
+    {
+     "name": "Rack Centre (Actis)",
+     "entityId": "actis",
+     "stakePct": null
+    },
+    {
+     "name": "Equinix (ex-MainOne)",
+     "entityId": "equinix",
+     "stakePct": null
+    },
+    {
+     "name": "Open Access Data Centres",
+     "entityId": "open-access-dc",
+     "stakePct": null
+    },
+    {
+     "name": "Africa Data Centres (Cassava)",
+     "entityId": "cassava",
+     "stakePct": null
+    }
+   ],
+   "developer": null,
+   "operator": null,
+   "tenants": [],
+   "capitalStack": [
+    {
+     "from": "Equinix",
+     "entityId": "equinix",
+     "kind": "equity",
+     "amountUSD": 320000000,
+     "date": "2022-04",
+     "note": "Acquisition of MainOne (subsea cable + Lagos data centres)",
+     "url": "https://www.equinix.com/"
+    }
+   ],
+   "energy": "Unreliable national grid; heavy reliance on gas/diesel on-site generation",
+   "water": null,
+   "announced": null,
+   "expectedOnline": null,
+   "highlights": [
+    "Equinix's first sub-Saharan move was buying Nigeria's MainOne, owner of a subsea cable and Lagos data centres."
+   ],
+   "controversy": "Grid unreliability forces near-continuous self-generation.",
+   "sources": [
+    {
+     "title": "Rack Centre",
+     "publisher": "Rack Centre",
+     "url": "https://www.rackcentre.com/",
+     "date": "2026"
+    },
+    {
+     "title": "Equinix",
+     "publisher": "Equinix",
+     "url": "https://www.equinix.com/",
+     "date": "2022"
+    }
+   ]
+  }
+ ]
+}

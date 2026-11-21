@@ -1,0 +1,11 @@
+# Local tooling and editor/OS files: never publish
+.claude/
+.DS_Store
+.vscode/
+.idea/
+*.log
+node_modules/
+
+# Build intermediates (regenerate with scripts/fetch-*.mjs)
+scripts/.cache/
+data/base-layer.json

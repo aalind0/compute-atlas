@@ -1,0 +1,4859 @@
+{
+ "generated": "2026-11-20",
+ "notes": "Americas cloud & colocation landscape: Google US campuses, market clusters, flagship colo/wholesale campuses, Apple and legacy Microsoft/AWS clusters, Canada and Latin America. Excludes US AI megaprojects (Stargate/OpenAI, Meta, xAI, Microsoft Fairwater, AWS Rainier & state megacommitments, Oracle, Anthropic, neoclouds, crypto conversions), covered in another file. Cluster MW figures are CBRE colocation inventory (H1 2026) unless noted, which excludes most hyperscaler self-builds. coordPrecision 'city' or 'region' means the pin is approximate. Non-USD amounts converted at announcement-date rates (originals in notes). DATA-QUALITY WARNING: the session's shared web-search budget ran out and WebFetch was blocked, so every record whose investmentNote starts with '[NOT RE-VERIFIED 2026-11-20' was built from reporting up to mid-2026 without re-checking. Its sources are mostly company/publisher root pages, not article links. Re-verify these before publishing: equinix-ashburn, digital-realty-ashburn, qts-atlanta-metro, qts-fayetteville, qts-richmond, switch-citadel, switch-las-vegas-core, pw-digital-gateway, cluster-quincy-wa, microsoft-san-antonio, microsoft-west-des-moines, microsoft-boydton, aws-ohio-region, aws-oregon-boardman, apple-maiden, apple-mesa, apple-reno, apple-prineville, apple-waukee, apple-houston-ai-servers, cluster-montreal-quebec, cluster-toronto, ovhcloud-beauharnois, wonder-valley-alberta, bell-ai-fabric, telus-rimouski-ai-factory, cluster-queretaro, cluster-sao-paulo, scala-ai-city, tiktok-ceara-pecem, cluster-santiago, stargate-argentina, google-uruguay-canelones.",
+ "campuses": [
+  {
+   "id": "google-council-bluffs",
+   "name": "Google Council Bluffs data center campus",
+   "aka": [],
+   "lat": 41.2215,
+   "lng": -95.8608,
+   "coordPrecision": "city",
+   "city": "Council Bluffs",
+   "region": "Iowa",
+   "country": "United States",
+   "countryCode": "US",
+   "status": "operational",
+   "type": "hyperscale-cloud",
+   "powerMW": null,
+   "powerMWNow": null,
+   "powerNote": "Google does not disclose campus MW.",
+   "acres": null,
+   "sizeSqft": null,
+   "compute": null,
+   "investmentUSD": 7000000000,
+   "investmentNote": "May 2025 commitment of an additional $7B in Iowa over two years, covering Council Bluffs expansion plus a new Cedar Rapids campus (no split disclosed). Google's site claims a much larger cumulative Iowa total since 2007; earlier reporting put cumulative Iowa spend at ~$6.8B, so cumulative figures are inconsistent.",
+   "owners": [
+    {
+     "name": "Google",
+     "entityId": "google",
+     "stakePct": 100
+    }
+   ],
+   "developer": "Google",
+   "operator": "Google",
+   "tenants": [
+    {
+     "name": "Google Cloud us-central1 / Google services",
+     "entityId": "google",
+     "role": "owner-occupier"
+    }
+   ],
+   "capitalStack": [
+    {
+     "from": "Google",
+     "entityId": "google",
+     "kind": "capex",
+     "amountUSD": 7000000000,
+     "date": "2025-05",
+     "note": "Two-year Iowa commitment: Council Bluffs expansion + new Cedar Rapids data center",
+     "url": "https://blog.google/feed/new-7-billion-investment-iowa/"
+    }
+   ],
+   "energy": "MidAmerican Energy grid; Google wind PPAs in Iowa",
+   "water": null,
+   "announced": "2007",
+   "expectedOnline": "2009",
+   "highlights": [
+    "One of Google's oldest and largest US campuses; home of the us-central1 cloud region",
+    "$7B more pledged for Iowa in May 2025, including a new Cedar Rapids site"
+   ],
+   "controversy": null,
+   "sources": [
+    {
+     "title": "New $7 billion investment in Iowa",
+     "publisher": "Google",
+     "url": "https://blog.google/feed/new-7-billion-investment-iowa/",
+     "date": "2025-05-30"
+    },
+    {
+     "title": "Google commits $7 billion to Iowa data centers",
+     "publisher": "Broadband Breakfast",
+     "url": "https://broadbandbreakfast.com/google-commits-7-billion-to-iowa-data-centers.md",
+     "date": "2025-05"
+    }
+   ]
+  },
+  {
+   "id": "google-the-dalles",
+   "name": "Google The Dalles data center campus",
+   "aka": [],
+   "lat": 45.6328,
+   "lng": -121.2009,
+   "coordPrecision": "city",
+   "city": "The Dalles",
+   "region": "Oregon",
+   "country": "United States",
+   "countryCode": "US",
+   "status": "operational",
+   "type": "hyperscale-cloud",
+   "powerMW": null,
+   "powerMWNow": null,
+   "powerNote": "MW not disclosed; three local sites by 2024 with further expansion in Wasco County.",
+   "acres": null,
+   "sizeSqft": null,
+   "compute": null,
+   "investmentUSD": 1800000000,
+   "investmentNote": "Google-stated cumulative investment in The Dalles since 2006 (~$1.8B); Oregon total >$2.4B per Google.",
+   "owners": [
+    {
+     "name": "Google",
+     "entityId": "google",
+     "stakePct": 100
+    }
+   ],
+   "developer": "Google",
+   "operator": "Google",
+   "tenants": [
+    {
+     "name": "Google Cloud us-west1 / Google services",
+     "entityId": "google",
+     "role": "owner-occupier"
+    }
+   ],
+   "capitalStack": [
+    {
+     "from": "Google",
+     "entityId": "google",
+     "kind": "capex",
+     "amountUSD": 1800000000,
+     "date": "2006",
+     "note": "Cumulative since opening (Google figure)",
+     "url": "https://blog.google/outreach-initiatives/sustainability/the-dalles-oregon-water/"
+    }
+   ],
+   "energy": "Northern Wasco County PUD / Bonneville hydropower",
+   "water": "Google's use rose from 104M gallons (2012) to 434M gallons (2024), about a third of the city's supply (OPB); Google funding aquifer storage & recovery project",
+   "announced": "2005",
+   "expectedOnline": "2006",
+   "highlights": [
+    "Google's first company-built data center (2006), on a former aluminum-smelter site on the Columbia River",
+    "Water use roughly quadrupled 2012-2024 to 434M gallons a year"
+   ],
+   "controversy": "The city fought in court in 2022 to keep Google's water use secret before releasing it; in 2026 The Dalles sought more water from Mount Hood National Forest as Google demand grows.",
+   "sources": [
+    {
+     "title": "As Google's water demands grow, The Dalles aims to pull more from Mount Hood forest",
+     "publisher": "OPB",
+     "url": "https://opb.org/article/2026/01/15/as-googles-water-demands-grow-the-dalles-aims-to-pull-more-from-mount-hood-forest",
+     "date": "2026-01-15"
+    },
+    {
+     "title": "The Dalles, Oregon: water",
+     "publisher": "Google",
+     "url": "https://blog.google/outreach-initiatives/sustainability/the-dalles-oregon-water/",
+     "date": null
+    },
+    {
+     "title": "Is Google a bad neighbor? A fight over water use at a huge data center",
+     "publisher": "Fortune",
+     "url": "https://fortune.com/longform/google-data-center-the-dalles-oregon-water-dispute",
+     "date": null
+    }
+   ]
+  },
+  {
+   "id": "google-pryor",
+   "name": "Google Mayes County (Pryor) data center campus",
+   "aka": [
+    "MidAmerica Industrial Park"
+   ],
+   "lat": 36.247,
+   "lng": -95.29,
+   "coordPrecision": "city",
+   "city": "Pryor",
+   "region": "Oklahoma",
+   "country": "United States",
+   "countryCode": "US",
+   "status": "operational",
+   "type": "hyperscale-cloud",
+   "powerMW": null,
+   "powerMWNow": null,
+   "powerNote": null,
+   "acres": null,
+   "sizeSqft": null,
+   "compute": null,
+   "investmentUSD": 9000000000,
+   "investmentNote": "Aug 2025: $9B over ~2 years in Oklahoma to expand Pryor and build a new Stillwater-area campus (no split). Prior cumulative Pryor spend ~$4.4B (Google).",
+   "owners": [
+    {
+     "name": "Google",
+     "entityId": "google",
+     "stakePct": 100
+    }
+   ],
+   "developer": "Google",
+   "operator": "Google",
+   "tenants": [
+    {
+     "name": "Google Cloud us-south / Google services",
+     "entityId": "google",
+     "role": "owner-occupier"
+    }
+   ],
+   "capitalStack": [
+    {
+     "from": "Google",
+     "entityId": "google",
+     "kind": "capex",
+     "amountUSD": 4400000000,
+     "date": "2011",
+     "note": "Cumulative Pryor spend before 2025 announcement",
+     "url": "https://www.hppr.org/hppr-news/2025-08-18/google-announces-new-9-billion-cloud-ai-investment-in-oklahoma"
+    },
+    {
+     "from": "Google",
+     "entityId": "google",
+     "kind": "capex",
+     "amountUSD": 9000000000,
+     "date": "2025-08-13",
+     "note": "Two-year Oklahoma commitment (Pryor expansion + Stillwater)",
+     "url": "https://blog.google/inside-google/company-announcements/google-american-innovation-oklahoma"
+    }
+   ],
+   "energy": "Grand River Dam Authority grid; wind and solar PPAs",
+   "water": null,
+   "announced": "2007",
+   "expectedOnline": "2011",
+   "highlights": [
+    "$9B Oklahoma pledge in Aug 2025 adds a second campus near Stillwater"
+   ],
+   "controversy": null,
+   "sources": [
+    {
+     "title": "Google's American innovation: Oklahoma",
+     "publisher": "Google",
+     "url": "https://blog.google/inside-google/company-announcements/google-american-innovation-oklahoma",
+     "date": "2025-08-13"
+    },
+    {
+     "title": "Google announces new $9 billion cloud, AI investment in Oklahoma",
+     "publisher": "HPPR",
+     "url": "https://www.hppr.org/hppr-news/2025-08-18/google-announces-new-9-billion-cloud-ai-investment-in-oklahoma",
+     "date": "2025-08-18"
+    }
+   ]
+  },
+  {
+   "id": "google-lenoir",
+   "name": "Google Lenoir data center",
+   "aka": [],
+   "lat": 35.914,
+   "lng": -81.539,
+   "coordPrecision": "city",
+   "city": "Lenoir",
+   "region": "North Carolina",
+   "country": "United States",
+   "countryCode": "US",
+   "status": "operational",
+   "type": "hyperscale-cloud",
+   "powerMW": null,
+   "powerMWNow": null,
+   "powerNote": null,
+   "acres": null,
+   "sizeSqft": null,
+   "compute": null,
+   "investmentUSD": 1000000000,
+   "investmentNote": "March 2026: new $1B two-year North Carolina commitment, mainly for Lenoir. Google cites ~$1.2B cumulative in Caldwell County since 2007; a $600M expansion in 2024 came with city/county incentives (may overlap).",
+   "owners": [
+    {
+     "name": "Google",
+     "entityId": "google",
+     "stakePct": 100
+    }
+   ],
+   "developer": "Google",
+   "operator": "Google",
+   "tenants": [
+    {
+     "name": "Google services",
+     "entityId": "google",
+     "role": "owner-occupier"
+    }
+   ],
+   "capitalStack": [
+    {
+     "from": "Google",
+     "entityId": "google",
+     "kind": "capex",
+     "amountUSD": 600000000,
+     "date": "2024",
+     "note": "Expansion with city/county incentives",
+     "url": "https://nsjonline.com/article/2026/03/google-expands-lenoir-data-center-with-1b-investment/"
+    },
+    {
+     "from": "Google",
+     "entityId": "google",
+     "kind": "capex",
+     "amountUSD": 1000000000,
+     "date": "2026-03",
+     "note": "Two-year NC expansion",
+     "url": "https://www.commerce.nc.gov/news/press-releases/google-expands-north-carolina"
+    }
+   ],
+   "energy": "Duke Energy Carolinas grid",
+   "water": null,
+   "announced": "2007",
+   "expectedOnline": "2008",
+   "highlights": [
+    "Google's furniture-town data center in the Blue Ridge foothills; $1B more pledged in 2026"
+   ],
+   "controversy": null,
+   "sources": [
+    {
+     "title": "Google expands Lenoir data center with $1B investment",
+     "publisher": "North State Journal",
+     "url": "https://nsjonline.com/article/2026/03/google-expands-lenoir-data-center-with-1b-investment/",
+     "date": "2026-03"
+    },
+    {
+     "title": "Google commits $1B to North Carolina data centers",
+     "publisher": "Fox Business",
+     "url": "https://www.foxbusiness.com/technology/google-commits-1b-north-carolina-data-centers-ai-demand-surges",
+     "date": "2026-03"
+    }
+   ]
+  },
+  {
+   "id": "google-berkeley-county",
+   "name": "Google Berkeley County data center campus (Moncks Corner)",
+   "aka": [
+    "Mount Holly Commerce Park"
+   ],
+   "lat": 33.06,
+   "lng": -80.03,
+   "coordPrecision": "city",
+   "city": "Moncks Corner",
+   "region": "South Carolina",
+   "country": "United States",
+   "countryCode": "US",
+   "status": "operational",
+   "type": "hyperscale-cloud",
+   "powerMW": null,
+   "powerMWNow": null,
+   "powerNote": null,
+   "acres": null,
+   "sizeSqft": null,
+   "compute": null,
+   "investmentUSD": 9000000000,
+   "investmentNote": "Oct 2025: $9B in South Carolina through 2027 to expand Berkeley County and finish two new Dorchester County sites (no split). Earlier 2024 package was $3.3B incl. $1.3B for Berkeley County.",
+   "owners": [
+    {
+     "name": "Google",
+     "entityId": "google",
+     "stakePct": 100
+    }
+   ],
+   "developer": "Google",
+   "operator": "Google",
+   "tenants": [
+    {
+     "name": "Google Cloud us-east1 / Google services",
+     "entityId": "google",
+     "role": "owner-occupier"
+    }
+   ],
+   "capitalStack": [
+    {
+     "from": "Google",
+     "entityId": "google",
+     "kind": "capex",
+     "amountUSD": 3300000000,
+     "date": "2024",
+     "note": "Incl. $1.3B Berkeley expansion + Dorchester County sites",
+     "url": "https://governor.sc.gov/node/4236"
+    },
+    {
+     "from": "Google",
+     "entityId": "google",
+     "kind": "capex",
+     "amountUSD": 9000000000,
+     "date": "2025-10-13",
+     "note": "Through 2027, Berkeley + Dorchester",
+     "url": "https://blog.google/inside-google/company-announcements/google-american-innovation-south-carolina/"
+    }
+   ],
+   "energy": "Santee Cooper / Dominion Energy South Carolina grid",
+   "water": "Google says it uses recycled water and closed-loop cooling in SC; critics cite cooling water draws",
+   "announced": "2007",
+   "expectedOnline": "2008",
+   "highlights": [
+    "Hosts Google Cloud's us-east1 region",
+    "$9B SC pledge (Oct 2025) adds two Dorchester County campuses"
+   ],
+   "controversy": "Critics have questioned Google's power arrangement with Dominion Energy and groundwater use for cooling.",
+   "sources": [
+    {
+     "title": "Google's American innovation: South Carolina",
+     "publisher": "Google",
+     "url": "https://blog.google/inside-google/company-announcements/google-american-innovation-south-carolina/",
+     "date": "2025-10-13"
+    },
+    {
+     "title": "Google to invest $9 billion in Berkeley & Dorchester counties",
+     "publisher": "ABC News 4",
+     "url": "https://abcnews4.com/news/business-news/google-to-invest-9-billion-in-south-carolina-for-cloud-and-ai-expansion-business-wciv-abc-news-4-10-13-2025",
+     "date": "2025-10-13"
+    }
+   ]
+  },
+  {
+   "id": "google-douglas-county",
+   "name": "Google Douglas County data center",
+   "aka": [],
+   "lat": 33.78,
+   "lng": -84.62,
+   "coordPrecision": "city",
+   "city": "Lithia Springs",
+   "region": "Georgia",
+   "country": "United States",
+   "countryCode": "US",
+   "status": "operational",
+   "type": "hyperscale-cloud",
+   "powerMW": null,
+   "powerMWNow": null,
+   "powerNote": null,
+   "acres": null,
+   "sizeSqft": null,
+   "compute": null,
+   "investmentUSD": 3000000000,
+   "investmentNote": "Google-stated '$3B+' investment in Georgia since the Douglas County data center opened (2003 land purchase); not a site-only figure. Older Google pages said $1.2B.",
+   "owners": [
+    {
+     "name": "Google",
+     "entityId": "google",
+     "stakePct": 100
+    }
+   ],
+   "developer": "Google",
+   "operator": "Google",
+   "tenants": [
+    {
+     "name": "Google services",
+     "entityId": "google",
+     "role": "owner-occupier"
+    }
+   ],
+   "capitalStack": [
+    {
+     "from": "Google",
+     "entityId": "google",
+     "kind": "capex",
+     "amountUSD": 3000000000,
+     "date": "2003",
+     "note": "Cumulative Georgia figure",
+     "url": "https://google.co.il/about/datacenters/locations/douglas-county"
+    }
+   ],
+   "energy": "Georgia Power grid; cooling uses recycled wastewater from the Chattahoochee",
+   "water": "Cools with recycled municipal wastewater diverted from the Chattahoochee River",
+   "announced": "2003",
+   "expectedOnline": "2003",
+   "highlights": [
+    "Pioneered Google's use of recycled wastewater for cooling",
+    "Google's separate $8B 'Project Pegasus' campus in LaGrange, GA was unveiled in April 2026"
+   ],
+   "controversy": null,
+   "sources": [
+    {
+     "title": "Douglas County, Georgia data center",
+     "publisher": "Google",
+     "url": "https://google.co.il/about/datacenters/locations/douglas-county",
+     "date": null
+    },
+    {
+     "title": "What is Georgia's Project Pegasus? Tech giant unveils $8 billion answer",
+     "publisher": "Atlanta Journal-Constitution",
+     "url": "https://www.ajc.com/business/2026/04/what-is-georgias-project-pegasus-tech-giant-unveils-8-billion-answer/",
+     "date": "2026-04"
+    }
+   ]
+  },
+  {
+   "id": "google-bridgeport-al",
+   "name": "Google Jackson County data center (Widows Creek)",
+   "aka": [],
+   "lat": 34.882,
+   "lng": -85.755,
+   "coordPrecision": "site",
+   "city": "Bridgeport",
+   "region": "Alabama",
+   "country": "United States",
+   "countryCode": "US",
+   "status": "operational",
+   "type": "hyperscale-cloud",
+   "powerMW": null,
+   "powerMWNow": null,
+   "powerNote": null,
+   "acres": null,
+   "sizeSqft": null,
+   "compute": null,
+   "investmentUSD": 1500000000,
+   "investmentNote": "June 2026: $1.5B expansion for 2026-2027 (Google). Original 2018 build was $600M.",
+   "owners": [
+    {
+     "name": "Google",
+     "entityId": "google",
+     "stakePct": 100
+    }
+   ],
+   "developer": "Google",
+   "operator": "Google",
+   "tenants": [
+    {
+     "name": "Google services",
+     "entityId": "google",
+     "role": "owner-occupier"
+    }
+   ],
+   "capitalStack": [
+    {
+     "from": "Google",
+     "entityId": "google",
+     "kind": "capex",
+     "amountUSD": 600000000,
+     "date": "2018-04",
+     "note": "Initial build on retired TVA coal plant site",
+     "url": "https://www.madeinalabama.com/2018/04/google-kicks-off-construction-on-alabama-data-center/"
+    },
+    {
+     "from": "Google",
+     "entityId": "google",
+     "kind": "capex",
+     "amountUSD": 1500000000,
+     "date": "2026-06-15",
+     "note": "Expansion 2026-27; Google says it covers all associated energy costs",
+     "url": "https://blog.google/innovation-and-ai/infrastructure-and-cloud/global-network/alabama-investment-june-2026/"
+    }
+   ],
+   "energy": "TVA grid; up to 50 MW Kairos Power advanced-nuclear PPA via TVA expected ~2030",
+   "water": null,
+   "announced": "2015-06",
+   "expectedOnline": "2019",
+   "highlights": [
+    "Built on the site of TVA's retired Widows Creek coal plant, reusing its transmission lines",
+    "Tied to Google's Kairos Power/TVA small-modular-reactor power deal"
+   ],
+   "controversy": null,
+   "sources": [
+    {
+     "title": "Alabama investment, June 2026",
+     "publisher": "Google",
+     "url": "https://blog.google/innovation-and-ai/infrastructure-and-cloud/global-network/alabama-investment-june-2026/",
+     "date": "2026-06-15"
+    },
+    {
+     "title": "Data center gets $1.5B boost",
+     "publisher": "Axios Huntsville",
+     "url": "https://www.axios.com/local/huntsville/2026/06/16/data-center-gets-1-5b-boost",
+     "date": "2026-06-16"
+    }
+   ]
+  },
+  {
+   "id": "google-clarksville",
+   "name": "Google Montgomery County data center",
+   "aka": [],
+   "lat": 36.53,
+   "lng": -87.36,
+   "coordPrecision": "city",
+   "city": "Clarksville",
+   "region": "Tennessee",
+   "country": "United States",
+   "countryCode": "US",
+   "status": "operational",
+   "type": "hyperscale-cloud",
+   "powerMW": null,
+   "powerMWNow": null,
+   "powerNote": null,
+   "acres": null,
+   "sizeSqft": null,
+   "compute": null,
+   "investmentUSD": 600000000,
+   "investmentNote": "Original $600M announced Dec 2015 (TN ECD); broke ground Feb 2018 on former Hemlock Semiconductor site. No later public total found.",
+   "owners": [
+    {
+     "name": "Google",
+     "entityId": "google",
+     "stakePct": 100
+    }
+   ],
+   "developer": "Google",
+   "operator": "Google",
+   "tenants": [
+    {
+     "name": "Google services",
+     "entityId": "google",
+     "role": "owner-occupier"
+    }
+   ],
+   "capitalStack": [
+    {
+     "from": "Google",
+     "entityId": "google",
+     "kind": "capex",
+     "amountUSD": 600000000,
+     "date": "2015-12-22",
+     "note": "Initial commitment, 70 jobs",
+     "url": "https://www.tn.gov/ecd/news/2015/12/22/governor-haslam-commissioner-boyd-announce-google-to-locate-new-data-center.html"
+    }
+   ],
+   "energy": "TVA grid (Clarksville Department of Electricity)",
+   "water": null,
+   "announced": "2015-12",
+   "expectedOnline": "2022",
+   "highlights": [
+    "Repurposed an abandoned polysilicon plant site; took ~7 years from announcement to operation"
+   ],
+   "controversy": null,
+   "sources": [
+    {
+     "title": "Governor Haslam announce Google to locate new data center in Clarksville",
+     "publisher": "Tennessee ECD",
+     "url": "https://www.tn.gov/ecd/news/2015/12/22/governor-haslam-commissioner-boyd-announce-google-to-locate-new-data-center.html",
+     "date": "2015-12-22"
+    },
+    {
+     "title": "Google finally breaks ground on Clarksville, Tennessee data center",
+     "publisher": "DatacenterDynamics",
+     "url": "https://www.datacenterdynamics.com/en/news/google-finally-breaks-ground-on-clarksville-tennessee-data-center/",
+     "date": "2018"
+    }
+   ]
+  },
+  {
+   "id": "google-ellis-county-tx",
+   "name": "Google Ellis County campuses (Midlothian & Red Oak)",
+   "aka": [],
+   "lat": 32.48,
+   "lng": -96.99,
+   "coordPrecision": "city",
+   "city": "Midlothian",
+   "region": "Texas",
+   "country": "United States",
+   "countryCode": "US",
+   "status": "operational",
+   "type": "hyperscale-cloud",
+   "powerMW": null,
+   "powerMWNow": null,
+   "powerNote": null,
+   "acres": 375,
+   "sizeSqft": null,
+   "compute": null,
+   "investmentUSD": 1000000000,
+   "investmentNote": "Aug 2024: $1B in Texas for Midlothian + Red Oak that year. Midlothian opened with $600M (375 acres, 2018); Red Oak ~$600M (2023). Both included in the Nov 2025 $40B Texas plan; a further ~$880M Ellis County building reported Dec 2025.",
+   "owners": [
+    {
+     "name": "Google",
+     "entityId": "google",
+     "stakePct": 100
+    }
+   ],
+   "developer": "Google",
+   "operator": "Google",
+   "tenants": [
+    {
+     "name": "Google Cloud us-south1 (Dallas) / Google services",
+     "entityId": "google",
+     "role": "owner-occupier"
+    }
+   ],
+   "capitalStack": [
+    {
+     "from": "Google",
+     "entityId": "google",
+     "kind": "capex",
+     "amountUSD": 600000000,
+     "date": "2018",
+     "note": "Midlothian initial",
+     "url": "https://www.nbcdfw.com/news/politics/lone-star-politics/google-data-center-midlothian/3622572/?amp=1"
+    },
+    {
+     "from": "Google",
+     "entityId": "google",
+     "kind": "capex",
+     "amountUSD": 1000000000,
+     "date": "2024-08",
+     "note": "Midlothian + Red Oak, with 375 MW solar PPAs",
+     "url": "https://www.datacenterdynamics.com/en/news/google-to-invest-1bn-expanding-dallas-data-centers-signs-375mw-in-solar-ppas/"
+    },
+    {
+     "from": "Google",
+     "entityId": "google",
+     "kind": "capex",
+     "amountUSD": 880000000,
+     "date": "2025-12",
+     "note": "New data center building outside Dallas (reported)",
+     "url": "https://therealdeal.com/texas/2025/12/10/google-to-build-880-million-data-center-outside-dallas"
+    }
+   ],
+   "energy": "ERCOT (Oncor); 375 MW solar PPAs signed with 2024 expansion",
+   "water": null,
+   "announced": "2018",
+   "expectedOnline": "2022",
+   "highlights": [
+    "Two Google campuses 25 miles south of Dallas anchor the us-south1 region"
+   ],
+   "controversy": null,
+   "sources": [
+    {
+     "title": "Google to invest $1bn expanding Dallas data centers, signs 375MW in solar PPAs",
+     "publisher": "DatacenterDynamics",
+     "url": "https://www.datacenterdynamics.com/en/news/google-to-invest-1bn-expanding-dallas-data-centers-signs-375mw-in-solar-ppas/",
+     "date": "2024-08"
+    },
+    {
+     "title": "Google to build $880 million data center outside Dallas",
+     "publisher": "The Real Deal",
+     "url": "https://therealdeal.com/texas/2025/12/10/google-to-build-880-million-data-center-outside-dallas",
+     "date": "2025-12-10"
+    }
+   ]
+  },
+  {
+   "id": "google-new-albany",
+   "name": "Google central Ohio campuses (New Albany, Columbus, Lancaster)",
+   "aka": [],
+   "lat": 40.0812,
+   "lng": -82.788,
+   "coordPrecision": "city",
+   "city": "New Albany",
+   "region": "Ohio",
+   "country": "United States",
+   "countryCode": "US",
+   "status": "operational",
+   "type": "hyperscale-cloud",
+   "powerMW": null,
+   "powerMWNow": null,
+   "powerNote": null,
+   "acres": null,
+   "sizeSqft": null,
+   "compute": null,
+   "investmentUSD": 2300000000,
+   "investmentNote": "June 2024: additional $2.3B for New Albany, Columbus and Lancaster campuses (AP), on top of ~$4.4B spent in central Ohio since 2019; Ohio Manufacturers' Association put total at $6.6B.",
+   "owners": [
+    {
+     "name": "Google",
+     "entityId": "google",
+     "stakePct": 100
+    }
+   ],
+   "developer": "Google",
+   "operator": "Google",
+   "tenants": [
+    {
+     "name": "Google Cloud us-east5 (Columbus) / Google services",
+     "entityId": "google",
+     "role": "owner-occupier"
+    }
+   ],
+   "capitalStack": [
+    {
+     "from": "Google",
+     "entityId": "google",
+     "kind": "capex",
+     "amountUSD": 4400000000,
+     "date": "2019",
+     "note": "Cumulative central Ohio spend 2019-2024",
+     "url": "https://abcnews.go.com/US/wireStory/google-invest-23-billion-ohio-data-centers-111229096"
+    },
+    {
+     "from": "Google",
+     "entityId": "google",
+     "kind": "capex",
+     "amountUSD": 2300000000,
+     "date": "2024-06-18",
+     "note": "Three-campus expansion",
+     "url": "https://wosu.org/2024-06-18/google-to-invest-another-2-3-billion-in-central-ohio-data-centers"
+    }
+   ],
+   "energy": "AEP Ohio grid (subject to 2025 data-center tariff)",
+   "water": null,
+   "announced": "2019",
+   "expectedOnline": "2022",
+   "highlights": [
+    "Columbus cloud region opened 2022 with customers incl. the State of Ohio, Nationwide and Wendy's"
+   ],
+   "controversy": null,
+   "sources": [
+    {
+     "title": "Google to invest another $2.3 billion into Ohio data centers",
+     "publisher": "AP / ABC News",
+     "url": "https://abcnews.go.com/US/wireStory/google-invest-23-billion-ohio-data-centers-111229096",
+     "date": "2024-06-18"
+    },
+    {
+     "title": "Google to invest another $2.3 billion in central Ohio data centers",
+     "publisher": "WOSU",
+     "url": "https://wosu.org/2024-06-18/google-to-invest-another-2-3-billion-in-central-ohio-data-centers",
+     "date": "2024-06-18"
+    }
+   ]
+  },
+  {
+   "id": "google-papillion",
+   "name": "Google Nebraska campuses (Papillion, Omaha, Lincoln)",
+   "aka": [],
+   "lat": 41.1545,
+   "lng": -96.042,
+   "coordPrecision": "city",
+   "city": "Papillion",
+   "region": "Nebraska",
+   "country": "United States",
+   "countryCode": "US",
+   "status": "operational",
+   "type": "hyperscale-cloud",
+   "powerMW": null,
+   "powerMWNow": null,
+   "powerNote": null,
+   "acres": null,
+   "sizeSqft": null,
+   "compute": null,
+   "investmentUSD": 4700000000,
+   "investmentNote": "Google-stated cumulative Nebraska investment (>$4.7B) since Papillion (2019); includes $600M Papillion initial, $750M+ NW Omaha (2022), $1.2B Papillion expansion + Lincoln (2023).",
+   "owners": [
+    {
+     "name": "Google",
+     "entityId": "google",
+     "stakePct": 100
+    }
+   ],
+   "developer": "Google",
+   "operator": "Google",
+   "tenants": [
+    {
+     "name": "Google services",
+     "entityId": "google",
+     "role": "owner-occupier"
+    }
+   ],
+   "capitalStack": [
+    {
+     "from": "Google",
+     "entityId": "google",
+     "kind": "capex",
+     "amountUSD": 600000000,
+     "date": "2019-10",
+     "note": "Papillion initial",
+     "url": "https://google.co.il/about/datacenters/locations/papillion"
+    },
+    {
+     "from": "Google",
+     "entityId": "google",
+     "kind": "capex",
+     "amountUSD": 750000000,
+     "date": "2022",
+     "note": "NW Omaha campus (minimum)",
+     "url": "https://www.3newsnow.com/news/local-news/google-announces-nebraska-growth-plan-that-includes-new-northwest-omaha-data-center"
+    },
+    {
+     "from": "Google",
+     "entityId": "google",
+     "kind": "capex",
+     "amountUSD": 1200000000,
+     "date": "2023-08-22",
+     "note": "Papillion expansion + new Lincoln campus",
+     "url": "https://www.wowt.com/2023/08/22/google-investing-another-12-billion-papillion-lincoln-data-centers/?outputType=amp"
+    }
+   ],
+   "energy": "Omaha Public Power District / Lincoln Electric System",
+   "water": null,
+   "announced": "2017",
+   "expectedOnline": "2020",
+   "highlights": [
+    "Three Google campuses in Nebraska within five years"
+   ],
+   "controversy": null,
+   "sources": [
+    {
+     "title": "Google investing another $1.2 billion in Papillion, Lincoln data centers",
+     "publisher": "WOWT",
+     "url": "https://www.wowt.com/2023/08/22/google-investing-another-12-billion-papillion-lincoln-data-centers/?outputType=amp",
+     "date": "2023-08-22"
+    },
+    {
+     "title": "Google confirms Lincoln's $600M data center",
+     "publisher": "Nebraska Examiner",
+     "url": "https://www.newsfromthestates.com/article/google-confirms-lincolns-600m-data-center-touts-years-12b-spend-ne-infrastructure",
+     "date": null
+    }
+   ]
+  },
+  {
+   "id": "google-mesa",
+   "name": "Google Mesa data center",
+   "aka": [
+    "Project Redhawk"
+   ],
+   "lat": 33.349,
+   "lng": -111.656,
+   "coordPrecision": "site",
+   "city": "Mesa",
+   "region": "Arizona",
+   "country": "United States",
+   "countryCode": "US",
+   "status": "operational",
+   "type": "hyperscale-cloud",
+   "powerMW": null,
+   "powerMWNow": null,
+   "powerNote": null,
+   "acres": 187,
+   "sizeSqft": null,
+   "compute": null,
+   "investmentUSD": 600000000,
+   "investmentNote": "$600M per Google/most coverage (Sept 2023); DCD reported a $1B campus on ~187 acres. Status 'operational' assumes the Google-stated 2025 target was met (not independently confirmed).",
+   "owners": [
+    {
+     "name": "Google",
+     "entityId": "google",
+     "stakePct": 100
+    }
+   ],
+   "developer": "Google",
+   "operator": "Google",
+   "tenants": [
+    {
+     "name": "Google services",
+     "entityId": "google",
+     "role": "owner-occupier"
+    }
+   ],
+   "capitalStack": [
+    {
+     "from": "Google",
+     "entityId": "google",
+     "kind": "capex",
+     "amountUSD": 600000000,
+     "date": "2023-09",
+     "url": "https://kjzz.org/content/1856930/google-breaks-ground-600-million-mesa-data-center",
+     "note": null
+    },
+    {
+     "from": "City of Mesa",
+     "entityId": null,
+     "kind": "public-incentive",
+     "amountUSD": 16000000,
+     "date": "2023",
+     "note": "~$16M property-tax breaks over 25 years",
+     "url": "https://kjzz.org/content/1856930/google-breaks-ground-600-million-mesa-data-center"
+    }
+   ],
+   "energy": "SRP grid; Google carbon-free energy deals in Arizona",
+   "water": "Air-cooled design, so it doesn't use water for cooling",
+   "announced": "2023-09",
+   "expectedOnline": "2025",
+   "highlights": [
+    "Google's first Arizona data center, designed to be air-cooled in the desert"
+   ],
+   "controversy": null,
+   "sources": [
+    {
+     "title": "Google breaks ground on $600 million Mesa data center",
+     "publisher": "KJZZ",
+     "url": "https://kjzz.org/content/1856930/google-breaks-ground-600-million-mesa-data-center",
+     "date": "2023-09"
+    },
+    {
+     "title": "Google breaks ground on Mesa data center campus in Arizona",
+     "publisher": "DatacenterDynamics",
+     "url": "https://datacenterdynamics.com/en/news/google-breaks-ground-on-mesa-data-center-campus-in-arizona",
+     "date": "2023-09"
+    }
+   ]
+  },
+  {
+   "id": "google-henderson",
+   "name": "Google Nevada campuses (Henderson & Storey County/TRIC)",
+   "aka": [],
+   "lat": 36.0395,
+   "lng": -114.9817,
+   "coordPrecision": "city",
+   "city": "Henderson",
+   "region": "Nevada",
+   "country": "United States",
+   "countryCode": "US",
+   "status": "operational",
+   "type": "hyperscale-cloud",
+   "powerMW": null,
+   "powerMWNow": null,
+   "powerNote": null,
+   "acres": null,
+   "sizeSqft": null,
+   "compute": null,
+   "investmentUSD": 6000000000,
+   "investmentNote": "Google-stated >$6B in Nevada since Henderson (2019) and Storey County (2021) opened; Henderson began as $600M (2019) rising to $1.2B; $400M more pledged Aug 2024.",
+   "owners": [
+    {
+     "name": "Google",
+     "entityId": "google",
+     "stakePct": 100
+    }
+   ],
+   "developer": "Google",
+   "operator": "Google",
+   "tenants": [
+    {
+     "name": "Google Cloud us-west4 (Las Vegas) / Google services",
+     "entityId": "google",
+     "role": "owner-occupier"
+    }
+   ],
+   "capitalStack": [
+    {
+     "from": "Google",
+     "entityId": "google",
+     "kind": "capex",
+     "amountUSD": 1200000000,
+     "date": "2019-07",
+     "note": "Henderson total incl. second $600M phase",
+     "url": "https://www.upi.com/Top_News/US/2020/09/17/Google-to-invest-over-18B-in-Nevada/8001600365361/"
+    },
+    {
+     "from": "State of Nevada (GOED)",
+     "entityId": null,
+     "kind": "public-incentive",
+     "amountUSD": 25000000,
+     "date": "2020",
+     "note": "Abatements for Storey County site reported to exceed $25M",
+     "url": "https://goed.nv.gov/newsroom/google-plans-to-invest-in-nevada-this-year/"
+    },
+    {
+     "from": "Google",
+     "entityId": "google",
+     "kind": "capex",
+     "amountUSD": 400000000,
+     "date": "2024-08-28",
+     "note": "Additional Nevada data center spend",
+     "url": "https://www.reviewjournal.com/business/google-to-invest-400m-in-nevada-data-centers-3148797/amp"
+    }
+   ],
+   "energy": "NV Energy; geothermal (Fervo) clean transition tariff",
+   "water": null,
+   "announced": "2018",
+   "expectedOnline": "2020",
+   "highlights": [
+    "Powered partly by Fervo's enhanced geothermal via NV Energy's Clean Transition Tariff"
+   ],
+   "controversy": null,
+   "sources": [
+    {
+     "title": "Google plans to invest in Nevada this year",
+     "publisher": "Nevada GOED",
+     "url": "https://goed.nv.gov/newsroom/google-plans-to-invest-in-nevada-this-year/",
+     "date": "2020"
+    },
+    {
+     "title": "Google to invest $400M in Nevada data centers",
+     "publisher": "Las Vegas Review-Journal",
+     "url": "https://www.reviewjournal.com/business/google-to-invest-400m-in-nevada-data-centers-3148797/amp",
+     "date": "2024-08-28"
+    }
+   ]
+  },
+  {
+   "id": "google-kansas-city",
+   "name": "Google Kansas City Northland campuses (incl. Project Mica)",
+   "aka": [
+    "Project Mica"
+   ],
+   "lat": 39.26,
+   "lng": -94.58,
+   "coordPrecision": "city",
+   "city": "Kansas City",
+   "region": "Missouri",
+   "country": "United States",
+   "countryCode": "US",
+   "status": "under construction",
+   "type": "hyperscale-cloud",
+   "powerMW": null,
+   "powerMWNow": null,
+   "powerNote": null,
+   "acres": 500,
+   "sizeSqft": null,
+   "compute": null,
+   "investmentUSD": 10000000000,
+   "investmentNote": "Project Mica: ~$10B, 500-acre, five-building campus near I-435/US-169, confirmed by Google Feb 2026; separate $1B campus at Hunt Midwest Business Park announced Mar 2024.",
+   "owners": [
+    {
+     "name": "Google",
+     "entityId": "google",
+     "stakePct": 100
+    }
+   ],
+   "developer": "Google",
+   "operator": "Google",
+   "tenants": [
+    {
+     "name": "Google",
+     "entityId": "google",
+     "role": "owner-occupier"
+    }
+   ],
+   "capitalStack": [
+    {
+     "from": "Google",
+     "entityId": "google",
+     "kind": "capex",
+     "amountUSD": 1000000000,
+     "date": "2024-03",
+     "note": "First Northland campus (Hunt Midwest)",
+     "url": "https://huntmidwest.com/google-confirms-plans-for-1b-data-center-in-hunt-midwest-business-park/"
+    },
+    {
+     "from": "Port KC",
+     "entityId": null,
+     "kind": "public-incentive",
+     "amountUSD": 10000000000,
+     "date": "2025-07-29",
+     "note": "Authorization of up to $10B taxable revenue bonds (conduit, repaid by developer) enabling 25-yr 75% property-tax abatement and sales-tax exemption",
+     "url": "https://www.axios.com/local/kansas-city/2025/07/29/port-kc-google-data-center"
+    }
+   ],
+   "energy": "Evergy grid; Google says it will cover full energy costs of both campuses",
+   "water": null,
+   "announced": "2024-03",
+   "expectedOnline": "2027",
+   "highlights": [
+    "Port KC authorized up to $10B in bonds as a vehicle for tax abatements",
+    "Five hyperscale buildings planned on 500 acres"
+   ],
+   "controversy": "Tax-abatement structure via Port KC bonds (75% property tax exemption for 25 years) drew scrutiny over lost school/local revenue.",
+   "sources": [
+    {
+     "title": "Google confirms $10B Project Mica in KC",
+     "publisher": "Axios Kansas City",
+     "url": "https://www.axios.com/local/kansas-city/2026/02/12/google-project-mica-data-center-northland",
+     "date": "2026-02-12"
+    },
+    {
+     "title": "Port KC approves $10B data hub funding",
+     "publisher": "Axios Kansas City",
+     "url": "https://www.axios.com/local/kansas-city/2025/07/29/port-kc-google-data-center",
+     "date": "2025-07-29"
+    }
+   ]
+  },
+  {
+   "id": "google-west-memphis",
+   "name": "Google West Memphis data center campus",
+   "aka": [],
+   "lat": 35.1465,
+   "lng": -90.1845,
+   "coordPrecision": "city",
+   "city": "West Memphis",
+   "region": "Arkansas",
+   "country": "United States",
+   "countryCode": "US",
+   "status": "under construction",
+   "type": "hyperscale-cloud",
+   "powerMW": null,
+   "powerMWNow": null,
+   "powerNote": null,
+   "acres": 1000,
+   "sizeSqft": null,
+   "compute": null,
+   "investmentUSD": 4000000000,
+   "investmentNote": "$4B through 2027 (Google, Oct 2 2025); largest investment in Arkansas history per state officials.",
+   "owners": [
+    {
+     "name": "Google",
+     "entityId": "google",
+     "stakePct": 100
+    }
+   ],
+   "developer": "Google",
+   "operator": "Google",
+   "tenants": [
+    {
+     "name": "Google",
+     "entityId": "google",
+     "role": "owner-occupier"
+    }
+   ],
+   "capitalStack": [
+    {
+     "from": "Google",
+     "entityId": "google",
+     "kind": "capex",
+     "amountUSD": 4000000000,
+     "date": "2025-10-02",
+     "url": "https://blog.google/inside-google/company-announcements/google-american-innovation-arkansas/",
+     "note": null
+    },
+    {
+     "from": "Google",
+     "entityId": "google",
+     "kind": "capex",
+     "amountUSD": 25000000,
+     "date": "2025-10",
+     "note": "Energy Impact Fund for local weatherization",
+     "url": "https://katv.com/news/local/googles-4-billion-data-center-to-transform-west-memphis?photo=1"
+    }
+   ],
+   "energy": "Entergy Arkansas; Google pays full energy costs; new solar + storage",
+   "water": null,
+   "announced": "2025-10",
+   "expectedOnline": "2027",
+   "highlights": [
+    "Google's first Arkansas campus, 1,000+ acres across the river from Memphis",
+    "Entergy says the contract yields $1.1B in benefits for other customers"
+   ],
+   "controversy": "Experts warned data centers could push up power bills by spreading grid costs across ratepayers.",
+   "sources": [
+    {
+     "title": "Google locating new data center in West Memphis",
+     "publisher": "Arkansas Economic Development Commission",
+     "url": "https://www.arkansasedc.com/news-events/newsroom/detail/2025/10/02/google-locating-new-data-center-in-west-memphis--arkansas-with-multi-billion-dollar-investment",
+     "date": "2025-10-02"
+    },
+    {
+     "title": "Google, officials mark start of $4 billion AI data center in West Memphis",
+     "publisher": "Route Fifty",
+     "url": "https://www.route-fifty.com/artificial-intelligence/2025/10/google-state-and-local-officials-mark-start-4-billion-ai-data-center-west-memphis/408587/",
+     "date": "2025-10"
+    }
+   ]
+  },
+  {
+   "id": "google-haskell-county",
+   "name": "Google Haskell County campus + Intersect Quantum clean energy park",
+   "aka": [
+    "Quantum Clean Energy Project"
+   ],
+   "lat": 33.1576,
+   "lng": -99.7334,
+   "coordPrecision": "region",
+   "city": "Haskell",
+   "region": "Texas",
+   "country": "United States",
+   "countryCode": "US",
+   "status": "under construction",
+   "type": "ai-training",
+   "powerMW": null,
+   "powerMWNow": null,
+   "powerNote": "Co-located Quantum I & II: 640 MW solar + 1.3 GWh storage; data center load not disclosed.",
+   "acres": null,
+   "sizeSqft": null,
+   "compute": null,
+   "investmentUSD": 40000000000,
+   "investmentNote": "Part of Google's $40B Texas plan through 2027 (Nov 14 2025) covering Armstrong + two Haskell County campuses and existing Ellis County sites; no per-site split.",
+   "owners": [
+    {
+     "name": "Google",
+     "entityId": "google",
+     "stakePct": 100
+    }
+   ],
+   "developer": "Google / Intersect",
+   "operator": "Google",
+   "tenants": [
+    {
+     "name": "Google",
+     "entityId": "google",
+     "role": "owner-occupier"
+    }
+   ],
+   "capitalStack": [
+    {
+     "from": "Google",
+     "entityId": "google",
+     "kind": "capex",
+     "amountUSD": 40000000000,
+     "date": "2025-11-14",
+     "note": "Statewide Texas commitment through 2027",
+     "url": "https://blog.google/inside-google/company-announcements/google-american-innovation-texas/"
+    },
+    {
+     "from": "Google",
+     "entityId": "google",
+     "kind": "equity",
+     "amountUSD": 4750000000,
+     "date": "2025-12",
+     "note": "Acquisition of Intersect Power (data-center + energy developer), closed ~Mar 2026",
+     "url": "https://www.energy-storage.news/google-acquires-data-centre-and-energy-developer-intersect-for-us4-75-billion/"
+    }
+   ],
+   "energy": "Co-located solar + battery (Intersect Quantum), ERCOT",
+   "water": "Air-cooled; water limited to site operations",
+   "announced": "2025-11",
+   "expectedOnline": "2026",
+   "highlights": [
+    "Google bought its energy partner Intersect for $4.75B to build 'power-first' data centers",
+    "Two campuses in Haskell County near Abilene, one paired with its own solar + storage plant"
+   ],
+   "controversy": null,
+   "sources": [
+    {
+     "title": "Google's American innovation: Texas",
+     "publisher": "Google",
+     "url": "https://blog.google/inside-google/company-announcements/google-american-innovation-texas/",
+     "date": "2025-11-14"
+    },
+    {
+     "title": "Google and Intersect launch 1GW-plus clean energy-backed data centre project in Texas",
+     "publisher": "PV Tech",
+     "url": "https://www.pv-tech.org/google-intersect-launch-1gw-plus-clean-energy-backed-data-centre-project-in-texas/",
+     "date": null
+    },
+    {
+     "title": "Google acquires Intersect for US$4.75 billion",
+     "publisher": "Energy-Storage.news",
+     "url": "https://www.energy-storage.news/google-acquires-data-centre-and-energy-developer-intersect-for-us4-75-billion/",
+     "date": "2025-12"
+    }
+   ]
+  },
+  {
+   "id": "google-armstrong-county",
+   "name": "Google Armstrong County campus (Texas Panhandle)",
+   "aka": [],
+   "lat": 35.03,
+   "lng": -101.36,
+   "coordPrecision": "region",
+   "city": "Claude",
+   "region": "Texas",
+   "country": "United States",
+   "countryCode": "US",
+   "status": "under construction",
+   "type": "ai-training",
+   "powerMW": null,
+   "powerMWNow": null,
+   "powerNote": null,
+   "acres": null,
+   "sizeSqft": null,
+   "compute": null,
+   "investmentUSD": null,
+   "investmentNote": "Included in Google's $40B Texas plan (through 2027); site-level amount not disclosed.",
+   "owners": [
+    {
+     "name": "Google",
+     "entityId": "google",
+     "stakePct": 100
+    }
+   ],
+   "developer": "Google",
+   "operator": "Google",
+   "tenants": [
+    {
+     "name": "Google",
+     "entityId": "google",
+     "role": "owner-occupier"
+    }
+   ],
+   "capitalStack": [
+    {
+     "from": "Google",
+     "entityId": "google",
+     "kind": "capex",
+     "amountUSD": null,
+     "date": "2025-11-14",
+     "note": "Share of $40B statewide plan",
+     "url": "https://www.texastribune.org/2025/11/14/texas-google-data-centers-ai/"
+    }
+   ],
+   "energy": "Panhandle wind/solar; Google–Intersect 'Meitner' >1 GW wind/solar/storage + gas firming project in Gray & Roberts counties nearby",
+   "water": "Air-cooled",
+   "announced": "2025-11",
+   "expectedOnline": null,
+   "highlights": [
+    "Panhandle campus in the windiest part of Texas; Abbott called the $40B plan Google's largest in any state"
+   ],
+   "controversy": "Residents raised concerns about ERCOT grid strain; ERCOT projects demand could nearly double by 2030.",
+   "sources": [
+    {
+     "title": "Google to invest $40 billion in Texas data centers",
+     "publisher": "Texas Tribune",
+     "url": "https://www.texastribune.org/2025/11/14/texas-google-data-centers-ai/",
+     "date": "2025-11-14"
+    },
+    {
+     "title": "Google to invest $40 billion in new data centers in Texas",
+     "publisher": "Bloomberg",
+     "url": "https://www.bloomberg.com/news/articles/2025-11-14/google-to-invest-40-billion-in-new-data-centers-in-texas",
+     "date": "2025-11-14"
+    }
+   ]
+  },
+  {
+   "id": "cluster-northern-virginia",
+   "name": "Northern Virginia / Loudoun County 'Data Center Alley'",
+   "aka": [
+    "Data Center Alley",
+    "Ashburn"
+   ],
+   "lat": 39.0438,
+   "lng": -77.4874,
+   "coordPrecision": "region",
+   "city": "Ashburn",
+   "region": "Virginia",
+   "country": "United States",
+   "countryCode": "US",
+   "status": "operational",
+   "type": "cluster",
+   "powerMW": 6916.7,
+   "powerMWNow": 4496.5,
+   "powerNote": "CBRE H1 2026: 4,496.5 MW colocation inventory (largest market in the world) + 2,420.2 MW under construction; vacancy 0.2%; 467.6 MW net absorption in H1 2026. Excludes most hyperscaler self-builds.",
+   "acres": null,
+   "sizeSqft": 56500000,
+   "compute": null,
+   "investmentUSD": null,
+   "investmentNote": "Loudoun County (Mar 1 2026): ~233 data center buildings built or under construction totalling ~56.5M sq ft; 35.7M sq ft more approved but unbuilt and 20.7M sq ft pending. Data centers paid ~$1.2B in property taxes in FY2026 (~39% of county budget); FY2027 budget projects $1.3B (~40%).",
+   "owners": [
+    {
+     "name": "Equinix",
+     "entityId": "equinix",
+     "stakePct": null
+    },
+    {
+     "name": "Digital Realty",
+     "entityId": "digital-realty",
+     "stakePct": null
+    },
+    {
+     "name": "Amazon Web Services",
+     "entityId": "amazon",
+     "stakePct": null
+    },
+    {
+     "name": "Microsoft",
+     "entityId": "microsoft",
+     "stakePct": null
+    },
+    {
+     "name": "Google",
+     "entityId": "google",
+     "stakePct": null
+    },
+    {
+     "name": "Meta",
+     "entityId": "meta",
+     "stakePct": null
+    },
+    {
+     "name": "QTS (Blackstone)",
+     "entityId": "qts",
+     "stakePct": null
+    },
+    {
+     "name": "CloudHQ",
+     "entityId": "cloudhq",
+     "stakePct": null
+    },
+    {
+     "name": "Vantage",
+     "entityId": "vantage",
+     "stakePct": null
+    },
+    {
+     "name": "Stack Infrastructure",
+     "entityId": "stack-infrastructure",
+     "stakePct": null
+    },
+    {
+     "name": "CyrusOne",
+     "entityId": "cyrusone",
+     "stakePct": null
+    },
+    {
+     "name": "Aligned",
+     "entityId": "aligned",
+     "stakePct": null
+    },
+    {
+     "name": "Compass",
+     "entityId": "compass",
+     "stakePct": null
+    },
+    {
+     "name": "Yondr",
+     "entityId": "yondr",
+     "stakePct": null
+    }
+   ],
+   "developer": null,
+   "operator": "Multiple",
+   "tenants": [],
+   "capitalStack": [],
+   "energy": "Dominion Energy (PJM); transmission-constrained",
+   "water": null,
+   "announced": null,
+   "expectedOnline": null,
+   "highlights": [
+    "Largest data center market on Earth: ~4.5 GW of colo inventory and vacancy of just 0.2% (CBRE, H1 2026)",
+    "Data centers fund ~40% of Loudoun County's budget",
+    "Loudoun issued permits for 10M+ sq ft in 2025, a record"
+   ],
+   "controversy": "Grid strain and transmission-line fights; in Aug 2026 two Loudoun supervisors moved to end 2025 'grandfathering' exceptions for data centers, calling the grid at a 'breaking point'. The county keeps a Revenue Stabilization Fund against dependence on data-center tax.",
+   "sources": [
+    {
+     "title": "North America Data Center Trends H1 2026",
+     "publisher": "CBRE",
+     "url": "https://www.cbre.com/insights/books/north-america-data-center-trends-h1-2026",
+     "date": "2026-09"
+    },
+    {
+     "title": "North American data center demand continues to outpace supply despite record construction activity",
+     "publisher": "CBRE",
+     "url": "https://www.cbre.com/press-releases/north-american-data-center-demand-continues-to-outpace-supply-despite-record-construction-activity",
+     "date": "2026-09"
+    },
+    {
+     "title": "Data Centers: The Loudoun Story",
+     "publisher": "Loudoun County",
+     "url": "https://www.loudoun.gov/6408/Data-Centers-The-Loudoun-Story",
+     "date": "2026-03-01"
+    },
+    {
+     "title": "Data Centers: Tax Revenues & County Budget",
+     "publisher": "Loudoun County",
+     "url": "https://www.loudoun.gov/6409/Data-Centers-Tax-Revenues-County-Budget",
+     "date": "2026"
+    },
+    {
+     "title": "Briskman and TeKrony seek to end 2025 data center grandfathering exceptions",
+     "publisher": "Loudoun County",
+     "url": "https://www.loudoun.gov/DocumentCenter/View/222051/Release---Briskman-and-TeKrony-Seek-to-End-2025-Data-Center-Grandfathering-Exceptions",
+     "date": "2026-08"
+    }
+   ]
+  },
+  {
+   "id": "cluster-atlanta",
+   "name": "Atlanta metro data center market",
+   "aka": [],
+   "lat": 33.749,
+   "lng": -84.388,
+   "coordPrecision": "region",
+   "city": "Atlanta",
+   "region": "Georgia",
+   "country": "United States",
+   "countryCode": "US",
+   "status": "operational",
+   "type": "cluster",
+   "powerMW": 4685.2,
+   "powerMWNow": 1803.2,
+   "powerNote": "CBRE Q2 2026: 1,803.2 MW colo inventory (29.5 MW available) and ~2,882 MW under construction, the first time Atlanta out-built Northern Virginia. Q1 2026 inventory was 1,465.2 MW. powerMW = inventory + under construction.",
+   "acres": null,
+   "sizeSqft": null,
+   "compute": null,
+   "investmentUSD": null,
+   "investmentNote": "Georgia's sales-tax exemption for data centers was estimated by the state to cost >$2.5B in 2026 alone (AJC); other estimates are far lower ($296M Good Jobs First; $625M state audit).",
+   "owners": [
+    {
+     "name": "QTS (Blackstone)",
+     "entityId": "qts",
+     "stakePct": null
+    },
+    {
+     "name": "Microsoft",
+     "entityId": "microsoft",
+     "stakePct": null
+    },
+    {
+     "name": "Google",
+     "entityId": "google",
+     "stakePct": null
+    },
+    {
+     "name": "Amazon Web Services",
+     "entityId": "amazon",
+     "stakePct": null
+    },
+    {
+     "name": "Meta",
+     "entityId": "meta",
+     "stakePct": null
+    },
+    {
+     "name": "Switch",
+     "entityId": "switch",
+     "stakePct": null
+    },
+    {
+     "name": "Digital Realty",
+     "entityId": "digital-realty",
+     "stakePct": null
+    },
+    {
+     "name": "Equinix",
+     "entityId": "equinix",
+     "stakePct": null
+    },
+    {
+     "name": "Vantage",
+     "entityId": "vantage",
+     "stakePct": null
+    },
+    {
+     "name": "Stack Infrastructure",
+     "entityId": "stack-infrastructure",
+     "stakePct": null
+    }
+   ],
+   "developer": null,
+   "operator": "Multiple",
+   "tenants": [],
+   "capitalStack": [],
+   "energy": "Georgia Power (Southern Co.) and EMCs; large gas + nuclear (Vogtle) buildout",
+   "water": null,
+   "announced": null,
+   "expectedOnline": null,
+   "highlights": [
+    "Now the No. 2 US data center market; more capacity under construction than Northern Virginia (CBRE H1 2026)",
+    "Asking rents for 10+ MW deals jumped 14.5% in H1 2026"
+   ],
+   "controversy": "Georgia Senate voted in March 2026 to claw back data-center sales-tax breaks, but the legislature left them intact in April 2026; critics say Georgia Power ratepayers subsidize a speculative buildout. Atlanta banned data centers in much of the city; local revolts in Coweta ('Stop Project Sail') and Marietta.",
+   "sources": [
+    {
+     "title": "North America Data Center Trends H1 2026",
+     "publisher": "CBRE",
+     "url": "https://www.cbre.com/insights/books/north-america-data-center-trends-h1-2026",
+     "date": "2026-09"
+    },
+    {
+     "title": "CBRE: Record data center construction fails to ease capacity crunch",
+     "publisher": "Data Center Frontier",
+     "url": "https://www.datacenterfrontier.com/site-selection/news/55401462/cbre-record-data-center-construction-fails-to-ease-capacity-crunch",
+     "date": "2026-09"
+    },
+    {
+     "title": "Georgia's sales tax breaks for data centers tally more than $2.5 billion",
+     "publisher": "Atlanta Journal-Constitution",
+     "url": "https://www.ajc.com/business/2026/02/georgias-sales-tax-breaks-for-data-centers-tally-more-than-25-billion",
+     "date": "2026-02"
+    },
+    {
+     "title": "Georgia lawmakers leave data center tax breaks intact, punt on energy costs",
+     "publisher": "Atlanta Journal-Constitution",
+     "url": "https://www.ajc.com/business/2026/04/georgia-lawmakers-leave-data-center-tax-breaks-intact-punt-on-energy-costs/",
+     "date": "2026-04"
+    }
+   ]
+  },
+  {
+   "id": "cluster-dallas-fort-worth",
+   "name": "Dallas–Fort Worth data center market",
+   "aka": [],
+   "lat": 32.9,
+   "lng": -96.85,
+   "coordPrecision": "region",
+   "city": "Dallas",
+   "region": "Texas",
+   "country": "United States",
+   "countryCode": "US",
+   "status": "operational",
+   "type": "cluster",
+   "powerMW": null,
+   "powerMWNow": 1432.8,
+   "powerNote": "CBRE Q2 2026: 1,432.8 MW colo inventory, 39.6 MW available. Q1 2026: 1,249.4 MW (+43.7% YoY) with a record 716.7 MW under construction, 88% preleased.",
+   "acres": null,
+   "sizeSqft": null,
+   "compute": null,
+   "investmentUSD": null,
+   "investmentNote": null,
+   "owners": [
+    {
+     "name": "Digital Realty",
+     "entityId": "digital-realty",
+     "stakePct": null
+    },
+    {
+     "name": "CyrusOne",
+     "entityId": "cyrusone",
+     "stakePct": null
+    },
+    {
+     "name": "QTS (Blackstone)",
+     "entityId": "qts",
+     "stakePct": null
+    },
+    {
+     "name": "Aligned",
+     "entityId": "aligned",
+     "stakePct": null
+    },
+    {
+     "name": "Stack Infrastructure",
+     "entityId": "stack-infrastructure",
+     "stakePct": null
+    },
+    {
+     "name": "Equinix",
+     "entityId": "equinix",
+     "stakePct": null
+    },
+    {
+     "name": "Compass",
+     "entityId": "compass",
+     "stakePct": null
+    },
+    {
+     "name": "Vantage",
+     "entityId": "vantage",
+     "stakePct": null
+    },
+    {
+     "name": "Google",
+     "entityId": "google",
+     "stakePct": null
+    },
+    {
+     "name": "Microsoft",
+     "entityId": "microsoft",
+     "stakePct": null
+    }
+   ],
+   "developer": null,
+   "operator": "Multiple",
+   "tenants": [],
+   "capitalStack": [],
+   "energy": "ERCOT (Oncor); Texas SB 6 (2025) lets ERCOT curtail/remotely disconnect large loads (≥75 MW) in emergencies",
+   "water": null,
+   "announced": null,
+   "expectedOnline": null,
+   "highlights": [
+    "Third-largest US colo market and growing ~40% a year",
+    "Texas large-load queue ballooned toward ~500 GW, prompting an ERCOT 'Batch Zero' study and a governor-ordered audit (2026)"
+   ],
+   "controversy": "SB 6 requires new large loads (after Dec 31 2025) to install remote-disconnect capability and disclose backup generation; grid-reliability worries are pushing projects behind the meter.",
+   "sources": [
+    {
+     "title": "North America Data Center Trends H1 2026",
+     "publisher": "CBRE",
+     "url": "https://www.cbre.com/insights/books/north-america-data-center-trends-h1-2026",
+     "date": "2026-09"
+    },
+    {
+     "title": "Dallas-Ft. Worth data center market (H1 2026)",
+     "publisher": "CBRE",
+     "url": "https://www.cbre.com/insights/books/north-america-data-center-trends-h1-2026/dallas-ft-worth-data-center-market",
+     "date": "2026-09"
+    },
+    {
+     "title": "The Texas data center boom",
+     "publisher": "S&P Global",
+     "url": "https://www.spglobal.com/energy/en/technology-ai-research-insights/blogs/the-texas-data-center-boom",
+     "date": "2026-10-08"
+    },
+    {
+     "title": "The data center boom is reshaping Texas",
+     "publisher": "Foley & Lardner",
+     "url": "https://www.foley.com/insights/publications/2026/05/the-data-center-boom-is-reshaping-texas-and-every-business-needs-to-understand/",
+     "date": "2026-05"
+    }
+   ]
+  },
+  {
+   "id": "cluster-phoenix",
+   "name": "Phoenix metro data center market",
+   "aka": [],
+   "lat": 33.42,
+   "lng": -111.95,
+   "coordPrecision": "region",
+   "city": "Phoenix",
+   "region": "Arizona",
+   "country": "United States",
+   "countryCode": "US",
+   "status": "operational",
+   "type": "cluster",
+   "powerMW": null,
+   "powerMWNow": 1069.2,
+   "powerNote": "CBRE Q2 2026: 1,069.2 MW colo inventory, 12.1 MW available; >260 MW absorbed in H1 2026. APS reports a 19 GW uncommitted large-load queue vs an 8.7 GW 2025 system peak.",
+   "acres": null,
+   "sizeSqft": null,
+   "compute": null,
+   "investmentUSD": null,
+   "investmentNote": null,
+   "owners": [
+    {
+     "name": "Microsoft",
+     "entityId": "microsoft",
+     "stakePct": null
+    },
+    {
+     "name": "Google",
+     "entityId": "google",
+     "stakePct": null
+    },
+    {
+     "name": "Apple",
+     "entityId": "apple",
+     "stakePct": null
+    },
+    {
+     "name": "Meta",
+     "entityId": "meta",
+     "stakePct": null
+    },
+    {
+     "name": "Aligned",
+     "entityId": "aligned",
+     "stakePct": null
+    },
+    {
+     "name": "Stack Infrastructure",
+     "entityId": "stack-infrastructure",
+     "stakePct": null
+    },
+    {
+     "name": "CyrusOne",
+     "entityId": "cyrusone",
+     "stakePct": null
+    },
+    {
+     "name": "Vantage",
+     "entityId": "vantage",
+     "stakePct": null
+    },
+    {
+     "name": "EdgeCore",
+     "entityId": "edgecore",
+     "stakePct": null
+    },
+    {
+     "name": "Digital Realty",
+     "entityId": "digital-realty",
+     "stakePct": null
+    }
+   ],
+   "developer": null,
+   "operator": "Multiple",
+   "tenants": [],
+   "capitalStack": [],
+   "energy": "APS and SRP; SRP requires data centers to prepay 60% of upgrade costs",
+   "water": "On-site use relatively limited (many air-cooled), but power generation drives indirect water demand; Phoenix's large-water-user ordinance gives the water director 'sole and absolute discretion' to block projects",
+   "announced": null,
+   "expectedOnline": null,
+   "highlights": [
+    "Data centers drove half of APS's peak-demand growth in 2026 and 7% of SRP's record summer peak",
+    "APS is turning away some data-center requests for lack of capacity"
+   ],
+   "controversy": "APS proposed raising extra-large-user rates 45% (and residential 14%); the Arizona Corporation Commission is weighing a universal large-load tariff (2026).",
+   "sources": [
+    {
+     "title": "North America Data Center Trends H1 2026",
+     "publisher": "CBRE",
+     "url": "https://www.cbre.com/insights/books/north-america-data-center-trends-h1-2026",
+     "date": "2026-09"
+    },
+    {
+     "title": "Arizona utilities scramble to keep up as data center boom drives rapid expansion of the power grid",
+     "publisher": "KJZZ",
+     "url": "https://kjzz.org/business/2026-10-26/arizona-utilities-scramble-to-keep-up-as-data-center-boom-drives-rapid-expansion-of-the-power-grid",
+     "date": "2026-10-26"
+    },
+    {
+     "title": "Data center facts",
+     "publisher": "SRP",
+     "url": "https://www.srpnet.com/about/data-center-facts",
+     "date": "2026"
+    },
+    {
+     "title": "Data centers drive half of APS peak demand growth this year",
+     "publisher": "KJZZ",
+     "url": "https://www.kjzz.org/business/2026-07-29/data-centers-drive-half-of-aps-peak-demand-growth-this-year-compared-to-2025",
+     "date": "2026-07-29"
+    }
+   ]
+  },
+  {
+   "id": "cluster-chicago",
+   "name": "Chicago metro data center market",
+   "aka": [],
+   "lat": 41.95,
+   "lng": -87.95,
+   "coordPrecision": "region",
+   "city": "Chicago",
+   "region": "Illinois",
+   "country": "United States",
+   "countryCode": "US",
+   "status": "operational",
+   "type": "cluster",
+   "powerMW": null,
+   "powerMWNow": 910.6,
+   "powerNote": "CBRE Q2 2026: 910.6 MW wholesale colo inventory (+37.7% / +249.2 MW YoY in Q1), 20.0 MW available.",
+   "acres": null,
+   "sizeSqft": null,
+   "compute": null,
+   "investmentUSD": null,
+   "investmentNote": null,
+   "owners": [
+    {
+     "name": "Digital Realty",
+     "entityId": "digital-realty",
+     "stakePct": null
+    },
+    {
+     "name": "Equinix",
+     "entityId": "equinix",
+     "stakePct": null
+    },
+    {
+     "name": "CyrusOne",
+     "entityId": "cyrusone",
+     "stakePct": null
+    },
+    {
+     "name": "QTS (Blackstone)",
+     "entityId": "qts",
+     "stakePct": null
+    },
+    {
+     "name": "Stack Infrastructure",
+     "entityId": "stack-infrastructure",
+     "stakePct": null
+    },
+    {
+     "name": "Microsoft",
+     "entityId": "microsoft",
+     "stakePct": null
+    },
+    {
+     "name": "Compass",
+     "entityId": "compass",
+     "stakePct": null
+    },
+    {
+     "name": "EdgeConneX",
+     "entityId": "edgeconnex",
+     "stakePct": null
+    }
+   ],
+   "developer": null,
+   "operator": "Multiple",
+   "tenants": [],
+   "capitalStack": [],
+   "energy": "ComEd (PJM)",
+   "water": null,
+   "announced": null,
+   "expectedOnline": null,
+   "highlights": [
+    "Suburban hubs in Elk Grove Village, Northlake, Franklin Park and Aurora around the city's carrier hotel at 350 E. Cermak"
+   ],
+   "controversy": null,
+   "sources": [
+    {
+     "title": "North America Data Center Trends H1 2026",
+     "publisher": "CBRE",
+     "url": "https://www.cbre.com/insights/books/north-america-data-center-trends-h1-2026",
+     "date": "2026-09"
+    },
+    {
+     "title": "Primary market data center capacity, H1 2026",
+     "publisher": "LocatePrime (CBRE data)",
+     "url": "https://locateprime.com/insights/data-center-capacity-h1-2026",
+     "date": "2026"
+    }
+   ]
+  },
+  {
+   "id": "cluster-silicon-valley",
+   "name": "Silicon Valley (Santa Clara) data center market",
+   "aka": [],
+   "lat": 37.3541,
+   "lng": -121.9552,
+   "coordPrecision": "region",
+   "city": "Santa Clara",
+   "region": "California",
+   "country": "United States",
+   "countryCode": "US",
+   "status": "operational",
+   "type": "cluster",
+   "powerMW": null,
+   "powerMWNow": 509.2,
+   "powerNote": "CBRE Q2 2026: 509.2 MW colo inventory, 21.2 MW available.",
+   "acres": null,
+   "sizeSqft": null,
+   "compute": null,
+   "investmentUSD": null,
+   "investmentNote": null,
+   "owners": [
+    {
+     "name": "Digital Realty",
+     "entityId": "digital-realty",
+     "stakePct": null
+    },
+    {
+     "name": "Equinix",
+     "entityId": "equinix",
+     "stakePct": null
+    },
+    {
+     "name": "Vantage",
+     "entityId": "vantage",
+     "stakePct": null
+    },
+    {
+     "name": "CoreSite (American Tower)",
+     "entityId": "coresite",
+     "stakePct": null
+    },
+    {
+     "name": "Stack Infrastructure",
+     "entityId": "stack-infrastructure",
+     "stakePct": null
+    },
+    {
+     "name": "NTT Data",
+     "entityId": "ntt-data",
+     "stakePct": null
+    }
+   ],
+   "developer": null,
+   "operator": "Multiple",
+   "tenants": [],
+   "capitalStack": [],
+   "energy": "Silicon Valley Power (City of Santa Clara municipal utility), PG&E",
+   "water": null,
+   "announced": null,
+   "expectedOnline": null,
+   "highlights": [
+    "One of the tightest US markets: demand keeps outpacing supply, cutting vacancy and lifting rents (CBRE)"
+   ],
+   "controversy": null,
+   "sources": [
+    {
+     "title": "North America Data Center Trends H1 2026",
+     "publisher": "CBRE",
+     "url": "https://www.cbre.com/insights/books/north-america-data-center-trends-h1-2026",
+     "date": "2026-09"
+    },
+    {
+     "title": "Silicon Valley data center demand continues to outpace supply",
+     "publisher": "CBRE",
+     "url": "https://www.cbre.com/press-releases/silicon-valley-data-center-demand-continues-outpace-supply-causing-vacancy-fall-further-rents-rise",
+     "date": null
+    }
+   ]
+  },
+  {
+   "id": "cluster-hillsboro",
+   "name": "Hillsboro / Portland data center market",
+   "aka": [],
+   "lat": 45.5229,
+   "lng": -122.9898,
+   "coordPrecision": "region",
+   "city": "Hillsboro",
+   "region": "Oregon",
+   "country": "United States",
+   "countryCode": "US",
+   "status": "operational",
+   "type": "cluster",
+   "powerMW": 661.7,
+   "powerMWNow": 491.4,
+   "powerNote": "CBRE Q2 2026: 491.4 MW colo inventory, just 1.1 MW available; 170.3 MW under construction (>90% preleased).",
+   "acres": null,
+   "sizeSqft": null,
+   "compute": null,
+   "investmentUSD": null,
+   "investmentNote": null,
+   "owners": [
+    {
+     "name": "NTT Data",
+     "entityId": "ntt-data",
+     "stakePct": null
+    },
+    {
+     "name": "QTS (Blackstone)",
+     "entityId": "qts",
+     "stakePct": null
+    },
+    {
+     "name": "Digital Realty",
+     "entityId": "digital-realty",
+     "stakePct": null
+    },
+    {
+     "name": "Aligned",
+     "entityId": "aligned",
+     "stakePct": null
+    },
+    {
+     "name": "Flexential",
+     "entityId": "flexential",
+     "stakePct": null
+    },
+    {
+     "name": "Stack Infrastructure",
+     "entityId": "stack-infrastructure",
+     "stakePct": null
+    }
+   ],
+   "developer": null,
+   "operator": "Multiple",
+   "tenants": [],
+   "capitalStack": [],
+   "energy": "Portland General Electric",
+   "water": null,
+   "announced": null,
+   "expectedOnline": null,
+   "highlights": [
+    "Landing point for trans-Pacific subsea cables; vacancy effectively zero"
+   ],
+   "controversy": null,
+   "sources": [
+    {
+     "title": "North America Data Center Trends H1 2026",
+     "publisher": "CBRE",
+     "url": "https://www.cbre.com/insights/books/north-america-data-center-trends-h1-2026",
+     "date": "2026-09"
+    },
+    {
+     "title": "Where every major data center is being built in 2026",
+     "publisher": "BuilderMuse (CBRE data)",
+     "url": "https://buildermuse.com/commercial/where-every-major-data-center-is-being/",
+     "date": "2026"
+    }
+   ]
+  },
+  {
+   "id": "cluster-new-york-new-jersey",
+   "name": "New York / New Jersey Tri-State data center market",
+   "aka": [],
+   "lat": 40.7895,
+   "lng": -74.0565,
+   "coordPrecision": "region",
+   "city": "Secaucus",
+   "region": "New Jersey",
+   "country": "United States",
+   "countryCode": "US",
+   "status": "operational",
+   "type": "cluster",
+   "powerMW": null,
+   "powerMWNow": 190,
+   "powerNote": "~190 MW colo inventory in Q2 2026 per a BuilderMuse summary of CBRE data (single, secondary source; may exclude enterprise and carrier-hotel capacity).",
+   "acres": null,
+   "sizeSqft": null,
+   "compute": null,
+   "investmentUSD": null,
+   "investmentNote": null,
+   "owners": [
+    {
+     "name": "Equinix",
+     "entityId": "equinix",
+     "stakePct": null
+    },
+    {
+     "name": "Digital Realty",
+     "entityId": "digital-realty",
+     "stakePct": null
+    },
+    {
+     "name": "DataBank",
+     "entityId": "databank",
+     "stakePct": null
+    },
+    {
+     "name": "CoreSite (American Tower)",
+     "entityId": "coresite",
+     "stakePct": null
+    },
+    {
+     "name": "Google (111 Eighth Ave)",
+     "entityId": "google",
+     "stakePct": null
+    }
+   ],
+   "developer": null,
+   "operator": "Multiple",
+   "tenants": [],
+   "capitalStack": [],
+   "energy": "PSE&G / JCP&L (PJM), Con Edison",
+   "water": null,
+   "announced": null,
+   "expectedOnline": null,
+   "highlights": [
+    "Financial-trading interconnection hub: Secaucus, Carteret, Piscataway and Manhattan carrier hotels (60 Hudson, 111 Eighth Ave)"
+   ],
+   "controversy": null,
+   "sources": [
+    {
+     "title": "Where every major data center is being built in 2026",
+     "publisher": "BuilderMuse (CBRE data)",
+     "url": "https://buildermuse.com/commercial/where-every-major-data-center-is-being/",
+     "date": "2026"
+    },
+    {
+     "title": "North America Data Center Trends H1 2026",
+     "publisher": "CBRE",
+     "url": "https://www.cbre.com/insights/books/north-america-data-center-trends-h1-2026",
+     "date": "2026-09"
+    }
+   ]
+  },
+  {
+   "id": "cluster-columbus",
+   "name": "Columbus / New Albany (Central Ohio) data center market",
+   "aka": [],
+   "lat": 40.07,
+   "lng": -82.82,
+   "coordPrecision": "region",
+   "city": "New Albany",
+   "region": "Ohio",
+   "country": "United States",
+   "countryCode": "US",
+   "status": "operational",
+   "type": "cluster",
+   "powerMW": 5642,
+   "powerMWNow": null,
+   "powerNote": "AEP Ohio had signed 5,642 MW of data-center load under its new tariff by Feb 2026, versus >30,000 MW of inquiries. No CBRE inventory figure retrieved.",
+   "acres": null,
+   "sizeSqft": null,
+   "compute": null,
+   "investmentUSD": 7250000000,
+   "investmentNote": "~$7.25B of active data center construction in New Albany alone (Meta, Amazon and others) per Ohio Consumers' Counsel / local reporting (2026). Colo providers have bought 750+ acres in New Albany.",
+   "owners": [
+    {
+     "name": "Amazon Web Services",
+     "entityId": "amazon",
+     "stakePct": null
+    },
+    {
+     "name": "Google",
+     "entityId": "google",
+     "stakePct": null
+    },
+    {
+     "name": "Meta",
+     "entityId": "meta",
+     "stakePct": null
+    },
+    {
+     "name": "Microsoft",
+     "entityId": "microsoft",
+     "stakePct": null
+    },
+    {
+     "name": "Cologix",
+     "entityId": "cologix",
+     "stakePct": null
+    },
+    {
+     "name": "QTS (Blackstone)",
+     "entityId": "qts",
+     "stakePct": null
+    },
+    {
+     "name": "EdgeConneX",
+     "entityId": "edgeconnex",
+     "stakePct": null
+    }
+   ],
+   "developer": null,
+   "operator": "Multiple",
+   "tenants": [],
+   "capitalStack": [],
+   "energy": "AEP Ohio (PJM); behind-the-meter gas proposals incl. a 430 MW plant in New Albany",
+   "water": null,
+   "announced": null,
+   "expectedOnline": null,
+   "highlights": [
+    "AEP's landmark tariff (July 2025) makes data centers >25 MW pay for at least 85% of subscribed capacity for up to 12 years",
+    "Since Aug 2026, PUCO requires AEP to procure energy for data centers separately and bill it to them"
+   ],
+   "controversy": "A 2023 moratorium on new AEP data-center service agreements and the 2025 tariff pushed developers toward FirstEnergy territory; consumer advocates link data centers to spiking central-Ohio bills.",
+   "sources": [
+    {
+     "title": "Data Centers in Ohio",
+     "publisher": "Ohio Consumers' Counsel",
+     "url": "https://occ.ohio.gov/sites/default/files/2026-03/OCC-Data-Centers-in-Ohio.pdf",
+     "date": "2026-03"
+    },
+    {
+     "title": "Regulator approves AEP Ohio's landmark data center tariff",
+     "publisher": "POWER Magazine",
+     "url": "https://www.powermag.com/regulator-approves-aep-ohios-landmark-data-center-tariff/",
+     "date": "2025-07"
+    },
+    {
+     "title": "How data centers impact Ohio's electricity prices",
+     "publisher": "Axios Columbus",
+     "url": "https://www.axios.com/local/columbus/2025/08/11/ohio-electricity-prices-data-center-rules",
+     "date": "2025-08-11"
+    },
+    {
+     "title": "Retooling Ohio: AEP",
+     "publisher": "Ohio Manufacturers' Association",
+     "url": "https://www.ohiomfg.com/wp-content/uploads/2026/02/RetoolingOhio_AEP_Feb.pdf",
+     "date": "2026-02"
+    }
+   ]
+  },
+  {
+   "id": "cluster-reno-tric",
+   "name": "Reno / Tahoe-Reno Industrial Center (TRIC) data center cluster",
+   "aka": [
+    "TRIC",
+    "Storey County"
+   ],
+   "lat": 39.54,
+   "lng": -119.45,
+   "coordPrecision": "region",
+   "city": "McCarran",
+   "region": "Nevada",
+   "country": "United States",
+   "countryCode": "US",
+   "status": "operational",
+   "type": "cluster",
+   "powerMW": 6000,
+   "powerMWNow": null,
+   "powerNote": "NV Energy filings show ~a dozen data centers, mostly at TRIC, requesting almost 6 GW (requests, not built). Pipeline incl. Tract Peru Shelf 810 MW, Vantage NV1 ~224 MW, Edgecore Reno up to 216 MW, Novva 60 MW.",
+   "acres": null,
+   "sizeSqft": null,
+   "compute": null,
+   "investmentUSD": null,
+   "investmentNote": null,
+   "owners": [
+    {
+     "name": "Switch",
+     "entityId": "switch",
+     "stakePct": null
+    },
+    {
+     "name": "Google",
+     "entityId": "google",
+     "stakePct": null
+    },
+    {
+     "name": "Apple",
+     "entityId": "apple",
+     "stakePct": null
+    },
+    {
+     "name": "Microsoft",
+     "entityId": "microsoft",
+     "stakePct": null
+    },
+    {
+     "name": "Tract",
+     "entityId": "tract",
+     "stakePct": null
+    },
+    {
+     "name": "Vantage",
+     "entityId": "vantage",
+     "stakePct": null
+    },
+    {
+     "name": "EdgeCore",
+     "entityId": "edgecore",
+     "stakePct": null
+    },
+    {
+     "name": "Novva",
+     "entityId": "novva",
+     "stakePct": null
+    },
+    {
+     "name": "Fleet Data Centers",
+     "entityId": "fleet-data-centers",
+     "stakePct": null
+    }
+   ],
+   "developer": null,
+   "operator": "Multiple",
+   "tenants": [],
+   "capitalStack": [],
+   "energy": "NV Energy; temporary behind-the-meter gas/diesel (Fleet, 350+ MW) where grid can't serve for 2+ years",
+   "water": "Water use in the arid Truckee basin is a recurring concern (see Desert Research Institute data center report)",
+   "announced": null,
+   "expectedOnline": null,
+   "highlights": [
+    "Home of Switch's Citadel, billed as the world's largest data center campus",
+    "Nevada regulators approved 362 MW of temporary power projects for data centers"
+   ],
+   "controversy": "NV Energy cannot serve some TRIC projects for at least two years, prompting temporary gas plants; water use in the arid Truckee basin is under scrutiny.",
+   "sources": [
+    {
+     "title": "Interim committee document on data centers",
+     "publisher": "Nevada Legislature",
+     "url": "https://www.leg.state.nv.us/App/InterimCommittee/REL/Document/33075",
+     "date": "2026"
+    },
+    {
+     "title": "Why a northern Nevada data center wants to build its own temporary natural gas power plant",
+     "publisher": "The Nevada Independent",
+     "url": "https://thenevadaindependent.com/es/article/why-a-northern-nevada-data-center-wants-to-build-its-own-temporary-natural-gas-power-plant",
+     "date": null
+    },
+    {
+     "title": "Nevada regulators approve 362 MW of temporary power projects for data centers",
+     "publisher": "ConstructConnect",
+     "url": "https://news.constructconnect.com/nevada-regulators-approve-362-mw-of-temporary-power-projects-for-data-centers",
+     "date": null
+    },
+    {
+     "title": "Data Center Report",
+     "publisher": "Desert Research Institute",
+     "url": "https://www.dri.edu/wp-content/uploads/Data-Center-Report-Final-2.pdf",
+     "date": null
+    }
+   ]
+  },
+  {
+   "id": "cluster-salt-lake-city",
+   "name": "Salt Lake City / Wasatch Front data center market",
+   "aka": [
+    "Silicon Slopes"
+   ],
+   "lat": 40.58,
+   "lng": -111.95,
+   "coordPrecision": "region",
+   "city": "West Jordan",
+   "region": "Utah",
+   "country": "United States",
+   "countryCode": "US",
+   "status": "operational",
+   "type": "cluster",
+   "powerMW": 3335,
+   "powerMWNow": 735,
+   "powerNote": "Utah Legislature (2026): 10 largest operational data centers ~735 MW (~80% of state total); seven under construction add ~2,600 MW, ~1,700 MW of it behind-the-meter/off-grid. Eagle Mountain alone ~930 MW. Trackers disagree (DC Hub 604 MW; Baxtel 1,015 MW).",
+   "acres": null,
+   "sizeSqft": null,
+   "compute": null,
+   "investmentUSD": null,
+   "investmentNote": null,
+   "owners": [
+    {
+     "name": "Meta",
+     "entityId": "meta",
+     "stakePct": null
+    },
+    {
+     "name": "Aligned",
+     "entityId": "aligned",
+     "stakePct": null
+    },
+    {
+     "name": "QTS (Blackstone)",
+     "entityId": "qts",
+     "stakePct": null
+    },
+    {
+     "name": "Google",
+     "entityId": "google",
+     "stakePct": null
+    },
+    {
+     "name": "Novva",
+     "entityId": "novva",
+     "stakePct": null
+    },
+    {
+     "name": "Tract",
+     "entityId": "tract",
+     "stakePct": null
+    },
+    {
+     "name": "Oracle",
+     "entityId": "oracle",
+     "stakePct": null
+    },
+    {
+     "name": "EdgeConneX",
+     "entityId": "edgeconnex",
+     "stakePct": null
+    },
+    {
+     "name": "Flexential",
+     "entityId": "flexential",
+     "stakePct": null
+    }
+   ],
+   "developer": null,
+   "operator": "Multiple",
+   "tenants": [],
+   "capitalStack": [],
+   "energy": "Rocky Mountain Power (PacifiCorp); growing off-grid generation",
+   "water": null,
+   "announced": null,
+   "expectedOnline": null,
+   "highlights": [
+    "Joule + Creekstone + QTS campus estimate at Eagle Mountain/Delta area: 2,350 MW",
+    "NSA's Utah Data Center in Bluffdale (~65 MW) is part of the market"
+   ],
+   "controversy": "Water and power use in a drought-prone state; debate over tax incentives (Deseret News 2026).",
+   "sources": [
+    {
+     "title": "Utah Legislature interim briefing on data centers",
+     "publisher": "Utah Legislature",
+     "url": "https://le.utah.gov/interim/2026/pdf/00003188.pdf",
+     "date": "2026"
+    },
+    {
+     "title": "Utah data center map tracking",
+     "publisher": "Salt Lake Tribune",
+     "url": "https://www.sltrib.com/news/2026/09/25/utah-data-center-map-tracking/",
+     "date": "2026-09-25"
+    },
+    {
+     "title": "Utah data centers: AI, water, energy and economic impacts",
+     "publisher": "Deseret News",
+     "url": "https://www.deseret.com/business/2026/04/15/utah-data-centers-artificial-intelligence-ai-water-energy-electricity-use-economic-impacts-jobs-tax-incentives/",
+     "date": "2026-04-15"
+    }
+   ]
+  },
+  {
+   "id": "google-lagrange",
+   "name": "Google LaGrange campus ('Project Pegasus')",
+   "aka": [
+    "Project Pegasus"
+   ],
+   "lat": 33.0393,
+   "lng": -85.0313,
+   "coordPrecision": "city",
+   "city": "LaGrange",
+   "region": "Georgia",
+   "country": "United States",
+   "countryCode": "US",
+   "status": "planned",
+   "type": "hyperscale-cloud",
+   "powerMW": null,
+   "powerMWNow": null,
+   "powerNote": null,
+   "acres": null,
+   "sizeSqft": null,
+   "compute": null,
+   "investmentUSD": 8000000000,
+   "investmentNote": "AJC (Apr 2026) reports an $8B data center long code-named 'Project Pegasus'; a Google estimate cited elsewhere gives $1.2B cumulative capital investment, which conflicts (likely different scope/timeframe).",
+   "owners": [
+    {
+     "name": "Google",
+     "entityId": "google",
+     "stakePct": 100
+    }
+   ],
+   "developer": "Google",
+   "operator": "Google",
+   "tenants": [
+    {
+     "name": "Google",
+     "entityId": "google",
+     "role": "owner-occupier"
+    }
+   ],
+   "capitalStack": [
+    {
+     "from": "Google",
+     "entityId": "google",
+     "kind": "capex",
+     "amountUSD": 8000000000,
+     "date": "2026-04",
+     "note": "Headline project value per AJC",
+     "url": "https://www.ajc.com/business/2026/04/what-is-georgias-project-pegasus-tech-giant-unveils-8-billion-answer/"
+    }
+   ],
+   "energy": "Georgia Power",
+   "water": null,
+   "announced": "2026-04",
+   "expectedOnline": null,
+   "highlights": [
+    "Google's second Georgia campus, unveiled after months as a secret 'Project Pegasus'"
+   ],
+   "controversy": null,
+   "sources": [
+    {
+     "title": "What is Georgia's Project Pegasus? Tech giant unveils $8 billion answer",
+     "publisher": "Atlanta Journal-Constitution",
+     "url": "https://www.ajc.com/business/2026/04/what-is-georgias-project-pegasus-tech-giant-unveils-8-billion-answer/",
+     "date": "2026-04"
+    }
+   ]
+  },
+  {
+   "id": "google-intersect-meitner",
+   "name": "Google–Intersect Meitner Energy Center (co-located data center + generation)",
+   "aka": [
+    "Meitner Energy Center"
+   ],
+   "lat": 35.75,
+   "lng": -100.85,
+   "coordPrecision": "region",
+   "city": null,
+   "region": "Texas (Gray & Roberts counties)",
+   "country": "United States",
+   "countryCode": "US",
+   "status": "announced",
+   "type": "ai-training",
+   "powerMW": null,
+   "powerMWNow": null,
+   "powerNote": "Generation complex: >1 GW of wind, solar and battery storage plus on-site gas-fired firming; data-center load not disclosed.",
+   "acres": null,
+   "sizeSqft": null,
+   "compute": null,
+   "investmentUSD": null,
+   "investmentNote": "Not disclosed; second co-located Google–Intersect project after Haskell County (Quantum).",
+   "owners": [
+    {
+     "name": "Google (via Intersect)",
+     "entityId": "google",
+     "stakePct": 100
+    }
+   ],
+   "developer": "Intersect (Google subsidiary)",
+   "operator": "Google",
+   "tenants": [
+    {
+     "name": "Google",
+     "entityId": "google",
+     "role": "owner-occupier"
+    }
+   ],
+   "capitalStack": [],
+   "energy": "Co-located >1 GW wind + solar + storage, gas firming",
+   "water": null,
+   "announced": null,
+   "expectedOnline": null,
+   "highlights": [
+    "'Power-first' design: the data center is built inside its own generation park"
+   ],
+   "controversy": null,
+   "sources": [
+    {
+     "title": "Google launches 1-GW-plus co-located data center and generation complex in Texas Panhandle",
+     "publisher": "POWER Magazine",
+     "url": "https://www.powermag.com/google-launches-1-gw-plus-co-located-data-center-and-generation-complex-in-texas-panhandle/",
+     "date": "2026"
+    },
+    {
+     "title": "Google acquires Intersect Power for nearly $5 billion",
+     "publisher": "pv magazine",
+     "url": "https://www.pv-magazine.com/2026/01/05/google-acquires-intersect-power-for-nearly-5-billion/",
+     "date": "2026-01-05"
+    }
+   ]
+  },
+  {
+   "id": "vantage-nv1",
+   "name": "Vantage Data Centers NV1 campus",
+   "aka": [
+    "NV1"
+   ],
+   "lat": 39.535,
+   "lng": -119.47,
+   "coordPrecision": "region",
+   "city": "Sparks / TRIC",
+   "region": "Nevada",
+   "country": "United States",
+   "countryCode": "US",
+   "status": "partially operational",
+   "type": "hyperscale-cloud",
+   "powerMW": 224,
+   "powerMWNow": null,
+   "powerNote": "~224 MW at full build; first building due 2026; private 500 MW on-site substation. Status assumes first building delivered on schedule in 2026 (not confirmed).",
+   "acres": null,
+   "sizeSqft": null,
+   "compute": null,
+   "investmentUSD": 3000000000,
+   "investmentNote": "Vantage-announced $3B investment (July 2025).",
+   "owners": [
+    {
+     "name": "Vantage Data Centers (DigitalBridge, Silver Lake and co-investors)",
+     "entityId": "vantage",
+     "stakePct": 100
+    }
+   ],
+   "developer": "Vantage Data Centers",
+   "operator": "Vantage Data Centers",
+   "tenants": [
+    {
+     "name": "Undisclosed hyperscaler(s)",
+     "entityId": null,
+     "role": "first two buildings fully leased"
+    }
+   ],
+   "capitalStack": [
+    {
+     "from": "Vantage Data Centers",
+     "entityId": "vantage",
+     "kind": "capex",
+     "amountUSD": 3000000000,
+     "date": "2025-07-15",
+     "url": "https://www.intelligentcio.com/north-america/2025/07/16/vantage-data-centers-invests-us3-billion-to-deliver-ai-campus-in-growing-nevada-market/",
+     "note": null
+    }
+   ],
+   "energy": "NV Energy, private 500 MW substation",
+   "water": null,
+   "announced": "2025-07",
+   "expectedOnline": "2026",
+   "highlights": [
+    "First two buildings pre-leased before construction finished"
+   ],
+   "controversy": null,
+   "sources": [
+    {
+     "title": "Vantage Data Centers invests US$3 billion to deliver AI campus in growing Nevada market",
+     "publisher": "Intelligent CIO",
+     "url": "https://www.intelligentcio.com/north-america/2025/07/16/vantage-data-centers-invests-us3-billion-to-deliver-ai-campus-in-growing-nevada-market/",
+     "date": "2025-07-16"
+    },
+    {
+     "title": "NV1 and the Nevada hyperscale boom: Vantage bets $3B on the AI future",
+     "publisher": "Data Center Frontier",
+     "url": "https://www.datacenterfrontier.com/site-selection/article/55305086/nv1-and-the-nevada-hyperscale-boom-vantage-data-centers-bets-3b-on-the-ai-future",
+     "date": "2025-07"
+    }
+   ]
+  },
+  {
+   "id": "aligned-salt-lake",
+   "name": "Aligned Data Centers Salt Lake (West Jordan) campus",
+   "aka": [],
+   "lat": 40.6097,
+   "lng": -111.9391,
+   "coordPrecision": "city",
+   "city": "West Jordan",
+   "region": "Utah",
+   "country": "United States",
+   "countryCode": "US",
+   "status": "partially operational",
+   "type": "colocation",
+   "powerMW": 200,
+   "powerMWNow": null,
+   "powerNote": "Phased campus; 200 MW per deal tracker; other listings show SLC-03 at 130 MW and an 80 MW campus, so figures vary.",
+   "acres": null,
+   "sizeSqft": null,
+   "compute": null,
+   "investmentUSD": 650000000,
+   "investmentNote": "$650M per deal tracker (single source).",
+   "owners": [
+    {
+     "name": "Aligned Data Centers (agreed Oct 2025 sale to AI Infrastructure Partnership: BlackRock/GIP + MGX; ~$40B EV; seller Macquarie)",
+     "entityId": "aligned",
+     "stakePct": 100
+    }
+   ],
+   "developer": "Aligned Data Centers",
+   "operator": "Aligned Data Centers",
+   "tenants": [],
+   "capitalStack": [],
+   "energy": "Rocky Mountain Power",
+   "water": null,
+   "announced": null,
+   "expectedOnline": null,
+   "highlights": [
+    "Owner Aligned agreed a ~$40B sale to the BlackRock/GIP-MGX AI Infrastructure Partnership in Oct 2025 (see shared deal aip-aligned-2025; not re-verified here)"
+   ],
+   "controversy": null,
+   "sources": [
+    {
+     "title": "Aligned 200MW campus - Salt Lake City",
+     "publisher": "datacentres.com",
+     "url": "https://datacentres.com/deals/6",
+     "date": null
+    },
+    {
+     "title": "Salt Lake City data center market",
+     "publisher": "Baxtel",
+     "url": "https://baxtel.com/data-center/salt-lake-city",
+     "date": "2026"
+    }
+   ]
+  },
+  {
+   "id": "equinix-ashburn",
+   "name": "Equinix DC (Ashburn) interconnection campus",
+   "aka": [],
+   "lat": 39.0168,
+   "lng": -77.4594,
+   "coordPrecision": "city",
+   "city": "Ashburn",
+   "region": "Virginia",
+   "country": "United States",
+   "countryCode": "US",
+   "status": "operational",
+   "type": "colocation",
+   "powerMW": null,
+   "powerMWNow": null,
+   "powerNote": null,
+   "acres": null,
+   "sizeSqft": null,
+   "compute": null,
+   "investmentUSD": null,
+   "investmentNote": "[NOT RE-VERIFIED 2026-11-20: search budget exhausted; based on reporting up to mid-2026, check before publishing] No campus-level investment figure. Equinix separately formed a >$15B US xScale hyperscale JV with GIC and CPP Investments (Oct 2024; Equinix ~25%), which funds new campuses rather than Ashburn's retail IBXs.",
+   "owners": [
+    {
+     "name": "Equinix",
+     "entityId": "equinix",
+     "stakePct": 100
+    }
+   ],
+   "developer": "Equinix",
+   "operator": "Equinix",
+   "tenants": [
+    {
+     "name": "Carriers, clouds, enterprises (retail colocation & interconnection)",
+     "entityId": null,
+     "role": "retail tenants"
+    }
+   ],
+   "capitalStack": [],
+   "energy": "Dominion Energy (PJM)",
+   "water": null,
+   "announced": null,
+   "expectedOnline": null,
+   "highlights": [
+    "One of the densest internet interconnection hubs in the world, the core of Data Center Alley's network fabric"
+   ],
+   "controversy": null,
+   "sources": [
+    {
+     "title": "Equinix data centers (company site; article-level URL not verified)",
+     "publisher": "Equinix",
+     "url": "https://www.equinix.com/",
+     "date": null
+    }
+   ]
+  },
+  {
+   "id": "digital-realty-ashburn",
+   "name": "Digital Realty Northern Virginia campuses (Ashburn)",
+   "aka": [
+    "Digital Loudoun Plaza",
+    "former DuPont Fabros ACC campus"
+   ],
+   "lat": 39.0122,
+   "lng": -77.4568,
+   "coordPrecision": "city",
+   "city": "Ashburn",
+   "region": "Virginia",
+   "country": "United States",
+   "countryCode": "US",
+   "status": "operational",
+   "type": "colocation",
+   "powerMW": null,
+   "powerMWNow": null,
+   "powerNote": null,
+   "acres": null,
+   "sizeSqft": null,
+   "compute": null,
+   "investmentUSD": 7600000000,
+   "investmentNote": "~$7.6B enterprise value (incl. debt; all-stock at 0.545 DLR shares per DFT share) for Digital Realty's merger with DuPont Fabros Technology, announced 2017-06-09 and completed 2017-09-14; it brought DFT's large Ashburn wholesale campus. Company-level deal, not Ashburn-only.",
+   "owners": [
+    {
+     "name": "Digital Realty",
+     "entityId": "digital-realty",
+     "stakePct": 100
+    }
+   ],
+   "developer": "Digital Realty / DuPont Fabros",
+   "operator": "Digital Realty",
+   "tenants": [
+    {
+     "name": "Hyperscale cloud providers (undisclosed)",
+     "entityId": null,
+     "role": "wholesale lessees"
+    }
+   ],
+   "capitalStack": [
+    {
+     "from": "Digital Realty",
+     "entityId": "digital-realty",
+     "kind": "equity",
+     "amountUSD": 7600000000,
+     "date": "2017-09-14",
+     "note": "All-stock acquisition of DuPont Fabros (EV incl. debt)",
+     "url": "https://www.digitalrealty.com/about/newsroom/press-releases/123106/digital-realty-completes-merger-with-dupont-fabros"
+    }
+   ],
+   "energy": "Dominion Energy (PJM)",
+   "water": null,
+   "announced": null,
+   "expectedOnline": null,
+   "highlights": [
+    "Wholesale hyperscale halls leased to the biggest clouds, plus Digital Realty's own interconnection hub"
+   ],
+   "controversy": null,
+   "sources": [
+    {
+     "title": "Digital Realty To Merge With DuPont Fabros",
+     "publisher": "Digital Realty",
+     "url": "https://www.digitalrealty.com/about/newsroom/press-releases/122772/digital-realty-to-merge-with-dupont-fabros",
+     "date": "2017-06-09"
+    },
+    {
+     "title": "Digital Realty Completes Merger With DuPont Fabros",
+     "publisher": "Digital Realty",
+     "url": "https://www.digitalrealty.com/about/newsroom/press-releases/123106/digital-realty-completes-merger-with-dupont-fabros",
+     "date": "2017-09-14"
+    },
+    {
+     "title": "Digital Realty to buy DuPont Fabros in $7.6 billion deal",
+     "publisher": "CNBC",
+     "url": "https://www.cnbc.com/2017/06/09/digital-realty-to-buy-dupont-fabros.html",
+     "date": "2017-06-09"
+    }
+   ]
+  },
+  {
+   "id": "qts-atlanta-metro",
+   "name": "QTS Atlanta Metro data center (Jefferson Street)",
+   "aka": [],
+   "lat": 33.779,
+   "lng": -84.412,
+   "coordPrecision": "city",
+   "city": "Atlanta",
+   "region": "Georgia",
+   "country": "United States",
+   "countryCode": "US",
+   "status": "operational",
+   "type": "colocation",
+   "powerMW": null,
+   "powerMWNow": null,
+   "powerNote": null,
+   "acres": null,
+   "sizeSqft": null,
+   "compute": null,
+   "investmentUSD": null,
+   "investmentNote": "[NOT RE-VERIFIED 2026-11-20: search budget exhausted; based on reporting up to mid-2026, check before publishing] Owner QTS was taken private by Blackstone (Blackstone Infrastructure Partners, BREIT, BPP) for ~$10B incl. debt, closed Aug 2021; no site-level figure.",
+   "owners": [
+    {
+     "name": "QTS Data Centers (Blackstone)",
+     "entityId": "qts",
+     "stakePct": 100
+    }
+   ],
+   "developer": "QTS",
+   "operator": "QTS",
+   "tenants": [],
+   "capitalStack": [
+    {
+     "from": "Blackstone",
+     "entityId": "blackstone",
+     "kind": "equity",
+     "amountUSD": 10000000000,
+     "date": "2021-08",
+     "note": "Company-level take-private of QTS (EV incl. debt)",
+     "url": "https://www.blackstone.com/"
+    }
+   ],
+   "energy": "Georgia Power",
+   "water": null,
+   "announced": null,
+   "expectedOnline": null,
+   "highlights": [
+    "QTS's long-time Atlanta flagship, close to downtown Atlanta"
+   ],
+   "controversy": null,
+   "sources": [
+    {
+     "title": "QTS Data Centers (company site; article-level URL not verified)",
+     "publisher": "QTS",
+     "url": "https://qtsdatacenters.com/",
+     "date": null
+    },
+    {
+     "title": "Blackstone (company site)",
+     "publisher": "Blackstone",
+     "url": "https://www.blackstone.com/",
+     "date": null
+    }
+   ]
+  },
+  {
+   "id": "qts-fayetteville",
+   "name": "QTS Fayetteville mega-campus",
+   "aka": [
+    "Project Excalibur"
+   ],
+   "lat": 33.4487,
+   "lng": -84.455,
+   "coordPrecision": "city",
+   "city": "Fayetteville",
+   "region": "Georgia",
+   "country": "United States",
+   "countryCode": "US",
+   "status": "under construction",
+   "type": "hyperscale-cloud",
+   "powerMW": null,
+   "powerMWNow": null,
+   "powerNote": "MW not confirmed; campus under construction as of May 2025 (AJC photo).",
+   "acres": 615,
+   "sizeSqft": null,
+   "compute": null,
+   "investmentUSD": null,
+   "investmentNote": "[NOT RE-VERIFIED 2026-11-20: search budget exhausted; based on reporting up to mid-2026, check before publishing] Site-level investment not disclosed; Blackstone owns QTS (~$10B take-private, 2021) and has kept injecting equity/debt into its build program.",
+   "owners": [
+    {
+     "name": "QTS Data Centers (Blackstone)",
+     "entityId": "qts",
+     "stakePct": 100
+    }
+   ],
+   "developer": "QTS",
+   "operator": "QTS",
+   "tenants": [],
+   "capitalStack": [],
+   "energy": "Georgia Power (new transmission built for the campus)",
+   "water": null,
+   "announced": null,
+   "expectedOnline": null,
+   "highlights": [
+    "One of the largest single campuses in metro Atlanta, south of Hartsfield-Jackson airport"
+   ],
+   "controversy": "Part of the Atlanta-area build-out driving Georgia Power's large-load expansion and ratepayer-cost debate.",
+   "sources": [
+    {
+     "title": "Atlanta was primed for the data center boom. All it took was a spark",
+     "publisher": "Atlanta Journal-Constitution",
+     "url": "https://www.ajc.com/news/2025/06/atlanta-was-primed-for-the-data-center-boom-all-it-took-was-a-spark/",
+     "date": "2025-06"
+    },
+    {
+     "title": "QTS Data Centers (company site; article-level URL not verified)",
+     "publisher": "QTS",
+     "url": "https://qtsdatacenters.com/",
+     "date": null
+    }
+   ]
+  },
+  {
+   "id": "qts-richmond",
+   "name": "QTS Richmond campus (former Qimonda fab)",
+   "aka": [],
+   "lat": 37.526,
+   "lng": -77.311,
+   "coordPrecision": "city",
+   "city": "Sandston (Henrico County)",
+   "region": "Virginia",
+   "country": "United States",
+   "countryCode": "US",
+   "status": "operational",
+   "type": "colocation",
+   "powerMW": null,
+   "powerMWNow": null,
+   "powerNote": null,
+   "acres": null,
+   "sizeSqft": null,
+   "compute": null,
+   "investmentUSD": null,
+   "investmentNote": "[NOT RE-VERIFIED 2026-11-20: search budget exhausted; based on reporting up to mid-2026, check before publishing] No site-level figure; QTS bought the shuttered Qimonda/White Oak semiconductor plant around 2010 and converted it.",
+   "owners": [
+    {
+     "name": "QTS Data Centers (Blackstone)",
+     "entityId": "qts",
+     "stakePct": 100
+    }
+   ],
+   "developer": "QTS",
+   "operator": "QTS",
+   "tenants": [],
+   "capitalStack": [],
+   "energy": "Dominion Energy (PJM)",
+   "water": null,
+   "announced": null,
+   "expectedOnline": null,
+   "highlights": [
+    "A failed memory-chip megafab reborn as a data center campus, linked to Virginia Beach subsea-cable landings"
+   ],
+   "controversy": null,
+   "sources": [
+    {
+     "title": "QTS Data Centers (company site; article-level URL not verified)",
+     "publisher": "QTS",
+     "url": "https://qtsdatacenters.com/",
+     "date": null
+    }
+   ]
+  },
+  {
+   "id": "switch-citadel",
+   "name": "Switch Citadel Campus (Tahoe Reno)",
+   "aka": [
+    "Tahoe Reno 1-3"
+   ],
+   "lat": 39.53,
+   "lng": -119.44,
+   "coordPrecision": "city",
+   "city": "McCarran (TRIC)",
+   "region": "Nevada",
+   "country": "United States",
+   "countryCode": "US",
+   "status": "partially operational",
+   "type": "colocation",
+   "powerMW": null,
+   "powerMWNow": null,
+   "powerNote": "Switch markets the campus at up to ~7.2M sq ft at full build; MW not confirmed here.",
+   "acres": null,
+   "sizeSqft": 7200000,
+   "compute": null,
+   "investmentUSD": null,
+   "investmentNote": "[NOT RE-VERIFIED 2026-11-20: search budget exhausted; based on reporting up to mid-2026, check before publishing] Owner Switch was taken private by a DigitalBridge-led consortium with IFM Investors for ~$11B incl. debt (closed Dec 2022); no campus-level figure.",
+   "owners": [
+    {
+     "name": "Switch (DigitalBridge-managed funds, IFM Investors)",
+     "entityId": "switch",
+     "stakePct": 100
+    }
+   ],
+   "developer": "Switch",
+   "operator": "Switch",
+   "tenants": [],
+   "capitalStack": [
+    {
+     "from": "DigitalBridge / IFM Investors",
+     "entityId": "digitalbridge",
+     "kind": "equity",
+     "amountUSD": 11000000000,
+     "date": "2022-12",
+     "note": "Company-level take-private (EV incl. debt)",
+     "url": "https://www.switch.com/"
+    }
+   ],
+   "energy": "NV Energy; Switch-contracted solar (100% renewable claim)",
+   "water": null,
+   "announced": null,
+   "expectedOnline": null,
+   "highlights": [
+    "Billed by Switch as the largest data center campus in the world"
+   ],
+   "controversy": null,
+   "sources": [
+    {
+     "title": "Switch (company site; article-level URL not verified)",
+     "publisher": "Switch",
+     "url": "https://www.switch.com/",
+     "date": null
+    },
+    {
+     "title": "Interim committee document on data centers (lists Switch at TRIC)",
+     "publisher": "Nevada Legislature",
+     "url": "https://www.leg.state.nv.us/App/InterimCommittee/REL/Document/33075",
+     "date": "2026"
+    }
+   ]
+  },
+  {
+   "id": "switch-las-vegas-core",
+   "name": "Switch Core Campus (Las Vegas)",
+   "aka": [],
+   "lat": 36.072,
+   "lng": -115.185,
+   "coordPrecision": "city",
+   "city": "Las Vegas",
+   "region": "Nevada",
+   "country": "United States",
+   "countryCode": "US",
+   "status": "operational",
+   "type": "colocation",
+   "powerMW": null,
+   "powerMWNow": null,
+   "powerNote": null,
+   "acres": null,
+   "sizeSqft": null,
+   "compute": null,
+   "investmentUSD": null,
+   "investmentNote": "[NOT RE-VERIFIED 2026-11-20: search budget exhausted; based on reporting up to mid-2026, check before publishing] No campus-level figure; see Switch take-private (~$11B, 2022).",
+   "owners": [
+    {
+     "name": "Switch (DigitalBridge-managed funds, IFM Investors)",
+     "entityId": "switch",
+     "stakePct": 100
+    }
+   ],
+   "developer": "Switch",
+   "operator": "Switch",
+   "tenants": [],
+   "capitalStack": [],
+   "energy": "NV Energy; Switch-contracted solar",
+   "water": null,
+   "announced": null,
+   "expectedOnline": null,
+   "highlights": [
+    "Switch's original home market, a dense multi-building colo campus serving enterprises and clouds"
+   ],
+   "controversy": null,
+   "sources": [
+    {
+     "title": "Switch (company site; article-level URL not verified)",
+     "publisher": "Switch",
+     "url": "https://www.switch.com/",
+     "date": null
+    }
+   ]
+  },
+  {
+   "id": "pw-digital-gateway",
+   "name": "Prince William Digital Gateway (QTS & Compass)",
+   "aka": [
+    "PW Digital Gateway",
+    "Pageland Lane"
+   ],
+   "lat": 38.825,
+   "lng": -77.59,
+   "coordPrecision": "city",
+   "city": "Gainesville / Manassas",
+   "region": "Virginia",
+   "country": "United States",
+   "countryCode": "US",
+   "status": "paused",
+   "type": "hyperscale-cloud",
+   "powerMW": null,
+   "powerMWNow": null,
+   "powerNote": "Up to ~23M sq ft across dozens of buildings (multi-GW scale); MW not formally set.",
+   "acres": 2100,
+   "sizeSqft": 23000000,
+   "compute": null,
+   "investmentUSD": null,
+   "investmentNote": "[NOT RE-VERIFIED 2026-11-20: search budget exhausted; based on reporting up to mid-2026, check before publishing] No confirmed total. Rezoning approved Dec 2023 after a marathon hearing; a Prince William circuit court voided the rezoning in 2025. Appeal/status in late 2026 not verified.",
+   "owners": [
+    {
+     "name": "QTS (Blackstone)",
+     "entityId": "qts",
+     "stakePct": null
+    },
+    {
+     "name": "Compass Datacenters (Brookfield, Ontario Teachers')",
+     "entityId": "compass",
+     "stakePct": null
+    }
+   ],
+   "developer": "QTS; Compass Datacenters",
+   "operator": null,
+   "tenants": [],
+   "capitalStack": [],
+   "energy": "Dominion Energy (PJM); new 500 kV transmission required",
+   "water": null,
+   "announced": null,
+   "expectedOnline": null,
+   "highlights": [
+    "Would be one of the largest data center zones on Earth, beside Manassas National Battlefield Park"
+   ],
+   "controversy": "Fierce opposition from residents, conservation groups and the National Park Service over the Civil War battlefield viewshed, water and transmission lines; litigation voided the 2023 rezoning.",
+   "sources": [
+    {
+     "title": "Prince William County government (article-level URL not verified)",
+     "publisher": "Prince William County",
+     "url": "https://www.pwcva.gov/",
+     "date": null
+    },
+    {
+     "title": "QTS Data Centers (company site)",
+     "publisher": "QTS",
+     "url": "https://qtsdatacenters.com/",
+     "date": null
+    }
+   ]
+  },
+  {
+   "id": "cluster-quincy-wa",
+   "name": "Quincy, Washington hydro-powered data center cluster",
+   "aka": [],
+   "lat": 47.2343,
+   "lng": -119.8526,
+   "coordPrecision": "region",
+   "city": "Quincy",
+   "region": "Washington",
+   "country": "United States",
+   "countryCode": "US",
+   "status": "operational",
+   "type": "cluster",
+   "powerMW": null,
+   "powerMWNow": null,
+   "powerNote": null,
+   "acres": null,
+   "sizeSqft": null,
+   "compute": null,
+   "investmentUSD": null,
+   "investmentNote": "[NOT RE-VERIFIED 2026-11-20: search budget exhausted; based on reporting up to mid-2026, check before publishing] No aggregate MW/investment figure retrieved.",
+   "owners": [
+    {
+     "name": "Microsoft",
+     "entityId": "microsoft",
+     "stakePct": null
+    },
+    {
+     "name": "Sabey Data Centers (Intergate.Quincy)",
+     "entityId": "sabey",
+     "stakePct": null
+    },
+    {
+     "name": "Vantage",
+     "entityId": "vantage",
+     "stakePct": null
+    },
+    {
+     "name": "Yahoo",
+     "entityId": "yahoo",
+     "stakePct": null
+    }
+   ],
+   "developer": null,
+   "operator": "Multiple",
+   "tenants": [],
+   "capitalStack": [],
+   "energy": "Grant County PUD hydropower (Columbia River dams), among the cheapest power in the US",
+   "water": null,
+   "announced": null,
+   "expectedOnline": null,
+   "highlights": [
+    "Microsoft has run cloud data centers here since 2007, drawn by cheap Columbia River hydropower"
+   ],
+   "controversy": null,
+   "sources": [
+    {
+     "title": "Microsoft datacenters (company site; article-level URL not verified)",
+     "publisher": "Microsoft",
+     "url": "https://news.microsoft.com/",
+     "date": null
+    }
+   ]
+  },
+  {
+   "id": "microsoft-san-antonio",
+   "name": "Microsoft San Antonio datacenter campuses (South Central US region)",
+   "aka": [],
+   "lat": 29.449,
+   "lng": -98.682,
+   "coordPrecision": "city",
+   "city": "San Antonio",
+   "region": "Texas",
+   "country": "United States",
+   "countryCode": "US",
+   "status": "operational",
+   "type": "hyperscale-cloud",
+   "powerMW": null,
+   "powerMWNow": null,
+   "powerNote": null,
+   "acres": null,
+   "sizeSqft": null,
+   "compute": null,
+   "investmentUSD": null,
+   "investmentNote": "[NOT RE-VERIFIED 2026-11-20: search budget exhausted; based on reporting up to mid-2026, check before publishing] No current figure retrieved. Microsoft opened its first San Antonio datacenter (Westover Hills) in 2008 and has since expanded into surrounding counties.",
+   "owners": [
+    {
+     "name": "Microsoft",
+     "entityId": "microsoft",
+     "stakePct": 100
+    }
+   ],
+   "developer": "Microsoft",
+   "operator": "Microsoft",
+   "tenants": [
+    {
+     "name": "Microsoft Azure South Central US",
+     "entityId": "microsoft",
+     "role": "owner-occupier"
+    }
+   ],
+   "capitalStack": [],
+   "energy": "CPS Energy (ERCOT)",
+   "water": "Uses recycled water from San Antonio Water System for cooling (reported); scrutinized during droughts",
+   "announced": null,
+   "expectedOnline": null,
+   "highlights": [
+    "Anchor of Azure's South Central US region"
+   ],
+   "controversy": null,
+   "sources": [
+    {
+     "title": "Microsoft datacenters (company site; article-level URL not verified)",
+     "publisher": "Microsoft",
+     "url": "https://news.microsoft.com/",
+     "date": null
+    }
+   ]
+  },
+  {
+   "id": "microsoft-west-des-moines",
+   "name": "Microsoft West Des Moines datacenters (Central US region)",
+   "aka": [],
+   "lat": 41.55,
+   "lng": -93.8,
+   "coordPrecision": "city",
+   "city": "West Des Moines",
+   "region": "Iowa",
+   "country": "United States",
+   "countryCode": "US",
+   "status": "operational",
+   "type": "ai-training",
+   "powerMW": null,
+   "powerMWNow": null,
+   "powerNote": null,
+   "acres": null,
+   "sizeSqft": null,
+   "compute": null,
+   "investmentUSD": null,
+   "investmentNote": "[NOT RE-VERIFIED 2026-11-20: search budget exhausted; based on reporting up to mid-2026, check before publishing] No current figure retrieved.",
+   "owners": [
+    {
+     "name": "Microsoft",
+     "entityId": "microsoft",
+     "stakePct": 100
+    }
+   ],
+   "developer": "Microsoft",
+   "operator": "Microsoft",
+   "tenants": [
+    {
+     "name": "Microsoft Azure Central US",
+     "entityId": "microsoft",
+     "role": "owner-occupier"
+    },
+    {
+     "name": "OpenAI",
+     "entityId": "openai",
+     "role": "trained GPT-4 here (per AP, 2023)"
+    }
+   ],
+   "capitalStack": [],
+   "energy": "MidAmerican Energy (wind-heavy)",
+   "water": "AP reported Microsoft pumped ~11.5M gallons in July 2022 (~6% of the local water district's use) while training GPT-4",
+   "announced": null,
+   "expectedOnline": null,
+   "highlights": [
+    "Where OpenAI's GPT-4 was trained on a Microsoft supercomputer, cooled with Iowa water"
+   ],
+   "controversy": "AP's 2023 investigation into AI water use put the campus's summer water draw in the spotlight.",
+   "sources": [
+    {
+     "title": "AP investigation on AI water use in Iowa (article-level URL not verified)",
+     "publisher": "Associated Press",
+     "url": "https://apnews.com/",
+     "date": "2023-09"
+    }
+   ]
+  },
+  {
+   "id": "microsoft-boydton",
+   "name": "Microsoft Boydton / Mecklenburg County datacenter campus",
+   "aka": [],
+   "lat": 36.6676,
+   "lng": -78.3875,
+   "coordPrecision": "city",
+   "city": "Boydton",
+   "region": "Virginia",
+   "country": "United States",
+   "countryCode": "US",
+   "status": "operational",
+   "type": "hyperscale-cloud",
+   "powerMW": null,
+   "powerMWNow": null,
+   "powerNote": null,
+   "acres": null,
+   "sizeSqft": null,
+   "compute": null,
+   "investmentUSD": null,
+   "investmentNote": "[NOT RE-VERIFIED 2026-11-20: search budget exhausted; based on reporting up to mid-2026, check before publishing] Multi-billion-dollar campus since 2010; no verified total retrieved.",
+   "owners": [
+    {
+     "name": "Microsoft",
+     "entityId": "microsoft",
+     "stakePct": 100
+    }
+   ],
+   "developer": "Microsoft",
+   "operator": "Microsoft",
+   "tenants": [
+    {
+     "name": "Microsoft Azure East US 2",
+     "entityId": "microsoft",
+     "role": "owner-occupier"
+    }
+   ],
+   "capitalStack": [],
+   "energy": "Mecklenburg Electric Cooperative / Dominion; Virginia solar PPAs",
+   "water": null,
+   "announced": null,
+   "expectedOnline": null,
+   "highlights": [
+    "Rural Southside Virginia campus that became a core Azure East US 2 site"
+   ],
+   "controversy": null,
+   "sources": [
+    {
+     "title": "Microsoft datacenters (company site; article-level URL not verified)",
+     "publisher": "Microsoft",
+     "url": "https://news.microsoft.com/",
+     "date": null
+    }
+   ]
+  },
+  {
+   "id": "aws-ohio-region",
+   "name": "AWS US East (Ohio) region cluster (Dublin, Hilliard, New Albany)",
+   "aka": [],
+   "lat": 40.0992,
+   "lng": -83.1141,
+   "coordPrecision": "region",
+   "city": "Dublin / Hilliard / New Albany",
+   "region": "Ohio",
+   "country": "United States",
+   "countryCode": "US",
+   "status": "operational",
+   "type": "cluster",
+   "powerMW": null,
+   "powerMWNow": null,
+   "powerNote": null,
+   "acres": null,
+   "sizeSqft": null,
+   "compute": null,
+   "investmentUSD": null,
+   "investmentNote": "[NOT RE-VERIFIED 2026-11-20: search budget exhausted; based on reporting up to mid-2026, check before publishing] Region launched 2016. Amazon's Ohio state-level commitments (e.g. $7.8B by 2029, announced Dec 2022, and later additions) are covered in the AWS state-megacommitment records elsewhere; left null here to avoid double counting.",
+   "owners": [
+    {
+     "name": "Amazon Web Services",
+     "entityId": "amazon",
+     "stakePct": 100
+    }
+   ],
+   "developer": "Amazon",
+   "operator": "AWS",
+   "tenants": [
+    {
+     "name": "AWS us-east-2",
+     "entityId": "amazon",
+     "role": "owner-occupier"
+    }
+   ],
+   "capitalStack": [],
+   "energy": "AEP Ohio (PJM); Ohio wind/solar PPAs",
+   "water": null,
+   "announced": null,
+   "expectedOnline": null,
+   "highlights": [
+    "AWS's second US East region, sited in Columbus's suburbs"
+   ],
+   "controversy": "Part of the central-Ohio load surge behind AEP's 2025 data-center tariff.",
+   "sources": [
+    {
+     "title": "AWS global infrastructure regions (article-level URL not verified)",
+     "publisher": "AWS",
+     "url": "https://aws.amazon.com/about-aws/global-infrastructure/regions_az/",
+     "date": null
+    },
+    {
+     "title": "Data Centers in Ohio",
+     "publisher": "Ohio Consumers' Counsel",
+     "url": "https://occ.ohio.gov/sites/default/files/2026-03/OCC-Data-Centers-in-Ohio.pdf",
+     "date": "2026-03"
+    }
+   ]
+  },
+  {
+   "id": "aws-oregon-boardman",
+   "name": "AWS US West (Oregon) region cluster (Boardman, Umatilla, Hermiston)",
+   "aka": [],
+   "lat": 45.8399,
+   "lng": -119.7006,
+   "coordPrecision": "region",
+   "city": "Boardman",
+   "region": "Oregon",
+   "country": "United States",
+   "countryCode": "US",
+   "status": "operational",
+   "type": "cluster",
+   "powerMW": null,
+   "powerMWNow": null,
+   "powerNote": null,
+   "acres": null,
+   "sizeSqft": null,
+   "compute": null,
+   "investmentUSD": null,
+   "investmentNote": "[NOT RE-VERIFIED 2026-11-20: search budget exhausted; based on reporting up to mid-2026, check before publishing] Region launched 2011 across Morrow and Umatilla counties under Oregon enterprise-zone tax exemptions; Amazon state-level commitments covered elsewhere.",
+   "owners": [
+    {
+     "name": "Amazon Web Services",
+     "entityId": "amazon",
+     "stakePct": 100
+    }
+   ],
+   "developer": "Amazon (Vadata)",
+   "operator": "AWS",
+   "tenants": [
+    {
+     "name": "AWS us-west-2",
+     "entityId": "amazon",
+     "role": "owner-occupier"
+    }
+   ],
+   "capitalStack": [],
+   "energy": "Umatilla Electric Cooperative, PacifiCorp; Columbia hydro",
+   "water": "Cooling-water discharge in the Lower Umatilla Basin, where groundwater nitrate is a long-standing problem",
+   "announced": null,
+   "expectedOnline": null,
+   "highlights": [
+    "One of AWS's largest regions, spread across farm country on the Columbia River"
+   ],
+   "controversy": "Large property-tax exemptions for Amazon facilities, and 2024 reporting linking data-center cooling water to the region's groundwater nitrate problem.",
+   "sources": [
+    {
+     "title": "AWS global infrastructure regions (article-level URL not verified)",
+     "publisher": "AWS",
+     "url": "https://aws.amazon.com/about-aws/global-infrastructure/regions_az/",
+     "date": null
+    }
+   ]
+  },
+  {
+   "id": "apple-maiden",
+   "name": "Apple Maiden data center",
+   "aka": [],
+   "lat": 35.5757,
+   "lng": -81.2115,
+   "coordPrecision": "city",
+   "city": "Maiden",
+   "region": "North Carolina",
+   "country": "United States",
+   "countryCode": "US",
+   "status": "operational",
+   "type": "hyperscale-cloud",
+   "powerMW": null,
+   "powerMWNow": null,
+   "powerNote": null,
+   "acres": null,
+   "sizeSqft": null,
+   "compute": null,
+   "investmentUSD": 1000000000,
+   "investmentNote": "[NOT RE-VERIFIED 2026-11-20: search budget exhausted; based on reporting up to mid-2026, check before publishing] ~$1B initial investment (announced 2009, opened 2010).",
+   "owners": [
+    {
+     "name": "Apple",
+     "entityId": "apple",
+     "stakePct": 100
+    }
+   ],
+   "developer": "Apple",
+   "operator": "Apple",
+   "tenants": [
+    {
+     "name": "iCloud / Apple services",
+     "entityId": "apple",
+     "role": "owner-occupier"
+    }
+   ],
+   "capitalStack": [],
+   "energy": "Duke Energy + Apple's on-site solar farms and biogas fuel cells",
+   "water": null,
+   "announced": "2009",
+   "expectedOnline": "2010",
+   "highlights": [
+    "Apple's first big iCloud data center, powered partly by its own solar arrays and fuel cells"
+   ],
+   "controversy": null,
+   "sources": [
+    {
+     "title": "Apple Newsroom (article-level URL not verified)",
+     "publisher": "Apple",
+     "url": "https://www.apple.com/newsroom/",
+     "date": null
+    }
+   ]
+  },
+  {
+   "id": "apple-mesa",
+   "name": "Apple Mesa global command data center (former GT Advanced plant)",
+   "aka": [],
+   "lat": 33.349,
+   "lng": -111.59,
+   "coordPrecision": "city",
+   "city": "Mesa",
+   "region": "Arizona",
+   "country": "United States",
+   "countryCode": "US",
+   "status": "operational",
+   "type": "hyperscale-cloud",
+   "powerMW": null,
+   "powerMWNow": null,
+   "powerNote": null,
+   "acres": null,
+   "sizeSqft": 1300000,
+   "compute": null,
+   "investmentUSD": 2000000000,
+   "investmentNote": "More than $2B over 10 years announced 2015-02-02 (with the State of Arizona) to convert the former GT Advanced Technologies sapphire plant (bought by Apple in 2013) into a global data command centre.",
+   "owners": [
+    {
+     "name": "Apple",
+     "entityId": "apple",
+     "stakePct": 100
+    }
+   ],
+   "developer": "Apple",
+   "operator": "Apple",
+   "tenants": [
+    {
+     "name": "Apple services",
+     "entityId": "apple",
+     "role": "owner-occupier"
+    }
+   ],
+   "capitalStack": [],
+   "energy": "SRP; Apple-contracted solar",
+   "water": null,
+   "announced": "2015-02-02",
+   "expectedOnline": null,
+   "highlights": [
+    "Built inside the 1.3M sq ft plant meant to make sapphire iPhone screens before supplier GT Advanced went bankrupt"
+   ],
+   "controversy": null,
+   "sources": [
+    {
+     "title": "Apple announces $2B global command center in Arizona",
+     "publisher": "CNBC",
+     "url": "https://www.cnbc.com/2015/02/02/apple-announces-2b-global-command-center-in-arizona.html",
+     "date": "2015-02-02"
+    },
+    {
+     "title": "Apple to Open Giant Data Center in Arizona",
+     "publisher": "New York Times",
+     "url": "https://archive.nytimes.com/bits.blogs.nytimes.com/2015/02/02/apple-to-open-giant-data-center-in-arizona/",
+     "date": "2015-02-02"
+    }
+   ]
+  },
+  {
+   "id": "apple-reno",
+   "name": "Apple Reno data center (TRIC)",
+   "aka": [
+    "Project Huckleberry"
+   ],
+   "lat": 39.525,
+   "lng": -119.48,
+   "coordPrecision": "city",
+   "city": "Reno / TRIC",
+   "region": "Nevada",
+   "country": "United States",
+   "countryCode": "US",
+   "status": "operational",
+   "type": "hyperscale-cloud",
+   "powerMW": null,
+   "powerMWNow": null,
+   "powerNote": null,
+   "acres": null,
+   "sizeSqft": null,
+   "compute": null,
+   "investmentUSD": 1000000000,
+   "investmentNote": "[NOT RE-VERIFIED 2026-11-20: search budget exhausted; based on reporting up to mid-2026, check before publishing] ~$1B announced 2012 with ~$89M in Nevada tax abatements over 10 years; later expansions not tallied here.",
+   "owners": [
+    {
+     "name": "Apple",
+     "entityId": "apple",
+     "stakePct": 100
+    }
+   ],
+   "developer": "Apple",
+   "operator": "Apple",
+   "tenants": [],
+   "capitalStack": [
+    {
+     "from": "State of Nevada / Washoe County",
+     "entityId": null,
+     "kind": "public-incentive",
+     "amountUSD": 89000000,
+     "date": "2012",
+     "note": "Tax abatements (reported)",
+     "url": "https://www.leg.state.nv.us/App/InterimCommittee/REL/Document/33075"
+    }
+   ],
+   "energy": "NV Energy; Apple-owned solar and geothermal PPAs",
+   "water": null,
+   "announced": "2012",
+   "expectedOnline": null,
+   "highlights": [
+    "Apple also set up a small Reno office/warehouse that let it book sales through low-tax Nevada"
+   ],
+   "controversy": "Criticized as a tax-avoidance play: large abatements plus a Reno subsidiary that reduced Apple's California taxes.",
+   "sources": [
+    {
+     "title": "Apple Newsroom (article-level URL not verified)",
+     "publisher": "Apple",
+     "url": "https://www.apple.com/newsroom/",
+     "date": null
+    },
+    {
+     "title": "Interim committee document on data centers (Apple near TRIC)",
+     "publisher": "Nevada Legislature",
+     "url": "https://www.leg.state.nv.us/App/InterimCommittee/REL/Document/33075",
+     "date": "2026"
+    }
+   ]
+  },
+  {
+   "id": "apple-prineville",
+   "name": "Apple Prineville data center",
+   "aka": [],
+   "lat": 44.2999,
+   "lng": -120.8345,
+   "coordPrecision": "city",
+   "city": "Prineville",
+   "region": "Oregon",
+   "country": "United States",
+   "countryCode": "US",
+   "status": "operational",
+   "type": "hyperscale-cloud",
+   "powerMW": null,
+   "powerMWNow": null,
+   "powerNote": null,
+   "acres": null,
+   "sizeSqft": null,
+   "compute": null,
+   "investmentUSD": null,
+   "investmentNote": "[NOT RE-VERIFIED 2026-11-20: search budget exhausted; based on reporting up to mid-2026, check before publishing] No verified total; built from 2012 under Crook County enterprise-zone tax exemptions, next to Meta's Prineville campus.",
+   "owners": [
+    {
+     "name": "Apple",
+     "entityId": "apple",
+     "stakePct": 100
+    }
+   ],
+   "developer": "Apple",
+   "operator": "Apple",
+   "tenants": [],
+   "capitalStack": [],
+   "energy": "Pacific Power; Apple-funded Oregon solar/wind",
+   "water": null,
+   "announced": null,
+   "expectedOnline": null,
+   "highlights": [
+    "High-desert town that hosts both Apple and Meta data centers"
+   ],
+   "controversy": "Enterprise-zone tax exemptions for the Apple and Meta campuses in Crook County have drawn scrutiny.",
+   "sources": [
+    {
+     "title": "Apple Newsroom (article-level URL not verified)",
+     "publisher": "Apple",
+     "url": "https://www.apple.com/newsroom/",
+     "date": null
+    }
+   ]
+  },
+  {
+   "id": "apple-waukee",
+   "name": "Apple Waukee data center",
+   "aka": [],
+   "lat": 41.6119,
+   "lng": -93.8853,
+   "coordPrecision": "city",
+   "city": "Waukee",
+   "region": "Iowa",
+   "country": "United States",
+   "countryCode": "US",
+   "status": "partially operational",
+   "type": "hyperscale-cloud",
+   "powerMW": null,
+   "powerMWNow": null,
+   "powerNote": null,
+   "acres": null,
+   "sizeSqft": 315773,
+   "compute": null,
+   "investmentUSD": 1375000000,
+   "investmentNote": "$1.375B announced Aug 2017 ('Project Morgan') with ~$208M in state and city incentives (incl. a ~$188M, 71%/20-year Waukee property-tax abatement). After years of delays, Apple confirmed in Oct 2024 that the first building (WKE.01, ~316k sq ft) was operational, serving North American iCloud, App Store, Apple Music and iMessage users; up to five more buildings (~1.97M sq ft total) need further approvals. Apple said in Feb 2025 Waukee would expand under its US investment plan.",
+   "owners": [
+    {
+     "name": "Apple",
+     "entityId": "apple",
+     "stakePct": 100
+    }
+   ],
+   "developer": "Apple",
+   "operator": "Apple",
+   "tenants": [],
+   "capitalStack": [
+    {
+     "from": "Iowa Economic Development Authority + City of Waukee",
+     "entityId": null,
+     "kind": "public-incentive",
+     "amountUSD": 208000000,
+     "date": "2017-08",
+     "note": "~$20M state + ~$188M city property-tax abatement (reported)",
+     "url": "https://constructionreviewonline.com/apple-files-for-new-data-center-in-waukee-iowa/"
+    }
+   ],
+   "energy": "MidAmerican Energy (wind)",
+   "water": null,
+   "announced": "2017-08",
+   "expectedOnline": "2024-10 (building 1)",
+   "highlights": [
+    "Announced in 2017, the first building only went live in Oct 2024 after nearly seven years of delays."
+   ],
+   "controversy": "The ~$208M incentive package drew criticism relative to ~50 permanent jobs.",
+   "sources": [
+    {
+     "title": "Apple data center opens in Waukee, powering iCloud, Apple Music",
+     "publisher": "Des Moines Register",
+     "url": "https://www.desmoinesregister.com/story/news/local/waukee/2024/10/16/apple-data-center-opens-in-waukee-iowa-powering-icloud-apple-music/75611032007/",
+     "date": "2024-10-16"
+    },
+    {
+     "title": "Waukee data center to expand as part of Apple's U.S. investment plan",
+     "publisher": "Des Moines Register",
+     "url": "https://www.desmoinesregister.com/story/news/local/waukee/2025/02/26/waukee-data-center-to-expand-as-part-of-apples-investment-plan/80299210007/",
+     "date": "2025-02-26"
+    },
+    {
+     "title": "Apple's US$1.375 billion Project Morgan data center in Waukee, Iowa",
+     "publisher": "Construction Review Online",
+     "url": "https://constructionreviewonline.com/apple-files-for-new-data-center-in-waukee-iowa/",
+     "date": "2026-05-18"
+    }
+   ]
+  },
+  {
+   "id": "apple-houston-ai-servers",
+   "name": "Apple Houston AI server manufacturing facility",
+   "aka": [],
+   "lat": 29.7604,
+   "lng": -95.3698,
+   "coordPrecision": "city",
+   "city": "Houston",
+   "region": "Texas",
+   "country": "United States",
+   "countryCode": "US",
+   "status": "operational",
+   "type": "enterprise",
+   "powerMW": null,
+   "powerMWNow": null,
+   "powerNote": null,
+   "acres": null,
+   "sizeSqft": 250000,
+   "compute": null,
+   "investmentUSD": null,
+   "investmentNote": "[NOT RE-VERIFIED 2026-11-20: search budget exhausted; based on reporting up to mid-2026, check before publishing] Part of Apple's >$500B, four-year US spending pledge (Feb 24 2025); builds servers for Apple Intelligence / Private Cloud Compute. Apple said server shipments began in late 2025.",
+   "owners": [
+    {
+     "name": "Apple (with manufacturing partners)",
+     "entityId": "apple",
+     "stakePct": null
+    }
+   ],
+   "developer": "Apple",
+   "operator": "Apple and partners",
+   "tenants": [],
+   "capitalStack": [],
+   "energy": "ERCOT (CenterPoint)",
+   "water": null,
+   "announced": "2025-02-24",
+   "expectedOnline": "2026",
+   "highlights": [
+    "Not a data center but the factory that builds Apple's AI data-center servers in the US"
+   ],
+   "controversy": null,
+   "sources": [
+    {
+     "title": "Apple will spend more than $500 billion in the U.S. over the next four years",
+     "publisher": "Apple",
+     "url": "https://www.apple.com/newsroom/2025/02/apple-will-spend-more-than-500-billion-usd-in-the-us-over-the-next-four-years/",
+     "date": "2025-02-24"
+    }
+   ]
+  },
+  {
+   "id": "cluster-montreal-quebec",
+   "name": "Montréal / Québec hydro-powered cloud cluster",
+   "aka": [],
+   "lat": 45.5017,
+   "lng": -73.5673,
+   "coordPrecision": "region",
+   "city": "Montréal",
+   "region": "Québec",
+   "country": "Canada",
+   "countryCode": "CA",
+   "status": "operational",
+   "type": "cluster",
+   "powerMW": null,
+   "powerMWNow": null,
+   "powerNote": null,
+   "acres": null,
+   "sizeSqft": null,
+   "compute": null,
+   "investmentUSD": null,
+   "investmentNote": "[NOT RE-VERIFIED 2026-11-20: search budget exhausted; based on reporting up to mid-2026, check before publishing] No aggregate figure. Hosts AWS Canada (Central) (2016), Google Cloud Montréal (2018), Microsoft Canada East (Québec City), plus OVHcloud, Vantage, Cologix, eStruxture and Equinix.",
+   "owners": [
+    {
+     "name": "Amazon Web Services",
+     "entityId": "amazon",
+     "stakePct": null
+    },
+    {
+     "name": "Google",
+     "entityId": "google",
+     "stakePct": null
+    },
+    {
+     "name": "Microsoft",
+     "entityId": "microsoft",
+     "stakePct": null
+    },
+    {
+     "name": "OVHcloud",
+     "entityId": "ovhcloud",
+     "stakePct": null
+    },
+    {
+     "name": "Vantage",
+     "entityId": "vantage",
+     "stakePct": null
+    },
+    {
+     "name": "Cologix",
+     "entityId": "cologix",
+     "stakePct": null
+    },
+    {
+     "name": "eStruxture",
+     "entityId": "estruxture",
+     "stakePct": null
+    },
+    {
+     "name": "Equinix",
+     "entityId": "equinix",
+     "stakePct": null
+    }
+   ],
+   "developer": null,
+   "operator": "Multiple",
+   "tenants": [],
+   "capitalStack": [],
+   "energy": "Hydro-Québec (near-100% hydro, low tariffs); the province now rations large new loads",
+   "water": null,
+   "announced": null,
+   "expectedOnline": null,
+   "highlights": [
+    "Cheap, clean hydropower and a cold climate make Québec Canada's main hyperscale hub"
+   ],
+   "controversy": "Québec requires government approval for big new power allocations, limiting data-center growth.",
+   "sources": [
+    {
+     "title": "AWS global infrastructure regions (article-level URL not verified)",
+     "publisher": "AWS",
+     "url": "https://aws.amazon.com/about-aws/global-infrastructure/regions_az/",
+     "date": null
+    },
+    {
+     "title": "Google Cloud locations",
+     "publisher": "Google Cloud",
+     "url": "https://cloud.google.com/about/locations",
+     "date": null
+    }
+   ]
+  },
+  {
+   "id": "cluster-toronto",
+   "name": "Toronto (GTA) cloud & colocation cluster",
+   "aka": [],
+   "lat": 43.6532,
+   "lng": -79.3832,
+   "coordPrecision": "region",
+   "city": "Toronto",
+   "region": "Ontario",
+   "country": "Canada",
+   "countryCode": "CA",
+   "status": "operational",
+   "type": "cluster",
+   "powerMW": null,
+   "powerMWNow": null,
+   "powerNote": null,
+   "acres": null,
+   "sizeSqft": null,
+   "compute": null,
+   "investmentUSD": null,
+   "investmentNote": "[NOT RE-VERIFIED 2026-11-20: search budget exhausted; based on reporting up to mid-2026, check before publishing] No aggregate figure. Hosts Microsoft Canada Central (2016), Google Cloud Toronto (2021) and colo campuses of Equinix, Cologix, Digital Realty and others.",
+   "owners": [
+    {
+     "name": "Microsoft",
+     "entityId": "microsoft",
+     "stakePct": null
+    },
+    {
+     "name": "Google",
+     "entityId": "google",
+     "stakePct": null
+    },
+    {
+     "name": "Equinix",
+     "entityId": "equinix",
+     "stakePct": null
+    },
+    {
+     "name": "Cologix",
+     "entityId": "cologix",
+     "stakePct": null
+    },
+    {
+     "name": "Digital Realty",
+     "entityId": "digital-realty",
+     "stakePct": null
+    }
+   ],
+   "developer": null,
+   "operator": "Multiple",
+   "tenants": [],
+   "capitalStack": [],
+   "energy": "Ontario IESO grid (nuclear + hydro heavy)",
+   "water": null,
+   "announced": null,
+   "expectedOnline": null,
+   "highlights": [
+    "Canada's financial capital and largest colocation market"
+   ],
+   "controversy": null,
+   "sources": [
+    {
+     "title": "Google Cloud locations",
+     "publisher": "Google Cloud",
+     "url": "https://cloud.google.com/about/locations",
+     "date": null
+    },
+    {
+     "title": "Microsoft datacenters (company site; article-level URL not verified)",
+     "publisher": "Microsoft",
+     "url": "https://news.microsoft.com/",
+     "date": null
+    }
+   ]
+  },
+  {
+   "id": "ovhcloud-beauharnois",
+   "name": "OVHcloud Beauharnois data center (BHS)",
+   "aka": [
+    "BHS"
+   ],
+   "lat": 45.315,
+   "lng": -73.872,
+   "coordPrecision": "city",
+   "city": "Beauharnois",
+   "region": "Québec",
+   "country": "Canada",
+   "countryCode": "CA",
+   "status": "operational",
+   "type": "hyperscale-cloud",
+   "powerMW": null,
+   "powerMWNow": null,
+   "powerNote": "Designed for up to ~360,000 servers (OVH); MW not confirmed.",
+   "acres": null,
+   "sizeSqft": null,
+   "compute": null,
+   "investmentUSD": null,
+   "investmentNote": "[NOT RE-VERIFIED 2026-11-20: search budget exhausted; based on reporting up to mid-2026, check before publishing] No verified figure; OVH's first data center outside Europe (opened 2012) in a former Rio Tinto Alcan aluminum plant.",
+   "owners": [
+    {
+     "name": "OVHcloud",
+     "entityId": "ovhcloud",
+     "stakePct": 100
+    }
+   ],
+   "developer": "OVHcloud",
+   "operator": "OVHcloud",
+   "tenants": [],
+   "capitalStack": [],
+   "energy": "Hydro-Québec hydropower (Beauharnois dam next door); water-cooled racks",
+   "water": null,
+   "announced": "2011",
+   "expectedOnline": "2012",
+   "highlights": [
+    "A French cloud giant's North American beachhead, built inside an old aluminum smelter beside a hydro dam"
+   ],
+   "controversy": null,
+   "sources": [
+    {
+     "title": "OVHcloud (company site; article-level URL not verified)",
+     "publisher": "OVHcloud",
+     "url": "https://www.ovhcloud.com/",
+     "date": null
+    }
+   ]
+  },
+  {
+   "id": "wonder-valley-alberta",
+   "name": "Wonder Valley AI data center park (Greenview, Alberta)",
+   "aka": [
+    "Wonder Valley"
+   ],
+   "lat": 55.17,
+   "lng": -118.79,
+   "coordPrecision": "region",
+   "city": "Municipal District of Greenview (near Grande Prairie)",
+   "region": "Alberta",
+   "country": "Canada",
+   "countryCode": "CA",
+   "status": "planned",
+   "type": "ai-training",
+   "powerMW": 7500,
+   "powerMWNow": null,
+   "powerNote": "Up to 7.5 GW, off-grid, primarily from Montney natural gas (plus geothermal) at full build.",
+   "acres": null,
+   "sizeSqft": null,
+   "compute": null,
+   "investmentUSD": null,
+   "investmentNote": "[NOT RE-VERIFIED 2026-11-20: search budget exhausted; based on reporting up to mid-2026, check before publishing] Promoted by Kevin O'Leary (O'Leary Digital) as a C$70B (~US$49B at Dec 2024 rates) project, announced Dec 2024; no anchor tenant or financing confirmed as of mid-2026.",
+   "owners": [
+    {
+     "name": "O'Leary Digital (Kevin O'Leary)",
+     "entityId": "oleary-digital",
+     "stakePct": null
+    }
+   ],
+   "developer": "O'Leary Digital",
+   "operator": null,
+   "tenants": [],
+   "capitalStack": [],
+   "energy": "Off-grid gas-fired generation (Montney), geothermal studied",
+   "water": null,
+   "announced": "2024-12",
+   "expectedOnline": null,
+   "highlights": [
+    "Pitched as the world's largest AI data center park at 7.5 GW, from a Shark Tank investor"
+   ],
+   "controversy": "Sturgeon Lake Cree Nation and others raised treaty-rights and environmental concerns; skeptics question power, financing and tenants.",
+   "sources": [
+    {
+     "title": "Municipal District of Greenview (article-level URL not verified)",
+     "publisher": "MD of Greenview",
+     "url": "https://www.mdgreenview.ab.ca/",
+     "date": null
+    }
+   ]
+  },
+  {
+   "id": "bell-ai-fabric",
+   "name": "Bell AI Fabric (Kamloops & BC sites)",
+   "aka": [
+    "Bell AI Fabric"
+   ],
+   "lat": 50.6745,
+   "lng": -120.3273,
+   "coordPrecision": "city",
+   "city": "Kamloops",
+   "region": "British Columbia",
+   "country": "Canada",
+   "countryCode": "CA",
+   "status": "partially operational",
+   "type": "sovereign-ai",
+   "powerMW": 500,
+   "powerMWNow": null,
+   "powerNote": "Up to 500 MW across six British Columbia facilities at full build; first ~7 MW Kamloops site with Groq came online mid-2025.",
+   "acres": null,
+   "sizeSqft": null,
+   "compute": null,
+   "investmentUSD": null,
+   "investmentNote": "[NOT RE-VERIFIED 2026-11-20: search budget exhausted; based on reporting up to mid-2026, check before publishing] Bell (BCE) announced May 2025; partners include Groq (inference) and Cohere; no total $ verified.",
+   "owners": [
+    {
+     "name": "Bell Canada (BCE)",
+     "entityId": "bce",
+     "stakePct": null
+    }
+   ],
+   "developer": "Bell Canada",
+   "operator": "Bell Canada",
+   "tenants": [
+    {
+     "name": "Groq",
+     "entityId": "groq",
+     "role": "inference partner"
+    },
+    {
+     "name": "Cohere",
+     "entityId": "cohere",
+     "role": "AI model partner"
+    }
+   ],
+   "capitalStack": [],
+   "energy": "BC Hydro (hydropower)",
+   "water": null,
+   "announced": "2025-05",
+   "expectedOnline": null,
+   "highlights": [
+    "Canada's largest telco is building a 500 MW sovereign AI network on BC hydropower"
+   ],
+   "controversy": null,
+   "sources": [
+    {
+     "title": "BCE (company site; article-level URL not verified)",
+     "publisher": "BCE",
+     "url": "https://www.bce.ca/",
+     "date": null
+    }
+   ]
+  },
+  {
+   "id": "telus-rimouski-ai-factory",
+   "name": "TELUS Sovereign AI Factory (Rimouski)",
+   "aka": [],
+   "lat": 48.449,
+   "lng": -68.523,
+   "coordPrecision": "city",
+   "city": "Rimouski",
+   "region": "Québec",
+   "country": "Canada",
+   "countryCode": "CA",
+   "status": "operational",
+   "type": "sovereign-ai",
+   "powerMW": null,
+   "powerMWNow": null,
+   "powerNote": null,
+   "acres": null,
+   "sizeSqft": null,
+   "compute": null,
+   "investmentUSD": null,
+   "investmentNote": "[NOT RE-VERIFIED 2026-11-20: search budget exhausted; based on reporting up to mid-2026, check before publishing] TELUS launched its first sovereign AI factory in Rimouski in 2025 with NVIDIA GPUs; investment total not verified. Canada's Sovereign AI Compute Strategy (C$2B, Budget 2024) backs domestic compute.",
+   "owners": [
+    {
+     "name": "TELUS",
+     "entityId": "telus",
+     "stakePct": 100
+    }
+   ],
+   "developer": "TELUS",
+   "operator": "TELUS",
+   "tenants": [],
+   "capitalStack": [],
+   "energy": "Hydro-Québec (hydropower)",
+   "water": null,
+   "announced": "2025",
+   "expectedOnline": null,
+   "highlights": [
+    "Canadian-owned GPU cloud aimed at keeping Canadian AI workloads and data in Canada"
+   ],
+   "controversy": null,
+   "sources": [
+    {
+     "title": "TELUS (company site; article-level URL not verified)",
+     "publisher": "TELUS",
+     "url": "https://www.telus.com/",
+     "date": null
+    }
+   ]
+  },
+  {
+   "id": "cluster-queretaro",
+   "name": "Querétaro data center cluster (Mexico)",
+   "aka": [],
+   "lat": 20.5888,
+   "lng": -100.3899,
+   "coordPrecision": "region",
+   "city": "Querétaro",
+   "region": "Querétaro",
+   "country": "Mexico",
+   "countryCode": "MX",
+   "status": "operational",
+   "type": "cluster",
+   "powerMW": null,
+   "powerMWNow": null,
+   "powerNote": null,
+   "acres": null,
+   "sizeSqft": null,
+   "compute": null,
+   "investmentUSD": 6300000000,
+   "investmentNote": "Sum of two headline hyperscaler pledges: AWS >$5B over 15 years for its Mexico (Central) region in Querétaro (announced 2024-02-26; region launched 2025-01-14) + Microsoft $1.3B over 3 years for AI/cloud infrastructure and skilling in Mexico (announced by Satya Nadella 2024-09-24, not Querétaro-only). Google Cloud also runs a Querétaro region. Colo: CloudHQ, Ascenty, KIO, Equinix, ODATA.",
+   "owners": [
+    {
+     "name": "Amazon Web Services",
+     "entityId": "amazon",
+     "stakePct": null
+    },
+    {
+     "name": "Microsoft",
+     "entityId": "microsoft",
+     "stakePct": null
+    },
+    {
+     "name": "Google",
+     "entityId": "google",
+     "stakePct": null
+    },
+    {
+     "name": "CloudHQ",
+     "entityId": "cloudhq",
+     "stakePct": null
+    },
+    {
+     "name": "Ascenty (Digital Realty/Brookfield)",
+     "entityId": "ascenty",
+     "stakePct": null
+    },
+    {
+     "name": "KIO Networks",
+     "entityId": "kio",
+     "stakePct": null
+    },
+    {
+     "name": "ODATA (Aligned)",
+     "entityId": "aligned",
+     "stakePct": null
+    },
+    {
+     "name": "Equinix",
+     "entityId": "equinix",
+     "stakePct": null
+    }
+   ],
+   "developer": null,
+   "operator": "Multiple",
+   "tenants": [],
+   "capitalStack": [
+    {
+     "from": "Amazon Web Services",
+     "entityId": "amazon",
+     "kind": "capex",
+     "amountUSD": 5000000000,
+     "date": "2024-02-26",
+     "note": "More than $5B over 15 years, Mexico (Central) region",
+     "url": "https://press.aboutamazon.com/2024/2/aws-to-launch-an-infrastructure-region-in-mexico"
+    },
+    {
+     "from": "Microsoft",
+     "entityId": "microsoft",
+     "kind": "capex",
+     "amountUSD": 1300000000,
+     "date": "2024-09-24",
+     "note": "Mexico AI & cloud infrastructure and skilling over 3 years",
+     "url": "https://www.datacenterdynamics.com/en/news/microsoft-to-invest-13-billion-in-mexico-to-enhance-ai-infrastructure/"
+    }
+   ],
+   "energy": "CFE grid; transmission bottlenecks",
+   "water": "Semi-arid state with chronic water stress",
+   "announced": null,
+   "expectedOnline": null,
+   "highlights": [
+    "Mexico's hyperscale capital: AWS, Microsoft and Google all chose Querétaro for their Mexican regions"
+   ],
+   "controversy": "Water scarcity and CFE power shortfalls; residents and researchers question data centers' water and grid demands.",
+   "sources": [
+    {
+     "title": "AWS to Launch an Infrastructure Region in Mexico",
+     "publisher": "Amazon Web Services",
+     "url": "https://press.aboutamazon.com/2024/2/aws-to-launch-an-infrastructure-region-in-mexico",
+     "date": "2024-02-26"
+    },
+    {
+     "title": "AWS Launches Infrastructure Region in Mexico",
+     "publisher": "Amazon Web Services",
+     "url": "https://press.aboutamazon.com/2025/1/aws-launches-infrastructure-region-in-mexico",
+     "date": "2025-01-14"
+    },
+    {
+     "title": "Microsoft to invest $1.3 billion in Mexico to 'enhance AI infrastructure'",
+     "publisher": "DatacenterDynamics",
+     "url": "https://www.datacenterdynamics.com/en/news/microsoft-to-invest-13-billion-in-mexico-to-enhance-ai-infrastructure/",
+     "date": "2024-09-25"
+    },
+    {
+     "title": "Google Cloud locations",
+     "publisher": "Google Cloud",
+     "url": "https://cloud.google.com/about/locations",
+     "date": null
+    }
+   ]
+  },
+  {
+   "id": "cluster-sao-paulo",
+   "name": "São Paulo data center cluster (Brazil)",
+   "aka": [],
+   "lat": -23.5505,
+   "lng": -46.6333,
+   "coordPrecision": "region",
+   "city": "São Paulo (incl. Barueri, Campinas, Hortolândia)",
+   "region": "São Paulo",
+   "country": "Brazil",
+   "countryCode": "BR",
+   "status": "operational",
+   "type": "cluster",
+   "powerMW": null,
+   "powerMWNow": null,
+   "powerNote": null,
+   "acres": null,
+   "sizeSqft": null,
+   "compute": null,
+   "investmentUSD": 4500000000,
+   "investmentNote": "Sum of two Brazil-wide hyperscaler pledges made in Sept 2024 (both centred on São Paulo): Microsoft R$14.7B (~US$2.7B) over three years for cloud and AI infrastructure and skilling (2024-09-26, its largest in Brazil), and AWS R$10.1B (~US$1.8B) through 2034 to expand its data centres (2024-09-11).",
+   "owners": [
+    {
+     "name": "Scala Data Centers (DigitalBridge)",
+     "entityId": "scala",
+     "stakePct": null
+    },
+    {
+     "name": "Ascenty (Digital Realty/Brookfield)",
+     "entityId": "ascenty",
+     "stakePct": null
+    },
+    {
+     "name": "Equinix",
+     "entityId": "equinix",
+     "stakePct": null
+    },
+    {
+     "name": "ODATA (Aligned)",
+     "entityId": "aligned",
+     "stakePct": null
+    },
+    {
+     "name": "Elea Data Centers",
+     "entityId": "elea",
+     "stakePct": null
+    },
+    {
+     "name": "Microsoft",
+     "entityId": "microsoft",
+     "stakePct": null
+    },
+    {
+     "name": "Amazon Web Services",
+     "entityId": "amazon",
+     "stakePct": null
+    },
+    {
+     "name": "Google",
+     "entityId": "google",
+     "stakePct": null
+    }
+   ],
+   "developer": null,
+   "operator": "Multiple",
+   "tenants": [],
+   "capitalStack": [
+    {
+     "from": "Microsoft",
+     "entityId": "microsoft",
+     "kind": "capex",
+     "amountUSD": 2700000000,
+     "date": "2024-09-26",
+     "note": "R$14.7B Brazil cloud/AI, 3 years",
+     "url": "https://news.microsoft.com/pt-br/microsoft-announces-14-7-billion-reais-investment-over-three-years-in-cloud-and-ai-infrastructure-and-provide-ai-training-at-scale-to-upskill-5-million-people-in-brazil/"
+    },
+    {
+     "from": "Amazon Web Services",
+     "entityId": "amazon",
+     "kind": "capex",
+     "amountUSD": 1800000000,
+     "date": "2024-09-11",
+     "note": "R$10.1B Brazil through 2034",
+     "url": "https://www.reuters.com/technology/amazons-aws-unit-invest-18-bln-brazil-through-2034-2024-09-11/"
+    }
+   ],
+   "energy": "Brazil SIN grid (~85-90% renewable, hydro + wind)",
+   "water": null,
+   "announced": null,
+   "expectedOnline": null,
+   "highlights": [
+    "Latin America's largest data center market"
+   ],
+   "controversy": null,
+   "sources": [
+    {
+     "title": "Microsoft announces 14.7 billion Reais investment over three years in cloud and AI infrastructure in Brazil",
+     "publisher": "Microsoft",
+     "url": "https://news.microsoft.com/pt-br/microsoft-announces-14-7-billion-reais-investment-over-three-years-in-cloud-and-ai-infrastructure-and-provide-ai-training-at-scale-to-upskill-5-million-people-in-brazil/",
+     "date": "2024-09-26"
+    },
+    {
+     "title": "Microsoft to make $2.7 billion cloud, AI investments in Brazil",
+     "publisher": "Reuters",
+     "url": "https://www.reuters.com/technology/microsoft-make-27-billion-cloud-ai-investments-brazil-2024-09-26/",
+     "date": "2024-09-26"
+    },
+    {
+     "title": "Amazon's AWS to invest $1.8 billion in Brazil through 2034",
+     "publisher": "Reuters",
+     "url": "https://www.reuters.com/technology/amazons-aws-unit-invest-18-bln-brazil-through-2034-2024-09-11/",
+     "date": "2024-09-11"
+    }
+   ]
+  },
+  {
+   "id": "scala-ai-city",
+   "name": "Scala AI City (Eldorado do Sul)",
+   "aka": [
+    "Scala AI City"
+   ],
+   "lat": -30.0847,
+   "lng": -51.6168,
+   "coordPrecision": "city",
+   "city": "Eldorado do Sul",
+   "region": "Rio Grande do Sul",
+   "country": "Brazil",
+   "countryCode": "BR",
+   "status": "planned",
+   "type": "ai-training",
+   "powerMW": 4750,
+   "powerMWNow": 0,
+   "powerNote": "Up to 4.75 GW at full build, first phase ~54 MW.",
+   "acres": null,
+   "sizeSqft": null,
+   "compute": null,
+   "investmentUSD": null,
+   "investmentNote": "[NOT RE-VERIFIED 2026-11-20: search budget exhausted; based on reporting up to mid-2026, check before publishing] Scala cited potential total investment of up to R$500B (~US$90B) at full build when announced Sept 2024; no confirmed financing or anchor tenant verified.",
+   "owners": [
+    {
+     "name": "Scala Data Centers (DigitalBridge-controlled)",
+     "entityId": "scala",
+     "stakePct": 100
+    }
+   ],
+   "developer": "Scala Data Centers",
+   "operator": "Scala Data Centers",
+   "tenants": [],
+   "capitalStack": [],
+   "energy": "Renewable grid power (hydro/wind/solar) in southern Brazil",
+   "water": null,
+   "announced": "2024-09",
+   "expectedOnline": null,
+   "highlights": [
+    "Pitched as one of the largest AI campuses in the world, near Porto Alegre"
+   ],
+   "controversy": "Site lies in a region hit by catastrophic 2024 Rio Grande do Sul floods; scale far exceeds current grid connections.",
+   "sources": [
+    {
+     "title": "Scala Data Centers (company site; article-level URL not verified)",
+     "publisher": "Scala Data Centers",
+     "url": "https://www.scaladatacenters.com/",
+     "date": null
+    }
+   ]
+  },
+  {
+   "id": "tiktok-ceara-pecem",
+   "name": "TikTok / ByteDance data center at Pecém (Ceará)",
+   "aka": [],
+   "lat": -3.55,
+   "lng": -38.82,
+   "coordPrecision": "city",
+   "city": "Caucaia / São Gonçalo do Amarante (Pecém)",
+   "region": "Ceará",
+   "country": "Brazil",
+   "countryCode": "BR",
+   "status": "announced",
+   "type": "hyperscale-cloud",
+   "powerMW": null,
+   "powerMWNow": null,
+   "powerNote": null,
+   "acres": null,
+   "sizeSqft": null,
+   "compute": null,
+   "investmentUSD": null,
+   "investmentNote": "[NOT RE-VERIFIED 2026-11-20: search budget exhausted; based on reporting up to mid-2026, check before publishing] Reported ByteDance/TikTok project at the Pecém port-industrial complex with wind developer Casa dos Ventos supplying power; investment amount and status not verified.",
+   "owners": [
+    {
+     "name": "ByteDance (TikTok)",
+     "entityId": "bytedance",
+     "stakePct": null
+    }
+   ],
+   "developer": "Casa dos Ventos (power) / partners",
+   "operator": null,
+   "tenants": [],
+   "capitalStack": [],
+   "energy": "Wind and solar from Ceará (Casa dos Ventos)",
+   "water": null,
+   "announced": null,
+   "expectedOnline": null,
+   "highlights": [
+    "Would be ByteDance's first data center in Latin America, next to subsea cables landing in Fortaleza"
+   ],
+   "controversy": "Water use in semi-arid Ceará and Indigenous land concerns raised by local groups (reported).",
+   "sources": [
+    {
+     "title": "TikTok Newsroom (article-level URL not verified)",
+     "publisher": "TikTok",
+     "url": "https://newsroom.tiktok.com/",
+     "date": null
+    }
+   ]
+  },
+  {
+   "id": "cluster-santiago",
+   "name": "Santiago de Chile cloud cluster",
+   "aka": [],
+   "lat": -33.4489,
+   "lng": -70.6693,
+   "coordPrecision": "region",
+   "city": "Santiago (Quilicura, Cerrillos, Colina)",
+   "region": "Santiago Metropolitan",
+   "country": "Chile",
+   "countryCode": "CL",
+   "status": "operational",
+   "type": "cluster",
+   "powerMW": null,
+   "powerMWNow": null,
+   "powerNote": null,
+   "acres": null,
+   "sizeSqft": null,
+   "compute": null,
+   "investmentUSD": null,
+   "investmentNote": "[NOT RE-VERIFIED 2026-11-20: search budget exhausted; based on reporting up to mid-2026, check before publishing] No aggregate figure. Google's Quilicura data center (2015) was its first in Latin America; its planned Cerrillos facility (~$200M) had its environmental permit partially overturned in 2024 over water use and was redesigned around air cooling. Microsoft and AWS have announced/opened Chilean cloud regions.",
+   "owners": [
+    {
+     "name": "Google",
+     "entityId": "google",
+     "stakePct": null
+    },
+    {
+     "name": "Microsoft",
+     "entityId": "microsoft",
+     "stakePct": null
+    },
+    {
+     "name": "Amazon Web Services",
+     "entityId": "amazon",
+     "stakePct": null
+    },
+    {
+     "name": "Ascenty",
+     "entityId": "ascenty",
+     "stakePct": null
+    },
+    {
+     "name": "EdgeConneX",
+     "entityId": "edgeconnex",
+     "stakePct": null
+    },
+    {
+     "name": "Equinix",
+     "entityId": "equinix",
+     "stakePct": null
+    }
+   ],
+   "developer": null,
+   "operator": "Multiple",
+   "tenants": [],
+   "capitalStack": [],
+   "energy": "Chile SEN grid (rising solar share)",
+   "water": "Megadrought; Google's Cerrillos plan to use ~169 L/s of groundwater triggered legal challenges",
+   "announced": null,
+   "expectedOnline": null,
+   "highlights": [
+    "Chile is positioning itself as South America's data-center hub on the back of cheap solar"
+   ],
+   "controversy": "Google Cerrillos water fight (activist group MOSACAT); environmental court ruling in 2024 forced a redesign.",
+   "sources": [
+    {
+     "title": "Google Cloud locations",
+     "publisher": "Google Cloud",
+     "url": "https://cloud.google.com/about/locations",
+     "date": null
+    }
+   ]
+  },
+  {
+   "id": "stargate-argentina",
+   "name": "Stargate Argentina (OpenAI + Sur Energy, Patagonia)",
+   "aka": [
+    "Stargate Argentina"
+   ],
+   "lat": -38.95,
+   "lng": -68.06,
+   "coordPrecision": "region",
+   "city": null,
+   "region": "Confluencia department, Neuquén (Patagonia)",
+   "country": "Argentina",
+   "countryCode": "AR",
+   "status": "announced",
+   "type": "ai-training",
+   "powerMW": 500,
+   "powerMWNow": null,
+   "powerNote": "Up to 500 MW per the Oct 2025 letter of intent; first stage 100 MW planned near the Limay river in Confluencia, Neuquén (near El Chocón / Piedra del Águila hydro plants and Vaca Muerta). As of Oct 2026 no construction had started.",
+   "acres": null,
+   "sizeSqft": null,
+   "compute": null,
+   "investmentUSD": 25000000000,
+   "investmentNote": "Up to US$25B per the Argentine government's 2025-10-10 announcement of a letter of intent between OpenAI and Sur Energy. OpenAI says it is only a potential buyer of compute; Sur Energy (co-founder Emiliano Kargieman) must assemble the investor consortium. One year on (Oct 2026) there was no firm contract, no investment and no RIGI filing; Kargieman said he hoped for a deal before end-2026, blamed OpenAI's global infrastructure review (which also paused Stargate UK), and added Fluidstack as technology partner.",
+   "owners": [
+    {
+     "name": "Sur Energy",
+     "entityId": "sur-energy",
+     "stakePct": null
+    }
+   ],
+   "developer": "Sur Energy",
+   "operator": null,
+   "tenants": [
+    {
+     "name": "OpenAI",
+     "entityId": "openai",
+     "role": "potential compute buyer (LOI only, no firm contract as of Oct 2026)"
+    }
+   ],
+   "capitalStack": [
+    {
+     "from": "Sur Energy and partners (TBD)",
+     "entityId": "sur-energy",
+     "kind": "spv",
+     "amountUSD": 25000000000,
+     "date": "2025-10-10",
+     "note": "LOI headline; no financing or firm contract as of Oct 2026",
+     "url": "https://chequeado.com/el-explicador/stargate-argentina-a-un-ano-del-anuncio-no-hay-avances-en-la-construccion-del-data-center-de-us-25-000-millones-para-openai/"
+    }
+   ],
+   "energy": "Planned renewable (Patagonian wind) supply",
+   "water": null,
+   "announced": "2025-10-10",
+   "expectedOnline": null,
+   "highlights": [
+    "Announced at the Casa Rosada with President Milei's government as OpenAI's first Stargate in Latin America; the 500 MW would be ~15x Argentina's entire installed data center capacity (~32 MW per CABASE)."
+   ],
+   "controversy": "A year after the announcement, fact-checker Chequeado found no works, no investment and no RIGI application; Sur Energy admitted it had not moved beyond the letter of intent.",
+   "sources": [
+    {
+     "title": "A un año del anuncio de OpenAI y el Gobierno, no hay avances en la construcción del data center de US$ 25.000 millones",
+     "publisher": "Chequeado",
+     "url": "https://chequeado.com/el-explicador/stargate-argentina-a-un-ano-del-anuncio-no-hay-avances-en-la-construccion-del-data-center-de-us-25-000-millones-para-openai/",
+     "date": "2026-10-10"
+    },
+    {
+     "title": "A un año del anuncio de Stargate Argentina, el centro de datos de US$ 25.000 millones sigue sin contrato firme",
+     "publisher": "Tecnoenergía (citing Letra E)",
+     "url": "https://tecnoenergia.com.ar/a-un-ano-del-anuncio-de-stargate-argentina-el-centro-de-datos-de-us-25-000-millones-sigue-sin-contrato-firme/",
+     "date": "2026-10-21"
+    },
+    {
+     "title": "OpenAI targets Argentina's Patagonia for $25 billion 500MW Stargate AI data center",
+     "publisher": "TechRadar",
+     "url": "https://www.techradar.com/pro/openai-targets-argentinas-freezing-patagonia-for-usd25-billion-500mw-stargate-ai-data-center-green-capital-and-flexdomes-prep-120-to-3-000mw-wind-powered-server-farms-to-skirt-us-backlash",
+     "date": "2025-10"
+    }
+   ]
+  },
+  {
+   "id": "google-uruguay-canelones",
+   "name": "Google Uruguay data center (Parque de las Ciencias)",
+   "aka": [],
+   "lat": -34.8,
+   "lng": -55.95,
+   "coordPrecision": "city",
+   "city": "Canelones (Parque de las Ciencias)",
+   "region": "Canelones",
+   "country": "Uruguay",
+   "countryCode": "UY",
+   "status": "under construction",
+   "type": "hyperscale-cloud",
+   "powerMW": null,
+   "powerMWNow": null,
+   "powerNote": null,
+   "acres": null,
+   "sizeSqft": null,
+   "compute": null,
+   "investmentUSD": 850000000,
+   "investmentNote": "[NOT RE-VERIFIED 2026-11-20: search budget exhausted; based on reporting up to mid-2026, check before publishing] ~$850M announced 2021; redesigned to air cooling after the 2023 drought backlash.",
+   "owners": [
+    {
+     "name": "Google",
+     "entityId": "google",
+     "stakePct": 100
+    }
+   ],
+   "developer": "Google",
+   "operator": "Google",
+   "tenants": [],
+   "capitalStack": [],
+   "energy": "UTE grid (~95%+ renewable: hydro, wind, biomass, solar)",
+   "water": "Original water-cooled design was dropped for air cooling after Montevideo's 2023 water crisis",
+   "announced": "2021",
+   "expectedOnline": null,
+   "highlights": [
+    "Uruguay's grid is among the cleanest in the world, a draw for Google"
+   ],
+   "controversy": "During the 2023 drought, when Montevideo's tap water turned brackish, protests targeted the plan's water use, forcing a redesign.",
+   "sources": [
+    {
+     "title": "Google Cloud locations",
+     "publisher": "Google Cloud",
+     "url": "https://cloud.google.com/about/locations",
+     "date": null
+    }
+   ]
+  }
+ ]
+}

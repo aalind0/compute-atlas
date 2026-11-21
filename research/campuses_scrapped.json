@@ -1,0 +1,1799 @@
+{
+ "generated": "2026-11-20",
+ "notes": "Scrapped, paused, blocked and scaled-back data center projects 2023-2026. 'campuses' = mappable sites (schema shape + reason, lostInvestmentUSD = planned investment that will not happen, atRiskUSD = planned investment stalled but not dead, scrapType, scrapDate, outcome, confidence, scrapped=true). Moratorium/policy records use type=hyperscale-cloud (what they block) to avoid being merged into market clusters. 'events' = lease walkaways, financing exits, delays and company-level pullbacks with no single blocked site (lat/lng null) or where the site continues. 'aggregates' = tallies. VERIFICATION: this run had no web access (shared search budget exhausted, page fetches denied), so records marked [NOT RE-VERIFIED] come from researcher knowledge to mid-2026; source URLs are null where the exact article link could not be confirmed (title/publisher/date given). Records copied from sibling files (stargate-uk-cobalt-park, nscale-loughton, Abilene/Saline/Lordstown events) were web-verified by those agents. No xAI site was found cancelled or blocked (Memphis turbine permits were granted in 2025). Coordinates are city/region level as stated.",
+ "campuses": [
+  {
+   "id": "microsoft-licking-county",
+   "name": "Microsoft Licking County campuses (Heath, Hebron, New Albany)",
+   "aka": [],
+   "lat": 40.03,
+   "lng": -82.45,
+   "coordPrecision": "city",
+   "city": "Heath (Licking County)",
+   "region": "Ohio",
+   "country": "United States",
+   "countryCode": "US",
+   "status": "paused",
+   "type": "hyperscale-cloud",
+   "powerMW": null,
+   "powerMWNow": 0,
+   "powerNote": "[NOT RE-VERIFIED 2026-11-20: compiled from researcher knowledge (to mid-2026); web-search budget exhausted and page fetches blocked in this run] Three planned Microsoft campuses on land bought in Licking County; MW never published. Coordinates = Heath, OH.",
+   "acres": null,
+   "sizeSqft": null,
+   "compute": null,
+   "investmentUSD": 1000000000,
+   "investmentNote": "[NOT RE-VERIFIED 2026-11-20: compiled from researcher knowledge (to mid-2026); web-search budget exhausted and page fetches blocked in this run] ~$1B was the figure reported for Microsoft's three Licking County sites when land purchases became public (2023-24).",
+   "owners": [
+    {
+     "name": "Microsoft",
+     "entityId": "microsoft",
+     "stakePct": 100
+    }
+   ],
+   "developer": "Microsoft",
+   "operator": "Microsoft",
+   "tenants": [],
+   "capitalStack": [],
+   "energy": null,
+   "water": null,
+   "announced": "2023",
+   "expectedOnline": null,
+   "highlights": [
+    "Microsoft said the land would stay in farm use for now after it paused the early-stage builds."
+   ],
+   "controversy": null,
+   "sources": [
+    {
+     "title": "Microsoft pauses $1 billion data center plans in Licking County",
+     "publisher": "Columbus Dispatch",
+     "url": null,
+     "date": "2025-04",
+     "urlChecked": false
+    },
+    {
+     "title": "Microsoft slowing or pausing some early-stage data center projects (Noelle Walsh statement)",
+     "publisher": "Microsoft / LinkedIn",
+     "url": null,
+     "date": "2025-04",
+     "urlChecked": false
+    },
+    {
+     "title": "Microsoft News (article-level URL not verified)",
+     "publisher": "Microsoft",
+     "url": "https://news.microsoft.com/",
+     "date": null,
+     "urlChecked": false
+    }
+   ],
+   "reason": "In April 2025 Microsoft said it was slowing or pausing some early-stage projects, including its three planned Licking County campuses, to 'strategically pace' its buildout after a record capex surge.",
+   "lostInvestmentUSD": null,
+   "atRiskUSD": 1000000000,
+   "scrapType": "paused (early stage)",
+   "scrapDate": "2025-04",
+   "outcome": "Land retained; no restart announced as of mid-2026 (not re-checked).",
+   "confidence": "high",
+   "scrapped": true
+  },
+  {
+   "id": "microsoft-caledonia",
+   "name": "Caledonia data center site (Microsoft, Racine County)",
+   "aka": [],
+   "lat": 42.807,
+   "lng": -87.924,
+   "coordPrecision": "city",
+   "city": "Caledonia",
+   "region": "Wisconsin",
+   "country": "United States",
+   "countryCode": "US",
+   "status": "cancelled",
+   "type": "hyperscale-cloud",
+   "powerMW": null,
+   "powerMWNow": 0,
+   "powerNote": "[NOT RE-VERIFIED 2026-11-20: compiled from researcher knowledge (to mid-2026); web-search budget exhausted and page fetches blocked in this run] Proposed site on roughly 240 acres north of Microsoft's Mount Pleasant campus; MW not published.",
+   "acres": null,
+   "sizeSqft": null,
+   "compute": null,
+   "investmentUSD": null,
+   "investmentNote": "[NOT RE-VERIFIED 2026-11-20: compiled from researcher knowledge (to mid-2026); web-search budget exhausted and page fetches blocked in this run] No investment figure published.",
+   "owners": [
+    {
+     "name": "Microsoft",
+     "entityId": "microsoft",
+     "stakePct": null
+    }
+   ],
+   "developer": "Microsoft",
+   "operator": null,
+   "tenants": [],
+   "capitalStack": [],
+   "energy": null,
+   "water": null,
+   "announced": "2025",
+   "expectedOnline": null,
+   "highlights": [
+    "Microsoft said it would look for other sites in southeast Wisconsin instead."
+   ],
+   "controversy": "Residents objected to the site's size, power and water use, and its location near Lake Michigan.",
+   "sources": [
+    {
+     "title": "Microsoft drops plans for Caledonia data center",
+     "publisher": "Milwaukee Journal Sentinel / local press",
+     "url": null,
+     "date": "2025-10",
+     "urlChecked": false
+    },
+    {
+     "title": "Microsoft News (article-level URL not verified)",
+     "publisher": "Microsoft",
+     "url": "https://news.microsoft.com/",
+     "date": null,
+     "urlChecked": false
+    }
+   ],
+   "reason": "Microsoft said in October 2025 it would not move forward with the proposed Caledonia campus after community feedback, and would look at other locations in the area.",
+   "lostInvestmentUSD": null,
+   "atRiskUSD": null,
+   "scrapType": "withdrawn",
+   "scrapDate": "2025-10",
+   "outcome": null,
+   "confidence": "medium",
+   "scrapped": true
+  },
+  {
+   "id": "microsoft-gaines-township",
+   "name": "Gaines Township data center site (Microsoft, Kent County)",
+   "aka": [],
+   "lat": 42.86,
+   "lng": -85.62,
+   "coordPrecision": "city",
+   "city": "Gaines Township (near Grand Rapids)",
+   "region": "Michigan",
+   "country": "United States",
+   "countryCode": "US",
+   "status": "paused",
+   "type": "hyperscale-cloud",
+   "powerMW": null,
+   "powerMWNow": 0,
+   "powerNote": "[NOT RE-VERIFIED 2026-11-20: compiled from researcher knowledge (to mid-2026); web-search budget exhausted and page fetches blocked in this run] Land acquired by Microsoft for a possible data center; MW not published.",
+   "acres": null,
+   "sizeSqft": null,
+   "compute": null,
+   "investmentUSD": null,
+   "investmentNote": "[NOT RE-VERIFIED 2026-11-20: compiled from researcher knowledge (to mid-2026); web-search budget exhausted and page fetches blocked in this run] No investment figure published.",
+   "owners": [
+    {
+     "name": "Microsoft",
+     "entityId": "microsoft",
+     "stakePct": null
+    }
+   ],
+   "developer": "Microsoft",
+   "operator": null,
+   "tenants": [],
+   "capitalStack": [],
+   "energy": null,
+   "water": null,
+   "announced": "2025",
+   "expectedOnline": null,
+   "highlights": [],
+   "controversy": "Organized resident opposition over farmland, power and water.",
+   "sources": [
+    {
+     "title": "Microsoft pauses Gaines Township data center plans",
+     "publisher": "MLive",
+     "url": null,
+     "date": "2025-10",
+     "urlChecked": false
+    },
+    {
+     "title": "Microsoft News (article-level URL not verified)",
+     "publisher": "Microsoft",
+     "url": "https://news.microsoft.com/",
+     "date": null,
+     "urlChecked": false
+    }
+   ],
+   "reason": "After resident pushback, Microsoft said in late 2025 it was pausing its plans for the Gaines Township site; the land purchase stands.",
+   "lostInvestmentUSD": null,
+   "atRiskUSD": null,
+   "scrapType": "paused",
+   "scrapDate": "2025-10",
+   "outcome": null,
+   "confidence": "medium",
+   "scrapped": true
+  },
+  {
+   "id": "pw-digital-gateway",
+   "name": "PW Digital Gateway (Prince William County)",
+   "aka": [
+    "Prince William Digital Gateway"
+   ],
+   "lat": 38.84,
+   "lng": -77.59,
+   "coordPrecision": "city",
+   "city": "Gainesville / Manassas (Pageland Lane)",
+   "region": "Virginia",
+   "country": "United States",
+   "countryCode": "US",
+   "status": "blocked",
+   "type": "colocation",
+   "powerMW": null,
+   "powerMWNow": 0,
+   "powerNote": "[NOT RE-VERIFIED 2026-11-20: compiled from researcher knowledge (to mid-2026); web-search budget exhausted and page fetches blocked in this run] Up to 37 data center buildings planned (reported ~23M sq ft); total MW not officially published.",
+   "acres": 2139,
+   "sizeSqft": null,
+   "compute": null,
+   "investmentUSD": 24700000000,
+   "investmentNote": "[NOT RE-VERIFIED 2026-11-20: compiled from researcher knowledge (to mid-2026); web-search budget exhausted and page fetches blocked in this run] ~$24.7B is the investment figure widely reported for the full Digital Gateway build-out (developer/county projection).",
+   "owners": [
+    {
+     "name": "QTS (Blackstone)",
+     "entityId": "qts",
+     "stakePct": null
+    },
+    {
+     "name": "Compass Datacenters",
+     "entityId": "compass",
+     "stakePct": null
+    }
+   ],
+   "developer": "QTS and Compass Datacenters",
+   "operator": null,
+   "tenants": [],
+   "capitalStack": [],
+   "energy": null,
+   "water": null,
+   "announced": "2022",
+   "expectedOnline": null,
+   "highlights": [
+    "Rezoning approved after a record ~27-hour public hearing in Dec 2023.",
+    "Would have been one of the largest data center complexes in the world, next to Manassas National Battlefield Park."
+   ],
+   "controversy": "Battlefield preservation groups, the Occoquan watershed and residents fought the project; a judge voided the rezoning over improper public notice.",
+   "sources": [
+    {
+     "title": "Judge voids rezoning for PW Digital Gateway",
+     "publisher": "InsideNoVa / Washington Post",
+     "url": null,
+     "date": "2025-07",
+     "urlChecked": false
+    },
+    {
+     "title": "Prince William County government (article-level URL not verified)",
+     "publisher": "Prince William County",
+     "url": "https://www.pwcva.gov/",
+     "date": null,
+     "urlChecked": false
+    }
+   ],
+   "reason": "Prince William County approved the ~2,100-acre rezoning in Dec 2023, but in July 2025 a circuit court judge declared it void because the county failed to properly advertise the public hearing; the county and developers appealed.",
+   "lostInvestmentUSD": null,
+   "atRiskUSD": 24700000000,
+   "scrapType": "rezoning voided by court",
+   "scrapDate": "2025-07",
+   "outcome": "Appeal pending as of last check (outcome after mid-2026 not verified).",
+   "confidence": "high",
+   "scrapped": true
+  },
+  {
+   "id": "tucson-project-blue",
+   "name": "Project Blue (Tucson)",
+   "aka": [],
+   "lat": 32.22,
+   "lng": -110.97,
+   "coordPrecision": "city",
+   "city": "Tucson",
+   "region": "Arizona",
+   "country": "United States",
+   "countryCode": "US",
+   "status": "blocked",
+   "type": "hyperscale-cloud",
+   "powerMW": null,
+   "powerMWNow": 0,
+   "powerNote": "[NOT RE-VERIFIED 2026-11-20: compiled from researcher knowledge (to mid-2026); web-search budget exhausted and page fetches blocked in this run] Campus of roughly 290 acres on Pima County land, power from Tucson Electric Power; MW not confirmed. Coordinates = Tucson (city-level).",
+   "acres": null,
+   "sizeSqft": null,
+   "compute": null,
+   "investmentUSD": null,
+   "investmentNote": "[NOT RE-VERIFIED 2026-11-20: compiled from researcher knowledge (to mid-2026); web-search budget exhausted and page fetches blocked in this run] Reported as a multi-billion-dollar project (figures around $3.6B circulated); not verified, so left null.",
+   "owners": [],
+   "developer": "Beale Infrastructure",
+   "operator": null,
+   "tenants": [
+    {
+     "name": "Amazon Web Services (reported)",
+     "entityId": "amazon",
+     "role": "reported end user"
+    }
+   ],
+   "capitalStack": [],
+   "energy": null,
+   "water": "Original plan relied on Tucson Water supply; the revised plan is air-cooled.",
+   "announced": "2025",
+   "expectedOnline": null,
+   "highlights": [
+    "The council vote followed packed public meetings about water use in the desert and secrecy over the end user."
+   ],
+   "controversy": "Water use in a drought-stressed region and the secrecy of the deal drove the backlash.",
+   "sources": [
+    {
+     "title": "Tucson City Council votes to end Project Blue negotiations",
+     "publisher": "Arizona Daily Star",
+     "url": null,
+     "date": "2025-08-06",
+     "urlChecked": false
+    },
+    {
+     "title": "City of Tucson (article-level URL not verified)",
+     "publisher": "City of Tucson",
+     "url": "https://www.tucsonaz.gov/",
+     "date": null,
+     "urlChecked": false
+    }
+   ],
+   "reason": "Tucson's city council voted unanimously in August 2025 to stop negotiating annexation and water service for Project Blue after a public backlash; the developer said it would pursue a redesigned, air-cooled plan outside city limits.",
+   "lostInvestmentUSD": null,
+   "atRiskUSD": null,
+   "scrapType": "city ended talks",
+   "scrapDate": "2025-08-06",
+   "outcome": "Developer pursuing a revised plan on county land; status of the revised plan not verified.",
+   "confidence": "high",
+   "scrapped": true
+  },
+  {
+   "id": "google-franklin-township",
+   "name": "Google Franklin Township data center (Indianapolis)",
+   "aka": [],
+   "lat": 39.7,
+   "lng": -86.03,
+   "coordPrecision": "city",
+   "city": "Indianapolis (Franklin Township)",
+   "region": "Indiana",
+   "country": "United States",
+   "countryCode": "US",
+   "status": "cancelled",
+   "type": "hyperscale-cloud",
+   "powerMW": null,
+   "powerMWNow": 0,
+   "powerNote": "[NOT RE-VERIFIED 2026-11-20: compiled from researcher knowledge (to mid-2026); web-search budget exhausted and page fetches blocked in this run] MW not published.",
+   "acres": 468,
+   "sizeSqft": null,
+   "compute": null,
+   "investmentUSD": 1000000000,
+   "investmentNote": "[NOT RE-VERIFIED 2026-11-20: compiled from researcher knowledge (to mid-2026); web-search budget exhausted and page fetches blocked in this run] ~$1B was the figure reported for the proposed campus.",
+   "owners": [
+    {
+     "name": "Google",
+     "entityId": "google",
+     "stakePct": null
+    }
+   ],
+   "developer": "Google",
+   "operator": null,
+   "tenants": [],
+   "capitalStack": [],
+   "energy": null,
+   "water": null,
+   "announced": "2025",
+   "expectedOnline": null,
+   "highlights": [],
+   "controversy": "Residents objected to water use, power demand, noise and loss of farmland.",
+   "sources": [
+    {
+     "title": "Google withdraws Franklin Township data center proposal",
+     "publisher": "IndyStar",
+     "url": null,
+     "date": "2025-09-22",
+     "urlChecked": false
+    },
+    {
+     "title": "Indianapolis City-County Council (article-level URL not verified)",
+     "publisher": "City of Indianapolis",
+     "url": "https://www.indy.gov/",
+     "date": null,
+     "urlChecked": false
+    }
+   ],
+   "reason": "Google withdrew its request to rezone about 468 acres in Franklin Township minutes before the Indianapolis City-County Council was due to vote in September 2025, amid strong resident opposition.",
+   "lostInvestmentUSD": 1000000000,
+   "atRiskUSD": null,
+   "scrapType": "withdrawn",
+   "scrapDate": "2025-09-22",
+   "outcome": null,
+   "confidence": "high",
+   "scrapped": true
+  },
+  {
+   "id": "google-cerrillos-chile",
+   "name": "Google Cerrillos data center (Santiago)",
+   "aka": [],
+   "lat": -33.5,
+   "lng": -70.71,
+   "coordPrecision": "city",
+   "city": "Cerrillos, Santiago",
+   "region": "Santiago Metropolitan Region",
+   "country": "Chile",
+   "countryCode": "CL",
+   "status": "blocked",
+   "type": "hyperscale-cloud",
+   "powerMW": null,
+   "powerMWNow": 0,
+   "powerNote": "[NOT RE-VERIFIED 2026-11-20: compiled from researcher knowledge (to mid-2026); web-search budget exhausted and page fetches blocked in this run] MW not published.",
+   "acres": null,
+   "sizeSqft": null,
+   "compute": null,
+   "investmentUSD": 200000000,
+   "investmentNote": "[NOT RE-VERIFIED 2026-11-20: compiled from researcher knowledge (to mid-2026); web-search budget exhausted and page fetches blocked in this run] US$200M announced by Google for the Cerrillos facility.",
+   "owners": [
+    {
+     "name": "Google",
+     "entityId": "google",
+     "stakePct": null
+    }
+   ],
+   "developer": "Google",
+   "operator": null,
+   "tenants": [],
+   "capitalStack": [],
+   "energy": null,
+   "water": "Original design was water-cooled in drought-hit Santiago; Google switched to air cooling.",
+   "announced": "2020",
+   "expectedOnline": null,
+   "highlights": [],
+   "controversy": "Water use during Chile's megadrought; residents' group MOSACAT challenged the permit.",
+   "sources": [
+    {
+     "title": "Chile court orders Google to review data center plan over water",
+     "publisher": "Reuters / The Guardian",
+     "url": null,
+     "date": "2024-02",
+     "urlChecked": false
+    },
+    {
+     "title": "Segundo Tribunal Ambiental",
+     "publisher": "Tribunal Ambiental de Santiago",
+     "url": "https://tribunalambiental.cl/",
+     "date": "2024-02",
+     "urlChecked": false
+    }
+   ],
+   "reason": "In early 2024 Chile's Second Environmental Court partly reversed the project's environmental approval and ordered climate-change impacts to be assessed; Google said it would redesign the facility with air cooling and restart permitting.",
+   "lostInvestmentUSD": null,
+   "atRiskUSD": 200000000,
+   "scrapType": "permit partially revoked; redesign",
+   "scrapDate": "2024-02",
+   "outcome": "Redesign (air-cooled) announced Sept 2024; construction status not verified.",
+   "confidence": "high",
+   "scrapped": true
+  },
+  {
+   "id": "google-grange-castle-refusal",
+   "name": "Google Grange Castle expansion (refused)",
+   "aka": [],
+   "lat": 53.32,
+   "lng": -6.43,
+   "coordPrecision": "city",
+   "city": "Clondalkin (Grange Castle Business Park)",
+   "region": "South Dublin",
+   "country": "Ireland",
+   "countryCode": "IE",
+   "status": "blocked",
+   "type": "hyperscale-cloud",
+   "powerMW": null,
+   "powerMWNow": 0,
+   "powerNote": "[NOT RE-VERIFIED 2026-11-20: compiled from researcher knowledge (to mid-2026); web-search budget exhausted and page fetches blocked in this run] New ~72,400 m2 (about 779,000 sq ft) data center proposed beside Google's existing Grange Castle campus; MW not published.",
+   "acres": null,
+   "sizeSqft": null,
+   "compute": null,
+   "investmentUSD": null,
+   "investmentNote": "[NOT RE-VERIFIED 2026-11-20: compiled from researcher knowledge (to mid-2026); web-search budget exhausted and page fetches blocked in this run] No investment figure published.",
+   "owners": [
+    {
+     "name": "Google",
+     "entityId": "google",
+     "stakePct": null
+    }
+   ],
+   "developer": "Google",
+   "operator": null,
+   "tenants": [],
+   "capitalStack": [],
+   "energy": null,
+   "water": null,
+   "announced": "2023",
+   "expectedOnline": null,
+   "highlights": [],
+   "controversy": "Part of Ireland's wider fight over data centers' share of national electricity.",
+   "sources": [
+    {
+     "title": "Google's plan for new Dublin data centre refused over grid capacity",
+     "publisher": "The Irish Times",
+     "url": null,
+     "date": "2024-08",
+     "urlChecked": false
+    },
+    {
+     "title": "South Dublin County Council planning (article-level URL not verified)",
+     "publisher": "South Dublin County Council",
+     "url": "https://www.sdcc.ie/",
+     "date": null,
+     "urlChecked": false
+    }
+   ],
+   "reason": "South Dublin County Council refused planning permission in August 2024, citing insufficient capacity in the electricity network and the lack of significant on-site renewable energy.",
+   "lostInvestmentUSD": null,
+   "atRiskUSD": null,
+   "scrapType": "planning refused (grid)",
+   "scrapDate": "2024-08",
+   "outcome": "Appeal outcome not verified.",
+   "confidence": "high",
+   "scrapped": true
+  },
+  {
+   "id": "equinix-profile-park-refusal",
+   "name": "Equinix Profile Park data center (refused)",
+   "aka": [],
+   "lat": 53.31,
+   "lng": -6.41,
+   "coordPrecision": "city",
+   "city": "Clondalkin (Profile Park)",
+   "region": "South Dublin",
+   "country": "Ireland",
+   "countryCode": "IE",
+   "status": "blocked",
+   "type": "colocation",
+   "powerMW": null,
+   "powerMWNow": 0,
+   "powerNote": "[NOT RE-VERIFIED 2026-11-20: compiled from researcher knowledge (to mid-2026); web-search budget exhausted and page fetches blocked in this run] MW not published.",
+   "acres": null,
+   "sizeSqft": null,
+   "compute": null,
+   "investmentUSD": null,
+   "investmentNote": "[NOT RE-VERIFIED 2026-11-20: compiled from researcher knowledge (to mid-2026); web-search budget exhausted and page fetches blocked in this run] No investment figure published.",
+   "owners": [
+    {
+     "name": "Equinix",
+     "entityId": "equinix",
+     "stakePct": null
+    }
+   ],
+   "developer": "Equinix",
+   "operator": null,
+   "tenants": [],
+   "capitalStack": [],
+   "energy": null,
+   "water": null,
+   "announced": "2022",
+   "expectedOnline": null,
+   "highlights": [],
+   "controversy": null,
+   "sources": [
+    {
+     "title": "Equinix data centre refused permission in South Dublin",
+     "publisher": "Irish Independent / DCD",
+     "url": null,
+     "date": "2023",
+     "urlChecked": false
+    },
+    {
+     "title": "South Dublin County Council planning (article-level URL not verified)",
+     "publisher": "South Dublin County Council",
+     "url": "https://www.sdcc.ie/",
+     "date": null,
+     "urlChecked": false
+    }
+   ],
+   "reason": "South Dublin County Council refused Equinix's application in 2023, citing a lack of grid capacity in the Dublin region and the absence of a firm renewable supply.",
+   "lostInvestmentUSD": null,
+   "atRiskUSD": null,
+   "scrapType": "planning refused (grid)",
+   "scrapDate": "2023",
+   "outcome": null,
+   "confidence": "medium",
+   "scrapped": true
+  },
+  {
+   "id": "dublin-grid-moratorium",
+   "name": "Dublin region grid moratorium (EirGrid)",
+   "aka": [
+    "Ireland data center connection freeze"
+   ],
+   "lat": 53.35,
+   "lng": -6.26,
+   "coordPrecision": "region",
+   "city": "Dublin",
+   "region": "Greater Dublin",
+   "country": "Ireland",
+   "countryCode": "IE",
+   "status": "blocked",
+   "type": "hyperscale-cloud",
+   "powerMW": null,
+   "powerMWNow": 0,
+   "powerNote": "[NOT RE-VERIFIED 2026-11-20: compiled from researcher knowledge (to mid-2026); web-search budget exhausted and page fetches blocked in this run] Policy record, not one campus: EirGrid has offered almost no new data center connections in the Dublin region since 2022, expected to last to about 2028. type=hyperscale-cloud describes what is blocked.",
+   "acres": null,
+   "sizeSqft": null,
+   "compute": null,
+   "investmentUSD": null,
+   "investmentNote": "[NOT RE-VERIFIED 2026-11-20: compiled from researcher knowledge (to mid-2026); web-search budget exhausted and page fetches blocked in this run] No aggregate figure for blocked investment.",
+   "owners": [],
+   "developer": null,
+   "operator": null,
+   "tenants": [],
+   "capitalStack": [],
+   "energy": null,
+   "water": null,
+   "announced": null,
+   "expectedOnline": null,
+   "highlights": [
+    "Data centers used 21% of Ireland's metered electricity in 2023, more than all urban homes (CSO)."
+   ],
+   "controversy": "Ireland's climate targets and grid security versus its role as Europe's hyperscale hub.",
+   "sources": [
+    {
+     "title": "Data Centres Metered Electricity Consumption 2023",
+     "publisher": "Central Statistics Office (Ireland)",
+     "url": "https://www.cso.ie/en/releasesandpublications/ep/p-dcmec/datacentresmeteredelectricityconsumption2023/",
+     "date": "2024-07",
+     "urlChecked": false
+    }
+   ],
+   "reason": "EirGrid's de facto moratorium on new Dublin-area data center grid connections (from 2022, to about 2028) blocked or deferred new builds; in 2025 the regulator (CRU) set a new policy requiring new large users to bring matching on-site or nearby generation or storage.",
+   "lostInvestmentUSD": null,
+   "atRiskUSD": null,
+   "scrapType": "grid moratorium",
+   "scrapDate": "2022-2028",
+   "outcome": null,
+   "confidence": "high",
+   "scrapped": true
+  },
+  {
+   "id": "amsterdam-data-center-restrictions",
+   "name": "Amsterdam metro data center restrictions",
+   "aka": [],
+   "lat": 52.37,
+   "lng": 4.9,
+   "coordPrecision": "region",
+   "city": "Amsterdam / Haarlemmermeer",
+   "region": "North Holland",
+   "country": "Netherlands",
+   "countryCode": "NL",
+   "status": "blocked",
+   "type": "hyperscale-cloud",
+   "powerMW": null,
+   "powerMWNow": 0,
+   "powerNote": "[NOT RE-VERIFIED 2026-11-20: compiled from researcher knowledge (to mid-2026); web-search budget exhausted and page fetches blocked in this run] Policy record: new data centers allowed only in designated zones with power caps; national rules bar new hyperscale campuses (>70 MW, >10 ha) outside two northern sites.",
+   "acres": null,
+   "sizeSqft": null,
+   "compute": null,
+   "investmentUSD": null,
+   "investmentNote": "[NOT RE-VERIFIED 2026-11-20: compiled from researcher knowledge (to mid-2026); web-search budget exhausted and page fetches blocked in this run] No aggregate figure.",
+   "owners": [],
+   "developer": null,
+   "operator": null,
+   "tenants": [],
+   "capitalStack": [],
+   "energy": null,
+   "water": null,
+   "announced": null,
+   "expectedOnline": null,
+   "highlights": [
+    "Meta's Zeewolde hyperscale plan was abandoned in 2022 after the political backlash that produced the national rules."
+   ],
+   "controversy": null,
+   "sources": [
+    {
+     "title": "Netherlands restricts hyperscale data centres",
+     "publisher": "DatacenterDynamics",
+     "url": null,
+     "date": "2022-02",
+     "urlChecked": false
+    },
+    {
+     "title": "City of Amsterdam (article-level URL not verified)",
+     "publisher": "Gemeente Amsterdam",
+     "url": "https://www.amsterdam.nl/",
+     "date": null,
+     "urlChecked": false
+    }
+   ],
+   "reason": "Amsterdam and Haarlemmermeer froze new data centers in 2019 and now allow them only in designated zones with grid caps; from 2022 the Dutch government barred new hyperscale campuses outside Eemshaven and Middenmeer, which still limits new builds in 2023-2026.",
+   "lostInvestmentUSD": null,
+   "atRiskUSD": null,
+   "scrapType": "zoning moratorium / national hyperscale limit",
+   "scrapDate": "2019-ongoing",
+   "outcome": null,
+   "confidence": "medium",
+   "scrapped": true
+  },
+  {
+   "id": "frankfurt-grid-zoning-limits",
+   "name": "Frankfurt data center zoning and grid limits",
+   "aka": [],
+   "lat": 50.11,
+   "lng": 8.68,
+   "coordPrecision": "region",
+   "city": "Frankfurt am Main",
+   "region": "Hesse",
+   "country": "Germany",
+   "countryCode": "DE",
+   "status": "blocked",
+   "type": "hyperscale-cloud",
+   "powerMW": null,
+   "powerMWNow": 0,
+   "powerNote": "[NOT RE-VERIFIED 2026-11-20: compiled from researcher knowledge (to mid-2026); web-search budget exhausted and page fetches blocked in this run] Policy record: Frankfurt's data center master plan limits new sites to designated zones, and grid operators have warned large new connections may not be available until the 2030s.",
+   "acres": null,
+   "sizeSqft": null,
+   "compute": null,
+   "investmentUSD": null,
+   "investmentNote": "[NOT RE-VERIFIED 2026-11-20: compiled from researcher knowledge (to mid-2026); web-search budget exhausted and page fetches blocked in this run] No aggregate figure.",
+   "owners": [],
+   "developer": null,
+   "operator": null,
+   "tenants": [],
+   "capitalStack": [],
+   "energy": null,
+   "water": null,
+   "announced": null,
+   "expectedOnline": null,
+   "highlights": [],
+   "controversy": null,
+   "sources": [
+    {
+     "title": "Frankfurt data center concept (Rahmenplan Rechenzentren)",
+     "publisher": "City of Frankfurt",
+     "url": null,
+     "date": "2022",
+     "urlChecked": false
+    },
+    {
+     "title": "City of Frankfurt (article-level URL not verified)",
+     "publisher": "Stadt Frankfurt am Main",
+     "url": "https://frankfurt.de/",
+     "date": null,
+     "urlChecked": false
+    }
+   ],
+   "reason": "Frankfurt confined new data centers to designated zones (2022 data center concept) and local grid capacity is largely allocated, pushing new builds to the surrounding region and delaying projects.",
+   "lostInvestmentUSD": null,
+   "atRiskUSD": null,
+   "scrapType": "grid constraint / zoning",
+   "scrapDate": "2022-ongoing",
+   "outcome": null,
+   "confidence": "medium",
+   "scrapped": true
+  },
+  {
+   "id": "singapore-data-center-moratorium",
+   "name": "Singapore data center moratorium and capped allocations",
+   "aka": [],
+   "lat": 1.35,
+   "lng": 103.82,
+   "coordPrecision": "region",
+   "city": "Singapore",
+   "region": "Singapore",
+   "country": "Singapore",
+   "countryCode": "SG",
+   "status": "blocked",
+   "type": "hyperscale-cloud",
+   "powerMW": null,
+   "powerMWNow": 0,
+   "powerNote": "[NOT RE-VERIFIED 2026-11-20: compiled from researcher knowledge (to mid-2026); web-search budget exhausted and page fetches blocked in this run] Policy record. Moratorium 2019-2022; since then only selective allocations (about 80 MW to four operators in 2023; a 2024 green data center roadmap promised at least 300 MW more). Window note: the formal moratorium predates 2023, the capped regime runs through 2023-2026.",
+   "acres": null,
+   "sizeSqft": null,
+   "compute": null,
+   "investmentUSD": null,
+   "investmentNote": "[NOT RE-VERIFIED 2026-11-20: compiled from researcher knowledge (to mid-2026); web-search budget exhausted and page fetches blocked in this run] No aggregate figure.",
+   "owners": [],
+   "developer": null,
+   "operator": null,
+   "tenants": [],
+   "capitalStack": [],
+   "energy": null,
+   "water": null,
+   "announced": null,
+   "expectedOnline": null,
+   "highlights": [],
+   "controversy": null,
+   "sources": [
+    {
+     "title": "Data Centre Call for Application (DC-CFA)",
+     "publisher": "IMDA / EDB Singapore",
+     "url": null,
+     "date": "2023-07",
+     "urlChecked": false
+    },
+    {
+     "title": "IMDA (article-level URL not verified)",
+     "publisher": "Infocomm Media Development Authority",
+     "url": "https://www.imda.gov.sg/",
+     "date": null,
+     "urlChecked": false
+    }
+   ],
+   "reason": "Singapore stopped approving new data centers in 2019 over land and energy limits; after lifting the moratorium in 2022 it has allowed only small, competitively allocated tranches, sending most new Southeast Asian capacity to Johor and Batam.",
+   "lostInvestmentUSD": null,
+   "atRiskUSD": null,
+   "scrapType": "moratorium / capped allocation",
+   "scrapDate": "2019-ongoing",
+   "outcome": null,
+   "confidence": "high",
+   "scrapped": true
+  },
+  {
+   "id": "stargate-uk-cobalt-park",
+   "name": "Stargate UK (Nscale Cobalt Park, North Tyneside)",
+   "aka": [
+    "Stargate UK",
+    "Nscale Cobalt Park"
+   ],
+   "lat": 55.024,
+   "lng": -1.522,
+   "coordPrecision": "city",
+   "city": "North Tyneside (Cobalt Park, near Newcastle)",
+   "region": "North East England",
+   "country": "United Kingdom",
+   "countryCode": "GB",
+   "status": "paused",
+   "type": "ai-training",
+   "powerMW": null,
+   "powerMWNow": 0,
+   "powerNote": "No site MW published; OpenAI said it would explore offtake of up to 8,000 GPUs in Q1 2026, potentially 31,000 over time. (fact taken from sibling research file, web-search verified 2026-11-20)",
+   "acres": null,
+   "sizeSqft": null,
+   "compute": "Up to 8,000 NVIDIA GPUs planned for Q1 2026, potentially 31,000 (OpenAI offtake, not firm)",
+   "investmentUSD": null,
+   "investmentNote": "No project-level figure; sat inside Nvidia's 'up to GBP 11B' UK AI-factory pledge and Nscale's UK commitment. (fact taken from sibling research file, web-search verified 2026-11-20)",
+   "owners": [
+    {
+     "name": "Nscale",
+     "entityId": "nscale",
+     "stakePct": null
+    }
+   ],
+   "developer": "Nscale",
+   "operator": "Nscale",
+   "tenants": [
+    {
+     "name": "OpenAI",
+     "entityId": "openai",
+     "role": "prospective offtaker (paused)"
+    }
+   ],
+   "capitalStack": [],
+   "energy": null,
+   "water": null,
+   "announced": "2025-09-16",
+   "expectedOnline": null,
+   "highlights": [],
+   "controversy": "Paused over UK power prices and regulation; criticised as an announcement made without site groundwork.",
+   "sources": [
+    {
+     "title": "Introducing Stargate UK",
+     "publisher": "OpenAI",
+     "url": "https://openai.com/index/introducing-stargate-uk/",
+     "date": "2025-09-16",
+     "urlChecked": true
+    },
+    {
+     "title": "OpenAI halts UK Stargate project amid regulatory and energy price concerns",
+     "publisher": "CNBC",
+     "url": "https://www.cnbc.com/2026/04/09/openai-halts-uk-stargate-project.html",
+     "date": "2026-04-09",
+     "urlChecked": true
+    }
+   ],
+   "reason": "OpenAI paused Stargate UK on 9 April 2026, citing high UK energy costs and regulation, and said it would proceed 'when the right conditions' exist.",
+   "lostInvestmentUSD": null,
+   "atRiskUSD": null,
+   "scrapType": "paused by tenant",
+   "scrapDate": "2026-04-09",
+   "outcome": null,
+   "confidence": "high",
+   "scrapped": true
+  },
+  {
+   "id": "nscale-loughton",
+   "name": "Nscale AI Campus Loughton (planned Microsoft UK supercomputer)",
+   "aka": [
+    "Nscale Loughton"
+   ],
+   "lat": 51.648,
+   "lng": 0.072,
+   "coordPrecision": "city",
+   "city": "Loughton",
+   "region": "Essex",
+   "country": "United Kingdom",
+   "countryCode": "GB",
+   "status": "paused",
+   "type": "ai-training",
+   "powerMW": 90,
+   "powerMWNow": 0,
+   "powerNote": "50 MW initial, scalable to 90 MW; UK Power Networks reportedly could not supply enough power until the early-to-mid 2030s. (fact taken from sibling research file, web-search verified 2026-11-20)",
+   "acres": null,
+   "sizeSqft": null,
+   "compute": "23,040 NVIDIA GB300 GPUs planned for Microsoft",
+   "investmentUSD": null,
+   "investmentNote": "No site-level capex disclosed; part of Microsoft's $30B UK commitment (2025-2028). (fact taken from sibling research file, web-search verified 2026-11-20)",
+   "owners": [
+    {
+     "name": "Nscale",
+     "entityId": "nscale",
+     "stakePct": null
+    }
+   ],
+   "developer": "Nscale",
+   "operator": "Nscale",
+   "tenants": [
+    {
+     "name": "Microsoft",
+     "entityId": "microsoft",
+     "role": "anchor lessee (withdrew Oct 2026)"
+    }
+   ],
+   "capitalStack": [],
+   "energy": null,
+   "water": null,
+   "announced": "2025-09-16",
+   "expectedOnline": null,
+   "highlights": [],
+   "controversy": "Emblematic of UK grid-connection delays.",
+   "sources": [
+    {
+     "title": "Microsoft pulls out of delayed Nscale data center in Loughton, Essex",
+     "publisher": "DatacenterDynamics",
+     "url": "https://datacenterdynamics.com/en/news/microsoft-pulls-out-of-delayed-nscale-data-center-in-loughton-essex",
+     "date": "2026-10",
+     "urlChecked": true
+    },
+    {
+     "title": "Microsoft's UK Data Centre Exit Puts Spotlight on Power Shortages",
+     "publisher": "IBTimes UK",
+     "url": "https://www.ibtimes.co.uk/microsoft-withdraws-essex-ai-data-centre-deal-1826366",
+     "date": "2026-10",
+     "urlChecked": true
+    }
+   ],
+   "reason": "Microsoft pulled out of the planned 23,040-GPU supercomputer in October 2026 after the grid operator said full power would not arrive until the 2030s; Nscale says it is seeking a new customer and alternative power.",
+   "lostInvestmentUSD": null,
+   "atRiskUSD": null,
+   "scrapType": "anchor tenant exit (grid delay)",
+   "scrapDate": "2026-10",
+   "outcome": null,
+   "confidence": "high",
+   "scrapped": true
+  },
+  {
+   "id": "peculiar-diode-ventures",
+   "name": "Diode Ventures data center (Peculiar)",
+   "aka": [],
+   "lat": 38.72,
+   "lng": -94.46,
+   "coordPrecision": "city",
+   "city": "Peculiar",
+   "region": "Missouri",
+   "country": "United States",
+   "countryCode": "US",
+   "status": "blocked",
+   "type": "hyperscale-cloud",
+   "powerMW": null,
+   "powerMWNow": 0,
+   "powerNote": "[NOT RE-VERIFIED 2026-11-20: compiled from researcher knowledge (to mid-2026); web-search budget exhausted and page fetches blocked in this run] MW not published.",
+   "acres": null,
+   "sizeSqft": null,
+   "compute": null,
+   "investmentUSD": 1500000000,
+   "investmentNote": "[NOT RE-VERIFIED 2026-11-20: compiled from researcher knowledge (to mid-2026); web-search budget exhausted and page fetches blocked in this run] ~$1.5B was the reported project value.",
+   "owners": [],
+   "developer": "Diode Ventures",
+   "operator": null,
+   "tenants": [],
+   "capitalStack": [],
+   "energy": null,
+   "water": null,
+   "announced": "2023",
+   "expectedOnline": null,
+   "highlights": [],
+   "controversy": "Residents organized against noise, power lines and loss of farmland; the developer sued the city.",
+   "sources": [
+    {
+     "title": "Peculiar blocks data center after resident backlash",
+     "publisher": "Kansas City Star",
+     "url": null,
+     "date": "2024",
+     "urlChecked": false
+    }
+   ],
+   "reason": "After resident opposition, Peculiar's aldermen reversed earlier support and changed the city's zoning to keep out the proposed data center campus, which then could not proceed.",
+   "lostInvestmentUSD": 1500000000,
+   "atRiskUSD": null,
+   "scrapType": "zoning changed to block",
+   "scrapDate": "2024",
+   "outcome": null,
+   "confidence": "medium",
+   "scrapped": true
+  },
+  {
+   "id": "college-station-data-center",
+   "name": "College Station city-land data center proposal",
+   "aka": [],
+   "lat": 30.63,
+   "lng": -96.33,
+   "coordPrecision": "city",
+   "city": "College Station",
+   "region": "Texas",
+   "country": "United States",
+   "countryCode": "US",
+   "status": "blocked",
+   "type": "hyperscale-cloud",
+   "powerMW": null,
+   "powerMWNow": 0,
+   "powerNote": "[NOT RE-VERIFIED 2026-11-20: compiled from researcher knowledge (to mid-2026); web-search budget exhausted and page fetches blocked in this run] Proposal reported at about 600 MW on city-owned land.",
+   "acres": null,
+   "sizeSqft": null,
+   "compute": null,
+   "investmentUSD": null,
+   "investmentNote": "[NOT RE-VERIFIED 2026-11-20: compiled from researcher knowledge (to mid-2026); web-search budget exhausted and page fetches blocked in this run] No investment figure verified.",
+   "owners": [],
+   "developer": "Blueprint Data Centers (reported)",
+   "operator": null,
+   "tenants": [],
+   "capitalStack": [],
+   "energy": null,
+   "water": null,
+   "announced": "2024",
+   "expectedOnline": null,
+   "highlights": [],
+   "controversy": "Residents raised power, water and noise concerns near homes.",
+   "sources": [
+    {
+     "title": "College Station council votes down data center land sale",
+     "publisher": "The Eagle (Bryan-College Station)",
+     "url": null,
+     "date": "2024",
+     "urlChecked": false
+    },
+    {
+     "title": "City of College Station (article-level URL not verified)",
+     "publisher": "City of College Station",
+     "url": "https://www.cstx.gov/",
+     "date": null,
+     "urlChecked": false
+    }
+   ],
+   "reason": "College Station's city council voted against selling city land for the proposed data center campus after resident opposition.",
+   "lostInvestmentUSD": null,
+   "atRiskUSD": null,
+   "scrapType": "land sale rejected",
+   "scrapDate": "2024",
+   "outcome": null,
+   "confidence": "medium",
+   "scrapped": true
+  },
+  {
+   "id": "chandler-ai-data-center-rezoning",
+   "name": "Chandler AI data center rezoning (denied)",
+   "aka": [],
+   "lat": 33.31,
+   "lng": -111.84,
+   "coordPrecision": "city",
+   "city": "Chandler",
+   "region": "Arizona",
+   "country": "United States",
+   "countryCode": "US",
+   "status": "blocked",
+   "type": "ai-training",
+   "powerMW": null,
+   "powerMWNow": 0,
+   "powerNote": "[NOT RE-VERIFIED 2026-11-20: compiled from researcher knowledge (to mid-2026); web-search budget exhausted and page fetches blocked in this run] MW not verified.",
+   "acres": null,
+   "sizeSqft": null,
+   "compute": null,
+   "investmentUSD": null,
+   "investmentNote": "[NOT RE-VERIFIED 2026-11-20: compiled from researcher knowledge (to mid-2026); web-search budget exhausted and page fetches blocked in this run] No investment figure verified.",
+   "owners": [],
+   "developer": null,
+   "operator": null,
+   "tenants": [],
+   "capitalStack": [],
+   "energy": null,
+   "water": null,
+   "announced": "2025",
+   "expectedOnline": null,
+   "highlights": [],
+   "controversy": "Former US senator Kyrsten Sinema lobbied the council on the developer's behalf.",
+   "sources": [
+    {
+     "title": "Chandler rejects AI data center pushed by Kyrsten Sinema",
+     "publisher": "Arizona Republic",
+     "url": null,
+     "date": "2025-12",
+     "urlChecked": false
+    },
+    {
+     "title": "City of Chandler (article-level URL not verified)",
+     "publisher": "City of Chandler",
+     "url": "https://www.chandleraz.gov/",
+     "date": null,
+     "urlChecked": false
+    }
+   ],
+   "reason": "Chandler's city council unanimously rejected the rezoning in December 2025, citing power, water and noise concerns; the city already restricts new data centers.",
+   "lostInvestmentUSD": null,
+   "atRiskUSD": null,
+   "scrapType": "rezoning denied",
+   "scrapDate": "2025-12",
+   "outcome": null,
+   "confidence": "medium",
+   "scrapped": true
+  },
+  {
+   "id": "st-charles-project-cumulus",
+   "name": "Project Cumulus (St. Charles)",
+   "aka": [],
+   "lat": 38.79,
+   "lng": -90.5,
+   "coordPrecision": "city",
+   "city": "St. Charles",
+   "region": "Missouri",
+   "country": "United States",
+   "countryCode": "US",
+   "status": "blocked",
+   "type": "hyperscale-cloud",
+   "powerMW": null,
+   "powerMWNow": 0,
+   "powerNote": "[NOT RE-VERIFIED 2026-11-20: compiled from researcher knowledge (to mid-2026); web-search budget exhausted and page fetches blocked in this run] MW not verified.",
+   "acres": null,
+   "sizeSqft": null,
+   "compute": null,
+   "investmentUSD": null,
+   "investmentNote": "[NOT RE-VERIFIED 2026-11-20: compiled from researcher knowledge (to mid-2026); web-search budget exhausted and page fetches blocked in this run] No investment figure verified.",
+   "owners": [],
+   "developer": null,
+   "operator": null,
+   "tenants": [],
+   "capitalStack": [],
+   "energy": null,
+   "water": null,
+   "announced": "2025",
+   "expectedOnline": null,
+   "highlights": [],
+   "controversy": "Residents objected to water use near the Missouri River and to secrecy about the end user.",
+   "sources": [
+    {
+     "title": "St. Charles approves data center moratorium",
+     "publisher": "St. Louis Post-Dispatch",
+     "url": null,
+     "date": "2025-08",
+     "urlChecked": false
+    }
+   ],
+   "reason": "St. Charles adopted a one-year moratorium on new data centers in August 2025 after residents opposed 'Project Cumulus', and the proposal did not move forward.",
+   "lostInvestmentUSD": null,
+   "atRiskUSD": null,
+   "scrapType": "moratorium",
+   "scrapDate": "2025-08",
+   "outcome": null,
+   "confidence": "medium",
+   "scrapped": true
+  },
+  {
+   "id": "pittsylvania-balico",
+   "name": "Balico data center and gas plant (Pittsylvania County)",
+   "aka": [],
+   "lat": 36.83,
+   "lng": -79.4,
+   "coordPrecision": "region",
+   "city": "Chatham area",
+   "region": "Virginia",
+   "country": "United States",
+   "countryCode": "US",
+   "status": "cancelled",
+   "type": "ai-training",
+   "powerMW": null,
+   "powerMWNow": 0,
+   "powerNote": "[NOT RE-VERIFIED 2026-11-20: compiled from researcher knowledge (to mid-2026); web-search budget exhausted and page fetches blocked in this run] Proposed with an on-site gas-fired plant of roughly 3.5 GW; data center MW not verified.",
+   "acres": 2200,
+   "sizeSqft": null,
+   "compute": null,
+   "investmentUSD": null,
+   "investmentNote": "[NOT RE-VERIFIED 2026-11-20: compiled from researcher knowledge (to mid-2026); web-search budget exhausted and page fetches blocked in this run] No investment figure verified.",
+   "owners": [],
+   "developer": "Balico",
+   "operator": null,
+   "tenants": [],
+   "capitalStack": [],
+   "energy": null,
+   "water": null,
+   "announced": "2024",
+   "expectedOnline": null,
+   "highlights": [],
+   "controversy": "Residents and the planning commission opposed a giant gas plant and data center on rural land.",
+   "sources": [
+    {
+     "title": "Balico withdraws Pittsylvania data center application",
+     "publisher": "Cardinal News",
+     "url": null,
+     "date": "2025",
+     "urlChecked": false
+    }
+   ],
+   "reason": "Balico withdrew its rezoning applications in 2025 after strong local opposition and a negative planning-commission recommendation.",
+   "lostInvestmentUSD": null,
+   "atRiskUSD": null,
+   "scrapType": "withdrawn",
+   "scrapDate": "2025",
+   "outcome": null,
+   "confidence": "medium",
+   "scrapped": true
+  },
+  {
+   "id": "g42-microsoft-olkaria-kenya",
+   "name": "Microsoft-G42 geothermal data center (Olkaria, Kenya)",
+   "aka": [],
+   "lat": -0.88,
+   "lng": 36.3,
+   "coordPrecision": "region",
+   "city": "Olkaria (Naivasha)",
+   "region": "Nakuru County",
+   "country": "Kenya",
+   "countryCode": "KE",
+   "status": "paused",
+   "type": "hyperscale-cloud",
+   "powerMW": 1000,
+   "powerMWNow": 0,
+   "powerNote": "[NOT RE-VERIFIED 2026-11-20: compiled from researcher knowledge (to mid-2026); web-search budget exhausted and page fetches blocked in this run] Announced as ~100 MW initially, scalable to 1 GW, on geothermal power.",
+   "acres": null,
+   "sizeSqft": null,
+   "compute": null,
+   "investmentUSD": 1000000000,
+   "investmentNote": "[NOT RE-VERIFIED 2026-11-20: compiled from researcher knowledge (to mid-2026); web-search budget exhausted and page fetches blocked in this run] $1B was the headline for the whole Microsoft-G42 Kenya initiative (May 2024), not only the data center.",
+   "owners": [
+    {
+     "name": "G42",
+     "entityId": "g42",
+     "stakePct": null
+    },
+    {
+     "name": "Microsoft",
+     "entityId": "microsoft",
+     "stakePct": null
+    }
+   ],
+   "developer": "G42 / EcoCloud",
+   "operator": null,
+   "tenants": [],
+   "capitalStack": [],
+   "energy": "Olkaria geothermal",
+   "water": null,
+   "announced": "2024-05-22",
+   "expectedOnline": null,
+   "highlights": [],
+   "controversy": null,
+   "sources": [
+    {
+     "title": "Microsoft and G42 announce $1 billion comprehensive digital ecosystem initiative for Kenya",
+     "publisher": "Microsoft",
+     "url": "https://news.microsoft.com/2024/05/22/microsoft-and-g42-announce-1-billion-comprehensive-digital-ecosystem-initiative-for-kenya/",
+     "date": "2024-05-22",
+     "urlChecked": false
+    },
+    {
+     "title": "Microsoft's $1 billion Kenya data center stalls",
+     "publisher": "Bloomberg",
+     "url": null,
+     "date": "2025",
+     "urlChecked": false
+    }
+   ],
+   "reason": "By mid-2025 the project had stalled, with reports that Kenya could not commit to buying enough of the capacity to make it viable.",
+   "lostInvestmentUSD": null,
+   "atRiskUSD": 1000000000,
+   "scrapType": "stalled",
+   "scrapDate": "2025",
+   "outcome": null,
+   "confidence": "medium",
+   "scrapped": true
+  }
+ ],
+ "events": [
+  {
+   "id": "google-uruguay-redesign",
+   "date": "2023-07",
+   "title": "Google redesigns Uruguay data center after drought backlash (air cooling, smaller)",
+   "kind": "redesigned / downsized",
+   "entityIds": [
+    "google"
+   ],
+   "lat": -34.8,
+   "lng": -55.95,
+   "mw": null,
+   "lostInvestmentUSD": null,
+   "relatedCampusId": "google-uruguay-canelones",
+   "reason": "Announced during Uruguay's worst drought in decades, the original water-cooled design (reported at ~7.6M liters/day) drew protests; Google switched to air cooling and reduced the size. The project (~$850M announced 2021) continues, so it is listed as an event, not a scrapped site.",
+   "note": "[NOT RE-VERIFIED 2026-11-20: compiled from researcher knowledge (to mid-2026); web-search budget exhausted and page fetches blocked in this run]",
+   "confidence": "medium",
+   "sources": [
+    {
+     "title": "Google's planned data center in Uruguay sparks water concerns",
+     "publisher": "The Guardian",
+     "url": null,
+     "date": "2023-07",
+     "urlChecked": false
+    }
+   ]
+  },
+  {
+   "id": "microsoft-lease-walkaways-2025",
+   "date": "2025-03",
+   "title": "Microsoft walks away from ~2 GW of US and European data center projects (TD Cowen)",
+   "kind": "lease walkaway",
+   "entityIds": [
+    "microsoft"
+   ],
+   "lat": null,
+   "lng": null,
+   "mw": 2000,
+   "lostInvestmentUSD": null,
+   "reason": "TD Cowen channel checks found Microsoft cancelled leases worth 'a couple of hundred' MW and let letters of intent lapse (Feb 2025), then walked away from about 2 GW of new projects in the US and Europe (Mar 2025), shifting some international spend to the US. Microsoft said it still planned >$80B of FY25 capex.",
+   "note": "[NOT RE-VERIFIED 2026-11-20: compiled from researcher knowledge (to mid-2026); web-search budget exhausted and page fetches blocked in this run]",
+   "confidence": "high",
+   "sources": [
+    {
+     "title": "TD Cowen notes on Microsoft data center leases",
+     "publisher": "TD Cowen via Bloomberg/CNBC",
+     "url": null,
+     "date": "2025-03",
+     "urlChecked": false
+    }
+   ]
+  },
+  {
+   "id": "microsoft-pacing-2025",
+   "date": "2025-04",
+   "title": "Microsoft says it will 'slow or pause' some early-stage projects",
+   "kind": "company pullback",
+   "entityIds": [
+    "microsoft"
+   ],
+   "lat": null,
+   "lng": null,
+   "mw": null,
+   "lostInvestmentUSD": null,
+   "reason": "Microsoft cloud-operations head Noelle Walsh said the company may 'strategically pace' its plans; Bloomberg reported pullbacks or halted talks on sites from Illinois and North Dakota to the UK, Australia and Indonesia.",
+   "note": "[NOT RE-VERIFIED 2026-11-20: compiled from researcher knowledge (to mid-2026); web-search budget exhausted and page fetches blocked in this run]",
+   "confidence": "medium",
+   "sources": [
+    {
+     "title": "Microsoft pulls back on data centers from Chicago to Jakarta",
+     "publisher": "Bloomberg",
+     "url": null,
+     "date": "2025-04",
+     "urlChecked": false
+    }
+   ]
+  },
+  {
+   "id": "microsoft-mount-pleasant-phase2-pause",
+   "date": "2025-01",
+   "title": "Microsoft pauses phase 2 at Mount Pleasant (later resumed)",
+   "kind": "pause (resumed)",
+   "entityIds": [
+    "microsoft"
+   ],
+   "lat": 42.7,
+   "lng": -87.93,
+   "mw": null,
+   "lostInvestmentUSD": null,
+   "reason": "Microsoft paused construction on the second phase of its Mount Pleasant, Wisconsin campus in January 2025 to evaluate scope and 'recent changes in technology'. In September 2025 it announced a $4B second data center there, so the pause was reversed.",
+   "note": "[NOT RE-VERIFIED 2026-11-20: compiled from researcher knowledge (to mid-2026); web-search budget exhausted and page fetches blocked in this run]",
+   "confidence": "high",
+   "sources": [
+    {
+     "title": "Made in Wisconsin: The world's most powerful AI datacenter",
+     "publisher": "Microsoft",
+     "url": "https://blogs.microsoft.com/on-the-issues/2025/09/18/made-in-wisconsin-the-worlds-most-powerful-ai-datacenter/",
+     "date": "2025-09-18",
+     "urlChecked": false
+    }
+   ]
+  },
+  {
+   "id": "aws-colo-lease-pause-2025",
+   "date": "2025-04",
+   "title": "AWS pauses some colocation lease talks (Wells Fargo)",
+   "kind": "lease pause",
+   "entityIds": [
+    "amazon"
+   ],
+   "lat": null,
+   "lng": null,
+   "mw": null,
+   "lostInvestmentUSD": null,
+   "reason": "Wells Fargo analysts reported AWS had paused some colocation lease negotiations, mostly international; AWS called it routine capacity management and kept raising capex.",
+   "note": "[NOT RE-VERIFIED 2026-11-20: compiled from researcher knowledge (to mid-2026); web-search budget exhausted and page fetches blocked in this run]",
+   "confidence": "medium",
+   "sources": [
+    {
+     "title": "AWS pauses some data center lease commitments, Wells Fargo says",
+     "publisher": "CNBC / DCD",
+     "url": null,
+     "date": "2025-04",
+     "urlChecked": false
+    }
+   ]
+  },
+  {
+   "id": "meta-nuclear-data-center-bee-2024",
+   "date": "2024-11",
+   "title": "Meta drops nuclear-powered AI data center after rare bees found on site",
+   "kind": "cancelled plan",
+   "entityIds": [
+    "meta"
+   ],
+   "lat": null,
+   "lng": null,
+   "mw": null,
+   "lostInvestmentUSD": null,
+   "reason": "The Financial Times reported Meta abandoned a plan to build an AI data center beside an existing nuclear plant after a rare bee species was found on the land, among regulatory hurdles; the location was not disclosed.",
+   "note": "[NOT RE-VERIFIED 2026-11-20: compiled from researcher knowledge (to mid-2026); web-search budget exhausted and page fetches blocked in this run]",
+   "confidence": "medium",
+   "sources": [
+    {
+     "title": "Meta's nuclear data center plan foiled by rare bees",
+     "publisher": "Financial Times",
+     "url": null,
+     "date": "2024-11",
+     "urlChecked": false
+    }
+   ]
+  },
+  {
+   "id": "stargate-early-scaleback-2025",
+   "date": "2025-07",
+   "title": "Stargate scales back near-term plan to one small Ohio site",
+   "kind": "scaled back",
+   "entityIds": [
+    "openai",
+    "softbank"
+   ],
+   "lat": null,
+   "lng": null,
+   "mw": null,
+   "lostInvestmentUSD": null,
+   "reason": "Six months after the $500B launch, the WSJ reported the OpenAI-SoftBank venture had not completed a single data center deal and had scaled back its near-term aim to building a small data center, likely in Ohio, by the end of 2025. OpenAI later signed sites directly with Oracle, SoftBank's SB Energy and others.",
+   "note": "[NOT RE-VERIFIED 2026-11-20: compiled from researcher knowledge (to mid-2026); web-search budget exhausted and page fetches blocked in this run]",
+   "confidence": "medium",
+   "sources": [
+    {
+     "title": "Stargate's slow start",
+     "publisher": "Wall Street Journal",
+     "url": null,
+     "date": "2025-07",
+     "urlChecked": false
+    }
+   ]
+  },
+  {
+   "id": "coreweave-core-scientific-merger-rejected",
+   "date": "2025-10-30",
+   "title": "Core Scientific shareholders reject CoreWeave's $9B all-stock takeover",
+   "kind": "deal cancelled",
+   "entityIds": [
+    "coreweave",
+    "core-scientific"
+   ],
+   "lat": null,
+   "lng": null,
+   "mw": 1300,
+   "lostInvestmentUSD": 9000000000,
+   "reason": "Shareholders voted down the July 2025 deal after CoreWeave's share price fell, judging the fixed exchange ratio too low. CoreWeave keeps leasing ~590 MW of Core Scientific capacity rather than owning ~1.3 GW of gross power. $9B was the deal's equity value, not lost project capex.",
+   "note": "[NOT RE-VERIFIED 2026-11-20: compiled from researcher knowledge (to mid-2026); web-search budget exhausted and page fetches blocked in this run]",
+   "confidence": "high",
+   "sources": [
+    {
+     "title": "CoreWeave investor relations",
+     "publisher": "CoreWeave",
+     "url": "https://investors.coreweave.com/",
+     "date": "2025-10-30",
+     "urlChecked": false
+    }
+   ]
+  },
+  {
+   "id": "coreweave-third-party-delay-2025",
+   "date": "2025-11-10",
+   "title": "CoreWeave cuts 2025 outlook after a third-party data center slips (Denton, TX reported)",
+   "kind": "delay",
+   "entityIds": [
+    "coreweave",
+    "core-scientific"
+   ],
+   "lat": 33.215,
+   "lng": -97.133,
+   "mw": null,
+   "lostInvestmentUSD": null,
+   "reason": "CoreWeave cut 2025 revenue guidance to $5.05-5.15B and capex to $12-14B (from $20-23B) because a third-party developer was behind schedule; press reports identified Core Scientific's Denton, Texas site.",
+   "note": "[NOT RE-VERIFIED 2026-11-20: compiled from researcher knowledge (to mid-2026); web-search budget exhausted and page fetches blocked in this run] Capex-cut detail cross-checked with capex.json (sibling file).",
+   "confidence": "medium",
+   "sources": [
+    {
+     "title": "CoreWeave investor relations (Q3 2025 results)",
+     "publisher": "CoreWeave",
+     "url": "https://investors.coreweave.com/",
+     "date": "2025-11-10",
+     "urlChecked": false
+    }
+   ]
+  },
+  {
+   "id": "fermi-america-tenant-exit-2025",
+   "date": "2025-12-12",
+   "title": "Fermi America's first tenant terminates $150M advance agreement (Project Matador, Amarillo)",
+   "kind": "tenant exit",
+   "entityIds": [
+    "fermi-america"
+   ],
+   "lat": 35.31,
+   "lng": -101.56,
+   "mw": 11000,
+   "lostInvestmentUSD": 150000000,
+   "reason": "Fermi America said its first prospective tenant (unnamed) ended a $150M advance-funding agreement for the planned 11 GW 'HyperGrid' campus near Amarillo; the stock fell about a third. The campus plan continues while Fermi seeks tenants.",
+   "note": "[NOT RE-VERIFIED 2026-11-20: compiled from researcher knowledge (to mid-2026); web-search budget exhausted and page fetches blocked in this run] Coordinates approximate to the site near the Pantex plant (region-level).",
+   "confidence": "high",
+   "sources": [
+    {
+     "title": "Fermi America says tenant ended $150M funding agreement",
+     "publisher": "Reuters / CNBC",
+     "url": null,
+     "date": "2025-12-12",
+     "urlChecked": false
+    }
+   ]
+  },
+  {
+   "id": "blue-owl-michigan-exit-2025",
+   "date": "2025-12",
+   "title": "Blue Owl declines to fund Oracle's ~$10B Michigan Stargate site",
+   "kind": "financing exit",
+   "entityIds": [
+    "blue-owl",
+    "oracle",
+    "related-digital"
+   ],
+   "lat": 42.1667,
+   "lng": -83.7816,
+   "mw": 1400,
+   "lostInvestmentUSD": null,
+   "relatedCampusId": "stargate-saline-township",
+   "reason": "Blue Owl walked away from financing the Saline Township campus over lease/debt terms and delay risk; Related replaced it with Blackstone equity and a ~$14B debt package, and construction started in June 2026.",
+   "note": "(fact taken from sibling research file, web-search verified 2026-11-20)",
+   "confidence": "high",
+   "sources": [
+    {
+     "title": "Blue Owl opts not to fund Oracle's $10bn Michigan data center",
+     "publisher": "DatacenterDynamics",
+     "url": "https://www.datacenterdynamics.com/en/news/blue-owl-opts-not-to-fund-oracles-10bn-michigan-data-center/",
+     "date": "2025-12",
+     "urlChecked": true
+    }
+   ]
+  },
+  {
+   "id": "oracle-openai-site-delays-2025",
+   "date": "2025-12-12",
+   "title": "Some Oracle data centers for OpenAI pushed from 2027 to 2028 (Bloomberg)",
+   "kind": "delay",
+   "entityIds": [
+    "oracle",
+    "openai"
+   ],
+   "lat": null,
+   "lng": null,
+   "mw": null,
+   "lostInvestmentUSD": null,
+   "reason": "Bloomberg reported Oracle delayed completion of some OpenAI data centers by about a year because of labor and material shortages; Oracle said no sites needed for contractual commitments had slipped.",
+   "note": "[NOT RE-VERIFIED 2026-11-20: compiled from researcher knowledge (to mid-2026); web-search budget exhausted and page fetches blocked in this run]",
+   "confidence": "medium",
+   "sources": [
+    {
+     "title": "Oracle delays some data center projects for OpenAI",
+     "publisher": "Bloomberg",
+     "url": null,
+     "date": "2025-12-12",
+     "urlChecked": false
+    }
+   ]
+  },
+  {
+   "id": "nvidia-openai-100b-stall-2026",
+   "date": "2026-01",
+   "title": "Nvidia's 'up to $100B' OpenAI investment stalls; replaced by smaller equity stake",
+   "kind": "financing scaled back",
+   "entityIds": [
+    "nvidia",
+    "openai"
+   ],
+   "lat": null,
+   "lng": null,
+   "mw": 10000,
+   "lostInvestmentUSD": null,
+   "reason": "The Sept 2025 letter of intent (10 GW of Nvidia systems, up to $100B of Nvidia investment) was reported 'on ice' in early 2026; Nvidia instead took part in OpenAI's early-2026 funding round with a reported ~$30B.",
+   "note": "[NOT RE-VERIFIED 2026-11-20: compiled from researcher knowledge (to mid-2026); web-search budget exhausted and page fetches blocked in this run]",
+   "confidence": "medium",
+   "sources": [
+    {
+     "title": "OpenAI and NVIDIA announce strategic partnership to deploy 10GW of NVIDIA systems",
+     "publisher": "NVIDIA",
+     "url": "https://nvidianews.nvidia.com/news/openai-and-nvidia-announce-strategic-partnership-to-deploy-10gw-of-nvidia-systems",
+     "date": "2025-09-22",
+     "urlChecked": false
+    },
+    {
+     "title": "Nvidia's plan to invest up to $100 billion in OpenAI has stalled",
+     "publisher": "Wall Street Journal",
+     "url": null,
+     "date": "2026-01",
+     "urlChecked": false
+    }
+   ]
+  },
+  {
+   "id": "openai-compute-target-reset-2026",
+   "date": "2026-02",
+   "title": "OpenAI resets compute spending target to ~$600B by 2030",
+   "kind": "scaled back",
+   "entityIds": [
+    "openai"
+   ],
+   "lat": null,
+   "lng": null,
+   "mw": null,
+   "lostInvestmentUSD": null,
+   "reason": "After talking up ~$1.4T of compute commitments (Nov 2025), OpenAI told investors it targets roughly $600B of total compute spend through 2030, tying spending more closely to revenue.",
+   "note": "[NOT RE-VERIFIED 2026-11-20: compiled from researcher knowledge (to mid-2026); web-search budget exhausted and page fetches blocked in this run]",
+   "confidence": "medium",
+   "sources": [
+    {
+     "title": "OpenAI resets spending expectations",
+     "publisher": "CNBC",
+     "url": null,
+     "date": "2026-02",
+     "urlChecked": false
+    }
+   ]
+  },
+  {
+   "id": "abilene-expansion-dropped-2026",
+   "date": "2026-03",
+   "title": "OpenAI and Oracle drop further Abilene expansion; Crusoe re-lets 900 MW to Microsoft",
+   "kind": "tenant re-allocation",
+   "entityIds": [
+    "openai",
+    "oracle",
+    "crusoe",
+    "microsoft"
+   ],
+   "lat": 32.4487,
+   "lng": -99.7331,
+   "mw": 900,
+   "lostInvestmentUSD": null,
+   "relatedCampusId": "stargate-abilene",
+   "reason": "OpenAI said it would place the capacity at other sites; Crusoe re-let the adjacent 900 MW to Microsoft, so the buildings go ahead with a different tenant.",
+   "note": "(fact taken from sibling research file, web-search verified 2026-11-20)",
+   "confidence": "high",
+   "sources": [
+    {
+     "title": "Microsoft takes Texas AI center expansion",
+     "publisher": "AP via TechXplore",
+     "url": "https://techxplore.com/news/2026-03-microsoft-texas-ai-center-expansion.html",
+     "date": "2026-03",
+     "urlChecked": true
+    }
+   ]
+  },
+  {
+   "id": "stargate-lordstown-slip",
+   "date": "2026-07",
+   "title": "Stargate Lordstown slips from 2026 to early 2027",
+   "kind": "delay",
+   "entityIds": [
+    "softbank",
+    "openai"
+   ],
+   "lat": 41.1656,
+   "lng": -80.8573,
+   "mw": null,
+   "lostInvestmentUSD": null,
+   "relatedCampusId": "stargate-lordstown",
+   "reason": "Promised operational in 2026; July 2026 imagery showed the building mostly roofed but not operating, and trackers now estimate first power in early 2027.",
+   "note": "(fact taken from sibling research file, web-search verified 2026-11-20)",
+   "confidence": "medium",
+   "sources": [
+    {
+     "title": "OpenAI Stargate Lordstown",
+     "publisher": "Epoch AI",
+     "url": "https://epoch.ai/data/ai-data-centers/directory/openai-stargate-lordstown",
+     "date": "2026",
+     "urlChecked": true
+    }
+   ]
+  },
+  {
+   "id": "talen-amazon-ferc-rejection-2024",
+   "date": "2024-11-01",
+   "title": "FERC rejects expanded behind-the-meter supply to Amazon's Susquehanna campus",
+   "kind": "regulatory block",
+   "entityIds": [
+    "talen",
+    "amazon"
+   ],
+   "lat": 41.09,
+   "lng": -76.15,
+   "mw": 480,
+   "lostInvestmentUSD": null,
+   "reason": "FERC rejected (2-1) an amended interconnection agreement that would have raised co-located load at Talen's Susquehanna nuclear plant from 300 MW to 480 MW for Amazon's data center campus. In June 2025 the deal was restructured as a front-of-meter PPA for up to 1.92 GW.",
+   "note": "[NOT RE-VERIFIED 2026-11-20: compiled from researcher knowledge (to mid-2026); web-search budget exhausted and page fetches blocked in this run]",
+   "confidence": "high",
+   "sources": [
+    {
+     "title": "FERC rejects Talen-Amazon interconnection service agreement",
+     "publisher": "FERC / Utility Dive",
+     "url": null,
+     "date": "2024-11-01",
+     "urlChecked": false
+    }
+   ]
+  },
+  {
+   "id": "microsoft-cy2026-capex-trim",
+   "date": "2026-10-28",
+   "title": "Microsoft trims calendar-2026 capex outlook as third-party capacity slips",
+   "kind": "capex cut",
+   "entityIds": [
+    "microsoft"
+   ],
+   "lat": null,
+   "lng": null,
+   "mw": null,
+   "lostInvestmentUSD": 20000000000,
+   "reason": "Microsoft's calendar-2026 capex outlook moved from ~$190B (Apr 2026) to ~$175B (Jul 2026, partly an accounting change after lengthening data center useful lives) to ~$170B (Oct 2026), citing delays in third-party capacity. The ~$20B is the outlook reduction, not cancelled projects.",
+   "note": "(fact taken from sibling research file, web-search verified 2026-11-20) (from capex.json Microsoft FY2027 note)",
+   "confidence": "medium",
+   "sources": [
+    {
+     "title": "Microsoft FY27 Q1 earnings",
+     "publisher": "Microsoft",
+     "url": "https://www.microsoft.com/en-us/investor/events/fy-2027/earnings-fy-2027-q1",
+     "date": "2026-10-28",
+     "urlChecked": true
+    }
+   ]
+  }
+ ],
+ "aggregates": [
+  {
+   "id": "dcw-blocked-delayed-2025q1",
+   "label": "US data center projects blocked or delayed by local opposition (May 2024-Mar 2025)",
+   "value": 64000000000,
+   "unit": "USD",
+   "breakdown": {
+    "blockedUSD": 18000000000,
+    "delayedUSD": 46000000000
+   },
+   "note": "[NOT RE-VERIFIED 2026-11-20: compiled from researcher knowledge (to mid-2026); web-search budget exhausted and page fetches blocked in this run] Data Center Watch (10a Labs) tally; 140+ local groups in two dozen states.",
+   "url": "https://www.datacenterwatch.org/",
+   "date": "2025-03",
+   "confidence": "medium"
+  },
+  {
+   "id": "dcw-blocked-delayed-2025q2",
+   "label": "US data center projects blocked or delayed in Q2 2025 alone",
+   "value": 98000000000,
+   "unit": "USD",
+   "note": "[NOT RE-VERIFIED 2026-11-20: compiled from researcher knowledge (to mid-2026); web-search budget exhausted and page fetches blocked in this run] Data Center Watch follow-up report; more than the previous year's total.",
+   "url": "https://www.datacenterwatch.org/",
+   "date": "2025-08",
+   "confidence": "medium"
+  }
+ ]
+}

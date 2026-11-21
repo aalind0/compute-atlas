@@ -1,0 +1,140 @@
+# Data QA report — 2026-11-21
+
+- Campuses: **238** (14 duplicates merged) from 252 research records
+- Players: **330** (132 stubs)
+- Deals: **136** · Capex rows: **46** · Return metrics: **91**
+- Facilities: **8526** (3112 countries assigned by coordinates, 2294 linked to a known operator)
+
+## Needs attention
+
+- 🔁 Merged duplicate campus "Digital Realty Northern Virginia campuses (Ashburn)" [campuses_americas.json] into "Equinix DC (Ashburn) interconnection campus" [campuses_americas.json]
+- 🔁 Merged duplicate campus "Apple Mesa global command data center (former GT Advanced plant)" [campuses_americas.json] into "Google Mesa data center" [campuses_americas.json]
+- 🔁 Merged duplicate campus "AWS Asia Pacific (Hyderabad) Region & Bharat Future City campus" [campuses_apac.json] into "Microsoft India South Central Region (Hyderabad)" [campuses_apac.json]
+- 🔁 Merged duplicate campus "Sify Infinit Spaces Chennai 02 Campus (Siruseri)" [campuses_apac.json] into "STT GDC India Chennai Campuses (Siruseri + Ambattur)" [campuses_apac.json]
+- 🔁 Merged duplicate campus "CtrlS Hyderabad Hyperscale Park (Chandanvelly)" [campuses_apac.json] into "Microsoft India South Central Region (Hyderabad)" [campuses_apac.json]
+- 🔁 Merged duplicate campus "KDDI Osaka Sakai AI Data Center (ex-Sharp plant)" [campuses_apac.json] into "SoftBank Sakai AI Data Center (ex-Sharp LCD plant)" [campuses_apac.json]
+- 🔁 Merged duplicate campus "Oracle Cloud Japan (Tokyo & Osaka Regions)" [campuses_apac.json] into "AWS Japan (Tokyo & Osaka Regions)" [campuses_apac.json]
+- 🔁 Merged duplicate campus "Oracle Cloud Malaysia Region" [campuses_apac.json] into "AWS Asia Pacific (Malaysia) Region" [campuses_apac.json]
+- 🔁 Merged duplicate campus "Verne Iceland Campus (Keflavík / Ásbrú)" [campuses_emea.json] into "atNorth Nordic Campuses (Iceland, Sweden, Finland, Denmark)" [campuses_emea.json]
+- 🔁 Merged duplicate campus "PW Digital Gateway (Prince William County)" [campuses_scrapped.json] into "Prince William Digital Gateway (QTS & Compass)" [campuses_americas.json]
+- 🔁 Merged duplicate campus "Stargate UK (Nscale Cobalt Park, North Tyneside)" [campuses_scrapped.json] into "Stargate UK (Nscale Cobalt Park, North Tyneside)" [campuses_emea.json]
+- 🔁 Merged duplicate campus "Nscale AI Campus Loughton (planned Microsoft UK supercomputer)" [campuses_scrapped.json] into "Nscale AI Campus Loughton (planned Microsoft UK supercomputer)" [campuses_emea.json]
+- 🔁 Merged duplicate campus "Microsoft-G42 geothermal data center (Olkaria, Kenya)" [campuses_scrapped.json] into "Microsoft-G42 Geothermal Data Centre (Olkaria, Kenya)" [campuses_emea.json]
+- 🔁 Merged duplicate campus "Crusoe Abilene expansion for Microsoft" [campuses_us_ai.json] into "Stargate Abilene (Lancium Clean Campus)" [campuses_us_ai.json]
+- ❔ Unverified (flagged by researcher): campus Digital Realty Northern Virginia campuses (Ashburn)
+- ❔ Unverified (flagged by researcher): campus QTS Atlanta Metro data center (Jefferson Street)
+- ❔ Unverified (flagged by researcher): campus QTS Fayetteville mega-campus
+- ❔ Unverified (flagged by researcher): campus QTS Richmond campus (former Qimonda fab)
+- ❔ Unverified (flagged by researcher): campus Switch Citadel Campus (Tahoe Reno)
+- ❔ Unverified (flagged by researcher): campus Switch Core Campus (Las Vegas)
+- ❔ Unverified (flagged by researcher): campus PW Digital Gateway (Prince William County)
+- ❔ Unverified (flagged by researcher): campus Quincy, Washington hydro-powered data center cluster
+- ❔ Unverified (flagged by researcher): campus Microsoft San Antonio datacenter campuses (South Central US region)
+- ❔ Unverified (flagged by researcher): campus Microsoft West Des Moines datacenters (Central US region)
+- ❔ Unverified (flagged by researcher): campus Microsoft Boydton / Mecklenburg County datacenter campus
+- ❔ Unverified (flagged by researcher): campus AWS US East (Ohio) region cluster (Dublin, Hilliard, New Albany)
+- ❔ Unverified (flagged by researcher): campus AWS US West (Oregon) region cluster (Boardman, Umatilla, Hermiston)
+- ❔ Unverified (flagged by researcher): campus Apple Maiden data center
+- ❔ Unverified (flagged by researcher): campus Apple Reno data center (TRIC)
+- ❔ Unverified (flagged by researcher): campus Apple Prineville data center
+- ❔ Unverified (flagged by researcher): campus Apple Houston AI server manufacturing facility
+- ❔ Unverified (flagged by researcher): campus Montréal / Québec hydro-powered cloud cluster
+- ❔ Unverified (flagged by researcher): campus Toronto (GTA) cloud & colocation cluster
+- ❔ Unverified (flagged by researcher): campus OVHcloud Beauharnois data center (BHS)
+- ❔ Unverified (flagged by researcher): campus Wonder Valley AI data center park (Greenview, Alberta)
+- ❔ Unverified (flagged by researcher): campus Bell AI Fabric (Kamloops & BC sites)
+- ❔ Unverified (flagged by researcher): campus TELUS Sovereign AI Factory (Rimouski)
+- ❔ Unverified (flagged by researcher): campus Scala AI City (Eldorado do Sul)
+- ❔ Unverified (flagged by researcher): campus TikTok / ByteDance data center at Pecém (Ceará)
+- ❔ Unverified (flagged by researcher): campus Santiago de Chile cloud cluster
+- ❔ Unverified (flagged by researcher): campus Google Uruguay data center (Parque de las Ciencias)
+- ❔ Unverified (flagged by researcher): campus Chennai Data Centre Cluster (Ambattur / Siruseri / Sriperumbudur)
+- ❔ Unverified (flagged by researcher): campus Inner Mongolia National Computing Hub (Ulanqab & Hohhot-Helinger cluster)
+- ❔ Unverified (flagged by researcher): campus Gui'an (Guizhou) National Computing Hub
+- ❔ Unverified (flagged by researcher): campus Qingyang Data Center Cluster (Gansu hub)
+- ❔ Unverified (flagged by researcher): campus Zhongwei Data Center Cluster (Ningxia hub) - incl. AWS China (Ningxia) Region
+- ❔ Unverified (flagged by researcher): campus Wuhu Data Center Cluster (Yangtze River Delta hub)
+- ❔ Unverified (flagged by researcher): campus Baidu Cloud Computing Center, Yangquan
+- ❔ Unverified (flagged by researcher): campus SoftBank Sakai AI Data Center (ex-Sharp LCD plant)
+- ❔ Unverified (flagged by researcher): campus SoftBank Tomakomai AI Data Center (Hokkaido)
+- ❔ Unverified (flagged by researcher): campus Sakura Internet Ishikari Data Center (GPU cloud)
+- ❔ Unverified (flagged by researcher): campus Tokyo / Inzai Data Center Cluster
+- ❔ Unverified (flagged by researcher): campus Osaka / Kansai Data Center Cluster
+- ❔ Unverified (flagged by researcher): campus Stargate Korea - OpenAI x SK Telecom AI Data Center (southwest Korea)
+- ❔ Unverified (flagged by researcher): campus Naver Gak Sejong Data Center
+- ❔ Unverified (flagged by researcher): campus Foxconn-NVIDIA AI Factory (Taiwan)
+- ❔ Unverified (flagged by researcher): campus Hong Kong Data Center Cluster (Tseung Kwan O / Kwai Chung / Sandy Ridge)
+- ❔ Unverified (flagged by researcher): campus Johor Data Center Cluster (Johor Bahru / Kulai / Sedenak / Iskandar Puteri)
+- ❔ Unverified (flagged by researcher): campus YTL Green Data Center Park, Kulai (YTL AI Cloud)
+- ❔ Unverified (flagged by researcher): campus Singapore Data Center Cluster (Loyang / Tai Seng / Jurong / Kranji)
+- ❔ Unverified (flagged by researcher): campus Batam Data Center Cluster (Nongsa Digital Park & Kabil)
+- ❔ Unverified (flagged by researcher): campus Google Thailand Data Center & Cloud Region (Bangkok / Chonburi)
+- ❔ Unverified (flagged by researcher): campus NEXTDC S7 Eastern Creek AI Campus (OpenAI for Australia)
+- ❔ Unverified (flagged by researcher): campus Sydney Data Center Cluster (Western Sydney / Macquarie Park / Alexandria)
+- ❔ Unverified (flagged by researcher): campus Melbourne Data Center Cluster (West Melbourne / Derrimut / Laverton / Port Melbourne)
+- ❔ Unverified (flagged by researcher): campus Datagrid Southland Hyperscale Campus (Makarewa, NZ)
+- ❔ Unverified (flagged by researcher): campus Microsoft New Zealand North Cloud Region (Auckland)
+- ❔ Unverified (flagged by researcher): campus Stargate Norway (Nscale/Aker, Kvandal near Narvik)
+- ❔ Unverified (flagged by researcher): campus Nscale Glomfjord Data Centre
+- ❔ Unverified (flagged by researcher): campus Meta Luleå Data Center
+- ❔ Unverified (flagged by researcher): campus Meta Odense Data Center
+- ❔ Unverified (flagged by researcher): campus Verne Iceland Campus (Keflavík / Ásbrú)
+- ❔ Unverified (flagged by researcher): campus EcoDataCenter Falun (and Borlänge expansion)
+- ❔ Unverified (flagged by researcher): campus Nebius Mäntsälä Data Center
+- ❔ Unverified (flagged by researcher): campus Gefion AI Supercomputer (DCAI, Copenhagen)
+- ❔ Unverified (flagged by researcher): campus Campus IA Fouju (MGX / Bpifrance / Mistral AI / NVIDIA)
+- ❔ Unverified (flagged by researcher): campus Brookfield Cambrai AI Data Centre (former Air Base 103)
+- ❔ Unverified (flagged by researcher): campus Mistral Compute Campus (Bruyères-le-Châtel, Essonne)
+- ❔ Unverified (flagged by researcher): campus Data4 Paris-Saclay Campus (Marcoussis/Nozay)
+- ❔ Unverified (flagged by researcher): campus Digital Realty Marseille Campus (MRS1-MRS5)
+- ❔ Unverified (flagged by researcher): campus Frankfurt Data Centre Cluster (FLAP-D)
+- ❔ Unverified (flagged by researcher): campus JUPITER Exascale Supercomputer (Forschungszentrum Jülich)
+- ❔ Unverified (flagged by researcher): campus Amsterdam Metropolitan Data Centre Cluster
+- ❔ Unverified (flagged by researcher): campus Google Eemshaven Data Center
+- ❔ Unverified (flagged by researcher): campus Microsoft Middenmeer Campus (Agriport, Wieringermeer)
+- ❔ Unverified (flagged by researcher): campus Meta Zeewolde Hyperscale Data Centre (cancelled)
+- ❔ Unverified (flagged by researcher): campus Dublin Data Centre Cluster
+- ❔ Unverified (flagged by researcher): campus Microsoft Aragón Data Centres (Zaragoza area)
+- ❔ Unverified (flagged by researcher): campus Blackstone Aragón Data Centre Campus (Calatorao)
+- ❔ Unverified (flagged by researcher): campus Madrid Data Centre Cluster
+- ❔ Unverified (flagged by researcher): campus Start Campus SINES (Sines AI/hyperscale campus)
+- ❔ Unverified (flagged by researcher): campus Warsaw Data Centre Cluster (Microsoft Poland Central, Google Warsaw)
+- ❔ Unverified (flagged by researcher): campus CSCS 'Alps' AI Supercomputer (Lugano)
+- ❔ Unverified (flagged by researcher): campus Microsoft Greece Data Centre Region (Attica)
+- ❔ Unverified (flagged by researcher): campus UAE-US AI Campus & Stargate UAE (Abu Dhabi)
+- ❔ Unverified (flagged by researcher): campus HUMAIN AI Data Centres (Riyadh & Dammam hubs)
+- ❔ Unverified (flagged by researcher): campus Dammam / Eastern Province Cloud Cluster (Google-Aramco, Microsoft Saudi East)
+- ❔ Unverified (flagged by researcher): campus Doha Cloud & AI Cluster (Microsoft Qatar Central, Google Doha)
+- ❔ Unverified (flagged by researcher): campus Microsoft South Africa North & West Regions (Johannesburg, Cape Town)
+- ❔ Unverified (flagged by researcher): campus AWS Africa (Cape Town) Region
+- ❔ Unverified (flagged by researcher): campus Africa Data Centres / Cassava-NVIDIA AI Factory (Johannesburg)
+- ❔ Unverified (flagged by researcher): campus Microsoft-G42 Geothermal Data Centre (Olkaria, Kenya)
+- ❔ Unverified (flagged by researcher): campus Lagos Data Centre Cluster (Rack Centre, Equinix-MainOne, Open Access, ADC)
+- ❔ Unverified (flagged by researcher): campus Microsoft Licking County campuses (Heath, Hebron, New Albany)
+- ❔ Unverified (flagged by researcher): campus Caledonia data center site (Microsoft, Racine County)
+- ❔ Unverified (flagged by researcher): campus Gaines Township data center site (Microsoft, Kent County)
+- ❔ Unverified (flagged by researcher): campus Project Blue (Tucson)
+- ❔ Unverified (flagged by researcher): campus Google Franklin Township data center (Indianapolis)
+- ❔ Unverified (flagged by researcher): campus Google Cerrillos data center (Santiago)
+- ❔ Unverified (flagged by researcher): campus Google Grange Castle expansion (refused)
+- ❔ Unverified (flagged by researcher): campus Equinix Profile Park data center (refused)
+- ❔ Unverified (flagged by researcher): campus Dublin region grid moratorium (EirGrid)
+- ❔ Unverified (flagged by researcher): campus Amsterdam metro data center restrictions
+- ❔ Unverified (flagged by researcher): campus Frankfurt data center zoning and grid limits
+- ❔ Unverified (flagged by researcher): campus Singapore data center moratorium and capped allocations
+- 📚 No sources: campus Diode Ventures data center (Peculiar)
+- ❔ Unverified (flagged by researcher): campus Diode Ventures data center (Peculiar)
+- ❔ Unverified (flagged by researcher): campus College Station city-land data center proposal
+- ❔ Unverified (flagged by researcher): campus Chandler AI data center rezoning (denied)
+- 📚 No sources: campus Project Cumulus (St. Charles)
+- ❔ Unverified (flagged by researcher): campus Project Cumulus (St. Charles)
+- 📚 No sources: campus Balico data center and gas plant (Pittsylvania County)
+- ❔ Unverified (flagged by researcher): campus Balico data center and gas plant (Pittsylvania County)
+- 🌍 Meta El Paso AI Data Center: countryCode US but coordinates fall in MX (Mexico) — check coordinates
+- ❔ Unverified (flagged by researcher): campus Galaxy Helios
+- ❔ Unverified (flagged by researcher): campus Crusoe / Tallgrass Wyoming AI campus
+- ❔ Unverified (flagged by researcher): campus Fermi America Project Matador (HyperGrid campus)
+- ❔ Unverified (flagged by researcher): campus Poolside Project Horizon
+- 🔗 Deal amazon-india-2026 references unknown campus aws-hyderabad
+- 🔗 Deal microsoft-crusoe-abilene-2026 references unknown campus crusoe-microsoft-abilene
+- 🧩 132 referenced players not yet researched (stubbed): 8090-industries, a16z, accel, actis, altimeter, andhra-pradesh-govt, andra-capital, aramco, ardian, areim, ark-data-centres, aruba, ascenty, atman, atreides, axa-im, bank-of-america, bce, borderplex-digital, bpifrance, bridge-data-centres, bsf-capital, capitaland, cassava, china-mobile, china-ndrc, china-telecom, china-unicom, chirisa, cisco, citramas, coatue, cohere, colt-dcs, coresite, datagrid-nz, dataone, datavita, datavolt, davidson-kempner, dell, deutsche-telekom, diameter-capital, dona-ana-county, ecp, edgecore, eifo, elea, elliott, estruxture, eth-zurich, eurohpc, european-commission, evroc, fidelity, fleet-data-centers, founders-fund, foxconn, gcbd, general-catalyst, german-government, goldacre, government-of-france, government-of-india, government-of-uae, hdfc-bank, huawei, ifc, indiaai-mission, intersect-power, ionic-digital, israel-government, jane-street, japan-meti, k2-strategic, kao-data, keppel, kingdom-holding, kio, larsen-toubro, legal-general, merlin-properties, montera-infrastructure, naver, nokia, northc, novo-nordisk-foundation, novva, nwcd, oleary-digital, open-access-dc, orbis, ovhcloud, patmos, pioneer-point, primary-digital, prosperity7, qualcomm, redbird-capital, sabey, sap, scala, schwarz-group, segro, sequoia, sgw, siemens, singapore-imda, situational-awareness, state-of-mississippi, stock-farm-road, sunevision, sur-energy, taiwan-nstc, tallgrass, telus, texas-tech, third-point, tokyo-century, tract, tsmc, twg-global, uk-government, uk-national-wealth-fund, ukaea, us-government, valor-equity, valor-equity-partners, vy-capital, williams, wistron, yahoo
